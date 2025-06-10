@@ -4,11 +4,13 @@ Official repository for the paper ["TIIF-Bench: How Does Your T2I Model Follow Y
 
 [🌐 Webpage](https://a113n-w3i.github.io/TIIF_Bench/) [📖 Paper](https://www.arxiv.org/abs/2506.02161) [🤗 Huggingface Dataset](https://huggingface.co/datasets/A113NW3I/TIIF-Bench-Data) [🏆 Leaderboard](https://a113n-w3i.github.io/TIIF_Bench/#leaderboard)
 
-## 🔥News
+## 🔥 News
 - **[2025.05]** 🔥 We release the generation results of **closed-source** models on the TIIF-Bench **testmini** subset on [🤗Hugging Face](https://huggingface.co/datasets/A113NW3I/TIIF-Bench-Data).
 - **[2025.05]** 🔥 We release all generation prompts (used for the evaluated T2I models) and evaluation prompts (used for evaluation models such as GPT-4o) of **TIIF-Bench** in the [`./data`](./prompts) directory.
 
-## 🗂️ Data Structure
+
+## 🔧 How to Start
+
 
 TIIF-Bench is organized for easy benchmarking of T2I models:
 
@@ -30,7 +32,7 @@ TIIF-Bench is organized for easy benchmarking of T2I models:
 - Mini set: `data/testmini_prompts/`
 - Eval prompts: `data/testmini_eval_prompts/`
 
-## 🖼️ Generate Images & Directory Organization
+### 🖼️ Generate Images & Directory Organization
 
 Use prompts from `data/test_prompts/` or `data/testmini_prompts/` to generate images with your T2I model.  
 Images should be organized as follows for compatibility with evaluation scripts:
@@ -49,7 +51,7 @@ output/
 - Images are indexed by prompt order
 - Use `eval/inference_t2i_models.py` to automate image saving in this format
 
-## 🧪 Evaluation with VLM
+### 🧪 Evaluation with VLM
 
 1. **Set variables:**
    ```bash
@@ -80,7 +82,7 @@ output/
    python eval/summary_dimension_results.py --input_excel $OUTPUT_DIR/result_summary.xlsx --output_txt $OUTPUT_DIR/result_summary_dimension.txt
    ```
 
-## 📊 Evaluation Results
+### 📊 Evaluation Results
 
 After evaluation, results are saved as:
 ```
@@ -91,7 +93,7 @@ eval_results/
 - `result_summary.xlsx`: Full results for each image and prompt.
 - `result_summary_dimension.txt`: Average scores per evaluation dimension.
 
-## 🤖 Evaluation with Qwen2.5-VL
+### 🤖 Evaluation with Qwen2.5-VL
 
 1. **Start service:**
    ```bash
@@ -100,7 +102,7 @@ eval_results/
    ```
 2. **Update your evaluation command to use the Qwen2.5-VL endpoint.**
 
-##  Evaluation of Text Rendering
+### 📜 Evaluation of Text Rendering
 
 1. **Preparation:**
    ```bash
