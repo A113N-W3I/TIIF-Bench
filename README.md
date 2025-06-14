@@ -119,7 +119,7 @@ eval_results/
   "text": []
   }
    ```
-1. **Run evaluation:**
+2. **Run evaluation:**
    ```bash
    python eval/cal_gned_and_recall_models.py
    ```
