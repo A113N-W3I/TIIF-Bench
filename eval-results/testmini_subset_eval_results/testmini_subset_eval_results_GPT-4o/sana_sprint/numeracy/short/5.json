@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Is the number of fish 4?  ",
+    "Are there bees in the image?  ",
+    "Is the number of bees 2?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there are fish in the image. The image depicts fish swimming in the water.\nYes, the number of fish is 4. There are four fish visible in the image.\nYes, there are bees in the image. The image shows bees flying near the fish and flowers.\nYes, the number of bees is 2. There are two bees visible in the image."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a person in the image?  ",
+    "Are there pillows in the image?  ",
+    "Are there printers in the image?  ",
+    "Is the number of persons 1?  ",
+    "Is the number of pillows 2?  ",
+    "Is the number of printers 2?  ",
+    "Is the person in front of the pillows and printers?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a person in the image standing in the room.\nyes There are pillows in the image, lying on the floor.\nyes There is a printer-like object in the image, positioned near the pillows.\nyes The image shows one person present.\nno The number of pillows visible is more than two.\nno There appears to be only one printer-like object in the image.\nno The person is not in front of the pillows and the printer; they are beside them."
+}

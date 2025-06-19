@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there chairs in the room?  ",
+    "Are there students in the room?  ",
+    "Does the image present a comparison logic: chairs are more than students?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, The image is a digitally distorted representation with shapes that might resemble chairs, but they are not clearly identifiable as such.\nno, There are no recognizable students or people in the room.\nno, Since there are no identifiable chairs or students, a comparison logic cannot be applied."
+}

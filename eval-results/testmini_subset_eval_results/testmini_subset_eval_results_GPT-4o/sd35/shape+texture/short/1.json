@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a caution sign in the scene?",
+    "Is the caution sign pentagonal in shape?",
+    "Is there a trophy ball in the scene?",
+    "Is the trophy ball spherical in shape?",
+    "Is the pedestal metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a caution sign in the scene. The sign displays a warning symbol and uses colors typically associated with caution signs.\n\nNo, the caution sign is not pentagonal in shape. It is diamond-shaped.\n\nYes, there is a trophy ball in the scene. It is positioned on a pedestal.\n\nYes, the trophy ball is spherical in shape. It has a smooth, rounded appearance.\n\nYes, the pedestal is metallic. Its surface has a shiny metallic finish."
+}

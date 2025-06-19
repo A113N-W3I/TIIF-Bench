@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a rubber band.\nyes There is a book which can be considered as a reader in the image.\nno The book in the image is not fluffy; it appears smooth and typical of a book's texture.\nno There is no rubber band present behind the book (reader)."
+}

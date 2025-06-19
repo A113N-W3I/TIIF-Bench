@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there trains in the image?  ",
+    "Is the number of trains 4?  ",
+    "Are there books in the image?  ",
+    "Is the number of books 2?  ",
+    "Are there cows in the image?  ",
+    "Is the number of cows 2?  ",
+    "Are there butterflies in the image?  ",
+    "Is the number of butterflies 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are three trains visible in the image.\nno The number of trains is not 4; it is 3.\nno There are no books in the image.\nno Since there are no books, the number cannot be 2.\nyes There are cows in the image.\nyes The number of cows is 2.\nyes There are butterflies in the image.\nno The number of butterflies is more than 4."
+}

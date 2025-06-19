@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a piano in the scene?",
+    "Is the piano white?",
+    "Is there a suitcase in the scene?",
+    "Is the suitcase blue in color?",
+    "Is the lamp metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because the scene contains a piano.\nyes, because the piano is white.\nyes, because the scene contains a suitcase.\nyes, because the suitcase is blue in color.\nno, because the lamp is not metallic."
+}

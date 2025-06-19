@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a mushroom in the image?  ",
+    "Is there a forest in the image?  ",
+    "Is there a fallen tree in the image?  ",
+    "Are the mushrooms growing in the forest?  ",
+    "Are the mushrooms to the left of the fallen tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are visible mushrooms in the image.\nyes Trees and foliage indicative of a forest setting are present.\nyes A tree trunk that appears to be fallen is prominently displayed.\nyes The mushrooms are growing directly on the fallen tree, which is in the forest.\nyes The cluster of mushrooms is to the left side of the fallen tree as viewed in the image."
+}

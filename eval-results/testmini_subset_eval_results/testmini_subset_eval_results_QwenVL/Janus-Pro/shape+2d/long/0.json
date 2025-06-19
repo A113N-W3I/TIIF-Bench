@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a bookshelf in the image?  ",
+    "Is there a shelf in the image?  ",
+    "Is the bookshelf in shape of diamond?  ",
+    "Is the shelf pentagonal?  ",
+    "Is the bookshelf on the top of the shelf?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The structure containing books is a bookshelf.\nyes There is a shelf beneath the bookshelf.\nno A bookshelf in the shape of a diamond would have a different geometric form; this one resembles a house.\nno The shelf below the bookshelf does not have five sides.\nno The bookshelf is placed above the shelf, not on top of it."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there wall art in the image?  ",
+    "Is there a fireplace in the image?  ",
+    "Is there a large window in the image?  ",
+    "Is the wall art hanging above the fireplace?  ",
+    "Is the large window behind the fireplace?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a painting framed above the fireplace which counts as wall art.\nYes, there is a fireplace in the image, located centrally with a fire burning.\nYes, there is a large window in the image, visible on the right side.\nYes, the wall art is hanging above the fireplace, directly on the wall above it.\nNo, the large window is beside the fireplace, not directly behind it."
+}

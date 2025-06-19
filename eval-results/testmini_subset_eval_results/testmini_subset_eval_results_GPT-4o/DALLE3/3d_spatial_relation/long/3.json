@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a woman in the image?  ",
+    "Is the cup behind the woman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image does not contain a cup, but rather a collage of intricate circular patterns and celestial imagery.\nno, the image does not depict a woman, as it primarily features circular artistic designs and cosmic elements.\nno, since there is no cup in the image, it cannot be positioned behind a woman."
+}

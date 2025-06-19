@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is the text 'drink' in the image?",
+    "Is the text 'tea' in the image?",
+    "Is the text 'eat' in the image?",
+    "Is the text 'cake' in the image?",
+    "Is the text 'relax' in the image?",
+    "Is the text 'enjoy' in the image?",
+    "Is the text 'delight' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the text 'drink' is in the image because it appears prominently at the top left.\nNo, the text 'tea' is not in the image; it does not appear anywhere.\nYes, the text 'eat' is in the image because it can be found in the top middle.\nNo, the text 'cake' is not in the image; it is not present.\nNo, the text 'relax' is not in the image; it is missing.\nYes, the text 'enjoy' is in the image because it is located at the bottom right.\nNo, the text 'delight' is not in the image; it is absent."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is the text 'Visionary' in the image?",
+    "Is the text 'Leadership' in the image?",
+    "Is the text 'Success' in the image?",
+    "Is the text 'Inspiration' in the image?",
+    "Is the text 'Clarity' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Innovation' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the text is 'Visioorry'\nno, the text is 'Lesfaeson'\nno, the text is not 'Success'\nno, the text is not 'Inspiration'\nno, the text is not 'Clarity'\nno, the text is not 'Focus'\nno, the text is not 'Innovation'"
+}

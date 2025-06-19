@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a violinist in the image?  ",
+    "Is there a room in the image?  ",
+    "Is there a grand piano in the image?  ",
+    "Is the violinist playing in the room?  ",
+    "Is the violinist in front of the grand piano?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes the image shows a person holding a violin and bow as though they are playing it.\nyes the setting includes walls, a floor, and furniture, indicating an indoor space.\nyes a large piano is visible in the background, characteristic of a grand piano.\nyes the violinist is positioned within the defined space of the room.\nyes the violinist is located in front of the visible grand piano."
+}

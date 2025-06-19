@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features intricate linear designs and vibrant colors characteristic of Ukiyo-e, depicting traditional Japanese motifs like the peacock and bamboo.\n"
+}

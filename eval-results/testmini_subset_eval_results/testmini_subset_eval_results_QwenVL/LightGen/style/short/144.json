@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 144,
+  "questions": [
+    "Is the image in Pixel Art style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image is characterized by smooth gradients and intricate details that are not typical of the blocky, low-resolution aesthetic associated with pixel art.\n"
+}

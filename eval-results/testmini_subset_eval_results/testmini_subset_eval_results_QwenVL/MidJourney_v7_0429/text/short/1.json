@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a misspelled version of 'Corporate' as 'Coporratte'.\nyes The text 'DISC' is prominently displayed.\nyes The word 'Workshop' appears below 'DISC'.\nno There is no text 'THE' present.\nno There is no text 'BIZ' present.\nno There is no text 'STUDIO' present."
+}

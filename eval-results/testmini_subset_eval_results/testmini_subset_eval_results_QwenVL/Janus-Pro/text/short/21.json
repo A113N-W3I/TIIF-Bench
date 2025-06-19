@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes 'Wisdom' is visible on the spine of the second topmost book.\nno The text 'Knowledge' is not present in the image.\nno The text 'Stories' is not present in the image.\nyes 'Timeless' is inscribed on the spines of the books, specifically the third from the top.\nno The text 'Pages' does not appear in the image.\nno There is no mention of 'Explore' within the image.\nyes 'Learn' can be seen on the spine of the fourth book from the top.\nyes 'Journey' is part of the text on the bottom book spine.\nyes The word 'Books' appears as part of the text on all the spines in the image."
+}

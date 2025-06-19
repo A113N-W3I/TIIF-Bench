@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure is wearing a ballet dress and is in a ballet pose.\nyes There is a large ice formation in the background that resembles an iceberg.\nno The ballerina is standing on a rock, not on the iceberg.\nyes The ballerina's dress is clearly red.\nno The iceberg is white and blue, not brown."
+}

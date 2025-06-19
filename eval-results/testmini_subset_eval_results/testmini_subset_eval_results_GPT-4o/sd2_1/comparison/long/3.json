@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does a computer exist in the image?  ",
+    "Does a computer mouse exist in the image?  ",
+    "Does the image present a comparison logic: computers are more than computer mice?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, because there is no clear depiction of complete computers.\nyes, because there are multiple items that resemble computer mice.\nyes, because the image contains more items resembling computer mice than items resembling computers."
+}

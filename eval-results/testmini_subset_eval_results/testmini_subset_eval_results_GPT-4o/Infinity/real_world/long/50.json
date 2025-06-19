@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 50,
+  "questions": [
+    "Does the first panel show a small snail at the counter of a flashy car showroom with the salesman leaning over the desk to see him? Answer with yes or no.",
+    "Does the second panel show a close-up of the snail looking very serious, saying, 'I want your fastest sports car... and I want you to paint big letter 'S's on the doors, the hood, and the roof.'? Answer with yes or no.",
+    "Does the third panel show the salesman scratching his head, saying, 'Um... we can do that, but why the S's?'? Answer with yes or no.",
+    "Does the fourth panel show a red blur roaring down the highway with the sports car covered in giant S's and people on the sidewalk pointing and laughing, saying, 'WOW! LOOK AT THAT S-CAR GO!'? Answer with yes or no.",
+    "Is there padding around the border of the comic strip? Answer with yes or no.",
+    "Is this comic strip a four-panel one? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No  \nThe first panel does not depict a small snail at the counter of a flashy car showroom with the salesman leaning over the desk to see him. It shows a large snail next to a red sports car.\n\nNo  \nThe second panel does not show a close-up of the snail looking serious and making the statement about painting big 'S's. The dialogue and specific visual elements are missing.\n\nNo  \nThe third panel does not show the salesman scratching his head with a response about the letter 'S.' Such interaction is absent.\n\nNo  \nThe fourth panel does not depict a red blur roaring down the highway with people explicitly pointing and laughing while saying the provided phrase. The second panel instead shows different angles of sports cars with 'S' decals, but not matching the described scene.\n\nYes  \nThere is padding around the border of the comic strip visible as a white outline.\n\nNo  \nThis comic strip does not contain four panels. It has two panels."
+}

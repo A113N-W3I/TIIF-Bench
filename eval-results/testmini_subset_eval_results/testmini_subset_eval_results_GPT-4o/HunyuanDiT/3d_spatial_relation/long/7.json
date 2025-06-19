@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a key in the image?  ",
+    "Is the key behind the girl?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because there is a person in the image wearing what appears to be a red dress or shirt, which is generally associated with girls.\nyes, because there is a key being held by the person in the foreground of the image.\nno, because the key is in front of the person, being held in their hands, not behind them."
+}

@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there turtles in the image?  ",
+    "Is the number of turtles 3?  ",
+    "Are there sofas in the image?  ",
+    "Is the number of sofas 3?  ",
+    "Are there birds in the image?  ",
+    "Is the number of birds 3?  ",
+    "Is there a boat in the image?  ",
+    "Is the number of boats 1?  ",
+    "Are there flags in the image?  ",
+    "Is the number of flags 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the shapes in the image resemble turtles but do not conclusively indicate their presence.  \nno, there are no clear turtles in the image to count.  \nno, the image does not contain clear depictions of sofas.  \nno, no sofas are visible to count.  \nno, the shapes do not clearly resemble birds.  \nno, no definitive birds are present to count.  \nno, while there is a shape resembling a boat on the lower portion, it is not conclusive.  \nno, the boat-like shape is not definitively one.  \nno, the image does not contain clear representations of flags.  \nno, no definitive flags are visible to count.  "
+}

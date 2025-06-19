@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there are green leafy plants that resemble shrubs in the background.  \nyes, the shrubs appear to be short in height relative to the scene.  \nno, there is no paperweight visible in the scene.  \nno, since there is no paperweight visible, there is no pyramidal shape to identify.  \nno, since there is no pyramidal paperweight, it cannot be metallic.  "
+}

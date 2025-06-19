@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a steaming cup of coffee in the image?  ",
+    "Is there a row of antique tea cups in the image?  ",
+    "Does the image present a differentiation logic: contrasting attributes between the steaming cup of coffee and the antique tea cups?  ",
+    "Is the steaming cup of coffee positioned left of the row of antique tea cups?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes there is a steaming cup of coffee in the image.\nno there is not a row of antique tea cups in the image.\nno there is no differentiation logic as no antique tea cups are visible.\nno since there is no row of antique tea cups present, the position cannot be determined relative to it."
+}

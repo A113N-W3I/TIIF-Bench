@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 83,
+  "questions": [
+    "Is the image in Van Gogh style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes, the image is in Van Gogh style because it features swirling patterns and bold colors, reminiscent of his distinct post-impressionist technique."
+}

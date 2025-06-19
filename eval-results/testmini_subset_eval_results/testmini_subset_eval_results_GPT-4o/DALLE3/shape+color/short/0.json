@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cushion on the floor.\nno, the cushion is not spherical; it is more of a knitted round shape.\nno, there is no bookstand in the scene; only a bookshelf is present.\nyes, the conical object in the foreground is indeed conical in shape.\nyes, the conical object is blue in color."
+}

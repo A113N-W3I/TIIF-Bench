@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a pond in the image?  ",
+    "Is the boy under a tree?  ",
+    "Is the boy on the side of the pond?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because there is a boy in the image.\nyes, because there is a pond in the background.\nyes, because the boy is standing under a tree in the image.\nyes, because the boy is standing on the side of the pond."
+}

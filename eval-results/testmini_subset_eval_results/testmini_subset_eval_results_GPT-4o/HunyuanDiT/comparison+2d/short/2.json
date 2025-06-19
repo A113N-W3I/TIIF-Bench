@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Are there frogs in the image?  ",
+    "Does the image present a comparison logic: fish are more than frogs?  ",
+    "Are the fish and frogs on the top of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the image contains multiple fish swimming in the water.\nyes, there are frogs in the image, visible near the bottom and left side.\nyes, there are more fish than frogs in the image, indicating a comparison logic.\nno, the fish are primarily in the middle of the image, and the frogs are not at the top."
+}

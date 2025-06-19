@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a bread basket in the scene?",
+    "Is the bread basket rectangular in shape?",
+    "Is there a water bottle in the scene?",
+    "Is the water bottle cylindrical in shape?",
+    "Is the bread basket gray?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The bread appears to be placed in a basket-like structure made of a woven material.\nno The bread basket is not rectangular; it has an irregular, rounded shape formed by the woven material.\nyes There is a clear water bottle visible above the bread.\nyes The water bottle has a cylindrical shape with a label and cap.\nno The bread basket is not gray; it is made of a woven material with a pattern, resembling a natural or neutral tone rather than gray."
+}

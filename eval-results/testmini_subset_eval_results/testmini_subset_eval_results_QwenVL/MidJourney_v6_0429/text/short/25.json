@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The word 'BREWING' is not explicitly present, but it's implied as part of 'PURE WING Brewing Company'\nyes The word 'COMPANY' is visible as part of 'BREWING COMPANY'\nno The word 'Pure' is not present as standalone text; it appears alongside other words.\nyes The phrase 'Pure Pleasure' is present as a stylized part of the slogan.\nyes The word 'No' is present at the beginning of 'No Guilt'.\nyes The phrase 'No Guilt' is clearly visible and legible."
+}

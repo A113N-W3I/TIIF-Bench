@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a nurse in the image?  ",
+    "Is there a vaccine in the image?  ",
+    "Is the nurse administering the vaccine?  ",
+    "Is the nurse's uniform green?  ",
+    "Is the background blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes the person appears to be wearing medical attire consistent with a nurse or healthcare worker\nno there is no visible vaccine or vaccine-related paraphernalia in the image\nno the nurse is not performing any action that suggests administering a vaccine\nno the nurse's uniform is light blue, not green\nyes the background is blue"
+}

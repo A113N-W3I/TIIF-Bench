@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there a patch of grass in the image?  ",
+    "Are there any leaves on the tree?  ",
+    "Is the tree on the left of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a prominent tree in the center of the image.\nyes There is a large patch of grass surrounding the tree.\nyes The tree has numerous leaves visible on its branches.\nyes The tree is positioned more towards the left side of the image."
+}

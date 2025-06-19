@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pair of sunglasses in the image?  ",
+    "Is there a mirror in the image?  ",
+    "Are the sunglasses under the mirror?  ",
+    "Are the sunglasses white in color?  ",
+    "Is the mirror green in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a pair of sunglasses in the foreground of the image.\nno There is no mirror present in the image.\nno Since there is no mirror, the sunglasses cannot be under it.\nno The sunglasses are not white; they have a combination of black frames with green-tinted lenses and white-tipped earpieces.\nno There is no green-colored mirror in the image."
+}

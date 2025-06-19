@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, the text 'BREWING' is not present; the text reads 'BREAANNC'.\nno, the text 'COMPANY' is not present; there is text 'cowpuce' instead.\nno, the text 'Pure' is not present; the text reads 'aeasgy'.\nno, the text 'Pleasure' is not present; the text reads 'PrPdeey'.\nyes, the text 'No' is present; it is directly readable.\nyes, the text 'Guilt' is present; it is written at the bottom."
+}

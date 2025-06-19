@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there turtles in the image?  ",
+    "Is the number of turtles 3?  ",
+    "Are there sofas in the image?  ",
+    "Is the number of sofas 3?  ",
+    "Are there birds in the image?  ",
+    "Is the number of birds 3?  ",
+    "Is there a boat in the image?  ",
+    "Is the number of boats 1?  ",
+    "Are there flags in the image?  ",
+    "Is the number of flags 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there are turtles in the image because I can see turtles in the foreground.\nYes, the number of turtles is 3 because there are exactly three turtles shown.\nYes, there are sofas in the image because two sofas are depicted.\nNo, the number of sofas is not 3 because there are only 2 sofas.\nYes, there are birds in the image because a bird is visible near the bottom right.\nNo, the number of birds is not 3 because there is only 1 bird shown.\nYes, there is a boat in the image because a boat is visible in the water.\nYes, the number of boats is 1 because there is one boat.\nYes, there are flags in the image because flags are shown on poles.\nNo, the number of flags is not 4 because there are more than four flags."
+}

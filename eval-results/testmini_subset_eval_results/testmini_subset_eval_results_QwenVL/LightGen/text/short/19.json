@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the text 'Unite' in the image?",
+    "Is the text 'Perform' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Strive' in the image?",
+    "Is the text 'Inspire' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Commit' in the image?",
+    "Is the text 'Create' in the image?",
+    "Is the text 'Lead' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain the text 'Unite'.\nno The image does not contain the text 'Perform'.\nno The image does not contain the text 'Dream'.\nno The image does not contain the text 'Strive'.\nno The image does not contain the text 'Inspire'.\nno The image does not contain the text 'Shine'.\nno The image does not contain the text 'Commit'.\nno The image does not contain the text 'Create'.\nno The image does not contain the text 'Lead'."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the text 'BREWING' is prominently displayed in the center of the image.\nyes, the text 'COMPANY' appears directly below 'BREWING'.\nno, there is no text 'Pure' in the image.\nno, there is no text 'Pleasure' exactly as asked; however, 'PEILESIRE' is present which might be a play on the word.\nyes, the text 'No' appears at the bottom left of the additional text block.\nyes, the word 'GuilT' is part of the phrase 'NOR Guilt' below 'COMPANY'."
+}

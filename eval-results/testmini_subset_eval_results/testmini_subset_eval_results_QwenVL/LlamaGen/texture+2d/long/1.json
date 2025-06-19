@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a leather portfolio in the image?  ",
+    "Are there fabric pants in the image?  ",
+    "Is the portfolio made of leather?  ",
+    "Are the pants made of fabric?  ",
+    "Is the portfolio on the bottom beneath the pants?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows an object that appears to be a leather portfolio based on its texture and stitching.\nno There are no fabric pants visible in the image; it features what looks like leather elements.\nyes The portfolio's material and stitching suggest it is made of leather.\nno There are no pants present in the image to assess their material.\nno The portfolio is not on the bottom beneath the pants as there are no pants depicted in the image."
+}

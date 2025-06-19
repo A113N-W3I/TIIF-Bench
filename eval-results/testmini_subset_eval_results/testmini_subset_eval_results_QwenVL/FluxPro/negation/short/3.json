@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a river in the image?  ",
+    "Are there fish in the image?  ",
+    "Are fish swimming in the river?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a river visible under the bridge and surrounded by rocks.\nno There are no fish visible in the image.\nno Since there are no fish present, they cannot be swimming in the river."
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The infographic includes the title 'Survey Results on Podcasts'.\nyes The infographic uses a variety of bright and bold colors.\nyes The infographic incorporates contemporary icons related to podcasts and music.\nyes The typography is distinct and easy to follow across the infographic.\nyes There are various charts and sections dedicated to listening frequency.\nno While there is a section labeled \"Devices Used,\" it doesn't clearly display specific statistics.\nyes There is a section for topics that suggests popular topics.\nyes The layout and design are not cluttered, allowing for a clear presentation.\nyes The design includes professional elements like charts and icons.\nyes The information is laid out in a manner that facilitates easy reading.\nyes The text is legible and not obscured by other elements.\nyes The numbers within the infographic are visible and legible."
+}

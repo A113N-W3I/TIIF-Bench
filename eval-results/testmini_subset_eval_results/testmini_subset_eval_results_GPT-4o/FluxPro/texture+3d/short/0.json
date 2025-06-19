@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a bag in the image?  ",
+    "Are the clouds fluffy?  ",
+    "Is the bag made of leather?  ",
+    "Are the clouds partially hiding the bag?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cloud in the image, shown as fluffy, white masses around the bag.\nyes, there is a bag in the image, displayed at the center of the composition.\nyes, the clouds are fluffy, depicted as soft, rounded forms.\nyes, the bag appears to be made of leather, conveyed by its texture and design.\nyes, the clouds are partially hiding the bag, some clouds are positioned in front and around the bag."
+}

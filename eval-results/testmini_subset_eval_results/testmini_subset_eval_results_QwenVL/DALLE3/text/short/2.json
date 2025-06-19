@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Recycle' is clearly visible on a blue note.\nyes The text 'Sustain' appears as part of 'SUSTABE' which seems to be a misspelling of 'Sustain'.\nyes The text 'Renew' is present, albeit misspelled as 'RENEW'.\nno There is no text 'Choose' in the image; however, there is a similar word 'CHOOSE' but it's not the exact match asked for.\nno The text 'wisely' is not present in the image.\nyes The text 'Eco-friendly' is visible in the image.\nno The text 'Green' is not present in the image.\nno The text 'living' is not present in the image.\nno The text 'Minimalism' is not present in the image."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a bagel in the scene.\nyes The bagel is round in shape.\nyes There is a melon in the scene.\nno The melon is not shaped like a teardrop; it appears more oval.\nno The bagel is not white; it has a golden-brown color with sesame seeds."
+}

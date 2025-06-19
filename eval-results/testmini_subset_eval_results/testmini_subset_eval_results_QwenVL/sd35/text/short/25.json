@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'BREWING' is clearly visible at the top of the circular emblem.\nyes The text 'COMPANY' is prominently displayed in the center banner of the emblem.\nyes The word 'Pure' appears within the phrase 'Pure, Pleasure' below the central banner.\nyes The word 'Pleasure' is part of the phrase 'Pure, Pleasure' under the main banner.\nyes The word 'No' appears twice on the emblem, near the bottom.\nyes The text 'GUILT' is present at the very bottom of the emblem, underneath the word 'No'."
+}

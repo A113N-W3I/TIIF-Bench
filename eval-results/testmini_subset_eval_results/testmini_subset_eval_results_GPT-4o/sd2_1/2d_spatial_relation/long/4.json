@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a vase in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the vase on the left of the sheep?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a vase in the image because the neck of the sheep resembles a vase with flowers and branches coming out of it.\nYes, there is a sheep in the image because the body and head of the animal clearly resemble a sheep.\nNo, the vase is not on the left of the sheep because the vase is actually integrated into the neck of the sheep rather than being to the left of it."
+}

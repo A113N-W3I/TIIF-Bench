@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, the image shows a figure dressed in clothing typically associated with girls.\nyes, a snowman wearing a hat and scarf is present in the image.\nno, the girl appears to be interacting with the snowman in a friendly manner, not engaging in a snowball fight.\nyes, the snowman is located on the right side of the image."
+}

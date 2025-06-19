@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 239,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "Yes, the image is in Chinese Style style, as it features a traditional dragon, architecture resembling Chinese temples, and cultural motifs like cherry blossoms."
+}

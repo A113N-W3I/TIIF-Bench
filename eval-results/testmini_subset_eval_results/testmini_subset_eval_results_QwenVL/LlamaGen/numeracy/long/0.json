@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there trains in the image?  ",
+    "Is the number of trains 4?  ",
+    "Are there books in the image?  ",
+    "Is the number of books 2?  ",
+    "Are there cows in the image?  ",
+    "Is the number of cows 2?  ",
+    "Are there butterflies in the image?  ",
+    "Is the number of butterflies 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There are no trains; the vehicles present appear to be trucks and cars.\nno There are fewer than 4 trains visible as there are none.\nno The images depict no books, but rather book-like illustrations.\nno There are no actual books shown, thus not 2 either.\nno There are no cows present in the image.\nno Since there are no cows, their number is not 2.\nno The image does not contain any butterflies.\nno Without any butterflies, it's impossible for there to be 4 of them."
+}

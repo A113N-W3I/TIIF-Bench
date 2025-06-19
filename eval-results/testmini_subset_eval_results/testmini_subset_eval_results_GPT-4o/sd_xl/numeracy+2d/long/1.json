@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there airplanes in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there lamps in the image?  ",
+    "Is the number of airplanes 4?  ",
+    "Is the number of clocks 3?  ",
+    "Is the number of lamps 2?  ",
+    "Are the airplanes near the clocks?  ",
+    "Are the clocks near the lamps?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there are no airplanes in the image. The image features old-style airplanes, most likely from the early history of aviation. These planes are painted and do not depict modern airplanes.\nYes, there are clocks in the image. The image has two apparent clocks integrated into the artwork.\nYes, there are lamps in the image. The artwork exhibits a lamp characteristic around the clocks.\nYes, the number of airplanes is 4, as evidenced by the painted airplanes present in the artwork.\nNo, the number of clocks is not 3. There are two clocks visible in the picture.\nYes, the number of lamps is 2, as seen on either side of the main clock.\nYes, the airplanes are near the clocks. One of the airplanes is prominently placed next to the clock.\nNo, the clocks are not near the lamps. The clocks are integrated into the surrounding art, but the lamps are extensions located near one of the clocks."
+}

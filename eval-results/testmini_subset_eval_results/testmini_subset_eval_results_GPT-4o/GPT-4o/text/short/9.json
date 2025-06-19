@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is the text 'Strike' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Precision' in the image?",
+    "Is the text 'Momentum' in the image?",
+    "Is the text 'Bowling' in the image?",
+    "Is the text 'Night' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Pins' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the text 'Strike' is visible at the top left.\nyes, because the text 'Elegance' is visible at the top right.\nyes, because the text 'Focus' is visible on the left side.\nyes, because the text 'Precision' is visible on the right side.\nyes, because the text 'Momentum' is visible on the left side.\nyes, because the text 'Bowling' is visible on the left side.\nyes, because the text 'Night' is visible on the left side.\nyes, because the text 'Style' is visible on the right side.\nyes, because the text 'Pins' is visible at the bottom right."
+}

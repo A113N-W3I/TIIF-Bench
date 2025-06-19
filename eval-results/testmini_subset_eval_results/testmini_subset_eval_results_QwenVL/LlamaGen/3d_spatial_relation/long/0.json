@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an airplane in the image?  ",
+    "Is there a giraffe in the image?  ",
+    "Is the airplane in front of the giraffe?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is an airplane visible through the window of the bus.\n\nyes A giraffe is present in the foreground of the image.\n\nno The airplane is not in front of the giraffe; it's inside the bus and behind the giraffe relative to the viewer's perspective."
+}

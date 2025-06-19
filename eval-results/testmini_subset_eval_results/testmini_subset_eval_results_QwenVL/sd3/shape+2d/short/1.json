@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pear in the image?  ",
+    "Are there cushions in the image?  ",
+    "Is the pear round?  ",
+    "Are the cushions spherical?  ",
+    "Is the pear on the left of the cushions?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a pear in the center of the image.\nyes There are multiple cushions around the pear.\nno The pear is not round; it has a typical elongated shape for pears.\nno The cushions are not spherical; they appear cushion-shaped and somewhat rectangular with rounded edges.\nno The pear is not on the left of the cushions; it is between the cushions, more towards the center."
+}

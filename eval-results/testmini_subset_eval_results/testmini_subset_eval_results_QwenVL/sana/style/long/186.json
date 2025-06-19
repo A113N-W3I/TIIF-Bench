@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 186,
+  "questions": [
+    "Is the image in 3D style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image depicts a detailed interior with depth and perspective but does not exhibit characteristics of 3D modeling or rendering techniques."
+}

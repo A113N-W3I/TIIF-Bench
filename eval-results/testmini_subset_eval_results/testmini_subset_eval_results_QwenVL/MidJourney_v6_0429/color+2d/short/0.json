@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "short_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a clock in the image?  ",
+    "Is there a car in the image?  ",
+    "Is the clock brown?  ",
+    "Is the car red?  ",
+    "Is the clock on the top of the car?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a large, old-fashioned clock visible in the image.\nyes A vintage red car is present in the foreground of the image.\nyes The clock appears to have a brownish, aged metal finish.\nyes The car is painted red, as clearly seen in the foreground.\nyes The clock is positioned on top of the car."
+}

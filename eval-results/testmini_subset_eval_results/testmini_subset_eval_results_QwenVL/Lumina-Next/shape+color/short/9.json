@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no The hat appears to be a classic fedora rather than a tennis hat.\nno Since it's not a tennis hat, assessing its shape relative to tennis hats is irrelevant.\nyes There is a visible bag being carried by the individual.\nyes The bag appears to have a round shape.\nyes The round bag appears to be brown in color."
+}

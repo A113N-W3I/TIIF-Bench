@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a white cat in the image?  ",
+    "Is there a blue coyote in the image?  ",
+    "Is the cat watching the coyote?  ",
+    "Is the cat white?  ",
+    "Is the coyote blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image contains a white cat.\nno There is no blue coyote; there is a blue dog.\nno The cat appears to be looking at the dog, not specifically a coyote.\nyes The cat in the image is white.\nno The animal that resembles a coyote is actually a blue dog."
+}

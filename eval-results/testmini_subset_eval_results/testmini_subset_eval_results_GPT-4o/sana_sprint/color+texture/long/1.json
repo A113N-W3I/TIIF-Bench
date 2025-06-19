@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a grasshopper in the scene?",
+    "Is the grasshopper yellow in color?",
+    "Is there a sun in the scene?",
+    "Is the sun yellow in color?",
+    "Is the fence wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a grasshopper in the scene. It is prominently displayed in the foreground.\nNo, the grasshopper is not yellow in color; it is predominantly green.\nYes, there is a sun in the scene. It is visible in the background.\nYes, the sun is yellow in color. It emits a warm, golden light.\nYes, the fence is wooden. It appears worn and textured, characteristic of wood."
+}

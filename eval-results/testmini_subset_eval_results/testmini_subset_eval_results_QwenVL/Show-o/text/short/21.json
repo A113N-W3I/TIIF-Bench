@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes the text 'Wisdom' is visible on one of the books.\nno there is no text 'Knowledge' present in the image.\nno there is no text 'Stories' on the books in the image.\nno there is no text 'Timeless' visible in the image.\nno there is no text 'Pages' in the image.\nno there is no text 'Explore' in the picture.\nno there is no text 'Learn' on the books or anywhere in the image.\nno there is no text 'Journey' present in the image.\nyes the word 'Books' is not directly written, but the objects depicted are indeed books."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an insulated cup in the image?  ",
+    "Is there a notebook in the image?  ",
+    "Are the insulated cup and the notebook on the same desk?  ",
+    "Is the insulated cup to the left of the notebook?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image shows a stainless steel cup with a lid, which is characteristic of an insulated cup.\nyes There is an open notebook visible on the right side of the image.\nno The insulated cup and the notebook are on separate halves of the image, not the same desk.\nyes In the context of the entire image, the insulated cup is positioned to the left of the notebook."
+}

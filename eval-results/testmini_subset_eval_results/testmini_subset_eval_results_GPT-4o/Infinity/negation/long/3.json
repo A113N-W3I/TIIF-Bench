@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a river in the image?  ",
+    "Are there fish in the image?  ",
+    "Are fish swimming in the river?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a river in the image as it shows a flowing body of water surrounded by trees.  \nyes, there are fish in the image as one is visibly depicted in the water.  \nyes, a fish is swimming in the river as it is in the water depicted in the image.  "
+}

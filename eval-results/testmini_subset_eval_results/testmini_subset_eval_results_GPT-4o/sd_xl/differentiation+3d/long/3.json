@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pair of yellow rubber boots in the image?  ",
+    "Is there a pair of green gardening gloves in the image?  ",
+    "Does the image present a differentiation logic: a pair of yellow rubber boots and a pair of green gardening gloves?  ",
+    "Are the yellow rubber boots in front of the green gardening gloves?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is not a pair of yellow rubber boots in the image; there is only one visible pair. \nNo, there is not a pair of green gardening gloves in the image; they are not visible. \nNo, the image does not present a differentiation logic: a pair of yellow rubber boots and a pair of green gardening gloves, as both are not present.\nNo, the yellow rubber boots are not in front of the green gardening gloves, as the gloves are not in the image."
+}

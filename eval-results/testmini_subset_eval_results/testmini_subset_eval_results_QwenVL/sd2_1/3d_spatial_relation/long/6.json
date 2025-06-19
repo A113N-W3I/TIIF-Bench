@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the desk behind the cup?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a visible cup on a surface in the image.\nyes There appears to be a flat surface resembling a desk supporting the cup.\nno The desk is not behind the cup; it is beneath it as a supporting surface."
+}

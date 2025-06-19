@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no rubber band visible in the image.\nno The object being held by the dog appears to be a wallet, not a reader.\nno The dog is fluffy, but it is not a reader.\nno There is no rubber band present in the image, so it cannot be behind the reader."
+}

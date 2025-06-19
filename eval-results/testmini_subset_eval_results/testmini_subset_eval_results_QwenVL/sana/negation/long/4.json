@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a city intersection in the image?  ",
+    "Are there blue cars in the image?  ",
+    "Is there a city intersection with blue cars?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image depicts a scene with multiple roads converging, which is characteristic of a city intersection.\nyes There are vehicles in the image that appear to be blue in color.\nyes The image shows a city intersection and includes cars that are blue in color."
+}

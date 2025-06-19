@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a gloves in the scene?",
+    "Are the gloves rubber?",
+    "Is there a wine rack in the scene?",
+    "Is the wine rack made of wood?",
+    "Is the wooden wine rack brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a yellow glove visible in the foreground of the scene.\nyes The glove appears to be made of a material resembling rubber, indicated by its smooth and shiny surface.\nyes In the background, there is a structure that resembles a wine rack based on its grid-like design.\nyes The wine rack in the background has the appearance of being made from wood due to its texture and color.\nyes The wood of the wine rack is brown, a common color for wooden products."
+}

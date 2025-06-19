@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there birds in the image?  ",
+    "Are there trees in the image?  ",
+    "Does the image present a comparison logic: birds are more than trees?  ",
+    "Is the birds and trees on one side of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are numerous birds flying in the scene.\nyes There are several leafless trees visible in the background.\nno While there are many birds, the image does not make an explicit comparison between the number of birds and trees.\nno Birds and trees are spread across the entire image, not confined to one side."
+}

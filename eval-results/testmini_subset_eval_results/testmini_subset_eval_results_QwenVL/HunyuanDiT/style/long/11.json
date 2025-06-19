@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 11,
+  "questions": [
+    "Is the image in Ghibli style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image depicts a steampunk aesthetic with intricate mechanical details and flying birds that are more characteristic of this genre rather than the softer, more whimsical style typically associated with Ghibli."
+}

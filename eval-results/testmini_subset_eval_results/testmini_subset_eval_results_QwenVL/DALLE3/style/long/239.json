@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 239,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image incorporates elements such as traditional Chinese architecture, cherry blossoms, and scale patterns reminiscent of mythological creatures often found in Chinese folklore, all set against a background suggestive of ancient Chinese landscapes.\n\n"
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The title text is significantly larger than the regular text surrounding it.\n\nyes There is visible space between different sections of text, which suggests adequate paragraph spacing.\n\nyes The emphasized text uses bold and vibrant colors that stand out compared to the regular text.\n\nyes There is a colorful, abstract pattern in the background that is reminiscent of a creative work space.\n\nyes The image includes icons and imagery like thumbs up and a person which enhances the visual appeal without being distracting.\n\nno The specific text 'Breaking News! ChatGPT has become even stronger!' is not present in the image.\n\nno The image does not contain the exact phrase 'Better multitasking ✨'.\n\nno The image does not display the text 'Improved programming skills 💪'.\n\nno There is no text that says 'Creativity off the charts 🎨' in the image.\n\nyes The text 'Try it now!' is visible near the bottom of the image.\n\nno The image appears to be in a horizontal layout suggesting a 16:9 aspect ratio rather than 9:16.\n\nyes The text within the image is legible with proper sizing and contrast."
+}

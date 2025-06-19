@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an insulated cup in the image?  ",
+    "Is there a notebook in the image?  ",
+    "Are the insulated cup and the notebook on the same desk?  ",
+    "Is the insulated cup to the left of the notebook?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes An insulated cup is visible in the center of the image.\nyes There is a notebook with a spiral binding open on the table.\nyes Both the insulated cup and the notebook are placed on the same wooden surface.\nno The insulated cup is actually to the right of the notebook when considering their relative positions on the table."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an old man in a fabric smock splattering paint in the image?  ",
+    "Is there a young man in wooden goggles and an oversized t-shirt in the image?  ",
+    "Does the image present a differentiation logic: an old man in a smock splattering paint alongside a young man in an oversized t-shirt and goggles?  ",
+    "Is the smock made of fabric?  ",
+    "Are the goggles made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, the image shows an old man painting, but he is not splattering paint. He is applying paint using his hands.\nNo, there is no young man in wooden goggles and an oversized t-shirt visible in the image.\nNo, the image does not present the differentiation logic described; there are two older men visible.\nYes, the smock worn by the men in the image appears to be made of fabric.\nNo, there are no wooden goggles visible in the image."
+}

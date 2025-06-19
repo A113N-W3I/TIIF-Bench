@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a group of people in the image?  ",
+    "Is there a tall tree in the image?  ",
+    "Are the people wearing hats?  ",
+    "Are the people hidden by the tall tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a group of people in the image; they are facing towards the light source.\nyes, there is a tall tree in the image; it is part of the background and frames the scene.\nyes, the people are wearing hats; all the individuals in the group have hats on.\nno, the people are not hidden by the tall tree; they are visible and in the foreground under the tree."
+}

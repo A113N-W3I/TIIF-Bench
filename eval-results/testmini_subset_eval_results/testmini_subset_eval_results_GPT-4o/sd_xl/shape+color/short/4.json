@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a bagel in the scene. The bagel is visible on the plate to the right.\nYes, the bagel is round in shape. Bagels are typically toroidal and the one in the image fits this shape.\nYes, there is a melon in the scene. To the left of the bagels are halved melons.\nNo, the melon is not shaped like a teardrop. The melons are cut into wedges and resemble a typical melon shape.\nNo, the bagel is not white. The bagel is a light brown color."
+}

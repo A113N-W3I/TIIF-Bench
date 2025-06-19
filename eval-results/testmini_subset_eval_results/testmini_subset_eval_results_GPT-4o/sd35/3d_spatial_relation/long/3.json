@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a woman in the image?  ",
+    "Is the cup behind the woman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a cup in the image. It is placed on a windowsill and appears to be made of ceramic or porcelain.\n\nYes, there is a woman in the image. You can see her silhouette and shoulder on the left side of the frame.\n\nYes, the cup is behind the woman. The cup is positioned further away on the windowsill, while the woman is nearer to the camera in the foreground."
+}

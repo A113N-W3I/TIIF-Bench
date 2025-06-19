@@ -1,0 +1,31 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an elegant cat with a long tail in the image?  ",
+    "Is there a ball in the image?  ",
+    "Is there a cute cat without a long tail in the image?  ",
+    "Does the image present a differentiation logic: an elegant cat with a long tail throws a ball at a cute cat without a long tail?  ",
+    "Is the elegant cat blue in color?  ",
+    "Is the cute cat red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no cat described as elegant with a long tail in the image.\nyes A blue ball is visible between the two cats.\nno Both cats appear to have long tails; neither is described as cute without a long tail.\nno The image does not show a differentiation logic as described; both cats seem engaged with the ball but not in the specific manner suggested.\nno The elegant cat concept doesn't apply, and the colors focus on orange tones, not blue.\nno The cute cat concept doesn't strictly apply, and while one cat has more red tones, it's not described as purely red."
+}

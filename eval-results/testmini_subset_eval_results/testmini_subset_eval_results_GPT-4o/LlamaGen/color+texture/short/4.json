@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, the object resembling a bowl is metallic and not a traditional bowl.\nno, the object resembling a bowl is metallic, not white.\nyes, there is a toilet in the scene.\nyes, the toilet appears to be predominantly white.\nyes, the bathroom faucet is metallic."
+}

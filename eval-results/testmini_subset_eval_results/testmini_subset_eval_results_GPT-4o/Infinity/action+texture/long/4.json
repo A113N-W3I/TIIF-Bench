@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there rubber shoes in the image?  ",
+    "Is there a nurse in the image?  ",
+    "Is there a patient in the image?  ",
+    "Are there fabric blankets in the image?  ",
+    "Is the nurse comforting the patient?  ",
+    "Are the blankets made of fabric?  ",
+    "Are the shoes made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the image does not show any rubber shoes.\nyes, a person wearing scrubs with a stethoscope suggests they are a nurse.\nyes, the person lying in the bed appears to be a patient.\nyes, there are fabric blankets covering the person in the bed.\nyes, the nurse is leaning over the patient and holding their hand, which suggests comforting.\nyes, the blankets appear to be made of fabric.\nno, the image does not show any shoes, so it is not possible to determine if they are made of rubber."
+}

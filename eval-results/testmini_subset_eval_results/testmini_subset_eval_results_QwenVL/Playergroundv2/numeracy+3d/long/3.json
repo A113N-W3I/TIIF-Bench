@@ -1,0 +1,46 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bear in the image?  ",
+    "Are there cows in the image?  ",
+    "Is there a swan in the image?  ",
+    "Are there trucks in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of bears 4?  ",
+    "Is the number of cows 4?  ",
+    "Is the number of swans 1?  ",
+    "Is the number of trucks 2?  ",
+    "Is the number of sheep 3?  ",
+    "Are the bears and cows in front of the swan, trucks, and sheep?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes Bears are clearly visible in the image.\nno Cows are not present in the image; only sheep and bears are depicted.\nno There is no swan in the image; the birds appear to be seagulls.\nyes Two trucks are present, with animals on them.\nno There is no sheep in the image; instead, there are several sheep-like bears.\nno There are two bears visible in the image, not four.\nno There are no cows in the image.\nno There are no swans in the image.\nyes There are two trucks in the image.\nno There are no sheep in the image but sheep-like bears.\nno The bears and what might seem like cows (sheep-like bears) are not in front of other animals as there are no swans or typical sheep.\n"
+}

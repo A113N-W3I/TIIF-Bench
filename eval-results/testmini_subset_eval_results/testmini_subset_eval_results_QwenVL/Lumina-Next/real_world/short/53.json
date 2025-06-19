@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes This image appears to show a card laid out like an invitation with personalized handwriting-style font commonly associated with wedding invitations.\nno There is no visible texture or embossing that suggests the card is hefty with an eggshell texture or intricate embossings.\nno The card does not feature any abstract decorations representing a couple; it is primarily text-based.\nyes The minimalistic design indicates spare use of iconography.\nno The specific text about the union of Image and Text is not presented in the invitation.\nyes The typesetting looks clean and organized, which characterizes perfect typesetting.\nyes The card is showcased on a surface that resembles a wooden desk with a tasteful finish.\nyes The text on the invitation is legible and well-contrasted against the background.\nno The image does not appear to mention any specific date, let alone March 25, 2025."
+}

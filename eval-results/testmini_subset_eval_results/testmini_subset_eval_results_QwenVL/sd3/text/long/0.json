@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is the text 'drink' in the image?",
+    "Is the text 'tea' in the image?",
+    "Is the text 'eat' in the image?",
+    "Is the text 'cake' in the image?",
+    "Is the text 'relax' in the image?",
+    "Is the text 'enjoy' in the image?",
+    "Is the text 'delight' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'drink' is clearly visible in the image.\nyes The text 'tea' appears right after 'drink' in the image.\nno The text 'eat' appears but not specifically linked or separated enough according to the task's requirement for 'eat' alone.\nyes The text 'cake' is present and follows 'eat' in the image.\nyes The text 'relax' is visible, although it is stylized as 'relaatoh'.\nno There is no distinct 'enjoy' word; instead, there is 'enjight', which isn't the exact match as asked.\nno 'Delight' does not appear anywhere in the image."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this image show a young boy? Answer with yes or no.",
+    "Does this image show a mysterious key? Answer with yes or no.",
+    "Does this image depict an adventure through various landscapes? Answer with yes or no.",
+    "Does this image include hidden treasure? Answer with yes or no.",
+    "Does this boy look like he's on an adventure?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image shows a child who appears to be a young boy based on his physical characteristics and attire.\nyes A cross-like object hanging from the cave resembles a mysterious key in shape and positioning.\nyes The open landscape outside the cave entrance, featuring cliffs and distant formations, suggests various environments for exploration.\nno There is no direct indication of hidden treasure within the visible elements of the image.\nyes The boy's posture and gaze towards the mysterious key and the untrodden landscape convey a sense of beginning an adventure."
+}

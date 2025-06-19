@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no bagel in the scene; the objects lack a typical bagel appearance, including a visible hole in the middle of a dough-like round shape.\nNo, there is no round bagel; no object possesses the characteristic circular topology of a bagel.\nNo, there is no melon in the scene; the objects do not exhibit the typical physical features associated with melons.\nYes, there is an object shaped like a teardrop; the tall, conical shape at the center resembles a teardrop. \nNo, there is no white bagel; none of the objects in the scene display a characteristic white bagel appearance."
+}

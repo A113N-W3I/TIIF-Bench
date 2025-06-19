@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a bush visible in the background.\nno The bush appears to be lush and not petite or compact enough to be described as short.\nno There is no paperweight in the traditional sense; instead, there's a pyramidal object which could be a decorative piece.\nyes The object in question is shaped like a pyramid with mirrored facets.\nno The pyramidal object has reflective surfaces suggesting it might be glass rather than metal."
+}

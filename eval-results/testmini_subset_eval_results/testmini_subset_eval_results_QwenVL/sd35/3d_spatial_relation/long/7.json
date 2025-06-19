@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a key in the image?  ",
+    "Is the key behind the girl?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes a silhouette of a girl is visible\nyes a large key is hanging from a chain\nno the key is not behind the girl but above and to her side"
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a bowl in the image?  ",
+    "Does the image present a comparison logic: forks are fewer than bowls?  ",
+    "Are the forks positioned in front of the bowls?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is at least one visible fork in the image.\nno There are no bowls visible in the image.\nno Without bowls in the image, a comparison cannot be made.\nno There are no bowls for the forks to be positioned in front of."
+}

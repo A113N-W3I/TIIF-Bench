@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no mouse visible in the image.\nyes There is a desk present in the image, indicated by a surface with a keyboard and phone on it.\nno There is no mouse, thus it cannot be gliding across the desk.\nno Since there is no mouse in the image, it cannot be on the top of the desk."
+}

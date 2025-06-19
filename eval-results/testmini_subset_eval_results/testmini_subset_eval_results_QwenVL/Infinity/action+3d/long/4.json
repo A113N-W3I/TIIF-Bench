@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there wall art in the image?  ",
+    "Is there a fireplace in the image?  ",
+    "Is there a large window in the image?  ",
+    "Is the wall art hanging above the fireplace?  ",
+    "Is the large window behind the fireplace?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a framed piece of abstract art on the wall.\nyes A fireplace is clearly visible in the center of the image.\nno There is no large window in the image; only a small portion of a window is visible on the left side.\nyes The wall art is positioned directly above the fireplace.\nno The large window is not behind the fireplace; it is partially visible to the left side of the image."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Corporate' appears as part of 'CORPAR7OTE' on the glass door.\nyes The text 'DISC' is visible on the glass door.\nyes The text 'Workshop' is present on the glass door.\nyes The text 'THE' can be seen on the glass door.\nyes The text 'BIZ' is visible on the glass door.\nyes The text 'STUDIO' is present on the glass door."
+}

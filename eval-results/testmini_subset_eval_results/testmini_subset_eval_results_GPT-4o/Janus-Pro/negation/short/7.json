@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the image shows a windbreaker.\nno, there is no visible sweater in the image.\nno, since there is no sweater visible, the windbreaker cannot be on top of it."
+}

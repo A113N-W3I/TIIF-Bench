@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there people standing in the image?  ",
+    "Are there people sitting in the image?  ",
+    "Does the image present a comparison logic: people standing are more than people sitting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there are people standing in the image because the individuals visible appear to be upright and on their feet.\nno, there are no people sitting in the image because all visible individuals are standing and there are no signs of people sitting.\nyes, the image presents a comparison logic: people standing are more than people sitting because there are numerous standing people and no one sitting."
+}

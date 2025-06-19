@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 10,
+  "questions": [
+    "Is the text 'forever' in the image?",
+    "Is the text 'always' in the image?",
+    "Is the text 'eternity' in the image?",
+    "Is the text 'love' in the image?",
+    "Is the text 'together' in the image?",
+    "Is the text 'united' in the image?",
+    "Is the text 'infinite' in the image?",
+    "Is the text 'bond' in the image?",
+    "Is the text 'cherish' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the text 'forever' is not in the image.\nno, the text 'always' is not in the image.\nno, the text 'eternity' is not in the image.\nno, the text 'love' is not in the image.\nno, the text 'together' is not in the image.\nno, the text 'united' is not in the image.\nno, the text 'infinite' is not in the image.\nno, the text 'bond' is not in the image.\nno, the text 'cherish' is not in the image."
+}

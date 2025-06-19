@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there helmets in the image?  ",
+    "Is the number of helmets 4?  ",
+    "Is there a lamp in the image?  ",
+    "Is the number of lamps 1?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of sheep 1?  ",
+    "Are there bowls in the image?  ",
+    "Is the number of bowls 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are multiple helmets visible on the shelf.\nyes Exactly four helmets can be seen clearly in the image.\nyes There is a lamp visible in the image.\nyes Only one lamp, which has two adjustable arms, is present.\nno There is no sheep in the image.\nno Since there is no sheep, the count cannot be one.\nno There are no bowls present in the image.\nno As there are no bowls, it's not possible to have four."
+}

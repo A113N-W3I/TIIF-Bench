@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Are there frogs in the image?  ",
+    "Does the image present a comparison logic: fish are more than frogs?  ",
+    "Are the fish and frogs on the top of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are visible fish swimming in the water.\nyes Frogs can be seen on the rocks and partially submerged in the water.\nyes The image shows a higher number of fish compared to frogs.\nno The fish and frogs are distributed throughout the image, not just on the top."
+}

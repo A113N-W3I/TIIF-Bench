@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is the text 'QUICK' in the image?",
+    "Is the text 'START' in the image?",
+    "Is the text 'TENNIS' in the image?",
+    "Is the text 'BEFORE' in the image?",
+    "Is the text 'SCHOOL' in the image?",
+    "Is the text 'CLUB' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'QUICK' is visible on the tennis ball.\nno There is no text 'START' in the image.\nyes The text 'TENNIS' is partially visible as part of 'QUICK TENNIS'.\nno There is no text 'BEFORE' in the image.\nno There is no text 'SCHOOL' in the image.\nno There is no text 'CLUB' in the image."
+}

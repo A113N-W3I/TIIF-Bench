@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a larger person in yellow clothing in the image?  ",
+    "Is there a smaller person in a different color in the image?  ",
+    "Does the image present a differentiation logic: a larger person in yellow clothing and a smaller person in a different color?  ",
+    "Is the larger person in yellow clothing partially hidden by the smaller person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a person wearing a yellow shirt who appears larger due to their position in the foreground.\nno All individuals in the image appear to be wearing similar yellow clothing except for a few in other colors, but none are distinctly smaller in a different color as described.\nno The image does not show a clear differentiation between a larger person in yellow and a smaller person in a different color as most people are in yellow.\nno The larger person in yellow clothing is not partially hidden by a smaller person; they are standing prominently in the foreground."
+}

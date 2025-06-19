@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a white cat in the image?  ",
+    "Is there a blue coyote in the image?  ",
+    "Is the cat watching the coyote?  ",
+    "Is the cat white?  ",
+    "Is the coyote blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a white cat in the image.  \nNo, there is not a blue coyote in the image.  \nYes, the cat is watching the coyote.  \nYes, the cat is white.  \nNo, the coyote is not blue.  "
+}

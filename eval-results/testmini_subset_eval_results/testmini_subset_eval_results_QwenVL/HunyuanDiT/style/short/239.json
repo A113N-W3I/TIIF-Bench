@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 239,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features elements commonly found in traditional Chinese landscape paintings, such as stylized mountains, intricate trees, and a soft, atmospheric background that suggests a harmonious blend with nature. The color palette and composition also evoke the mystical and serene qualities often seen in Chinese artistic styles.\n"
+}

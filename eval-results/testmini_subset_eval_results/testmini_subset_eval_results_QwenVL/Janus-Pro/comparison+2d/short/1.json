@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there bells in the image?  ",
+    "Are there dogs in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?  ",
+    "Is the bell on the bottom of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a large bell floating above the dog.\nyes A dog is standing on the grass in front of a building.\nno The image does not suggest a comparison of size between the bell and the dog; they are just shown together.\nno The bell is floating at the top of the image, not at the bottom."
+}

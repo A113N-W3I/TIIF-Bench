@@ -1,0 +1,31 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an elegant cat with a long tail in the image?  ",
+    "Is there a ball in the image?  ",
+    "Is there a cute cat without a long tail in the image?  ",
+    "Does the image present a differentiation logic: an elegant cat with a long tail throws a ball at a cute cat without a long tail?  ",
+    "Is the elegant cat blue in color?  ",
+    "Is the cute cat red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The cat on the left has a sleek appearance and a long tail which gives it an elegant look.\nyes There is a ball being tossed in the image between the two cats.\nyes The cat on the right appears smaller and more rounded, giving it a cute appearance and it does not have a long tail.\nyes The blue cat seems to throw the ball at the other cat, creating a scene where a larger, elegant cat interacts with a smaller, cuter one.\nyes The cat on the left, described as elegant, is indeed blue in color.\nyes The cat on the right, described as cute, is red (orange) in color."
+}

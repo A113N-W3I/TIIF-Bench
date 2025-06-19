@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a pizza cutter in the image. It has a handle and a blade, resembling a tool for cutting pizza.\nNo, there is not a jewelry appraisal in the image. There is no visible documentation or context that indicates a jewelry appraisal.\nNo, the pizza cutter is not square. The blade of the pizza cutter is triangular in shape.\nYes, the document under the pizza cutter is rectangular, as it has the form of a standard rectangular sheet of paper.\nNo, the pizza cutter is not on the bottom of the jewelry appraisal because there is no jewelry appraisal present."
+}

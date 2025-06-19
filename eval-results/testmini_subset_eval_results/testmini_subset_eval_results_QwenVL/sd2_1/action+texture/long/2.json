@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a magician in the image?  ",
+    "Is there a rabbit in the image?  ",
+    "Is there a hat in the image?  ",
+    "Is the magician pulling the rabbit?  ",
+    "Is the rabbit being pulled from the hat?  ",
+    "Are the gloves made of leather?  ",
+    "Is the hat made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The person is dressed like a traditional magician with a top hat and cape.\nyes A rabbit is clearly visible in the foreground.\nyes The person is wearing a classic magician's top hat.\nno The magician is holding the rabbit beside them rather than pulling it.\nno The rabbit is not shown as being pulled from the hat but held beside it.\nno The material of the gloves cannot be determined definitively from the image; they appear too soft for leather.\nno The texture and common construction of a magician's top hat suggest fabric rather than plastic."
+}

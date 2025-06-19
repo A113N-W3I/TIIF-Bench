@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there mechanical keyboards in the image?  ",
+    "Is there a clear protective pouch in the image?  ",
+    "Does the image present a comparison logic: a mechanical keyboard with a clear protective pouch is newer than a mechanical keyboard without a clear pouch?  ",
+    "Is the newer mechanical keyboard on the bottom of the older one?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the keyboard appears melted rather than identifiable as mechanical.\nno, there is no clear protective pouch, but a melted appearance.\nno, the image does not present any comparative logic about mechanical keyboards.\nno, there is only one keyboard visible, appearing to be melted."
+}

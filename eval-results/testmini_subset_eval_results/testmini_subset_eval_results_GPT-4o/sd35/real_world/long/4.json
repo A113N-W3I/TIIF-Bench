@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because the text 'Survey Results on Podcasts' is prominently displayed at the top of the infographic.\nyes, because the infographic uses vibrant colors like pink, blue, and orange throughout its design.\nyes, because the infographic uses modern icons to illustrate podcast-related concepts and devices.\nno, because the typography in the infographic is distorted and unclear in several sections.\nyes, because the infographic includes statistics on listening frequency such as '5900' or '32%' near frequency-related icons.\nyes, because the infographic includes statistics about devices used, demonstrated by icons and graphs related to tech devices.\nno, because the infographic does not specifically highlight statistics on popular podcast topics.\nno, because the design is cluttered with distorted text and visuals, reducing its cleanliness.\nno, because the professional appearance is compromised by the distorted typography and images.\nno, because distorted text and congested visuals make it difficult to read.\nno, because the text in the generated picture is largely distorted and unclear.\nno, because the numbers in the generated picture are distorted and therefore not clearly readable."
+}

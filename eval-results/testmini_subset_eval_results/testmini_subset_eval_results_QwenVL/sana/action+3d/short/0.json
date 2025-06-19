@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a kangaroo visible in the center of the image.\nno There is no distinct rock present in the image; it features abstract shapes and colors.\nno There is no turkey in the image; the animal being held appears to be a bird but not specifically identifiable as a turkey.\nno The kangaroo is holding a bird, but it cannot be confirmed as a turkey, so this action cannot be accurately described as lifting a turkey.\nno There is no rock in the image for the kangaroo to be positioned in front of."
+}

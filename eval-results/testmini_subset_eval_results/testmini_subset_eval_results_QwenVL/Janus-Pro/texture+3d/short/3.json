@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is an orange rubber band visible in the image.\nyes A book is present and can be considered a reader.\nno The book does not appear fluffy; it is covered by a fluffy fabric.\nno The rubber band is placed on top of the fluffy fabric, closer to the camera than the book."
+}

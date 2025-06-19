@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an angrier frog in the image?  ",
+    "Is there another frog jumping upward in the image?  ",
+    "Does the image present a differentiation logic: one frog is angrier sitting on the steps, while another frog is jumping upward?  ",
+    "Is the angrier frog on the top step?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no There is no frog that appears particularly angry in the image.\nno There is no other frog jumping upward in the image.\nno The image does not show two frogs; therefore, no differentiation logic between their actions can be presented.\nyes The only frog visible is on the top step, though it does not appear angry."
+}

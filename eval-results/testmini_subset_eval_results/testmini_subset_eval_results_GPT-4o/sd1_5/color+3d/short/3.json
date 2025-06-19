@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "short_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a dog in the image?  ",
+    "Is there a seat in the image?  ",
+    "Is the dog black?  ",
+    "Is the seat white?  ",
+    "Is the dog in front of the seat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a dog in the image because I can see a dog's face with distinctive canine features.\nYes, there is a seat in the image because the dog is sitting on what appears to be a chair or a couch.\nYes, the dog is black because its fur is predominantly dark in color.\nYes, the seat is white because it appears to be a light color, likely white or off-white.\nNo, the dog is not in front of the seat because it appears to be sitting on the seat, not in front of it."
+}

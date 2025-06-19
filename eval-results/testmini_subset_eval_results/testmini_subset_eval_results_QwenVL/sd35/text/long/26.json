@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Vegetable' is present in the image.\nno The text 'Gardening' appears but is not the exact match as it's capitalized and positioned differently.\nyes The text 'with' is present in the image.\nyes The text 'MIKE' is present in the image.\nyes The text 'THE' is present in the image.\nyes The text 'GARDENER' is present in the image."
+}

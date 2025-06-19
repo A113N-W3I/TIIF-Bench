@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 239,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features architectural elements such as upturned eaves and intricate red and gray structures typical of traditional Chinese design, set alongside the Great Wall, which is a quintessential symbol of Chinese heritage and style.\n"
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a bell in the image?  ",
+    "Is there a dog in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image clearly shows a large bell hanging under a pavilion structure.\nyes A dog is sitting on the ground at the base of the pavilion structure.\nyes The bell is significantly larger than the dog, indicating that it is indeed bigger in size."
+}

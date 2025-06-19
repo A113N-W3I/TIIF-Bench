@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no girl in the image because only a snowman is present.\nYes, there is a snowman in the image because the central figure is a snowman.\nNo, the girl is not engaging in a snowball fight because there is no girl in the image.\nNo, the snowman is not on the right because it is positioned in the center of the image."
+}

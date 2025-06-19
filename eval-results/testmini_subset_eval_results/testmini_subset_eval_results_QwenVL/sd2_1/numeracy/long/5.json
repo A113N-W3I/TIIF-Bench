@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Is the number of fish 4?  ",
+    "Are there bees in the image?  ",
+    "Is the number of bees 2?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There are multiple fish visible in the aquatic scene.\nno The number of fish exceeds four; it is more populous than that.\nno There are no bees present in this aquatic setting.\nyes There are no bees, so the number cannot be two as they are not depicted."
+}

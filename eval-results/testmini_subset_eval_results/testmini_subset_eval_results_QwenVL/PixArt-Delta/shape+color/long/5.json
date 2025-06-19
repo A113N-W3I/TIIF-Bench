@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a ball in the scene?",
+    "Is the ball round in shape?",
+    "Is there a pendant in the scene?",
+    "Is the pendant shaped like a teardrop?",
+    "Is the teardrop pendant green?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The object in the scene is spherical and resembles a ball.\nyes The object is clearly round in shape.\nno There is no pendant visible in the scene; the object is a sphere.\nno Since there is no pendant, it cannot be shaped like a teardrop.\nno There is no teardrop pendant, so it cannot be green."
+}

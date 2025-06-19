@@ -1,0 +1,37 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is the text 'Membership' in the image?",
+    "Is the text 'Access' in the image?",
+    "Is the text 'Exclusive' in the image?",
+    "Is the text 'Gold' in the image?",
+    "Is the text 'Premium' in the image?",
+    "Is the text 'Valid' in the image?",
+    "Is the text 'Cardholder' in the image?",
+    "Is the text 'Identity' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no Text 'Membership' not visible in the image\nno Text 'Access' not visible in the image\nno Text 'Exclusive' not visible in the image\nno Text 'Gold' not visible in the image\nno Text 'Premium' not visible in the image\nno Text 'Valid' not visible in the image\nno Text 'Cardholder' not visible in the image\nno Text 'Identity' not visible in the image"
+}

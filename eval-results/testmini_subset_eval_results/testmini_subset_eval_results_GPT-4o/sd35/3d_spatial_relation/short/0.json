@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an airplane in the image?  ",
+    "Is there a giraffe in the image?  ",
+    "Is the airplane in front of the giraffe?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is an airplane in the image because there are multiple airplanes visible.\nyes, there is a giraffe in the image because there are multiple giraffes present.\nno, none of the airplanes are in front of the giraffes, as the airplanes appear to be either behind or integrated with the giraffes."
+}

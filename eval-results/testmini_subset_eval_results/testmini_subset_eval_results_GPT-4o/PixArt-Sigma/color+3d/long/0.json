@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a toilet in the image?  ",
+    "Is there a sign in the image?  ",
+    "Is the toilet brown?  ",
+    "Is the sign green?  ",
+    "Is the toilet behind the sign?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no toilet visible in the image.\nyes, there is a sign attached to the door in the image.\nno, the toilet is not visible, so it cannot be brown.\nyes, the sign is green as it is attached to the green door.\nno, the image does not show a toilet behind the sign. Only a green door with a sign is visible."
+}

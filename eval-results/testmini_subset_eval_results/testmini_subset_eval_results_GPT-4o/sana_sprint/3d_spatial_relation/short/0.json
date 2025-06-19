@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an airplane in the image?  ",
+    "Is there a giraffe in the image?  ",
+    "Is the airplane in front of the giraffe?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, the image contains an airplane that is designed like a giraffe.\nyes, the image portrays an aircraft that resembles a giraffe.\nyes, the airplane is depicted with giraffe features, standing prominently in front."
+}

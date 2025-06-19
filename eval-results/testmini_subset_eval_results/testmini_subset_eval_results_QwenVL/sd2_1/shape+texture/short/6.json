@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a green leafy plant which qualifies as a shrub.\nno, the shrub has a fuller and taller appearance rather than being short.\nyes, there is an object on the table that appears to be used as a paperweight.\nyes, the paperweight is shaped like a pyramid.\nyes, the pyramidal paperweight has a metallic appearance."
+}

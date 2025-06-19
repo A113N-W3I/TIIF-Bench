@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a shirt in the image?  ",
+    "Is the fork metallic?  ",
+    "Is the shirt made of fabric?  ",
+    "Is the fork on the bottom of the shirt?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no fork in the image; it contains metallic objects that resemble twigs or branches.\nyes The image shows a fabric that could be part of a shirt.\nno The objects resembling twigs or branches are metallic but not forks.\nyes The material in the image appears to be a fabric, which is consistent with what a shirt would be made of.\nno The metallic objects are placed on top of the fabric, not at the bottom of it."
+}

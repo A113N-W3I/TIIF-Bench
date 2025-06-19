@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The object in the image is not a rubber ball; it appears to be a metallic sphere with a carved design.\nno There is no metallic key in the image; the object resembling a key is part of the sphere's design and not a separate item.\nno The object is not made of rubber; it has a metallic appearance.\nno The object resembling a key is not made of metal; it is part of the sphere's design and shares its material.\nno The object is not on the bottom; it is positioned upright with the key-like structure extending downward.\nno The key-like structure is not on the bottom; it extends from the center of the sphere downward but does not rest on the bottom."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rug in the scene?",
+    "Is the rug pentagon-shaped?",
+    "Is there a paper towel roll in the scene?",
+    "Is the paper towel roll cylindrical in shape?",
+    "Is the shoe rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a rug in the scene because the surface under the roll looks like a rug.\nno, the rug is not pentagon-shaped because the visible portion of the rug appears to cover the entire surface and doesn't have a clear pentagon shape.\nyes, there is a paper towel roll in the scene because the large paper roll resembles a paper towel roll.\nyes, the paper towel roll is cylindrical in shape because it looks round and extends in a cylindrical form.\nno, there is no shoe visible in the scene, so it cannot be rubber-textured."
+}

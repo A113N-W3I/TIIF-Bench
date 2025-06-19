@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is the text 'Eternal' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'Promise' in the image?",
+    "Is the text 'Forever' in the image?",
+    "Is the text 'Commitment' in the image?",
+    "Is the text 'Together' in the image?",
+    "Is the text 'Yes' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Moment' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Eternal' is partially visible as 'EVE' which likely represents the full word.\nno There is no text 'Love' visible in the image.\nno There is no text 'Promise' visible in the image.\nno There is no text 'Forever' visible in the image.\nno There is no text 'Commitment' fully visible; however, a distorted version appears at the bottom.\nno There is no text 'Together' visible in the image.\nno There is no text 'Yes' visible in the image.\nno There is no text 'Dream' visible in the image.\nno There is no text 'Moment' visible in the image."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a yellow dog in the image?  ",
+    "Is there a gold dog in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the yellow dog chasing the gold dog?  ",
+    "Is the yellow dog colored yellow?  ",
+    "Is the gold dog colored gold?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The dog appears to be more of a golden color rather than yellow.\nyes The dog has a golden coat.\nyes There is a large tree in the background.\nno The dogs appear to be playing together rather than one chasing the other.\nno The dog is not colored yellow; it has a golden coat.\nyes The dog has a golden coat."
+}

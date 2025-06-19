@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a red rose in the image?  ",
+    "Is there a blue rose in the image?  ",
+    "Does the image present a differentiation logic: a rose that is not fully bloomed is higher than a rose that is already in bloom?  ",
+    "Is the red rose not fully bloomed?  ",
+    "Is the blue rose already in full bloom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a red rose in the image because many red roses are clearly visible.  \nNo, there is no blue rose in the image because all the roses appear to be red.  \nNo, the image does not present a differentiation logic where a rose not fully bloomed is higher than a rose already in bloom; the height of roses seems random and not determined by bloom status.  \nNo, the red rose is not fully bloomed as the image shows multiple red roses that are in bloom.  \nNo, there is no blue rose in the image including one that is in full bloom."
+}

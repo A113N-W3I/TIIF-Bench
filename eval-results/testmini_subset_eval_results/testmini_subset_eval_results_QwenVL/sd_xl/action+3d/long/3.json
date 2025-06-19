@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a violinist in the image?  ",
+    "Is there a room in the image?  ",
+    "Is there a grand piano in the image?  ",
+    "Is the violinist playing in the room?  ",
+    "Is the violinist in front of the grand piano?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no violinist in the image; there is a pianist.\nyes There is a room depicted in the image.\nyes There is a grand piano in the image.\nno There is no violinist in the image; therefore, no one is playing a violin in the room.\nno There is no violinist in the image; the person present is a pianist sitting at the grand piano."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a hand in the image?  ",
+    "Are there gloves in the image?  ",
+    "Are the hands wearing the gloves?  ",
+    "Are the hands orange in color?  ",
+    "Are the gloves white in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a large orange hand emerging from the snow in the image.\nyes There are gloves visible as the hand appears to be covered in an orange material resembling a glove.\nyes The hands are wearing the gloves as indicated by the uniform orange color and texture covering the entire hand.\nyes The hands are orange in color, as depicted in the image.\nno The gloves are not white in color; they are orange."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there chairs in the room?  ",
+    "Are there students in the room?  ",
+    "Does the image present a comparison logic: chairs are more than students?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes because numerous chairs are visible in the room\nyes as there are individuals seated who appear to be attending a lecture or class\nyes because the number of chairs visibly exceeds the number of occupied seats by students"
+}

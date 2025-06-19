@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes there is a roll of paper which can be considered a scroll\nyes there appears to be a flat surface where items are placed, suggesting a desk\nno the object resembles an antique seal rather than an inkwell\nno the scroll is rolled up and not unrolled on the desk\nno the object resembling an antique seal is placed beside the scroll, not behind it"
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a canoe in the image?  ",
+    "Is there a lake in the image?  ",
+    "Is the canoe floating on the lake?  ",
+    "Is the canoe green?  ",
+    "Is the lake white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a canoe-like boat in the image.\nyes There is a large body of water resembling a lake.\nyes The canoe is positioned on the surface of the water.\nyes The canoe appears to be green in color.\nno The lake is not white; it has a light blue hue."
+}

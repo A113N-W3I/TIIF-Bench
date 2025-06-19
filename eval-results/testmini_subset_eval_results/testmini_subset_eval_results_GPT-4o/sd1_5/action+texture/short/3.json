@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a dog in the image?  ",
+    "Are the boy and the dog standing on a beach?  ",
+    "Is the boy made of fabric?  ",
+    "Does the dog have a fabric collar?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the image does not contain a boy.\nno, the image does not contain a dog.\nno, neither a boy nor a dog are standing on a beach.\nyes, the figure that appears to be a boy is made of fabric.\nno, there is no dog and therefore no fabric collar."
+}

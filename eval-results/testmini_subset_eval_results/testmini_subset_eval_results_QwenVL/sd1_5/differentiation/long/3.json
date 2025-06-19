@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a black cat in the image?  ",
+    "Is there a white cat in the image?  ",
+    "Does the image present a differentiation logic: a black cat sits on a window sill, a white cat lies beneath the sill?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no entirely black cat in the image; the cat has both black and white fur.\nno There is no entirely white cat in the image; the cat has both black and white fur.\nno The image does not show a black cat on a window sill and a white cat beneath it; there is only one cat which is black and white, and it is not on a window sill."
+}

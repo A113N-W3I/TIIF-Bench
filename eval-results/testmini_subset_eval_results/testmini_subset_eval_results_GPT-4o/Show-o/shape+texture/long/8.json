@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a salt shaker in the scene?",
+    "Is the salt shaker cylindrical in shape?",
+    "Is there a gemstone in the scene?",
+    "Is the gemstone spherical in shape?",
+    "Is the cylindrical salt shaker plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is a cylindrical container but it is not identifiable as a salt shaker.\nyes, the container visible is cylindrical in shape.\nyes, there is a gemstone in the scene.\nno, the gemstone has faceted surfaces and is not spherical in shape.\nno, the cylindrical container appears metallic, not plastic."
+}

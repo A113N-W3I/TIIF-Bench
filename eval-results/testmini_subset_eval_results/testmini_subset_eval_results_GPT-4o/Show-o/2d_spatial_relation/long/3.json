@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bag in the image?  ",
+    "Is there a bee in the image?  ",
+    "Is the bag on the left of the bee?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a brown bag on the left side of the image.\nyes, there is a bee on the right side of the image.\nyes, the bag is situated to the left of the bee."
+}

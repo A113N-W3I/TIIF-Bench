@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the individual in the image has long hair, a red hat, and appears to be wearing clothing typically associated with girls.\nyes, there is a snowman with a carrot nose and a black hat in the image.\nyes, the girl is holding a snowball in her hand, suggesting she's preparing to engage in a snowball fight.\nyes, the snowman is positioned on the right side of the image."
+}

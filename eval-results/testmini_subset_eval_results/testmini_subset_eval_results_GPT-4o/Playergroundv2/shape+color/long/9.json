@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, the hat is not a tennis hat; it is a wide-brimmed straw hat.  \nno, the hat is wide-brimmed and not conical in shape.  \nyes, there is a bag in the scene; the person is holding it.  \nyes, one bag is round in shape, held in the person's left hand.  \nyes, the round bag is brown, it is a woven straw or wicker bag that is brown in color."
+}

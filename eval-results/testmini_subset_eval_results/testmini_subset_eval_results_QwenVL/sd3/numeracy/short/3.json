@@ -1,0 +1,31 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there televisions in the image?  ",
+    "Is the number of televisions 1?  ",
+    "Are there camels in the image?  ",
+    "Is the number of camels 3?  ",
+    "Are there chickens in the image?  ",
+    "Is the number of chickens 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a television in the center of the image.\nyes The television depicted in the image is the only one present.\nyes There are camels present in the image, both to the left and right of the television.\nno While there are three camels visible, not all are fully shown; therefore, the count might be incomplete based on visibility.\nyes Chickens are present both on the television screen and around it in the image.\nyes There are four chickens visible: two on the TV screen and two surrounding the television."
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain any discernible text to make this comparison.\nno There is no text present; therefore, no spacing can be evaluated.\nno There is no text to assess for color emphasis.\nyes The background features a collage of shapes and patterns reminiscent of various elements like circuits and tech interfaces.\nno There are abstract shapes but no identifiable icons or images enhancing visual depth.\nno There is no visible text in the image.\nno There is no visible text in the image.\nno There is no visible text in the image.\nno There is no visible text in the image.\nno There is no visible text in the image.\nno The image appears square, not fitting a 9:16 aspect ratio.\nno The image lacks clear and readable text due to abstract design elements."
+}

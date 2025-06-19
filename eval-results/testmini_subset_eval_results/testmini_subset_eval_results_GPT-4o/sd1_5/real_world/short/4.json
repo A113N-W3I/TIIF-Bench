@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the text 'Survey Results on Podcasts' is not visible.\nyes, vibrant colors are used throughout the infographic.\nno, modern icons are not clearly visible.\nno, the typography is not clear.\nno, key statistics such as listening frequency are not highlighted.\nno, key statistics on devices used are not included.\nno, key statistics on popular topics are not highlighted.\nno, the design does not appear to be clean.\nno, the design lacks a professional look due to clutter and unclear text.\nno, the infographic is not easy to read due to unclear text.\nno, the text in the image is not clear and readable.\nno, the numbers in the image are not clear and readable."
+}

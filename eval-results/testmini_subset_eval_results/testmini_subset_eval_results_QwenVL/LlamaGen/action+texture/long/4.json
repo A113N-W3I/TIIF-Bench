@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there rubber shoes in the image?  ",
+    "Is there a nurse in the image?  ",
+    "Is there a patient in the image?  ",
+    "Are there fabric blankets in the image?  ",
+    "Is the nurse comforting the patient?  ",
+    "Are the blankets made of fabric?  ",
+    "Are the shoes made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image shows colorful sneakers, not rubber shoes.\nno There is no nurse present in the image; it features individuals wearing colorful socks and sneakers but does not clearly depict a healthcare setting or a nurse.\nno There is no clear indication of a patient in the image. It shows legs with colorful socks and sneakers but lacks context suggesting medical care.\nno There are no visible fabric blankets in the image. The focus is on the legs with colorful socks and sneakers.\nno There is no nurse or patient interaction evident in the image to assess comfort or care.\nno There are no blankets in the image to determine their material.\nno The shoes appear to be sneakers with various colorful designs and materials, not rubber."
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains various types of bread.\nno There is no fish in the image.\nno There is no computer in the image.\nyes There is a cloth bag visible in the image.\nno There is no bicycle in the image.\nno There are multiple pieces of bread, not just one.\nno There are no fish in the image, so the count cannot be four.\nno There is no computer in the image.\nno There is one cloth bag, not two.\nno There is no bicycle in the image.\nno There is no computer in the image, so it cannot be made of rubber.\nno There is no bicycle in the image, so it cannot be made of rubber."
+}

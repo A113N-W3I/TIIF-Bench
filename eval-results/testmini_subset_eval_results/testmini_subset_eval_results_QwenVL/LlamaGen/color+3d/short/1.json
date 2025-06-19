@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "short_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a timer in the image?  ",
+    "Is there a horse in the image?  ",
+    "Is the timer white?  ",
+    "Is the horse white?  ",
+    "Is the timer behind the horse?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a timer in the image which resembles an old-fashioned clock.\nyes, there is a horse standing next to the timer.\nno, the timer is not entirely white; it has black numbers and hands on the clock face.\nyes, the horse appears to be white in color.\nno, the timer is positioned to the side of the horse, not behind it."
+}

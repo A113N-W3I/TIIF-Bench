@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 17,
+  "questions": [
+    "Is the text 'ICT' in the image?",
+    "Is the text 'Billet' in the image?",
+    "Is the text 'LLC' in the image?",
+    "Is the text 'Performance' in the image?",
+    "Is the text 'Engineering' in the image?",
+    "Is the text 'Power' in the image?",
+    "Is the text 'Precision' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the text 'ICT' is in the image for the full company name at the top left corner.\nyes, the text 'Billet' is in the image as part of the company name.\nyes, the text 'LLC' is in the image for the full company name.\nyes, the text 'Performance' is in the image for the full company name.\nyes, the text 'Engineering' is in the image for the division of the company.\nyes, the text 'Power' is in the image at the bottom left corner.\nyes, the text 'Precision' is in the image at the bottom left corner."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there ships in the painting?  ",
+    "Are there horses in the painting?  ",
+    "Are there shrimp in the painting?  ",
+    "Are there pears in the painting?  ",
+    "Is the number of ships 2?  ",
+    "Is the number of horses 2?  ",
+    "Is the number of shrimp 3?  ",
+    "Is the number of pears 2?  ",
+    "Are the objects on the left of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is one ship visible in the painting.\nyes There are three horses in the painting.\nyes There are three shrimp in the painting.\nyes There are two pears in the painting.\nno There is only one ship in the painting.\nno There are three horses in the painting.\nyes There are three shrimp in the painting.\nyes There are two pears in the painting.\nno The objects are spread across the painting, not all on the left."
+}

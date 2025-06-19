@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "short_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a green ball in the image?  ",
+    "Is there a red ball in the image?  ",
+    "Does the image present a comparison logic: the green ball is bigger than the red ball?  ",
+    "Is the green ball made of rubber?  ",
+    "Is the red ball made of wood?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image shows a single ball divided into green and red halves, not two separate balls.\nno The image shows a single ball divided into green and red halves, not two separate balls.\nno The image does not present a comparison between two balls; it shows one ball with two colored halves.\nno The texture visible suggests the ball is not made of rubber but appears to be painted wood.\nno The texture visible suggests the ball is not made of wood but appears to be painted wood."
+}

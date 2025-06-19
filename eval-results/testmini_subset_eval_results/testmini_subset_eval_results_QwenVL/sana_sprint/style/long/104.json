@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 104,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image depicts a witch flying on a broomstick over a town at night, which is more reminiscent of traditional fairy tale illustrations rather than Disney's distinct animation style."
+}

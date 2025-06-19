@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no skyscraper because the buildings do not appear to be exceptionally tall relative to typical skyscraper proportions.\nno, there is no tall skyscraper in shape because the visible buildings do not have the slender or elongated shape commonly associated with skyscrapers.\nyes, there is a traffic sign in the scene as visible in the lower part of the image.\nno, the traffic sign is not pentagonal in shape because its visible shape does not conform to a pentagon.\nyes, the shadow is fluffy because the shadow resembles a fluffy cloud in appearance."
+}

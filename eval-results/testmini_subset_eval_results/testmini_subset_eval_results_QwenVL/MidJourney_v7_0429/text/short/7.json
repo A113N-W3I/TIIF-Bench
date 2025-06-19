@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The word 'SIMPLY' is clearly visible at the top of the image.\nno The exact phrase 'Bullet' is not present; instead, there is 'BuLLT'.\nno The text 'Proof' does not appear in the image.\nno The word 'Nothing' is not found in the image.\nno The word 'SAUCER' is not present, but a similar term 'SAUCCER' is visible."
+}

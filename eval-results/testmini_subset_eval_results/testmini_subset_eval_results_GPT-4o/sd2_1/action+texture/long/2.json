@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a magician in the image?  ",
+    "Is there a rabbit in the image?  ",
+    "Is there a hat in the image?  ",
+    "Is the magician pulling the rabbit?  ",
+    "Is the rabbit being pulled from the hat?  ",
+    "Are the gloves made of leather?  ",
+    "Is the hat made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the blurred face suggests there is a person, but without other indicators, it's unclear if they are a magician.\nyes, there is a rabbit in the image.\nno, an object resembling a hat is seen, but it's not enough to confirm without more detail.\nno, the rabbit is not visibly being pulled by anyone.\nno, the rabbit is not visibly being pulled from a hat.\nno, the gloves appear shiny, suggesting a material like satin rather than leather.\nno, the hat does not appear to be made of plastic, lacking the characteristic texture and shine."
+}

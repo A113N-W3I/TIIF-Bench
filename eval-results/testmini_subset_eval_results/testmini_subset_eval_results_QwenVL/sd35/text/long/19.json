@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the text 'Unite' in the image?",
+    "Is the text 'Perform' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Strive' in the image?",
+    "Is the text 'Inspire' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Commit' in the image?",
+    "Is the text 'Create' in the image?",
+    "Is the text 'Lead' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Unite' is visible in the upper left part of the image.\nno The text 'Perform' appears distorted and does not match the expected spelling.\nno The text 'Dream' is not present in the image; instead, there is 'Drive'.\nno The text 'Strive' is not present in the image.\nno The text 'Inspire' is not present in the image.\nyes The text 'Shine' is visible in the upper right part of the image.\nyes The text 'Commit' appears below the figure on the far left, although it has an unusual font style.\nyes The text 'Create' is visible next to the figure in magenta with a musical note attached to it.\nyes The text 'Lead' is apparent near the upper right edge of the image, though it appears with some distortion."
+}

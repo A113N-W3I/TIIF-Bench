@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "short_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a toilet in the image?  ",
+    "Is there a sign in the image?  ",
+    "Is the toilet brown?  ",
+    "Is the sign green?  ",
+    "Is the toilet behind the sign?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no toilet in the image.\nyes There is a sign in the image.\nno There is no toilet in the image.\nyes The sign is green.\nno There is no toilet in the image."
+}

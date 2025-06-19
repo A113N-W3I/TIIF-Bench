@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, there is no cushion in the scene; the blue object is part of a sofa or chair, not a separate cushion.\nno, there is no spherical cushion in the scene; the only spherical object is not identified as a cushion.\nno, there is no bookstand visible in the scene; there is no object explicitly designed to support a book.\nyes, the visible object in the scene that could be a bookstand is conical in shape; it resembles a cone.\nyes, the object that is conical in shape is blue."
+}

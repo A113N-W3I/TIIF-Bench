@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes the image includes a girl throwing a snowball.\nyes there is a snowman present in the scene.\nyes the girl appears to be participating in a playful interaction involving a snowball with the snowman.\nno the snowman is positioned more towards the center-right but not strictly on the right edge of the frame."
+}

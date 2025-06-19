@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a caution sign in the scene?",
+    "Is the caution sign pentagonal in shape?",
+    "Is there a trophy ball in the scene?",
+    "Is the trophy ball spherical in shape?",
+    "Is the pedestal metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "No, there is no caution sign in the scene.\nNo, there is no caution sign in the scene to be pentagonal in shape.\nYes, there is a trophy ball in the scene.\nYes, the trophy ball is spherical in shape.\nYes, the pedestal is metallic."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bag in the scene?",
+    "Is the bag made of plastic?",
+    "Is there a door in the scene?",
+    "Is the door made of wood?",
+    "Is the glow on the wooden door yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no bag present in the scene.\nno There is no bag, thus it cannot be made of plastic.\nyes The scene includes a blue wooden door.\nyes The door appears to be constructed out of wood.\nno The glow is emanating from the glass panes of the door and a lantern, not the door itself."
+}

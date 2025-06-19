@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no. The image shows a small object on the table resembling a scroll, but details are unclear as to whether it is a scroll.\nyes. The image exhibits an ornate wooden surface resembling a desk or table top.\nno. There is no distinct object resembling an inkwell visible in the image.\nno. The item resembling a scroll seems rolled up and placed on the desk, not unrolled.\nno. There is no inkwell visible behind the scroll-like object in the image."
+}

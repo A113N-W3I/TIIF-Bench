@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 12,
+  "questions": [
+    "Is the text 'Trick' in the image?",
+    "Is the text 'or' in the image?",
+    "Is the text 'Treat' in the image?",
+    "Is the text 'Aam' in the image?",
+    "Is the text 'The' in the image?",
+    "Is the text 'Trickster' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The word 'Trick' is visible in the image.\nyes The word 'or' is present after 'Trick'.\nyes The word 'Treat' appears in the image.\nno There is no text that reads 'Aam'.\nyes The word 'The' is part of the phrase in the image.\nno The term 'Trickster' does not appear in the image."
+}

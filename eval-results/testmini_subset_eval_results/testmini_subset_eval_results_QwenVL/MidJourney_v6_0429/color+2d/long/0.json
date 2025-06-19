@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a clock in the image?  ",
+    "Is there a car in the image?  ",
+    "Is the clock brown?  ",
+    "Is the car red?  ",
+    "Is the clock on the top of the car?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There is a clock visible in the image.\nyes There is a car in the image, identified by its curved red surface and windshield.\nyes The clock appears to be brown in color.\nno The car is not red; only parts of it, like the panel where the clock rests, appear to be red.\nyes The clock is positioned on the top of the car's visible surface."
+}

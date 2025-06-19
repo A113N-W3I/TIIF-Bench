@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a scroll in the image as it is rolled up and visible.\nno, there is no desk in the image; the surface appears abstract and does not resemble a desk.\nyes, there is an inkwell in the image; it is the metallic object in the foreground.\nno, the scroll is not unrolled on the desk since it remains rolled up.\nno, the inkwell is not behind the scroll; it is in front of the scroll."
+}

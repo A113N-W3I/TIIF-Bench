@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 258,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image does not exhibit the traditional flat colors and bold outlines characteristic of Ukiyo-e. Instead, it features a softer, more modern illustration style with visible brushstrokes and blended hues."
+}

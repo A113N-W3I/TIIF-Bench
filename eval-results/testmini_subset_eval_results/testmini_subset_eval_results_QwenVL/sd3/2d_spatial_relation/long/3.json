@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bag in the image?  ",
+    "Is there a bee in the image?  ",
+    "Is the bag on the left of the bee?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The image contains a bee on a yellow fabric but no bag is present.\nyes The image shows a bee on a yellow fabric.\nno There is no bag in the image, thus it cannot be determined if a bag is on the left of the bee."
+}

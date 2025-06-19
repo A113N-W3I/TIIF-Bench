@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cup in the image?",
+    "Is there a toilet in the image?",
+    "Is the cup blue?",
+    "Is the toilet blue?",
+    "Is the cup behind the toilet?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no cup in the image.\nYes, there is a toilet in the image.\nNo, the cup is not blue because there is no cup.\nYes, the toilet is blue.\nNo, the cup is not behind the toilet because there is no cup."
+}

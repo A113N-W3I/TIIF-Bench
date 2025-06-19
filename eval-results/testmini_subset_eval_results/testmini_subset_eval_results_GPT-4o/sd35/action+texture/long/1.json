@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a llama in the image?  ",
+    "Is there a wooden chair in the image?  ",
+    "Is the llama lounging on the chair?  ",
+    "Is the llama fluffy?  ",
+    "Is the chair wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a llama in the image. The animal depicted in the image has the characteristic features of a llama, such as the face, ears, and woolly body.\nYes, there is a wooden chair in the image. The chair is clearly made of wood, as evidenced by its texture and appearance.\nYes, the llama is lounging on the chair. The llama is positioned on the chair in a relaxed manner.\nYes, the llama is fluffy. The llama's wool appears soft and voluminous.\nYes, the chair is wooden. The chair shows visible grain and color typical of wood."
+}

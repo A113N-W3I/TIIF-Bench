@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is a trinket box in the scene, but it is not pyramid-shaped.\nno, the trinket box is rectangular-shaped, not pyramid-shaped.\nyes, there is a hallway in the scene, visible in the background.\nno, the hallway is straight and elongated, not diamond-shaped.\nyes, the hallway has a predominantly blue color scheme."
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no - The title text does not appear, so no size comparison is evident.  \nno - There are no text paragraphs visible to evaluate spacing.  \nno - There is no emphasized text using vibrant colors to assess.  \nyes - The background contains a notebook pattern, which is eye-catching.  \nno - Icons or images do not enhance depth; they relate to art supplies but may distract.  \nno - The text 'Breaking News! ChatGPT has become even stronger!' does not appear.  \nno - The text 'Better multitasking ✨' does not appear.  \nno - The text 'Improved programming skills 💪' does not appear.  \nno - The text 'Creativity off the charts 🎨' does not appear.  \nno - The text 'Try it now!' does not appear.  \nno - The aspect ratio does not match 9:16 dimensions.  \nno - The text in the generated picture is not clear or readable.  "
+}

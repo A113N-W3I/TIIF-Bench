@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a hamster in the image?  ",
+    "Is there a wheel in the image?  ",
+    "Is the hamster running on the wheel?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a small rodent that resembles a hamster.\nno There is no wheel present in the image; instead, the hamster is inside a ball.\nno Since the hamster is not on a wheel but inside a ball, it is not running on a wheel."
+}

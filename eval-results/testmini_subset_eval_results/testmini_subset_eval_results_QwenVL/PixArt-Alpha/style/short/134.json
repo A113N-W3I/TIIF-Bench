@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 134,
+  "questions": [
+    "Is the image in Pixel Art style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features detailed, smooth lines and shading, typical of digital paintings rather than the blocky, grid-based aesthetic characteristic of Pixel Art."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a chimney in the image?  ",
+    "Is there smoke rising from the chimney?  ",
+    "Is the chimney metallic in texture?  ",
+    "Is the structure wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because the image features a tall chimney structure.\nyes, because there is visible smoke rising from the chimney.\nno, because the chimney appears to be made of brick rather than metallic.\nno, because the visible parts of the structure are not wooden in texture."
+}

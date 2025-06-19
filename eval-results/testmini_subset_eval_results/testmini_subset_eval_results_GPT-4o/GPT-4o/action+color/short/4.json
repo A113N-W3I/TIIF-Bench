@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a canoe in the image?  ",
+    "Is there a lake in the image?  ",
+    "Is the canoe floating on the lake?  ",
+    "Is the canoe green?  ",
+    "Is the lake white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a canoe in the image.\nyes, there is a lake in the image.\nyes, the canoe is floating on the lake.\nyes, the canoe is green.\nno, the lake is not white; it appears to be a light color, likely due to reflection."
+}

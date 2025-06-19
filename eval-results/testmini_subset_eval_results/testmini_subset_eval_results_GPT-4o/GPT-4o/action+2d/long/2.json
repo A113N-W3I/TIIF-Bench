@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the image shows a small rodent known as a mouse.\nno, the image does not show any part of a desk.\nno, the mouse is not gliding, it appears stationary on a surface.\nno, there is no desk visible in the image, so the mouse is not on a desk."
+}

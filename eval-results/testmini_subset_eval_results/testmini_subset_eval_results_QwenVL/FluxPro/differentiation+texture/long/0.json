@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an old man in a fabric smock splattering paint in the image?  ",
+    "Is there a young man in wooden goggles and an oversized t-shirt in the image?  ",
+    "Does the image present a differentiation logic: an old man in a smock splattering paint alongside a young man in an oversized t-shirt and goggles?  ",
+    "Is the smock made of fabric?  ",
+    "Are the goggles made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The old man is wearing an apron, not a fabric smock, and he is not splattering paint; he appears to be painting carefully.\nno The young man is wearing glasses that do not appear to be made of wood, and his t-shirt does not look oversized.\nyes The image shows an old man in an apron painting alongside a young man who is wearing glasses and a regular-sized t-shirt, which can be interpreted as a differentiation in their attire and possibly their approach to painting.\nyes The smock, which is actually an apron, appears to be made of fabric.\nno The goggles, which are actually regular glasses, are not made of wood."
+}

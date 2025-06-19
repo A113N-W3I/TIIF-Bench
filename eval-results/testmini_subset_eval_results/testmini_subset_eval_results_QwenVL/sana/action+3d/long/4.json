@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there wall art in the image?  ",
+    "Is there a fireplace in the image?  ",
+    "Is there a large window in the image?  ",
+    "Is the wall art hanging above the fireplace?  ",
+    "Is the large window behind the fireplace?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains abstract shapes that suggest wall art.\nyes There is a structure resembling a fireplace with what appears to be flames.\nyes There are large rectangular shapes that resemble windows.\nno The wall art does not appear to be directly above the fireplace.\nno The large window is not positioned behind the fireplace."
+}

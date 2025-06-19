@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there flags in the image?  ",
+    "Are there butterflies in the image?  ",
+    "Are there bananas in the image?  ",
+    "Are there apples in the image?  ",
+    "Is the number of flags 2?  ",
+    "Is the number of butterflies 3?  ",
+    "Is the number of bananas 4?  ",
+    "Is the number of apples 2?  ",
+    "Are the flags made of fabric?  ",
+    "Are the apples fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The burlap flags are considered flags in this context.\nyes There are three monarch butterflies visible.\nno There are bananas, but the specific number is not four.\nyes Apples are present in the image.\nno The number of burlap flags does not appear to be two.\nno The number of butterflies is three, not two.\nno There are not four bananas.\nyes There are two apples clearly visible.\nno The flags appear to be made of burlap, not fabric typically used for flags.\nno Apples are not fluffy; they have a solid appearance."
+}

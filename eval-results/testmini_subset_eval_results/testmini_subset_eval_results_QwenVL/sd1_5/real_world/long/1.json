@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not show a model; it features a skincare product.\nno There is no model present, so there cannot be an exudation of relaxation and self-care.\nno The image uses a flat lay setup with a solid purple background and no soft, natural lighting.\nyes The background incorporates a purple tone which complements the pastel colors of the flowers and product cap.\nno There is no text overlay visible in the image.\nno The image does not include any minimalist icons like leaves or droplets.\nno The focus is on the skincare products and accompanying floral elements, not on a model applying cream.\nyes The arrangement of the products and flowers creates an aspirational and approachable aesthetic.\nno There is no model present in the image, therefore no face cream can be seen on a model's face.\nno There is no model in the image; therefore, the naturalness of limbs and face cannot be assessed."
+}

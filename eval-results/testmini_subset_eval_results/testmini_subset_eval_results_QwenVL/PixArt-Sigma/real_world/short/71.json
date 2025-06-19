@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image depicts a toilet with edges that appear smooth and softly curved, typical of a 3D illustration aiming for realism with a minimalistic design.\n\nno The color palette includes soft beige and warm orange, but there isn't a prominent use of light gray in the image.\n\nyes The shadows and highlights on the toilet suggest a soft light source that seems to be positioned slightly above and to the right.\n\nyes The surface of the toilet appears to have a matte finish with no significant reflections, giving it a smooth texture.\n\nyes The toilet is placed in the center with considerable empty space surrounding it, emphasizing simplicity and focus on the subject.\n\nno The perspective of the image does not seem to be canted; instead, it presents the toilet with a direct and stable viewpoint.\n\nyes The background is a single, low-saturation warm orange color which subtly complements the off-white tone of the toilet.\n\nno There is no visible typography in the lower-left corner or anywhere throughout the image.\n\nno Since there is no typography present, there is no gray text in the image either.\n\nno Although there is no typography, thus no text to evaluate, the nonexistence of it aligns with a \"no\" to gray text presence."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'CARD' is not present in the image.\nno The text 'CLIP' is not present in the image.\nyes The text 'with' is visible in the image, although it is stylized differently.\nno The text 'Finger' is not present in the image.\nno The text 'Blister' is not present in the image."
+}

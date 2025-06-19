@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a nurse in the image?  ",
+    "Is there a vaccine in the image?  ",
+    "Is the nurse administering the vaccine?  ",
+    "Is the nurse's uniform green?  ",
+    "Is the background blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the image features a healthcare professional in a green uniform, but it does not confirm they are a nurse.\nno, the image does not show a vaccine.\nno, the image does not show the nurse administering a vaccine.\nyes, the healthcare professional's uniform is green.\nno, the background is not blue."
+}

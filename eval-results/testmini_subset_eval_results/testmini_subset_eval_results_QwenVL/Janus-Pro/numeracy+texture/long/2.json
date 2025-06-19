@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes Bread slice and a piece of bread are visible in the image.\nno There is no fish in the image.\nyes A computer-like object is visible integrated into the bicycle design.\nno There are no bags present in the image.\nyes A bicycle exists, partially made to look like it includes a computer.\nyes There is one bread slice on the plate.\nno There are no fish in the image to count.\nyes The object resembling a computer is part of the bicycle design.\nno There are no bags in the image.\nyes The bicycle resembles having a single main frame considering the integrated design.\nno The computer is not made of rubber; it appears as a part of the bike.\nno The bicycle does not appear to be made of rubber; it has a realistic metallic appearance."
+}

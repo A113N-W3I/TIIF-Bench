@@ -1,0 +1,31 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there cameras in the image?  ",
+    "Is the number of cameras 2?  ",
+    "Are there cats in the image?  ",
+    "Is the number of cats 4?  ",
+    "Are there swans in the image?  ",
+    "Is the number of swans 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are cameras in the image as two cameras on tripods are visible.\nyes, the number of cameras is 2 as there are two cameras on tripods.\nyes, there are cats in the image as four cats are visible on the grass.\nyes, the number of cats is 4 as four cats are present.\nyes, there are swans in the image as six swans are visible on the water.\nno, the number of swans is not 4 as there are six swans in the image."
+}

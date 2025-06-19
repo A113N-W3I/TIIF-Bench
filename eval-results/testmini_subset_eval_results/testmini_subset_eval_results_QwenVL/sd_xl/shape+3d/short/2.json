@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "short_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a large teal object resembling a soccer ball.\nyes There is a teal object that functions as an ottoman in the center of the room.\nyes The teal soccer ball-shaped object is indeed spherical.\nno The ottoman is not cubic; it is spherical and designed like a soccer ball.\nno The soccer ball-shaped ottoman is not in front of another ottoman; it is centrally placed in the room."
+}

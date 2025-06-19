@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a towel in the scene?",
+    "Is the towel fluffy?",
+    "Is there a jewelry in the scene?",
+    "Is the jewelry made of metal?",
+    "Is the vibrant vase blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a white towel hanging on the chair and another on the side table.\nyes The towels appear to have a fluffy texture.\nno There is no jewelry visible in the scene.\nno Since there is no jewelry present, it cannot be made of metal.\nno The vase is not blue; it appears to be clear with a textured surface."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 24,
+  "questions": [
+    "Is the text 'Solitude' in the image?",
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Eternity' in the image?",
+    "Is the text 'Contemplation' in the image?",
+    "Is the text 'Serenity' in the image?",
+    "Is the text 'Depth' in the image?",
+    "Is the text 'Mystery' in the image?",
+    "Is the text 'Reflection' in the image?",
+    "Is the text 'Stillness' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The text 'Solitude' is not visible in the image.\nno The text 'Wisdom' is not clearly visible; it appears distorted.\nyes The text 'Eternity' is present and legible.\nyes The text 'Contemplation' is visible but partially obscured.\nno The text 'Serenity' is not present in the image.\nyes The text 'Depth' is visible among other words.\nyes The text 'Mystery' is present and can be identified.\nyes The text 'Reflection' is visible in the image.\nno The text 'Stillness' does not appear in the image."
+}

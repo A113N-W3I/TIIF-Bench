@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the text 'Unite' in the image?",
+    "Is the text 'Perform' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Strive' in the image?",
+    "Is the text 'Inspire' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Commit' in the image?",
+    "Is the text 'Create' in the image?",
+    "Is the text 'Lead' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes because the word 'Unite' appears in the top left banner.\nno because the word 'Perform' does not appear anywhere in the image.\nno because the word 'Dream' is not present in any of the visible banners.\nyes because the word 'Strive' is written on one of the banners.\nno because the word 'Inspire' is not included among the words on the banners.\nno because the word 'Shine' is not found on any part of the image.\nno because the word 'Commit' is not visible on any banners in the image.\nno because the word 'Create' is not present; instead, there is a distorted version 'Creant'.\nyes because the word 'Lead' is clearly written on one of the banners."
+}

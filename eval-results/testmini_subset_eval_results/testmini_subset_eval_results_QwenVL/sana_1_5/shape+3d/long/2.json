@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no soccer ball in the image; there is a spherical decorative object.\nno There is no ottoman in the image; there is a cushioned seat.\nyes The spherical decorative object is indeed spherical.\nno The cushioned seat is not cubic in shape; it has a rectangular form.\nno The spherical decorative object is placed on the cushioned seat, not in front of it."
+}

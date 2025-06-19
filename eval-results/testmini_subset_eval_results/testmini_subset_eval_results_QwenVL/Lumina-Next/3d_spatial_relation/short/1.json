@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a balloon in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the balloon behind the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a colorful balloon attached to an animal in front of a window.\nyes There is a desk visible in the image with various items on it.\nno The balloon is not behind the desk; it is in front of the desk near the window."
+}

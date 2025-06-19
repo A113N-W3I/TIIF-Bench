@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the text 'Unite' in the image?",
+    "Is the text 'Perform' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Strive' in the image?",
+    "Is the text 'Inspire' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Commit' in the image?",
+    "Is the text 'Create' in the image?",
+    "Is the text 'Lead' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Unite' is clearly visible in the image.\nyes The text 'Perform' is present in the image.\nyes The text 'Dream' appears in the image.\nyes The text 'Strive' is included in the image.\nyes The text 'Inspire' can be seen in the image.\nno The text 'Shine' is not present in the image.\nyes The text 'Commit' is visible in the image.\nyes The text 'Create' is part of the image's text.\nyes The text 'Lead' is shown in the image."
+}

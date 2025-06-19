@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no bowl in the scene.\nyes The toilet appears to be white, and they are sometimes referred to as a bowl colloquially.\nyes There is a toilet in the scene.\nyes The toilet in the scene is white.\nno There is no bathroom faucet visible in the image; it shows a toilet and a bidet with a metal handle but no faucet."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes the structure resembles a mountain and appears to be made of wood\nno there is no snow visible on the peak of the structure\nyes the texture of the hill clearly mimics that of wood\nno the surface surrounding the hill looks smooth and lacks a rubber-like texture"
+}

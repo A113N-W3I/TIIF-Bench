@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a rolled item resembling a scroll in the image.\nyes The objects, including what appears to be a scroll, are placed on a flat surface consistent with a desk.\nyes There is an object that resembles an inkwell next to the scroll.\nyes The scroll appears partially unrolled and extends onto what looks like a desk.\nno The inkwell appears beside, not behind, the unrolled part of the scroll."
+}

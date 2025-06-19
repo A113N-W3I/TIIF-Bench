@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a yellow frog in the image?  ",
+    "Is there a black frog in the image?  ",
+    "Does the image present a comparison logic: the yellow frog is angrier than the black frog?  ",
+    "Is the angrier frog yellow in color?  ",
+    "Is the less angry frog black in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there are no fully yellow frogs; both frogs have black and yellow coloring.\nyes, both frogs have black as a primary color along with yellow.\nno, the image does not present a comparison of the frogs' anger levels.\nno, because the image provides no indication of the frogs' emotional states.\nno, since there is no depiction of the frogs exhibiting anger."
+}

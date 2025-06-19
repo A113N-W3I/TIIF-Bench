@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a leather portfolio in the image?  ",
+    "Are there fabric pants in the image?  ",
+    "Is the portfolio made of leather?  ",
+    "Are the pants made of fabric?  ",
+    "Is the portfolio on the bottom beneath the pants?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a clear depiction of a leather portfolio.\nno The image does not clearly show fabric pants.\nno There is no identifiable portfolio in the image to determine its material.\nno There are no discernible pants in the image to assess their material.\nno There is no portfolio or pants present in the image to establish their relative positions."
+}

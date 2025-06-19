@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the text 'Champion' is on the jersey.\nyes, because the text 'Teamwork' is on the jersey.\nyes, because the text 'Victory' is on the jersey.\nyes, because the text 'Game' is on the jersey.\nyes, because the text 'On' is on the jersey.\nyes, because the text 'All-Star' is on the jersey.\nyes, because the text 'League' is on the jersey."
+}

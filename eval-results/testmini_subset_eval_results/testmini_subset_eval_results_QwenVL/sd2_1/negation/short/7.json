@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The garment appears to be a windbreaker based on its style and fit.\nyes A blue garment is visible underneath the outer layer, consistent with a sweater's appearance.\nyes The black outer garment covers a blue inner garment, suggesting the windbreaker is worn over a sweater."
+}

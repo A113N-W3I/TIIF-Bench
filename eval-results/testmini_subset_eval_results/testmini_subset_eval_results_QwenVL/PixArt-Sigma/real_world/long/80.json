@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a character depicted, possibly with elements suggesting an aura, but it's not explicitly labeled as such.\nno The image does not appear to be cropped to the size of a real card; it looks to be digitally rendered and styled as a collectible game card.\nyes The label at the top indeed has the title 'GNRLYXYZ'.\nyes '1/1' is displayed directly below 'GNRLYXYZ' on the label, indicating its uniqueness.\nno There is no barcode placed beneath the '1/1'; instead, other text is present.\nno The grade label is not displayed on the right side of the label at the top; there's a diamond-shaped symbol instead.\nno There is no numeric grade or grade label visible in this image.\nno There is no certification number displayed below a numeric grade as there is no numeric grade present.\nno The text on the label varies in size, with '1/1' and 'GNRLYXYZ' being different in font size and style.\nno The padding from the border varies; some text like '1/1' has more space around it compared to the border than other elements.\nyes The display is placed on a white background, indicating a clear, isolated presentation.\nno The full display includes text and labels; it is not shown without any text."
+}

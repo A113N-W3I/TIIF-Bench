@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There is a structure that appears to divide the space in the image.\nno There is no can of soda present; the objects appear to be metallic and not typical soda cans.\nno The dividers are not triangular; they seem to have a more complex geometric shape.\nno The object resembling a can of soda is not cylindrical; it has a more complex shape with a wider top.\nyes The dividers are positioned to the left of the object resembling a can of soda."
+}

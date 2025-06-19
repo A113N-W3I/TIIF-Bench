@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there rubber shoes in the image?  ",
+    "Is there a nurse in the image?  ",
+    "Is there a patient in the image?  ",
+    "Are there fabric blankets in the image?  ",
+    "Is the nurse comforting the patient?  ",
+    "Are the blankets made of fabric?  ",
+    "Are the shoes made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there are rubber shoes visible worn by the person standing.\nyes, the person in scrubs is likely a nurse.\nyes, a person lying in a hospital bed suggests a patient.\nyes, the bed is covered with what appears to be fabric blankets.\nyes, the nurse appears to be comforting the patient by holding the blanket.\nyes, blankets used in hospitals are typically made of fabric.\nyes, the shoes worn in a clinical setting are often made of rubber for safety and hygiene."
+}

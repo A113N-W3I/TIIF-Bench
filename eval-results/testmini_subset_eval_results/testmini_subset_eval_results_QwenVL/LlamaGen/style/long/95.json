@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no This image does not exhibit typical Disney style characteristics and instead has a more stylized gaming or fantasy art design with architectural elements not commonly associated with Disney aesthetics."
+}

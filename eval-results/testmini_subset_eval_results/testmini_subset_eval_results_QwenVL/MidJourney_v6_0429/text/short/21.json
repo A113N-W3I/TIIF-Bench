@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'Wis dom' appears on the top book, which likely represents 'Wisdom'.\nyes The word 'Knowledge' is prominently displayed on the second book from the top.\nno There is no text 'Stories' visible in the image.\nyes 'Timeless Pages' is written on the third book in the stack.\nyes 'Pages' is part of the text 'Timeless Pages' on the third book.\nyes The word 'Explore' is on the bottom book in the stack.\nyes 'Learn' appears on the bottom book alongside 'Explore'.\nyes 'Journey' is written on the bottom book of the stack.\nno There is no text 'Books' in the image."
+}

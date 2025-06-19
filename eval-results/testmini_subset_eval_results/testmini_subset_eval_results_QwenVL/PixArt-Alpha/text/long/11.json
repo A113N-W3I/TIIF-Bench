@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 11,
+  "questions": [
+    "Is the text 'Miami' in the image?",
+    "Is the text 'Trance' in the image?",
+    "Is the text '2014' in the image?",
+    "Is the text 'Event' in the image?",
+    "Is the text 'Neon' in the image?",
+    "Is the text 'Beats' in the image?",
+    "Is the text 'Vibes' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Miami' is not visible in the image.\nno The text 'Trance' is not visible in the image.\nno The text '2014' is not visible in the image.\nno The text 'Event' is not visible in the image.\nyes The text 'Neon' is partially visible in the image.\nno The text 'Beats' is not visible in the image.\nno The text 'Vibes' is not visible in the image."
+}

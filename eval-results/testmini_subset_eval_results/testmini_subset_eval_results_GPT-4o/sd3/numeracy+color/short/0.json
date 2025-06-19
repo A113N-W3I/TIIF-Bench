@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there pigs in the image?  ",
+    "Are there shrimp in the image?  ",
+    "Is there a cake in the image?  ",
+    "Is there a menu in the image?  ",
+    "Is the number of pigs 2?  ",
+    "Is the number of shrimp 4?  ",
+    "Is the number of cake 1?  ",
+    "Are the pigs yellow in color?  ",
+    "Are the shrimp yellow in color?  ",
+    "Are the cake brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Are there pigs in the image?  \nyes, there are pig-shaped items on the plate.  \n\nAre there shrimp in the image?  \nyes, shrimp can be seen on the plate.  \n\nIs there a cake in the image?  \nyes, there is a cake on the plate.  \n\nIs there a menu in the image?  \nno, there is no menu visible in the image.  \n\nIs the number of pigs 2?  \nyes, there are 2 pig-shaped items on the plate.  \n\nIs the number of shrimp 4?  \nyes, there are 4 shrimp on the plate.  \n\nIs the number of cake 1?  \nyes, there is 1 cake on the plate.  \n\nAre the pigs yellow in color?  \nyes, the pig-shaped items are yellow in color.  \n\nAre the shrimp yellow in color?  \nno, the shrimp are not yellow in color.  \n\nAre the cake brown in color?  \nyes, the cake is brown in color.  "
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the text 'Champion' is in the image.\nyes, the text 'Teamwork' is in the image.\nyes, the text 'Victory' is in the image.\nyes, the text 'Game' is in the image.\nno, the text 'On' is not in the image.\nno, the text 'All-Star' is not in the image.\nno, the text 'League' is not in the image."
+}

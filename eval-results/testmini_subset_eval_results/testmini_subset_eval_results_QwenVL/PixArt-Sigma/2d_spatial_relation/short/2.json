@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a table in the image?  ",
+    "Is the cat on the right of the table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a cat sitting on the table.\nyes There is a wooden table in the image.\nno The cat is on the left side of the table from the viewer's perspective."
+}

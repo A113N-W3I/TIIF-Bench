@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does this landing page feature a clean and modern design? Answer with yes or no.",
+    "Is there a hero section on this landing page? Answer with yes or no.",
+    "Does the hero section showcase an image of the shampoo bottle? Answer with yes or no.",
+    "Is there a catchy headline that says 'Transform Your Hair Today'? Answer with yes or no.",
+    "Is there a call-to-action button like 'Shop Now' or 'Learn More'? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the landing page features a clean and modern design with minimalistic elements and a coherent color scheme.\nyes, there is a hero section on this landing page, with prominent visual elements.\nyes, the hero section showcases an image of the shampoo bottle prominently.\nno, the headline does not say 'Transform Your Hair Today'; it says 'rramform your haay'.\nyes, there is a call-to-action button, although the text is not clearly legible.\nno, the text in the generated picture is not clear and readable; it appears distorted or misaligned."
+}

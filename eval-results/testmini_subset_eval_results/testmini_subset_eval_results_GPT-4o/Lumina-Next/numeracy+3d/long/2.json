@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a person in the image?  ",
+    "Are there pillows in the image?  ",
+    "Are there printers in the image?  ",
+    "Is the number of persons 1?  ",
+    "Is the number of pillows 2?  ",
+    "Is the number of printers 2?  ",
+    "Is the person in front of the pillows and printers?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a person in the image. A figure is standing in the center facing away from the camera.\nNo, there are not pillows in the image. The objects that might look similar to pillows are actually not.\nYes, there are printers in the image. They are positioned on both sides of the person.\nYes, the number of persons is 1. Only one individual can be seen from behind.\nNo, the number of pillows is not 2. There are no identifiable pillows in the image.\nYes, the number of printers is 2. There are two printers on either side of the person.\nNo, the person is not in front of the pillows and printers. The person is standing between the printers."
+}

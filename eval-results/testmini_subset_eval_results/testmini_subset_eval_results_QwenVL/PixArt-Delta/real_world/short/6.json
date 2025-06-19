@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the figure resembles a humanoid form with mechanical features.\nyes, it appears to be in a library with advanced design.\nno, the book is physical, not holographic.\nyes, the lighting includes soft blue and purple hues.\nyes, there are visible metallic reflections on the face and body.\nyes, the expression seems calm and focused.\nyes, the background suggests a high-tech environment out of focus.\nyes, the image is highly detailed with a cinematic quality.\nyes, it contains elements commonly seen in science fiction.\nno, the book is not a hologram but a tangible object."
+}

@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 154,
+  "questions": [
+    "Is the image in Cyberpunk style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image does not feature the typical high-tech and low-life elements of Cyberpunk but instead depicts a more ethereal and spiritual scene with a focus on light and figure portrayal."
+}

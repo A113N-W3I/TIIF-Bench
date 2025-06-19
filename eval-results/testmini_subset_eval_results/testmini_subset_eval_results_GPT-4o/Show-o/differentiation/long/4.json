@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a larger person wearing yellow clothing in the image?  ",
+    "Is there a smaller person dressed in a different color in the image?  ",
+    "Does the image present a differentiation logic: one person is larger and wearing yellow, while the other person is smaller and dressed in a different color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the larger person is wearing yellow clothing.\nyes, the smaller person is dressed in purple.\nyes, there is differentiation: the larger person is in yellow, and the smaller person is in purple."
+}

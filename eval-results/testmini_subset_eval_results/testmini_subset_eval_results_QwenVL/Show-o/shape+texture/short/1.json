@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a caution sign in the scene?",
+    "Is the caution sign pentagonal in shape?",
+    "Is there a trophy ball in the scene?",
+    "Is the trophy ball spherical in shape?",
+    "Is the pedestal metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes because there is a yellow caution-type sign visible in the image.\nno because the caution sign is diamond-shaped, not pentagonal.\nyes because there is an object resembling a spherical trophy ball on a pedestal.\nyes because the trophy ball appears perfectly round, which is characteristic of a sphere.\nyes because the pedestal holding the spherical object has a reflective surface suggesting it is metallic."
+}

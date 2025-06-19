@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the image does not clearly show a wedding invitation card.  \nYes, the card shown appears to feature hefty eggshell textures and embossings.  \nNo, there are no decorations abstractly representing a couple visible on the card.  \nYes, the usage of iconography on the card seems sparing and minimalist.  \nNo, the specified text about the union of Image and Text is not present.  \nNo, the typesetting is not perfect due to mirrored/reversed text in the image.  \nYes, the invitation card is placed on what appears to be a tasteful wooden desk.  \nNo, the text in the image is not clear and readable due to its mirrored/reversed orientation.  \nNo, the picture does not contain the time information of March 25, 2025.  "
+}

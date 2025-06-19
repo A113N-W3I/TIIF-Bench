@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a table in the image?  ",
+    "Is there a painting in the image?  ",
+    "Is the table in front of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a table in the image because it is visible at the bottom center of the image with a surface and legs typical of a table.\nYes, there is a painting in the image because it is hung on the wall and contains figures and a scene typical of a painting.\nYes, the table is in front of the painting because the table is positioned before the painting within the room, creating the sense of it being in front spatially."
+}

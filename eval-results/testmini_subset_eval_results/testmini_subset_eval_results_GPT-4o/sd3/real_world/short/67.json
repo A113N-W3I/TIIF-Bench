@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The title text appears much larger than the regular text.\nyes There is adequate spacing between text paragraphs.\nno The emphasized text does not use vibrant colors to attract attention; it is primarily in black and white.\nyes There is an eye-catching pattern in the background, resembling a paper notebook.\nyes Suitable icons or images are used to enhance visual depth without causing distraction.\nno The image does not contain the text 'Breaking News! ChatGPT has become even stronger!'.\nyes The image contains text similar to 'Better multitasking ✨', though it is slightly misspelled.\nyes The image contains text similar to 'Improved programming skills 💪', though it is slightly misspelled.\nno The image does not contain the exact text 'Creativity off the charts 🎨'.\nyes The image contains the text 'Try it now!'.\nyes The image is in a 9:16 aspect ratio.\nno The text in the generated picture is not clear and readable due to significant misspellings."
+}

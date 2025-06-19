@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Is the number of fish 4?  ",
+    "Are there bees in the image?  ",
+    "Is the number of bees 2?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there are no fish in the image, only bees.\nno, there are no fish in the image, so the number of fish cannot be 4.\nyes, there are bees in the image, visible both above and below the water surface.\nno, there are more than 2 bees in the image; there are multiple bees both above and below the water surface."
+}

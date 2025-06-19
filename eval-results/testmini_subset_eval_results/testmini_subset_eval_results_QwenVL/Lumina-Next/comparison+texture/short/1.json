@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "short_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a wooden flower in the image?  ",
+    "Is there a wooden tree in the image?  ",
+    "Does the image present a comparison logic: the wooden flowers are taller than the wooden trees?  ",
+    "Are the flowers made of wood?  ",
+    "Are the trees made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There are structures resembling flowers but they appear to be sculptures made of wire and other materials, not wood.\nno The structures resemble trees but are artistic sculptures constructed with materials like wire, not actual wooden trees.\nno The question introduces an incorrect comparison; the structures are sculptures and their relative heights are designed aesthetically, not logically.\nno The flower-like structures are sculptures made from non-wood materials such as wire.\nno The tree-like structures are also sculptures made from materials like wire, not actual wood."
+}

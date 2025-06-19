@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there an old wooden bench in the image?  ",
+    "Does the tree have leaves?  ",
+    "Is the tree behind the old wooden bench from the viewer's perspective within the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because the image shows a tree prominently on the left side.\nyes, because there is an old wooden bench in the foreground of the image.\nno, because the tree appears to be bare without leaves.\nno, because the tree is to the left of the old wooden bench from the viewer's perspective."
+}

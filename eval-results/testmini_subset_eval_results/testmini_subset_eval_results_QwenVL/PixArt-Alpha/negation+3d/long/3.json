@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "long_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there an old wooden bench in the image?  ",
+    "Does the tree have leaves?  ",
+    "Is the tree behind the old wooden bench from the viewer's perspective within the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a large tree visible in the image with a thick trunk and extensive branches.\nyes There is an old wooden bench in the image, positioned on the ground near the tree.\nyes The tree has leaves; they are yellowish, indicating autumn.\nno The tree is not behind the old wooden bench from the viewer's perspective; it is to the side and partially behind the bench."
+}

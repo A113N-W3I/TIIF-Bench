@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no 'Champion' is not present in the image text.\nno 'Teamwork' is not present in the image text.\nyes The word 'Victory' appears at the top left in red and white colors.\nno 'Game' is not present in the image text.\nno 'On' is not present in the image text.\nno 'All-Star' is not present in the image text.\nno 'League' is not present in the image text."
+}

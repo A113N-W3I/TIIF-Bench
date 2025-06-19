@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a hamster in the image?  ",
+    "Is there a wheel in the image?  ",
+    "Is the hamster running on the wheel?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no hamster in the image; the creature in the image resembles a plush toy or a digitally created hamster-like object.\nyes, there is a wheel in the image; the structure around the plush or digitally created hamster resembles a wire wheel.\nno, the hamster is not running on the wheel; the plush or digitally created hamster-like object is sitting or resting and not running on the wheel."
+}

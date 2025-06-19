@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a canoe in the image?  ",
+    "Is there a lake in the image?  ",
+    "Is the canoe floating on the lake?  ",
+    "Is the canoe green?  ",
+    "Is the lake white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because there is a canoe visible in the image.\nyes because the background shows a large body of water which can be identified as a lake.\nyes because the canoe is positioned on the surface of the water and there is reflection indicating it is floating.\nyes because the canoe appears to be predominantly green in color.\nno because the lake has a bluish tint typical of water bodies, not white."
+}

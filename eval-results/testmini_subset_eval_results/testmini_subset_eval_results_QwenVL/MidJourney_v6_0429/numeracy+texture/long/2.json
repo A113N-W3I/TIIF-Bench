@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a loaf of bread.\nyes The image shows four fish.\nno The image contains an old-fashioned typewriter, not a computer.\nyes There is one bag visible.\nno There is no bicycle present.\nyes There is exactly one loaf of bread.\nyes There are four fish depicted.\nno There is an old typewriter, not a computer.\nyes There is one bag in the image.\nno There is no bicycle shown.\nno Computers are typically not made of rubber; the object is an old typewriter anyway.\nno Bicycles are generally not made of rubber; there's none in the image either."
+}

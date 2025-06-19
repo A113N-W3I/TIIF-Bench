@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes Ukiyo-e style is characterized by its use of bold outlines, flattened perspective, and vibrant colors—all which are present in this depiction of a peacock with bamboo."
+}

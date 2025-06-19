@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Champion' is not visible within the image.\nno The text 'Teamwork' does not appear in the image.\nyes The text 'Victory' is printed on the front of the jersey in the image.\nno The text 'Game' is not present in the image.\nno The text 'On' does not appear in the image.\nno The text 'All-Star' is not shown in the image.\nno The text 'League' is not visible in the image."
+}

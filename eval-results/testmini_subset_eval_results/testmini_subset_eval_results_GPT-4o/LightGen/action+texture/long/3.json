@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a dog in the image?  ",
+    "Are the boy and the dog standing on a beach?  ",
+    "Is the boy made of fabric?  ",
+    "Does the dog have a fabric collar?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the figure appears to be stylized or abstract, not a clear depiction of a boy.\nyes, there is an image of a dog visible.\nyes, both the figures of the dog and abstract boy-like figure are on a beach. \nyes, the figure resembling a boy seems to be composed of fabric-like material.\nno, the dog does not have a clearly visible fabric collar."
+}

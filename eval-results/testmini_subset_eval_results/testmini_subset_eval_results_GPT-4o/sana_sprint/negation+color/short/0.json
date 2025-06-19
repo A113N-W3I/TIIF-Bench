@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pair of sunglasses in the image?  ",
+    "Is there a mirror in the image?  ",
+    "Are the sunglasses under the mirror?  ",
+    "Are the sunglasses white in color?  ",
+    "Is the mirror green in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a pair of sunglasses in the image.\nno, there is no mirror in the image.\nno, there is no mirror, so the question is not applicable.\nyes, the sunglasses are white in color.\nno, there is no mirror, so the question is not applicable."
+}

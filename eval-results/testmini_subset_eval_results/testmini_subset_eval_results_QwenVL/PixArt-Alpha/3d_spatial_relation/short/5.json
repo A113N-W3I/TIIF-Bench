@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a refrigerator in the image?  ",
+    "Is there a plate in the image?  ",
+    "Is the refrigerator in front of the plate?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes there is a refrigerator depicted in the center of the image.\nno there is no plate present in the image.\nno since there is no plate, the refrigerator cannot be in front of it."
+}

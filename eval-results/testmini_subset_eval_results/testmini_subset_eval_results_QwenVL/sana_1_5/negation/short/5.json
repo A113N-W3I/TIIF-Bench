@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a hamster in the image?  ",
+    "Is there a wheel in the image?  ",
+    "Is the hamster running on the wheel?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image clearly shows a hamster inside a spherical structure.\nyes There is a spherical wheel-like structure that the hamster is inside.\nno The hamster appears stationary and is not showing motion typical of running on a wheel."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a table in the image?  ",
+    "Is there a painting in the image?  ",
+    "Is the table in front of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a table in the image. The table is ornate and made of wood with carvings.\nYes, there is a painting in the image. The painting has a textured, abstract design with colors such as orange and black.\nYes, the table is in front of the painting. The table is positioned in the foreground, and the painting is mounted on the wall behind it."
+}

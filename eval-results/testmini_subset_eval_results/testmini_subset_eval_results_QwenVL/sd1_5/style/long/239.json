@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 239,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features elements more indicative of traditional East Asian landscape and intricate floralmotifs rather than specifically Chinese style; it blends various influences which are not solely confined to Chinese aesthetics.\n"
+}

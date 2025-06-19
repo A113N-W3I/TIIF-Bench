@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a leather portfolio in the image?  ",
+    "Are there fabric pants in the image?  ",
+    "Is the portfolio made of leather?  ",
+    "Are the pants made of fabric?  ",
+    "Is the portfolio on the bottom beneath the pants?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The object being held resembles a leather portfolio based on its shape and texture.\nyes The item draped over appears to have the characteristics of fabric pants due to its folds and drape.\nyes The portfolio's texture and sheen suggest it is made of leather.\nyes The material of the pants shows flexibility and softness typical of fabric.\nno The portfolio is not beneath the pants; it is being held next to them."
+}

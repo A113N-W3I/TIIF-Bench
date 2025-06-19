@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bracelet in the scene?",
+    "Is the bracelet silver in color?",
+    "Is there a book in the scene?",
+    "Is the book the color of gold?",
+    "Is the table smooth?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a bracelet that is lying across an open book.\nno The bracelet appears to be gold in color, not silver.\nyes An open book is visible beneath the bracelet.\nno The book is not colored gold; it has a gold-colored clasp but the pages and cover are not gold.\nno The surface appears to be fabric, which suggests it is not smooth like a table."
+}

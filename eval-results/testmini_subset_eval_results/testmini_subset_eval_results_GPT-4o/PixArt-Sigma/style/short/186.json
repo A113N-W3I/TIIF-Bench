@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 186,
+  "questions": [
+    "Is the image in 3D style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "Yes, the image appears to be created in a 3D style due to its realistic depth, textures, lighting, and details."
+}

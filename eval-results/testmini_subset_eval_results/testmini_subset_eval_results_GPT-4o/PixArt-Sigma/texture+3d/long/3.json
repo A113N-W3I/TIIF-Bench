@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no rubber band in the image. There is no visible object resembling a rubber band.\nYes, there is a reader in the image. The fluffy object resembling an animal is on top of a book, suggesting it might be \"reading.\"\nYes, the reader is fluffy. The creature is entirely covered in white fur which looks fluffy.\nNo, the rubber band is not behind the reader because no rubber band is present in the image."
+}

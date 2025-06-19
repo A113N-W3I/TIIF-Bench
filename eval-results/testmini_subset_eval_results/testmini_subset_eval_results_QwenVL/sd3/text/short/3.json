@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is the text 'Visionary' in the image?",
+    "Is the text 'Leadership' in the image?",
+    "Is the text 'Success' in the image?",
+    "Is the text 'Inspiration' in the image?",
+    "Is the text 'Clarity' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Innovation' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The text is misspelled as 'Visionarry'.\nyes The text 'Leadership' is present.\nyes The text 'Success' is present.\nno The text is misspelled as 'Inspiraslh.'.\nno The text is misspelled as 'Clariy.'.\nno The text is misspelled as 'FOCCUS'.\nyes The text 'Innovation' is present."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, the object in the image is not a rubber ball.\nyes, there is a metallic key or key-like object in the image.\nno, there is no rubber ball to be made of rubber.\nyes, the object that looks like a key is made of metal.\nno, there is no rubber ball to be on the bottom.\nyes, the metallic key or key-like object is on the bottom."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there wall art in the image?  ",
+    "Is there a fireplace in the image?  ",
+    "Is there a large window in the image?  ",
+    "Is the wall art hanging above the fireplace?  ",
+    "Is the large window behind the fireplace?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a large abstract painting above the fireplace.\nyes A fireplace is present, and it has a lit fire inside.\nyes There is a large window on the right side of the image.\nyes The wall art is positioned directly above the fireplace.\nno The large window is not behind the fireplace but to its side."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a pig in the image?  ",
+    "Is the cup on the left of the pig?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a transparent cup on the left side of the image.\nno There is no pig in the image; instead, there is a small figurine resembling a rabbit on top of a jar.\nno Since there is no pig in the image, the cup cannot be on the left of a pig."
+}

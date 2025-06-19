@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no bagel present in the scene.\nno The previous statement established there is no bagel.\nno There is no melon present in the scene.\nno There is no melon, thus it cannot be-shaped like a teardrop.\nno There is no bagel in the scene to assess its color."
+}

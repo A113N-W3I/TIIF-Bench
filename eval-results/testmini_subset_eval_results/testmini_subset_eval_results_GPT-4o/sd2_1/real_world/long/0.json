@@ -1,0 +1,28 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this image show a young boy? Answer with yes or no.",
+    "Does this image show a mysterious key? Answer with yes or no.",
+    "Does this image depict an adventure through various landscapes? Answer with yes or no.",
+    "Does this image include hidden treasure? Answer with yes or no.",
+    "Does this boy look like he's on an adventure?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, the figure appears to be a young boy given his stature and attire.\nNo, there is no clear depiction of a mysterious key in the image.\nYes, the background includes diverse landscapes, suggesting the theme of an adventure.\nNo, there is no visible hidden treasure in the image.\nYes, the boy's pose and setting suggest that he might be on an adventure."
+}

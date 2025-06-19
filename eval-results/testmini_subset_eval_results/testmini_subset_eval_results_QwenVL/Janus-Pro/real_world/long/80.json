@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no No character or aura grading is present in the image; it shows a drawing on paper and a bowl.\nno The image contains a sheet of paper and a bowl, not an image cropped to the size of a real card.\nno There is no label with the title 'GNRLYXYZ' visible; it features a simple drawing and a bowl.\nno Since 'GNRLYXYZ' is not present, '1/1' cannot be displayed directly below it.\nno There is no barcode present beneath any text as described.\nno There is no grade label on the right side of any label since no such labels exist in the image.\nno There is no numeric grade or other elements mentioned as they do not appear in the image.\nno There is no certification number displayed as per the described context.\nno Uniformity of text size is not applicable since no such text appears in the image.\nno Balanced padding is not applicable as there is no text on a label to assess.\nyes The display components (drawing and bowl) are placed against what appears to be a white background.\nno The display includes both a simple drawing and a partially visible bowl, indicating it is not entirely free of elements."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does a computer exist in the image?  ",
+    "Does a computer mouse exist in the image?  ",
+    "Does the image present a comparison logic: computers are more than computer mice?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, because there is no computer visible in the image.\nno, because there is no computer mouse visible in the image.\nno, because the image does not present any comparison logic regarding computers and computer mice."
+}

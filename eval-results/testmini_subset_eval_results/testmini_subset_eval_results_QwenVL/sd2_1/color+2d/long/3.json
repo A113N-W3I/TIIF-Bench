@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rat in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is the rat yellow?  ",
+    "Is the chair gold?  ",
+    "Is the rat on the top of the chair?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There is a creature resembling a rat in the ornate designs.\nyes The chair is clearly visible and ornately decorated.\nno The rat-like figure is not yellow; it blends with the golden tones of the chair.\nno The chair itself is ornately gilded but not simply gold; it has diverse patterns and colors.\nyes The rat-like figure appears to be part of the design at the top area of the chair."
+}

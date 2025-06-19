@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The infographic does not include the text 'Survey Results on Podcasts'.\nyes The infographic uses vibrant colors throughout.\nyes The infographic includes modern icons for visual representation.\nno The typography in some sections is not entirely clear due to the complexity of design elements.\nno The infographic does not specifically highlight key statistics such as listening frequency.\nno The infographic does not focus on key statistics regarding devices used.\nno The infographic does not have a section dedicated to highlighting popular topics.\nno With multiple overlapping design elements, the infographic cannot be considered clean.\nno The overlapping design and visual clutter detract from a professional appearance.\nno There are areas where the infographic may require closer inspection for reading ease.\nno The text is partially obscured by design elements; clarity varies across sections.\nno Numbers are sometimes unclear or too small to be easily read."
+}

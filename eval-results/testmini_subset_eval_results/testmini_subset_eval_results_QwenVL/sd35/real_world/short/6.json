@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the image features a humanoid figure with robotic characteristics.\nno, the android is seated but the environment suggests a traditional library setting rather than a futuristic one.\nno, the book being read is physical, not holographic.\nyes, the lighting in the image predominantly uses soft blue and purple tones.\nyes, the surface of the android reflects metallic qualities, especially noticeable on the torso and face.\nyes, the android appears to have a calm and composed expression while reading.\nyes, the background is unfocused with high-tech elements like glowing shelves.\nyes, the image is highly detailed, realistic, and captures a scene in a cinematic manner.\nyes, various elements in the image such as the design of the android and the environment draw inspiration from sci-fi themes.\nno, the book the android is holding is a conventional object, not a holographic one."
+}

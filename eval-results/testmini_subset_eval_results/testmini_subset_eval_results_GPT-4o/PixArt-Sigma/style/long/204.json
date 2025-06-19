@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 204,
+  "questions": [
+    "Is the image in 3D style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, The image is not in 3D style and lacks clear indicators of stereoscopic depth or perspective that characterize 3-dimensional displays."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a tennis ball on the floor and another within the frame.\nyes The tennis ball on the floor and the one within the frame are spherical.\nyes There is a framed image on the wall which can be considered a picture.\nno The picture is square in shape, not spherical.\nno The picture itself is not red; it contains a red element surrounding the tennis ball."
+}

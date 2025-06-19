@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows an outer garment with a smooth texture and placket indicative of a windbreaker.\nyes A knitted fabric layer is visible beneath the windbreaker, which appears to be a sweater.\nyes The windbreaker is positioned over the sweater as indicated by the layering of materials with the windbreaker exterior sitting on top of the sweater's flaps."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 50,
+  "questions": [
+    "Does the first panel show a small snail at the counter of a flashy car showroom with the salesman leaning over the desk to see him? Answer with yes or no.",
+    "Does the second panel show a close-up of the snail looking very serious, saying, 'I want your fastest sports car... and I want you to paint big letter 'S's on the doors, the hood, and the roof.'? Answer with yes or no.",
+    "Does the third panel show the salesman scratching his head, saying, 'Um... we can do that, but why the S's?'? Answer with yes or no.",
+    "Does the fourth panel show a red blur roaring down the highway with the sports car covered in giant S's and people on the sidewalk pointing and laughing, saying, 'WOW! LOOK AT THAT S-CAR GO!'? Answer with yes or no.",
+    "Is there padding around the border of the comic strip? Answer with yes or no.",
+    "Is this comic strip a four-panel one? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The first panel depicts a small snail at a counter in what appears to be a car showroom, interacting with a human who seems to be a salesman leaning toward him.\n\nno The second panel shows a red sports car parked inside a showroom with people observing it, and text indicating the snail's request for the fastest car but does not show a close-up of the snail making specific demands about painting 'S's on the car.\n\nno The dialogue in the third panel does not include the salesman asking why the snail wants the 'S's. Instead, it continues the scene from the previous panel where the snail specifies its request for the fastest car with modifications, which is not related to letters being painted on the vehicle.\n\nno There is no fourth panel; the comic consists only of three panels and, therefore, does not depict the described scene of the car on the highway with observers reacting to it as an 'S-Car.'\n\nyes The border of the comic strip includes decorative padding, seen as a light-colored, patterned frame surrounding the panels.\n\nyes The comic strip has a clear division into three separate panels, though the question specifies a four-panel configuration which doesn't match the actual image shown."
+}

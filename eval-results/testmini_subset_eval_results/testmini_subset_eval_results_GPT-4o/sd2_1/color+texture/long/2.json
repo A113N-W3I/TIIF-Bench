@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bracelet in the scene?",
+    "Is the bracelet silver in color?",
+    "Is there a book in the scene?",
+    "Is the book the color of gold?",
+    "Is the table smooth?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no silver bracelet; the bracelet visible is gold in color.\nno, while there is a bracelet, it is gold in color, not silver.\nyes, there is a book visible in the scene.\nno, the book is not gold; it is white or silver in color.\nyes, the table appears smooth, as indicated by the reflective and even surface."
+}

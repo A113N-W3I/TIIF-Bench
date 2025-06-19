@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the girl in front of the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the image contains what appears to be a girl based on the visual cues like clothing typically associated with girls.   \nYes, there is a desk in the image made of wood with visible drawers.  \nYes, the girl is positioned in front of the desk as she is standing directly in front of it with part of her body overlapping it."
+}

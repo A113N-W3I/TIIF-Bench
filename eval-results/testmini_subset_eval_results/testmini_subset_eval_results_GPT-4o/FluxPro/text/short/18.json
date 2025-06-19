@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 18,
+  "questions": [
+    "Is the text 'Joy' in the image?",
+    "Is the text 'Laughter' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Rain' in the image?",
+    "Is the text 'Childhood' in the image?",
+    "Is the text 'Happiness' in the image?",
+    "Is the text 'Freedom' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the text 'Joy' is on the wall.\nno, the text 'Laughter' is not on the wall.\nyes, the text 'Play' is on the wall.\nno, the text 'Rain' is not on the wall.\nno, the text 'Childhood' is not on the wall.\nno, the text 'Happiness' is not on the wall.\nno, the text 'Freedom' is not on the wall."
+}

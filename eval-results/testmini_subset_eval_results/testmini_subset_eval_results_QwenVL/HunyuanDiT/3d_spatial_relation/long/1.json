@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a balloon in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the balloon behind the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a cluster of colorful balloons floating above the desk.\nyes There is a desk in the center of the room with a computer monitor on it.\nno The balloons are floating above the desk, not behind it."
+}

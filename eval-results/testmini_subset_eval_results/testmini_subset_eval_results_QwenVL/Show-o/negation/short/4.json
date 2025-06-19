@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a city intersection in the image?  ",
+    "Are there blue cars in the image?  ",
+    "Is there a city intersection with blue cars?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows roads with traffic lights and buildings characteristic of an urban setting.\nyes There are multiple vehicles with a blue color scheme present in the image.\nyes The scene includes an urban intersection with roads converging, along with several cars painted in shades of blue."
+}

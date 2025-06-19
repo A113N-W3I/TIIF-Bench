@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a kettle in the scene?",
+    "Is the kettle made of metal?",
+    "Is there a bag in the scene?",
+    "Is the bag made of fabric?",
+    "Is the fabric bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes the scene includes a shiny metallic kettle\nyes the kettle has a reflective surface indicating it is made of metal\nyes there is a pouch next to the kettle which can be considered as a type of bag\nyes the pouch appears to be made from a woven material, suggesting it is fabric\nyes the fabric pouch next to the kettle is brown in color"
+}

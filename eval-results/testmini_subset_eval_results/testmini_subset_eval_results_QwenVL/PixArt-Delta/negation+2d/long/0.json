@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there a patch of grass in the image?  ",
+    "Are there any leaves on the tree?  ",
+    "Is the tree on the left of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a tree visible in the image.\nyes There is a patch of grass surrounding the tree.\nyes The tree has numerous leaves covering its branches.\nno The tree is positioned more towards the center-right of the image."
+}

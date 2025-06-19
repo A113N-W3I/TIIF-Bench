@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a bowl in the image?  ",
+    "Does the image present a comparison logic: forks are fewer than bowls?  ",
+    "Are the forks positioned in front of the bowls?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are multiple forks visible in the image.\nyes The image shows at least four bowls.\nno There are more forks than bowls, indicating forks are not fewer than bowls.\nno The forks are inside the bowls, not positioned in front of them."
+}

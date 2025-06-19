@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the girl drinking from the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the image contains an illustration of a girl.\nyes, the image shows a cup being held by the girl.\nyes, the girl is depicted drinking from the cup."
+}

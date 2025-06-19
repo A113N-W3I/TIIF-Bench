@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features flat areas of color and decorative elements typical of Ukiyo-e art, which often depicts natural scenes including animals and plants with a similar level of detail and stylization.\n"
+}

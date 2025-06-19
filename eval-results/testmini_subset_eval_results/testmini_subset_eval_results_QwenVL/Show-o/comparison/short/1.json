@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there people standing in the image?  ",
+    "Are there people sitting in the image?  ",
+    "Does the image present a comparison logic: people standing are more than people sitting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are multiple people standing in the image as the primary elements.\nno No individuals are depicted in a seated position within the scene.\nno The image shows all people standing, thus it does not provide a comparison between standing and sitting people."
+}

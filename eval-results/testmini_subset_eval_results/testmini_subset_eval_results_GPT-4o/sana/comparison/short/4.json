@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image appears to be a surreal mixture of elements that resemble shops.\nno, the image appears to be a surreal mixture of elements that resemble buildings on the right.\nno, there is no clear comparison logic as the image does not depict conventional shops but rather distorted and artistic elements."
+}

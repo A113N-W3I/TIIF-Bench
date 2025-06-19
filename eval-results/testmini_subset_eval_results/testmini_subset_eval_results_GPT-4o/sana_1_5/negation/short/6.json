@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a hat in the image?  ",
+    "Is there a cat in the image?  ",
+    "Is the hat providing shade for the cat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a hat in the image because we can see a straw hat underneath and next to the cat.\nyes, there is a cat in the image because there is a cat curled up and sleeping on top of the hat.\nyes, the hat is providing shade for the cat, as the brim of the hat casts a shadow over part of the cat's body."
+}

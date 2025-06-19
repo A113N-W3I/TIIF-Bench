@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text appears distorted and does not clearly spell 'Vegetable'.\nno The text appears distorted and does not clearly spell 'Gardening'.\nno The text appears distorted and does not clearly spell 'with'.\nno The text appears distorted and does not clearly spell 'MIKE'.\nno The text appears distorted and does not clearly spell 'THE'.\nno The text appears distorted and does not clearly spell 'GARDENER'."
+}

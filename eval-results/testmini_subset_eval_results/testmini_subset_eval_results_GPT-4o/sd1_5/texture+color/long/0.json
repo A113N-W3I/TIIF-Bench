@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a gloves in the scene?",
+    "Are the gloves rubber?",
+    "Is there a mallet in the scene?",
+    "Is the mallet made of wood?",
+    "Are the rubber gloves yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no - There are no gloves visible in the scene.\nno - Since there are no gloves visible, they cannot be rubber.\nno - There is no mallet visible in the scene.\nno - Since there is no mallet visible, it cannot be made of wood.\nno - Since there are no rubber gloves visible, they cannot be yellow."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mountain in the image?  ",
+    "Is there snow on the mountain?  ",
+    "Is the mountain brown in color?  ",
+    "Is the sky blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, because there is a prominent mountain visible in the image.\nNo, because there is no snow visible on the mountain.\nYes, because the mountain appears to be brown in color.\nYes, because the sky is blue in color."
+}

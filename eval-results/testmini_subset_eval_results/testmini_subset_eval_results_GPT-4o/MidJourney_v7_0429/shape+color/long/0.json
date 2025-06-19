@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cushion in the scene on the window seat.\nyes, the cushion is spherical in shape on the floor.\nyes, there is a bookstand in the scene by the window.\nyes, the bookstand is conical in shape beside the cushion.\nyes, the bookstand is blue as seen next to the cushion."
+}

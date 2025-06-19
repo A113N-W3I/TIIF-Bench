@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no The text 'Survey Results on Podcasts' is not visible in the image.\nyes The infographic uses a variety of bright and bold colors.\nyes The infographic includes various modern icons such as headphones and smartphones.\nyes The typography used in the infographic is legible and well-defined.\nno There are no specific statistics on listening frequency highlighted.\nyes Statistics related to devices used for listening are present.\nyes Statistics on popular topics appear to be included.\nyes The layout is neat with a structured organization of content.\nyes The design elements and presentation suggest a professional approach.\nyes The visual elements and text are arranged in a way that is easy to follow.\nyes The text appears to be clear and legible.\nyes Numbers included in the graphics are easy to read and understand."
+}

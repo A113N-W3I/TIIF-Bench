@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a white cat in the image?  ",
+    "Is there a blue coyote in the image?  ",
+    "Is the cat watching the coyote?  ",
+    "Is the cat white?  ",
+    "Is the coyote blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a white cat in the image. The cat is clearly depicted at the lower portion of the image, displaying white fur.\nYes, there is a blue coyote in the image. The coyote appears to be an artistic depiction located directly in front of the cat and is rendered in blue tones.\nYes, the cat is watching the coyote. The cat's head is directed toward the coyote, implying it's watching it.\nYes, the cat is white. The fur color of the cat is predominantly white as observed in the image.\nYes, the coyote is blue. The coyote is depicted with blue colors in the artistic rendering."
+}

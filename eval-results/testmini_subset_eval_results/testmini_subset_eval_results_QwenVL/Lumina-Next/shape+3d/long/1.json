@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a chef hat in the image?  ",
+    "Is there a snowball in the image?  ",
+    "Is the chef hat conical?  ",
+    "Is the snowball spherical?  ",
+    "Is the chef hat hidden behind the snowball from the viewer's perspective?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no chef hat in the image.\nno There is no snowball in the image as typically understood; instead, there's a snow sculpture.\nno There is no chef hat to assess for shape.\nno The object in the image is not a snowball but a sculpted form resembling a snowball with an attached shape, which is not spherical.\nno There is neither a chef hat nor a conventional snowball in the image to determine visibility or hiding."
+}

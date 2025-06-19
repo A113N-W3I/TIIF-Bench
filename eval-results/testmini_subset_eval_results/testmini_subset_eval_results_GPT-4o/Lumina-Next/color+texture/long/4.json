@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bowl in the scene. The image shows a white bowl placed on the toilet seat.\nYes, the bowl is white in color. The bowl in the image is clearly white.\nYes, there is a toilet in the scene. The image shows a toilet with a bowl placed on top.\nYes, the toilet is white. The toilet in the image is predominantly white.\nYes, the bathroom faucet is metallic. The faucet in the image appears to be made of metal."
+}

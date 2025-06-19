@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The small, bright yellow-green object with a textured surface matches the appearance of a tennis ball.\nyes The small, bright yellow-green object is round and lacks any flat surfaces, indicating it is spherical.\nyes There is a large circular object with what appears to be painted textures, suggesting it could be a picture or an artistic representation.\nno The large circular object, while circular, has textures and variations in color that suggest a two-dimensional picture rather than a three-dimensional sphere.\nno The large circular object is primarily red, but it includes variegations and depth which do not make it uniformly red as would be typical for a simplistic description of a red object."
+}

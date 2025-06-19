@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a backpack in the image?  ",
+    "Is there an ant in the image?  ",
+    "Does the image present a comparison logic: a backpack is bigger than the ant?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a blue backpack visible on the person in the image.\nno There is no ant present in the image.\nno Since there is no ant in the image, a size comparison cannot be made."
+}

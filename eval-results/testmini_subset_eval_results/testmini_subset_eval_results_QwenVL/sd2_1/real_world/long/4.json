@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text present is scrambled and does not form coherent words or phrases.\nyes The infographic utilizes a variety of bright and contrasting colors which can be considered vibrant.\nyes There are various symbols that resemble modern icons, although their context may be unclear due to the scrambled text.\nno The typography appears distorted with letters that do not form readable words.\nno Due to the scrambled text, it's impossible to ascertain if there were key statistics on listening frequency highlighted.\nno The presence of key statistics on devices used cannot be determined because the text is scrambled.\nno Key statistics on popular topics cannot be identified due to the scrambled text.\nno While the layout seems structured, the scrambled text detracts from an otherwise clean design.\nno Professionalism is undermined by the lack of legible content and scrambled information.\nno The infographic is not easy to read as all the text presented is scrambled.\nno The text is not clear and readable; it consists of scrambled letters and numbers.\nno The numbers within the picture are part of the scrambled text and thus not clear and readable."
+}

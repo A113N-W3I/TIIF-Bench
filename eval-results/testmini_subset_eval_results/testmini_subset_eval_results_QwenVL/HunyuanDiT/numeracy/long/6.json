@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Are there helicopters in the image?  ",
+    "Is the number of helicopters 4?  ",
+    "Are there hamburgers in the image?  ",
+    "Is the number of hamburgers 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image contains objects resembling helicopters.\nno There are more than 4 helicopter-like objects in the image.\nyes The image contains objects resembling hamburgers.\nno There are more than 4 hamburger-like objects in the image."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a panda in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is there a student in the image?  ",
+    "Is the panda comforting the student?  ",
+    "Is the panda hidden behind the tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a panda in the image.\nyes There is a tree in the image.\nyes There is a student in the image.\nno The panda is not comforting the student; it appears to be interacting but not in a comforting manner.\nno The panda is not hidden behind the tree; it is sitting next to the tree and visible."
+}

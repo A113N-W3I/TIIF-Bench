@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a chimney in the image?  ",
+    "Is there smoke rising from the chimney?  ",
+    "Is the chimney metallic in texture?  ",
+    "Is the structure wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a recognizable chimney.\nno There is no visible smoke in the image.\nno The image lacks clear textures to identify as metallic.\nno The image does not display a texture that can be identified as wooden."
+}

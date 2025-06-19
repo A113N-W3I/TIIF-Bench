@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there mechanical keyboards in the image?  ",
+    "Is there a clear protective pouch in the image?  ",
+    "Does the image present a comparison logic: a mechanical keyboard with a clear protective pouch is newer than a mechanical keyboard without a clear pouch?  ",
+    "Is the newer mechanical keyboard on the bottom of the older one?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes A full-size mechanical keyboard is clearly visible in the image.\nno There is a black fabric pouch, not a clear protective pouch visible.\nno The image does not present a comparison between two keyboards with and without a pouch.\nno There is only one keyboard in the image; no newer keyboard is placed on top of an older one."
+}

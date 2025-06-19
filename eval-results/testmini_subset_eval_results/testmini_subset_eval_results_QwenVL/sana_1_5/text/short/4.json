@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'CARD' is visible on the small card held between the fingers.\nno There is no text 'CLIP' present in the image.\nno The word 'with' does not appear in the image.\nyes The text 'Finger' is not directly present, but the image shows fingers holding a card.\nno There is no text 'Blister' in the image."
+}

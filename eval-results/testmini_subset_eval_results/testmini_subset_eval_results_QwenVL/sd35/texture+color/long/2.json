@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bag in the scene?",
+    "Is the bag made of plastic?",
+    "Is there a door in the scene?",
+    "Is the door made of wood?",
+    "Is the glow on the wooden door yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a plastic bag visible hanging from the door handle.\nyes The bag appears to be made of transparent plastic material.\nyes A door is clearly visible in the image.\nyes The door has a wooden texture and finish.\nno The glow on the door is from a lamp light, not yellow itself, but it casts a warm light."
+}

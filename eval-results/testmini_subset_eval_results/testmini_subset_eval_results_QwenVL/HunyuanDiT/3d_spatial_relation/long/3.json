@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a woman in the image?  ",
+    "Is the cup behind the woman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a person holding a white cup.\nyes The image depicts a woman wearing a red hooded garment.\nno The cup is being held by the woman and is not behind her."
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no text in the image to assess the sizing of titles versus regular text.\nno Without textual content, it's not possible to evaluate spacing between paragraphs.\nno The image contains icons but no text, hence no emphasized text for color assessment.\nno The background consists of a grid of app icons and does not resemble paper, a notebook, or a chat window.\nno While there are various app icons, they do not specifically enhance visual depth in relation to a central theme or message due to the lack of a clear context.\nno The image does not contain this specific text phrase or any text.\nno The image does not contain this specific text or any text.\nno The image does not contain this specific text or any text.\nno The image does not contain this specific text or any text.\nno The phrase 'Try it now!' is not present in the image.\nno The image is displayed in an horizontal orientation which is not consistent with a 9:16 vertical aspect ratio typically used for mobile content.\nno There is no textual information to assess its clarity and readability; the image shows icons which are generally clear and recognizable."
+}

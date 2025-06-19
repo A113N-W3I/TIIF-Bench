@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a llama in the image?  ",
+    "Is there a wooden chair in the image?  ",
+    "Is the llama lounging on the chair?  ",
+    "Is the llama fluffy?  ",
+    "Is the chair wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no llama in the image.\nyes, there is a wooden chair in the image.\nno, there is no llama lounging on the chair.\nno, the fluffy animal is not a llama.\nyes, the chair is wooden."
+}

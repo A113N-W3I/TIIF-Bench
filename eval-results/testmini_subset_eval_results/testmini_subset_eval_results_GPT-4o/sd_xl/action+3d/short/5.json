@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, because there is a scroll in the image partially rolled and placed on a larger piece of parchment.\nyes, because the items are placed on a flat surface resembling a desk.\nyes, because there is an inkwell present in the image, to the upper right on the desk.\nno, because the scroll is not fully unrolled; it is partially rolled on a larger piece of parchment.\nyes, because the inkwell is positioned behind the scroll on the desk."
+}

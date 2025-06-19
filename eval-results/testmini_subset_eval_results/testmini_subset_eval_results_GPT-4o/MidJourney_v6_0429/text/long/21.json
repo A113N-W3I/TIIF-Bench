@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the text 'Wisdom' is present on multiple book spines.\nno, the text 'Knowledge' is not present; a similar word 'Knowlge' is found.\nno, the text 'Stories' is not in the image.\nyes, the text 'Timeless' is present on one of the book spines.\nyes, the text 'Pages' is present on one of the book spines.\nno, the text 'Explore' is not in the image.\nyes, the text 'Learn' is present on one of the book spines.\nyes, the text 'Journey' is present on one of the book spines.\nyes, the text 'Books' is present on one of the book spines."
+}

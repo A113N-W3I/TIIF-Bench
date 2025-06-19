@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a table in the image?  ",
+    "Is there a painting in the image?  ",
+    "Is the table in front of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no table in the image. The object in the foreground appears to be a sink or a washbasin rather than a table.\nyes, there is a painting in the image. The framed artwork is visible on the wall.\nno, the sink or washbasin is in front of the painting, not a table."
+}

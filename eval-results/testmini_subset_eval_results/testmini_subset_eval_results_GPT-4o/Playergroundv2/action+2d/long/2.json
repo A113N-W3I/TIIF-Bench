@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a mouse in the image; a small animal mouse can be seen in mid-air.\nYes, there is a desk in the image; the mouse is seen hovering above a desk.\nNo, the mouse is not gliding across the desk; it is captured mid-jump.\nYes, the mouse is on top of the desk; it is above the desk surface."
+}

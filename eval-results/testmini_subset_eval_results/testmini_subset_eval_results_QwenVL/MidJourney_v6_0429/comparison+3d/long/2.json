@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a larger person wearing a hat in the image?  ",
+    "Is there a smaller person not wearing a hat in the image?  ",
+    "Does the image present a comparison logic: the larger person wears a hat, and the smaller person does not wear a hat?  ",
+    "Is the smaller person hidden in relation to the larger person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a person on the left who appears taller and is wearing a hat.\nyes There is a person on the right who appears shorter and is not wearing a hat.\nyes The image depicts a taller person with a hat next to a shorter person without a hat, which presents a comparison.\nno Both persons are clearly visible; neither is hidden in relation to the other."
+}

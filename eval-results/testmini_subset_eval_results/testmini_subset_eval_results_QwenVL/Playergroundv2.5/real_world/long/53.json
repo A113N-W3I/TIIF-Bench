@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a card with ornate designs typical for a wedding invitation.\nyes The card appears thick and features detailed embossed floral patterns resembling eggshell textures.\nyes The card includes intricate designs that stylistically represent two individuals, like a couple's embrace.\nno The card uses elaborate floral designs rather than minimalistic iconography.\nno The text visible does not mention a specific union of Image and Text; it has formal invitation language.\nyes The text is neatly aligned with consistent spacing, suggesting good typesetting.\nyes The card rests on what looks like a wooden surface that provides a tasteful background.\nyes The text on the card is clearly legible and is free from visual obstructions.\nno There is no mention of March 25, 2025, in the visible text on the card."
+}

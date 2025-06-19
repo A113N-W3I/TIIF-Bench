@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a larger person wearing a hat in the image?  ",
+    "Is there a smaller person not wearing a hat in the image?  ",
+    "Does the image present a comparison logic: the larger person wears a hat, and the smaller person does not wear a hat?  ",
+    "Is the smaller person hidden in relation to the larger person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The larger person is not wearing a hat; it's the smaller person who is wearing a hat.\nyes The smaller person is not wearing a hat.\nno The image does not present this comparison logic; the larger person is not wearing a hat while the smaller person is.\nno The smaller person is not hidden in relation to the larger person."
+}

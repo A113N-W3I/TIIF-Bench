@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is not a bowl in the scene, there is a sink.\nno, the bowl is not white in color, there is no bowl.\nno, there is not a toilet in the scene.\nno, the toilet is not white, there is no toilet.\nyes, the bathroom faucet is metallic as it appears to be made of a shiny metallic material."
+}

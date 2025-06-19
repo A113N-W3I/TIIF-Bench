@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bowl in the scene. It is the bathroom sink on the counter.\nYes, the bowl is white in color. The sink bowl is white.\nYes, there is a toilet in the scene. It is located to the left of the sink.\nYes, the toilet is white. Both the toilet and its seat are white.\nYes, the bathroom faucet is metallic. The faucet above the sink is metallic."
+}

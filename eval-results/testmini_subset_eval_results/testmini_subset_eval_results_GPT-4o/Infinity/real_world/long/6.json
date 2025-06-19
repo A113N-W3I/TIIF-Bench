@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the image contains a humanoid android. The figure has human-like features combined with robotic elements.  \nNo, the android is sitting in a traditional library rather than a futuristic one. The bookshelves in the background appear typical and not highly technologically-advanced.  \nNo, the android is reading a physical book, not a floating holographic one.  \nNo, the lighting in the scene is predominantly soft white and neutral tones rather than blue and purple.  \nYes, the android's face and body exhibit several metallic reflections indicative of its robotic design.  \nYes, the facial expression of the android appears calm and neutral based on the positioning and design of its features.  \nYes, there is a high-tech blurred background with visible bookshelves and a depth-of-field effect.  \nYes, the image appears realistic, detailed, and has a cinematic quality in its composition and lighting.  \nYes, the image contains design elements that seem inspired by sci-fi films, such as the sleek robotic features and overall theme.  \nNo, the book the android is reading is not a holographic book; it is clearly a physical, tangible book."
+}

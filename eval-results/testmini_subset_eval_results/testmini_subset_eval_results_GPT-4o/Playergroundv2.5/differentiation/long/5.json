@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a person wearing a luminous turquoise jacket in the image?  ",
+    "Is there a person wearing a charcoal peacoat in the image?  ",
+    "Does the image present a differentiation logic: a person in a luminous turquoise jacket stands beside another person in a charcoal peacoat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, both individuals are wearing jackets that appear to be the same shade of turquoise.\nno, neither individual is wearing a charcoal peacoat; both jackets are turquoise.\nno, there is no differentiation logic with a turquoise jacket and a charcoal peacoat; both are turquoise."
+}

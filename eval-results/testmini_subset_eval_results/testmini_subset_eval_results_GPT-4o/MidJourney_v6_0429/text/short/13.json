@@ -1,0 +1,37 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 13,
+  "questions": [
+    "Is the text 'London' in the image?",
+    "Is the text 'MAX' in the image?",
+    "Is the text 'Private' in the image?",
+    "Is the text 'Helicopter' in the image?",
+    "Is the text 'Tour' in the image?",
+    "Is the text 'Skyline' in the image?",
+    "Is the text 'Adventure' in the image?",
+    "Is the text 'Luxury' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the text 'London' is present at the top of the image.\nyes, because the text 'MAX' is present at the top right of the image.\nyes, because the text 'Private' is present at the bottom of the image.\nyes, because the text 'Helicopter' is present at the bottom of the image next to 'Private'.\nno, because the text 'Tour' is not present in the image.\nno, because the text 'Skyline' is not present in the image.\nyes, because the text 'Adventure' is present at the bottom center of the image.\nyes, because the text 'Luxury' is present at the bottom right of the image."
+}

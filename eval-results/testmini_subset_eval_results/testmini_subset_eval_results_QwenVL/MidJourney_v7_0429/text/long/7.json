@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'SIMPLY' is clearly visible in large font near the top of the image.\nno The text 'Bullet' does not appear in the image.\nno The text 'Proof' does not appear in the image.\nno The text 'Nothing' does not appear in the image except as part of 'NOTHIE', which seems like a stylized name and not the word 'nothing'.\nyes The text 'SAUCER' is present at the bottom of the image in a distinct, stylized font."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an elegant cat with a long tail in the image?  ",
+    "Is there a ball in the image?  ",
+    "Is there a cute cat without a long tail in the image?  ",
+    "Does the image present a differentiation logic: an elegant cat with a long tail throws a ball at a cute cat without a long tail?  ",
+    "Is the elegant cat blue in color?  ",
+    "Is the cute cat red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The large cat appears to have a refined poise and a long tail.\nyes A ball is visible in the air between the two cats.\nyes There is a smaller cat that seems to lack the refined appearance of the larger cat and does not have a long tail.\nyes The scene shows the larger, more elegant cat with a long tail throwing a ball towards the smaller, cute cat without a long tail.\nyes The large cat is depicted as blue in color.\nyes The small cat is illustrated in a red hue."
+}

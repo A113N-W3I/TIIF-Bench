@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 282,
+  "questions": [
+    "Is the image in American Comics style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features a large, monstrous teddy bear with glowing red eyes set amidst a chaotic, apocalyptic scene, which is characteristic of exaggerated and dramatic elements often found in American Comics.\n"
+}

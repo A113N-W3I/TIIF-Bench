@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the desk behind the cup?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image appears abstract and does not distinctly feature a recognizable cup.  \nno, there is no clear representation of a desk in the abstract image.  \nno, as there is no cup and no desk, the desk cannot be behind the cup."
+}

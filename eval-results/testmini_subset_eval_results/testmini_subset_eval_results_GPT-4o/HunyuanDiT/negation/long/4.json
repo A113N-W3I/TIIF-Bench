@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a city intersection in the image?  ",
+    "Are there blue cars in the image?  ",
+    "Is there a city intersection with blue cars?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the image shows a city street but not an intersection.\nyes, the image contains blue cars.\nno, there is no city intersection with blue cars in the image."
+}

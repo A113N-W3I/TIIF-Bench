@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there chairs in the room?  ",
+    "Are there students in the room?  ",
+    "Does the image present a comparison logic: chairs are more than students?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are multiple chairs visible in the room.\nyes There are students present, identifiable by their seated positions and the context of the room.\nyes The number of chairs visibly exceeds the number of students in the image."
+}

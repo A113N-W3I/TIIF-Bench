@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a key in the image?  ",
+    "Is the key behind the girl?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because there is a person with long hair typically associated with a girl.\nyes, because she is holding a large key. \nno, because the key is held in front of her, not behind."
+}

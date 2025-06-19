@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes\nThe infographic has a title that reads 'Survey Results on Podcasts'.\nyes\nThe infographic uses a variety of bright and contrasting colors which can be described as vibrant.\nyes\nThere are multiple modern icon-style images scattered throughout the infographic.\nyes\nThe text appears to be in different sizes and styles, but overall it seems organized in a way that suggests clear typography.\nyes\nThere are sections and labels that imply statistics related to how often people might listen to podcasts.\nyes\nThere are icons and sections that seem to relate to different types of devices, suggesting a focus on statistics about what devices are used.\nyes\nSome icons and sections appear to point towards various topics, possibly indicating statistics about popular podcast themes.\nyes\nThe design layout is not cluttered, and elements are spaced out, indicating a clean design.\nyes\nThe organized presentation and choice of visual elements suggest a professional design approach.\nyes\nText and elements seem well-spaced and suitably sized for readability.\nyes\nThe numbers within the infographic appear large and distinct enough to be considered clear.\nyes\nThe numerical data in the infographic seems to be presented in a format that is legible and clear."
+}

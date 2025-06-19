@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because there is a loaf of bread visible in the image.\nyes, because there are multiple fish visible in the image.\nyes, because a computer is visible in the image.\nyes, because there are bags visible in the image.\nyes, because a bicycle is visible in the image.\nno, because there is not only one bread in the image.\nno, because there are not four fish in the image.\nyes, because there is one computer in the image.\nno, because there are more than two bags visible in the image.\nyes, because there is one bicycle visible in the image.\nno, because the computer appears to be a typical laptop.\nno, because the bicycle appears to be a typical bicycle."
+}

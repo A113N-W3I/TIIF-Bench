@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes Ukiyo-e is a genre of Japanese art that often features flat areas of color and distinct outlines, as well as a focus on nature or everyday themes, which are present in this image of a peacock."
+}

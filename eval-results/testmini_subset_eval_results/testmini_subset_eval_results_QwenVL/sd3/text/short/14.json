@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 14,
+  "questions": [
+    "Is the text 'JOy' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'PEACE' in the image?",
+    "Is the text 'HEALTH' in the image?",
+    "Is the text 'FAMILY' in the image?",
+    "Is the text 'HAPPINESS' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'Joy' is visible to the left of the Christmas tree.\nno The text is not 'Love', it is 'JOY'.\nyes The text 'PEACE' is present near the top on the right side.\nyes The text 'HEALTH' is visible below 'HAPPINES.'\nno The text 'FAMILY' is written at the bottom left, not as listed in the capital form as asked.\nyes The text 'HAPPINESS' appears multiple times on the right side of the image."
+}

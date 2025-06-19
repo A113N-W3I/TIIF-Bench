@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the image in Ghibli style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features a detailed and whimsical depiction of an old library filled with ethereal paper cranes, which aligns with the artistic and imaginative style commonly associated with Studio Ghibli's works."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no trinket box visible in the scene.\nno Since there is no trinket box, it cannot be pyramid-shaped.\nyes The scene depicts a long corridor which can be considered a hallway.\nno The hallway is not diamond-shaped; it appears linear and elongated.\nno The hallway walls are blue, but the hallway itself is not described as being blue."
+}

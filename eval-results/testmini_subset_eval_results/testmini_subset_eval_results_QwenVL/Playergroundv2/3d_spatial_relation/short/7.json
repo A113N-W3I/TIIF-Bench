@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a key in the image?  ",
+    "Is the key behind the girl?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a girl standing at what appears to be the entrance of a door.\nyes There is a key hanging on the wall to the left side of the image.\nno The key is not behind the girl; it is on the wall to her left side and in front of her from an observational perspective."
+}

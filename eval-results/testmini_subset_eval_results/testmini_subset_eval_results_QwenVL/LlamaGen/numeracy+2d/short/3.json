@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there microphones in the image?  ",
+    "Are there breads in the image?  ",
+    "Are there camels in the image?  ",
+    "Is the number of microphones 1?  ",
+    "Is the number of breads 3?  ",
+    "Is the number of camels 2?  ",
+    "Is the microphone on the bottom?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a device resembling a microphone in the image.\nno There are no breads; what appears are shaped like bread but are parts of a sculpture of a figure and lack true bread characteristics.\nno There is a sculpted figure resembling a camel, but it is not a real camel.\nno There is more than one object resembling a microphone in the image.\nno There are items that resemble bread but they are sculptural elements; they are not true loaves of bread.\nno There is only one sculpted figure resembling a camel in the image.\nno The objects resembling microphones are positioned around the central figure, not specifically on the bottom."
+}

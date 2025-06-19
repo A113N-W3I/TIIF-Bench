@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a llama in the image?  ",
+    "Is there a wooden chair in the image?  ",
+    "Is the llama lounging on the chair?  ",
+    "Is the llama fluffy?  ",
+    "Is the chair wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no There is no llama in the image; it appears to be a dog.\nno There is no wooden chair in the image; the chair has a wooden frame but is covered with fur.\nno There is no llama in the image, so it cannot be lounging on the chair.\nno The animal in the image is not a llama and does not appear fluffy; it looks like a dog with a shaggy coat.\nyes The chair has a wooden frame."
+}

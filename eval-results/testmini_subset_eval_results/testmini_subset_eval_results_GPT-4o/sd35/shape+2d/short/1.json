@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pear in the image?  ",
+    "Are there cushions in the image?  ",
+    "Is the pear round?  ",
+    "Are the cushions spherical?  ",
+    "Is the pear on the left of the cushions?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a pear in the image. It is a yellow and red speckled fruit located between two cushions.\nYes, there are cushions in the image. They are positioned on either side of the pear, and they appear soft and white.\nNo, the pear is not round. It has a typical pear shape, which is more bulbous at the bottom and narrow at the top.\nNo, the cushions are not spherical. They are more elliptical, as is typical for most cushions.\nYes, the pear is on the left of the right cushion."
+}

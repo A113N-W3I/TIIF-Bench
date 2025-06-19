@@ -1,0 +1,46 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bear in the image?  ",
+    "Are there cows in the image?  ",
+    "Is there a swan in the image?  ",
+    "Are there trucks in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of bears 4?  ",
+    "Is the number of cows 4?  ",
+    "Is the number of swans 1?  ",
+    "Is the number of trucks 2?  ",
+    "Is the number of sheep 3?  ",
+    "Are the bears and cows in front of the swan, trucks, and sheep?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, because there is a bear in the image.\nno, because there are no cows in the image.\nyes, because there is a swan in the image.\nyes, because there are trucks in the image.\nyes, because there is a sheep in the image.\nyes, because the number of bears is 4.\nno, because the number of cows is 0.\nyes, because the number of swans is 1.\nyes, because the number of trucks is 2.\nno, because the number of sheep is 2.\nyes, because the bears and cows (no cows present) are in front of the swan, trucks, and sheep."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 27,
+  "questions": [
+    "Is the text 'AND' in the image?",
+    "Is the text 'PROOFREADING' in the image?",
+    "Is the text 'PROOFREAD' in the image?",
+    "Is the text 'Spelling' in the image?",
+    "Is the text 'Grammar' in the image?",
+    "Is the text 'Accuracy' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the text 'AND' is not in the image. The text present does not include this word.  \nNo, the text 'PROOFREADING' is not in the image. There is no visible occurrence of this word.  \nNo, the text 'PROOFREAD' is not in the image. This word is not identifiable in the image.  \nNo, the text 'Spelling' is not in the image. This term is not discernible from the visible text.  \nNo, the text 'Grammar' is not in the image. This term does not appear in the content shown.  \nNo, the text 'Accuracy' is not in the image. This word is not present in the text displayed.  "
+}

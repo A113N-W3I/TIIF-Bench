@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The title \"Beeatatking CH POT!\" is significantly larger than the rest of the text.\nno There is not much spacing between the blocks of text, which can make it feel crowded.\nyes The use of bold text and contrasting background colors like pink and yellow makes certain elements stand out.\nyes The background resembles lined notebook paper, adding a thematic touch to the design.\nno There are no icons or images used; the visual depth is created mainly through text formatting and colors.\nno The text 'Breaking News! ChatGPT has become even stronger!' is not present in the image.\nno The text 'Better multitasking ✨' is not contained within the image.\nno The text 'Improved programming skills 💪' does not appear in the image.\nno The text 'Creativity off the charts 🎨' is not found in the image.\nno The phrase 'Try it now!' is not included in the text on the image.\nno The image appears to be square rather than in a 9:16 aspect ratio.\nno The text is somewhat clear but contains random phrases and scrambled words which detract from readability."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a gloves in the scene?",
+    "Are the gloves rubber?",
+    "Is there a mallet in the scene?",
+    "Is the mallet made of wood?",
+    "Are the rubber gloves yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there are gloves in the scene; the person is wearing them.\nYes, the gloves are rubber; they appear to be the kind typically made from rubber.\nYes, there is a mallet in the scene; the person is holding it.\nYes, the mallet is made of wood; the handle and head have a wooden texture.\nYes, the rubber gloves are yellow; the color of the gloves is yellow."
+}

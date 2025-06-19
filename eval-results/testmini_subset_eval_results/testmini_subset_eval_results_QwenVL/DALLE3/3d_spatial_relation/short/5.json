@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a refrigerator in the image?  ",
+    "Is there a plate in the image?  ",
+    "Is the refrigerator in front of the plate?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a large stainless steel refrigerator visible in the background.\nyes There is a white plate placed on a placemat on the table in the foreground.\nno The refrigerator is not in front of the plate; it is positioned behind the table where the plate is located."
+}

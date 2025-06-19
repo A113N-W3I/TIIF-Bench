@@ -1,0 +1,34 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a golden-haired, eyeglass-free elderly American man in the image? Answer with yes or no.",
+    "Is the elderly man presenting a gold medal in the image? Answer with yes or no.",
+    "Does the gold medal have 'USA’s Best BOY' engraved on it? Answer with yes or no.",
+    "Is there a middle-aged man with short dark hair in the image? Answer with yes or no.",
+    "Is the middle-aged man wearing a yellow t-shirt? Answer with yes or no.",
+    "Does the yellow t-shirt have the text 'Tarrif is the new trick' written in bold? Answer with yes or no.",
+    "Is the old person in the picture wearing glasses?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The elderly man has grey hair.\nyes He is placing a gold medal around the neck of the younger man.\nno The engraving reads 'USA's Best Boy'.\nyes There is a man who appears to be middle-aged with short dark hair.\nyes The middle-aged man is wearing a yellow t-shirt.\nyes The text 'Tariff is the new trick' is written in bold on the yellow t-shirt.\nno The elderly man is not wearing glasses."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a mirror in the image?  ",
+    "Is there an engagement ring in the image?  ",
+    "Is the mirror oval?  ",
+    "Is the ring in diamond shape?  ",
+    "Is the mirror behind the ring?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because there is a reflective surface that shows the ring's reflection.\nyes, there is a ring with a prominent gemstone indicating its use as an engagement ring.\nyes, the mirror is in an oval shape.\nyes, the gemstone on the ring is cut in a diamond shape.\nyes, the mirror is located behind the ring as it reflects the ring's image."
+}

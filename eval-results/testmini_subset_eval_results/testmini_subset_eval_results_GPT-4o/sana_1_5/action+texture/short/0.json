@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a woman in the image?  ",
+    "Are there books in the image?  ",
+    "Is the woman browsing the books?  ",
+    "Is the surface made of wood?  ",
+    "Are the books made of wood?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a woman in the image because there is a person with long hair and feminine attire.\nyes, there are books in the image because there are multiple books visible on the shelves and on the table.\nyes, the woman is browsing the books because she is looking down at an open book in front of her.\nyes, the surface is made of wood because the table has a wooden texture.\nno, the books are not made of wood because they appear to be made of paper, typical of books."
+}

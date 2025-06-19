@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there are shops on the left side of the image as evidenced by the windows displaying various items.\nno, there are no shops on the right side of the image, which shows a street lined with trees rather than storefronts.\nno, the image does not present a comparison logic of liveliness between shops on the left and right since there are no shops on the right to compare with."
+}

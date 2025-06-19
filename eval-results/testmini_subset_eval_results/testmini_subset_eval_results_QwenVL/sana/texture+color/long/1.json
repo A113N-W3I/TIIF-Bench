@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a kettle in the scene?",
+    "Is the kettle made of metal?",
+    "Is there a bag in the scene?",
+    "Is the bag made of fabric?",
+    "Is the fabric bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a recognizable kettle.\nno There is no kettle present to determine material.\nyes A bag-like object is visible in the center of the image.\nno The bag appears to be made of a reflective material, not fabric.\nno The bag has reflective properties and colors that do not suggest it is brown."
+}

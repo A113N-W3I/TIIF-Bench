@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an artist in the image?  ",
+    "Is there a palette in the image?  ",
+    "Is there a canvas in the image?  ",
+    "Is the artist holding a palette?  ",
+    "Is the artist next to the canvas?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There appears to be a person who seems to be engaged in the act of painting, suggesting they are an artist.\nyes A painter's palette is visible among the art supplies on the table beside the artist.\nyes There is a large painted backdrop behind the artist which can be considered as a type of canvas.\nno The artist is not holding a palette; instead, they are holding a paintbrush near their side.\nyes The artist is standing in front of a painted backdrop, indicating proximity to the canvas equivalent in this setup."
+}

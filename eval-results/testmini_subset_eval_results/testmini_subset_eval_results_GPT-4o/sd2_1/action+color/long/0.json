@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the image contains a ballerina.\nno, there is no iceberg in the image.\nno, the ballerina is not pirouetting on an iceberg.\nyes, the dress of the ballerina is red.\nno, there is no iceberg in the image to be brown."
+}

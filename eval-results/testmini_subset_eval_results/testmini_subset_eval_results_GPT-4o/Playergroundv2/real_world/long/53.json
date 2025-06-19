@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a wedding invitation card.\nno The card doesn't appear hefty with eggshell textures and embossings, but rather elegantly thin.\nno There are no abstract decorations representing the couple included on the card.\nyes The usage of iconography is sparing and minimalist on the card.\nno The invitation does not include the specified text about the union of Image and Text.\nno The typesetting appears artistic but the text is not entirely clear, hence imperfect typesetting.\nyes The invitation card is placed on a tasteful wooden desk.\nno The text in the generated picture is not clear and readable.\nno The picture does not contain the time information of March 25, 2025."
+}

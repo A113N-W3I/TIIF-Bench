@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a yellow object resembling a tennis ball in the scene.\nyes The object resembling a tennis ball appears to be spherical.\nyes There is a large red circular object that could be considered a picture in the context of this scene.\nno The large red object is not spherical; it is flat and circular like a disc.\nno The picture is not red; it is a large red object but not a picture."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a window sill in the image?  ",
+    "Is the cat napping?  ",
+    "Is the cat on top of the window sill?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cat in the image because a cat is visible.\nyes, there is a window sill in the image because the cat is lying on it by a window.\nyes, the cat is napping because its eyes are closed and it looks relaxed.\nyes, the cat is on top of the window sill because it is lying on it."
+}

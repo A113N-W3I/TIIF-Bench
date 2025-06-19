@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a cat in the scene?",
+    "Is the cat white in color?",
+    "Is there a bowl in the scene?",
+    "Is the bowl blue?",
+    "Is the table leather?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes the scene includes a cat sitting on what appears to be a chair facing away from a blue bowl\nyes the cat's fur is predominantly white in color\nyes there is a visible bowl placed on a surface in front of the cat\nyes the bowl has a blue interior visible from this angle\nno the table surface,而非皮革的，看起来是光滑和平面的材料 Finish translation: The surface of the table, rather than leather, looks like it's made of smooth and flat material"
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a nurse in the image?  ",
+    "Is there a vaccine in the image?  ",
+    "Is the nurse administering the vaccine?  ",
+    "Is the nurse's uniform green?  ",
+    "Is the background blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a nurse in the image; the person wearing a white coat and gloves is indicative of a nurse.\nYes, there is a vaccine in the image; the nurse is holding a syringe, which suggests a vaccine.\nNo, the nurse is not administering the vaccine; they are holding the syringe but not in the act of administering.\nYes, the nurse's uniform is green; one of the individuals is wearing a green uniform.\nNo, the background is not blue; there is a window with a landscape scene outside."
+}

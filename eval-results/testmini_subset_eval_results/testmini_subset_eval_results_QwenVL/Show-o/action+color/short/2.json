@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a nurse in the image?  ",
+    "Is there a vaccine in the image?  ",
+    "Is the nurse administering the vaccine?  ",
+    "Is the nurse's uniform green?  ",
+    "Is the background blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes the figure appears to be wearing a nurse-like uniform and is holding what looks like a vaccine vial.\nno the specific details indicating it is a vaccine, such as labeling or context, are not clear.\nno the individual is holding items that suggest preparation for administering a vaccine but is not actively doing so in this frame.\nyes the uniform worn by the nurse-like figure is green.\nyes the background of the image is blue."
+}

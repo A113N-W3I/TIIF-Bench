@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image is too distorted to identify a windbreaker.\nno, the image is too distorted to identify a sweater.\nno, it is impossible to determine if a windbreaker is on top of a sweater due to the distortion."
+}

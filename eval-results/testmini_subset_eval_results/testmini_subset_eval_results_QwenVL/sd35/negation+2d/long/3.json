@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a pond in the image?  ",
+    "Is the boy under a tree?  ",
+    "Is the boy on the side of the pond?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a figure that appears to be a boy standing near the water's edge.\nyes There is a body of still water visible which can be identified as a pond in the scene.\nno The boy is not positioned directly under a tree; he is beside it and closer to the center of the pond.\nno The boy is standing within the shallow part of the pond, not merely at the side."
+}

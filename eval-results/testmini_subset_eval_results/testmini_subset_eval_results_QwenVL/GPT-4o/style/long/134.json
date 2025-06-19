@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 134,
+  "questions": [
+    "Is the image in Pixel Art style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image displays a clear use of pixel art techniques, characterized by distinct square pixels making up the scene and characters.\n"
+}

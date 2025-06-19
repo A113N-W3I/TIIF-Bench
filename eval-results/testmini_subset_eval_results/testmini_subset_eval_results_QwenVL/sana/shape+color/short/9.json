@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The hat present is not a tennis hat but appears to be a bucket hat.\nno The hat is not conical; it has a wide brim and a flat top characteristic of a bucket hat.\nyes There is a bag visible over the person's shoulder.\nno The bag is not round; it appears to be more rectangular in shape.\nno The bag is not brown; it appears to be a light beige or tan color."
+}

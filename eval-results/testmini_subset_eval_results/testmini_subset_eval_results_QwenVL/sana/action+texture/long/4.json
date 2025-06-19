@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there rubber shoes in the image?  ",
+    "Is there a nurse in the image?  ",
+    "Is there a patient in the image?  ",
+    "Are there fabric blankets in the image?  ",
+    "Is the nurse comforting the patient?  ",
+    "Are the blankets made of fabric?  ",
+    "Are the shoes made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The shoes visible do not appear to be made of rubber.\nyes There is a figure dressed in what appears to be a nurse's uniform.\nyes There is a figure lying down that appears to be a patient.\nyes There are coverings over the patient that resemble fabric blankets.\nyes The nurse appears to be leaning towards the patient in a comforting manner.\nyes The coverings over the patient have the appearance of being made of fabric.\nno The shoes do not exhibit characteristics typical of rubber material."
+}

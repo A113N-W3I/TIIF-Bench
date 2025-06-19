@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a bed in the image?  ",
+    "Is the cat sleeping on the bed?  ",
+    "Is the cat on the side of the bed?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a depiction of a cat.\nno There is no clear representation of a bed in the image.\nno Since there is no bed present, the cat cannot be sleeping on it.\nno Without a bed in the image, the cat cannot be positioned on the side of a bed."
+}

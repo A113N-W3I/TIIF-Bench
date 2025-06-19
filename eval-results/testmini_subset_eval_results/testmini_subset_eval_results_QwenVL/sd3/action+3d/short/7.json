@@ -1,0 +1,25 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a hammock in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the hammock tied to something?  ",
+    "Is the hammock in front of the tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows a blue and green hammock suspended.\nyes A large tree with a thick trunk is visible.\nyes The hammock is attached to the tree using ropes.\nyes The hammock is positioned in front of the tree's trunk."
+}

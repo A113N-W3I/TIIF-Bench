@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image features abstract shapes and patterns, not a 3D illustration of a toilet.\nno The image does not have a soft beige, light gray, and warm orange color palette; it has a chaotic mix of colors.\nno The lighting does not appear soft and diffuse; the image seems to lack discernible lighting effects due to its abstract nature.\nno The surfaces in the image do not have a matte and smooth texture; they are part of an abstract and possibly fractured design.\nno There is no toilet in the image, so it cannot be centered with negative space around it.\nno The image lacks a clear perspective; it is an abstract arrangement of shapes.\nno There is no solid, low-saturation background; the entire image is filled with complex patterns.\nno There is no visible typography on the image.\nno The image does not contain gray text, therefore, it cannot have low contrast against the background.\nno There is no gray text present in the image."
+}

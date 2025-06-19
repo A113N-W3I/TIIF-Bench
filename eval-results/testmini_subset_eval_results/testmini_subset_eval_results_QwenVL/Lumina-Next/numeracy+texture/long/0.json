@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes this is an artistic rendering not a photograph of a real object.\nyes because an old-fashioned camera-like object is present.\nno there are no fish in the scene.\nyes a brown leather armchair is central to the composition.\nyes various lit candles are scattered throughout the scene.\nno there are two paddles visible but they are not the focus of the image.\nno there is one prominent camera and some camera parts but not four whole cameras.\nno there are no fish present in the image at all.\nno there is only one chair visible in the picture.\nyes there are four standing candles but more candles can be seen.\nno the paddles appear wooden not made of leather.\nno the camera appears metallic not plastic.\nno the chair seems to be made of wood and leather not plastic."
+}

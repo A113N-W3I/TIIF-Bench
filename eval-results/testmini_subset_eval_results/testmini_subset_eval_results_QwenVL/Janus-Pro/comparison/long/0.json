@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there chairs in the image?  ",
+    "Is there a table in the image?  ",
+    "Does the image present a comparison logic: chairs are more rickety than the table?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are multiple chairs visible against the wall and around the table in the room.\nyes A small, round table is visible near the right side of the image, with chairs around it.\nno The image does not provide a clear indication of the structural integrity of the furniture; thus, it cannot be determined that the chairs are more rickety than the table from visual inspection alone."
+}

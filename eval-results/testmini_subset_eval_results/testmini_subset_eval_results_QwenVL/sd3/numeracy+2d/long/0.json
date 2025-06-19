@@ -1,0 +1,22 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there strawberries in the image?  ",
+    "Is the number of strawberries 7?  ",
+    "Are the strawberries on the bottom edge?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are strawberries visible in the hand.\n yes The image clearly shows seven strawberries.\n no The strawberries are not located on the bottom edge; they are in the center of the hand."
+}

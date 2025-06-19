@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bag in the scene?",
+    "Is the bag made of plastic?",
+    "Is there a door in the scene?",
+    "Is the door made of wood?",
+    "Is the glow on the wooden door yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a crumpled plastic bag near the door.\nyes The bag appears to have a translucent, plastic-like appearance.\nyes A wooden door is partially open in the scene.\nyes The texture and grain suggest the door is made of wood.\nyes The glow appears as a warm yellow light through the door's glass panels."
+}

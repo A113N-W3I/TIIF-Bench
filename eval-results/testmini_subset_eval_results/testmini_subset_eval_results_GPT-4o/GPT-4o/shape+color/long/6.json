@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a bookend in the scene?",
+    "Is the bookend pyramid-shaped?",
+    "Is there a fig in the scene?",
+    "Is the fig shaped like a teardrop?",
+    "Is the pyramidal bookend blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, the image does not clearly depict a bookend; it shows a pyramid-shaped object, which could be a sculpture.\nyes, there is a pyramid-shaped object in the scene, which could be mistaken for a bookend.\nno, there is no fig visible in the scene; the image shows a plant with large leaves.\nno, there is no teardrop-shaped fig visible in the scene; the image features a different type of plant.\nyes, the pyramidal object in the scene is blue, consistent with the monochromatic color scheme."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace in the shape of a crescent?",
+    "Is there a strawberry in the scene?",
+    "Is the strawberry shaped like a teardrop?",
+    "Is the crescent necklace metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, there is no necklace visible in the scene. The object resembles more of a bracelet or chain due to its shape and size relative to the strawberry.\nno, the object in question is not in the shape of a crescent; it is more circular or looped as seen around the strawberry.\nyes, there is a strawberry in the scene. It is a central element in the image.\nyes, the strawberry is shaped like a teardrop, tapering at one end while rounded at the other.\nyes, the metallic-looking chain or bracelet is visible, suggesting that it is metallic due to its reflective texture and appearance."
+}

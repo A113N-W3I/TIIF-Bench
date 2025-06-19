@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a bagel in the scene. The image depicts what appears to be bagels on a countertop.\nYes, the bagel is round in shape. Bagels are typically round with a hole in the center, and the objects in the image conform to this description.\nNo, there is no melon in the scene. The image shows bagels, and no melons are visible.\nNo, the melon is not shaped like a teardrop. There is no melon in the scene, so this shape does not apply.\nNo, the bagel is not white. The bagels in the image are a golden-brown color."
+}

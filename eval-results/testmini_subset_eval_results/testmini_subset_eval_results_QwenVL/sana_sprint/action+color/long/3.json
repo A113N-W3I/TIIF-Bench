@@ -1,0 +1,31 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a yellow dog in the image?  ",
+    "Is there a gold dog in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the yellow dog chasing the gold dog?  ",
+    "Is the yellow dog colored yellow?  ",
+    "Is the gold dog colored gold?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a dog that appears to be yellow in color.\nyes The image contains a dog that appears to be gold in color.\nyes There is a large tree in the background of the image.\nno The yellow dog and the gold dog appear to be playing together rather than chasing.\nyes The dog described as yellow has fur that is predominantly yellow in hue.\nyes The dog described as gold has fur that is predominantly gold in hue."
+}

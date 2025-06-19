@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there trains in the image?  ",
+    "Is the number of trains 4?  ",
+    "Are there books in the image?  ",
+    "Is the number of books 2?  ",
+    "Are there cows in the image?  ",
+    "Is the number of cows 2?  ",
+    "Are there butterflies in the image?  ",
+    "Is the number of butterflies 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a visible train in the image.\nno There is only one train visible in the image.\nyes An open book is clearly visible in the foreground.\nno There is only one book visible in the image.\nyes Multiple cows can be seen near the train tracks.\nno There are more than two cows visible in the image.\nyes Numerous butterflies are flying around the scene.\nno There are more than four butterflies in the image."
+}

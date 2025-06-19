@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there mechanical keyboards in the image?  ",
+    "Is there a clear protective pouch in the image?  ",
+    "Does the image present a comparison logic: a mechanical keyboard with a clear protective pouch is newer than a mechanical keyboard without a clear pouch?  ",
+    "Is the newer mechanical keyboard on the bottom of the older one?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the image features a mechanical keyboard.\nyes, the image shows a clear protective pouch enclosing the keyboard.\nno, there is no indication of a comparison logic between different keyboards in this image.\nno, only one keyboard is visible, so there is no newer mechanical keyboard on the bottom of an older one."
+}

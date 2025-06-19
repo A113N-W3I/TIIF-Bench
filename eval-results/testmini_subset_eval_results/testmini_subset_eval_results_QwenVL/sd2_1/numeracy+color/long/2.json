@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there stools in the image?  ",
+    "Are there balloons in the image?  ",
+    "Are there bananas in the image?  ",
+    "Is the number of stools 1?  ",
+    "Is the number of balloons 4?  ",
+    "Is the number of bananas 3?  ",
+    "Are the balloons black in color?  ",
+    "Are the bananas yellow in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes there are stools in the image.\nyes there is a balloon in the image.\nno there are no bananas in the image, they appear as part of whimsical figures.\nno there are two stools, not one.\nno there is only one balloon, not four.\nno the bananas do not exist as separate entities; they are merged into characters.\nyes the balloon is black in color.\nno the banana-like elements are part of characters and are not standalone bananas."
+}

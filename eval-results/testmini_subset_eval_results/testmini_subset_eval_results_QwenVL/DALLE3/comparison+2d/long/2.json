@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Are there frogs in the image?  ",
+    "Does the image present a comparison logic: fish are more than frogs?  ",
+    "Are the fish and frogs on the top of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are multiple fish visible both above and below the water surface.\nyes There are several frogs sitting on lily pads in the image.\nyes The image shows a larger number of fish compared to the number of frogs.\nno The fish are not on the top of the image; they are depicted both above and below the water surface, while the frogs are on the top on lily pads."
+}

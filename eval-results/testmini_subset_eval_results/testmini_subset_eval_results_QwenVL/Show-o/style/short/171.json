@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 171,
+  "questions": [
+    "Is the image in Cyberpunk style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The building features neon signs, scaffolding, and a densely urban environment, which are characteristic elements of Cyberpunk aesthetics.\n"
+}

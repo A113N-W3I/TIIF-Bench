@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 29,
+  "questions": [
+    "Is the text 'School' in the image?",
+    "Is the text 'Kills' in the image?",
+    "Is the text 'My' in the image?",
+    "Is the text 'Vibe' in the image?",
+    "Is the text 'Rebel' in the image?",
+    "Is the text 'Bold' in the image?",
+    "Is the text 'Statement' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image shows 'Schol', not 'School'\nno, the image shows 'Kulles', not 'Kills'\nyes, the image contains the text 'My'\nyes, the image contains the text 'Vibe'\nno, the image shows 'Teul', not 'Rebel'\nno, the image does not contain the text 'Bold'\nno, the image does not contain the text 'Statement'"
+}

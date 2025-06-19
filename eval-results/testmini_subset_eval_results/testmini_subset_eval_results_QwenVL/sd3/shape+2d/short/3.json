@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no the image shows a knife with a square blade, not a pizza cutter\nno there is no jewelry appraisal in the image\nno the item in the image is a knife with a square blade, not a pizza cutter\nno there is no jewelry appraisal in the image to assess its shape\nno there is neither a pizza cutter nor a jewelry appraisal in the image"
+}

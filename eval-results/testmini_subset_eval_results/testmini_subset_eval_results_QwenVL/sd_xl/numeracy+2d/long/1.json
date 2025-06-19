@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there airplanes in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there lamps in the image?  ",
+    "Is the number of airplanes 4?  ",
+    "Is the number of clocks 3?  ",
+    "Is the number of lamps 2?  ",
+    "Are the airplanes near the clocks?  ",
+    "Are the clocks near the lamps?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are airplanes depicted in the sky.\nyes There are clocks visible in the image.\nyes There are lamps present in the scene.\nno The image shows more than four airplanes.\nno There are two clocks, not three.\nyes There are two lamps in the image.\nno The airplanes are in the sky, not near the clocks.\nno The clocks and lamps are on a surface, not near the airplanes in the sky."
+}

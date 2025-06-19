@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a large teddy bear wearing a bow tie in the image?  ",
+    "Is there a small teddy bear wearing a party hat in the image?  ",
+    "Does the image present a differentiation logic: one teddy bear is large and wears a bow tie, while another teddy bear is small and wears a party hat?  ",
+    "Is the large teddy bear wearing a bow tie hiding the small teddy bear wearing a party hat?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a large teddy bear wearing a bow tie in the image.\nyes, there is a small teddy bear wearing a party hat in the image.\nyes, the image presents a differentiation logic: one teddy bear is large and wears a bow tie, while another teddy bear is small and wears a party hat.\nno, the large teddy bear wearing a bow tie is not hiding the small teddy bear wearing a party hat."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image does not contain the text 'CARD'.\nno, the image does not contain the text 'CLIP'.\nno, the image does not contain the text 'with'.\nno, the image does not contain the text 'Finger'.\nno, the image does not contain the text 'Blister'."
+}

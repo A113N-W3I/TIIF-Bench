@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bag in the scene?",
+    "Is the bag made of plastic?",
+    "Is there a door in the scene?",
+    "Is the door made of wood?",
+    "Is the glow on the wooden door yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bag in the scene because a bag is visible in front of the door.\nYes, the bag is made of plastic because it exhibits a glossy, transparent appearance typical of plastic bags.\nYes, there is a door in the scene because a door is prominently displayed in the image.\nYes, the door is made of wood because the texture and appearance suggest wood construction.\nYes, the glow on the wooden door is yellow because the lighting on the door casts a warm yellow hue."
+}

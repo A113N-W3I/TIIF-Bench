@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 27,
+  "questions": [
+    "Is the text 'AND' in the image?",
+    "Is the text 'PROOFREADING' in the image?",
+    "Is the text 'PROOFREAD' in the image?",
+    "Is the text 'Spelling' in the image?",
+    "Is the text 'Grammar' in the image?",
+    "Is the text 'Accuracy' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'AND' is visible in the image as part of a checklist item.\nyes The text 'PROOFREADING' is visible in the image as part of a checklist item.\nyes The text 'PROOFREAD' is visible in the image as part of a checklist item.\nyes The text 'Spelling' is visible in the image as part of a checklist item.\nyes The text 'Grammar' is visible in the image as part of a checklist item.\nyes The text 'Accuracy' is visible in the image as part of a checklist item."
+}

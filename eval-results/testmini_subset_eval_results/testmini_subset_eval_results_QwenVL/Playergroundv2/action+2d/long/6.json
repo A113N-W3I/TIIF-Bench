@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a bed in the image?  ",
+    "Is the cat sleeping on the bed?  ",
+    "Is the cat on the side of the bed?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because there is a visible feline with fur patterns resembling a cat.\nyes because the cat is lying on what appears to be bedding with pillows and covers.\nyes because the cat's relaxed posture and closed eyes indicate it is sleeping on the bed.\nno because the cat is lying in the middle of the bed rather than on the side."
+}

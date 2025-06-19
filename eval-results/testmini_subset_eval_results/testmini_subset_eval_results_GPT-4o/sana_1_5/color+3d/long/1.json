@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a timer in the image?  ",
+    "Is there a horse in the image?  ",
+    "Is the timer white?  ",
+    "Is the horse white?  ",
+    "Is the timer behind the horse?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a timer in the image because a timer is visible at the bottom right corner.\nYes, there is a horse in the image because a horse is prominently visible in the center.\nYes, the timer is white because the face of the timer is white.\nYes, the horse is white because the horse in the image is white.\nNo, the timer is not behind the horse because it is positioned in front of the horse's legs."
+}

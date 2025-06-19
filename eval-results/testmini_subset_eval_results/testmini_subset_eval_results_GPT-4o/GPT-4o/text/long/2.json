@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the text 'Recycle' is on a green square in the image.\nyes, the text 'Sustain' is on a yellow square in the image.\nyes, the text 'Renew' is on a teal square in the image.\nyes, the text 'Choose' is part of 'choose wisely' in the image.\nyes, the text 'wisely' is part of 'choose wisely' in the image.\nyes, the text 'Eco-friendly' is on a yellow rectangle in the image.\nno, the text 'Green' is not separate but part of 'green living' in the image.\nyes, the text 'living' is part of 'green living' in the image.\nyes, the text 'Minimalism' is separated as 'minimalism' in the image."
+}

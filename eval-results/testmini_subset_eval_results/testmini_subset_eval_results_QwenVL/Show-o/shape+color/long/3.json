@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a green object resembling a tennis ball in the scene.\nyes The tennis ball is clearly spherical.\nno There is no picture present in the scene.\nno The question about the picture being spherical is not applicable as there is no picture in the scene.\nno There is no picture in the scene, so it cannot be red."
+}

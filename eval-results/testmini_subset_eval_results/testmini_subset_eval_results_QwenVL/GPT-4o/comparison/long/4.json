@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are visible signs indicating shops such as \"SALE\" and \"OPEN\" on the left side.\nyes There is a sign that says \"SHOP\" on the right side, indicating the presence of shops.\nyes The shops on the left have more people around them and brighter lights, suggesting they are livelier compared to the shops on the right."
+}

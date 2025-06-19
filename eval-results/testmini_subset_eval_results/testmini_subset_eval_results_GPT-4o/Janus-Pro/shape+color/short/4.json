@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a bagel in the scene. It is positioned next to a melon near the window.\nyes, the bagel is round in shape. It has a circular form typical of bagels.\nyes, there is a melon in the scene. It is adjacent to the bagel and has a typical melon appearance.\nno, the melon is not shaped like a teardrop. It has more of a spherical shape.\nyes, the bagel is white. It appears to have a light, white coloring."
+}

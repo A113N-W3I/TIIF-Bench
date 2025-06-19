@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a bell in the image?  ",
+    "Is there a dog in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, because there is no bell in the image.\nyes, because there is a dog in the image.\nno, because there is no bell in the image to compare with the dog."
+}

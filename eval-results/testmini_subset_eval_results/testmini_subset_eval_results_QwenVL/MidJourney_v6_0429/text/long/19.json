@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the text 'Unite' in the image?",
+    "Is the text 'Perform' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Strive' in the image?",
+    "Is the text 'Inspire' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Commit' in the image?",
+    "Is the text 'Create' in the image?",
+    "Is the text 'Lead' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no 'Unite' is not in the image.\nyes 'Perform' is visible in the phrase 'Perfomm, Dream'.\nyes 'Dream' is part of the text 'Perfomm, Dream,'.\nyes 'Strive' appears twice in the listed words.\nno 'Inspire' is not present in the visible text.\nyes 'Shine' is included in the list of words.\nyes 'Commit' is seen in the text as 'Comm@te'.\nyes 'Create' is not there, but 'Creat' is visible.\nyes 'Lead' is at the end of the word list."
+}

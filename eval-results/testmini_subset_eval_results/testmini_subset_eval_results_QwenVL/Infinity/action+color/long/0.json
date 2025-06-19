@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a person in a ballet pose wearing a tutu.\nyes There is a large ice formation in the background which can be identified as an iceberg.\nno The ballerina is standing on a rock that appears to be floating on water, not directly on the iceberg.\nyes The ballerina's dress is clearly red in color.\nno The iceberg is not brown; it has shades of blue and white."
+}

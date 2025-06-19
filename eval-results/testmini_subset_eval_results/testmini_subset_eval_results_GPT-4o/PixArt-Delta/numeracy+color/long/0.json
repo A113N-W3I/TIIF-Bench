@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there pigs in the image?  ",
+    "Are there shrimp in the image?  ",
+    "Is there a cake in the image?  ",
+    "Is there a menu in the image?  ",
+    "Is the number of pigs 2?  ",
+    "Is the number of shrimp 4?  ",
+    "Is the number of cake 1?  ",
+    "Are the pigs yellow in color?  ",
+    "Are the shrimp yellow in color?  ",
+    "Are the cake brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there are no real pigs in the image, they seem to be pastries or edible decorations.\nno, there are no shrimp in the image.\nno, there is no cake in the image.\nno, there is no menu in the image.\nno, the number of pigs is not 2, it is 3.\nno, the number of shrimp is not 4, there are no shrimp.\nno, the number of cake is not 1, there is no cake.\nyes, the pigs are yellow in color.\nno, there are no shrimp to be yellow in color.\nno, there is no cake to be brown in color."
+}

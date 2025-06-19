@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pillow in the image?  ",
+    "Is there an armchair in the image?  ",
+    "Is there a small side table in the image?  ",
+    "Is the pillow perched on the armchair?  ",
+    "Is the armchair in front of the small side table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no pillow visible in the image; a blanket is draped over the chair instead.\nyes An armchair is clearly visible in the image.\nno There is no small side table present in the image.\nno Since there is no pillow in the image, it cannot be perched on the armchair.\nno Without a small side table in the image, it cannot be positioned in front of the armchair."
+}

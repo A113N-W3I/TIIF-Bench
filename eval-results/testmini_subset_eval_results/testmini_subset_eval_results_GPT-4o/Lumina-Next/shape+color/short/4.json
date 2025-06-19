@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no bagel in the scene; only a croissant-like pastry is visible.\nno, there is no bagel present to have a shape, and the seen pastry is not round.\nno, there is no melon visible; there is a round greenish object which appears to be an apple.\nno, there is no melon present in the image, and the apple-like object is round, not teardrop-shaped.\nno, there is no bagel visible to describe as white; the visible pastry is brownish."
+}

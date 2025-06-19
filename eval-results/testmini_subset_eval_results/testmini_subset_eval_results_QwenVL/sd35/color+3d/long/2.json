@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cup in the image?",
+    "Is there a toilet in the image?",
+    "Is the cup blue?",
+    "Is the toilet blue?",
+    "Is the cup behind the toilet?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a cup visible on a surface in the image.\nyes There is a toilet depicted next to the cup in the image.\nyes The cup appears to be blue in color.\nyes The toilet has a blue color as well.\nno The cup is placed in front of the toilet, not behind it."
+}

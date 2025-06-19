@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pear in the image?  ",
+    "Are there cushions in the image?  ",
+    "Is the pear round?  ",
+    "Are the cushions spherical?  ",
+    "Is the pear on the left of the cushions?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a pear in the image, as two pear-shaped fruits are visible.  \nNo, there are no cushions in the image, as the visible objects are fruits.  \nNo, the pear is not round, as it has an elongated, irregular shape.  \nNo, the cushions are not spherical, as no cushions are present.  \nNo, the pear is not on the left of the cushions, as no cushions exist in the image.  "
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a chimney in the image?  ",
+    "Is there smoke rising from the chimney?  ",
+    "Is the chimney metallic in texture?  ",
+    "Is the structure wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a cylindrical structure protruding from the roof that serves as a chimney.\nyes Visible white vapor is ascending from the top of the chimney.\nyes The chimney has a smooth, reflective surface indicative of a metallic texture.\nyes The visible parts of the building exhibit a wooden plank texture."
+}

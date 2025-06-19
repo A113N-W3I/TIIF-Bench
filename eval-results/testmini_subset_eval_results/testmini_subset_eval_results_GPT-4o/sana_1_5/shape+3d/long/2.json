@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "No, there is no soccer ball in the image; instead, there is a spherical object with a decorative pattern.\nYes, there is an ottoman in the image; it is the rectangular structure on which the spherical object rests.\nYes, the object has a spherical shape, as it is round and three-dimensional.\nNo, the ottoman is not cubic in shape; it appears more like a rectangular cuboid.\nYes, the spherical object is in front of the ottoman, as it rests on top of the ottoman."
+}

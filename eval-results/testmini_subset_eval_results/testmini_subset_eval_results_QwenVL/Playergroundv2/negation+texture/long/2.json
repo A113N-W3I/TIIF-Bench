@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no the mountain is rocky, not wooden\nyes there is visible snow on the mountain's peak\nno the mountain appears rocky, not wooden in texture\nno the surface around the mountain is snowy, not rubber in texture"
+}

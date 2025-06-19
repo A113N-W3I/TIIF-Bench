@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a city intersection in the image?  ",
+    "Are there blue cars in the image?  ",
+    "Is there a city intersection with blue cars?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no - The image is an abstract or artistic depiction resembling a city, not a real city intersection.\nyes - There are blue areas in the image that could be interpreted as cars due to their shape and placement.\nno - The depiction is abstract and does not clearly represent a city intersection with blue cars in a traditional sense."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no There is no rubber ball in the image; instead, there is an ornate sphere attached to a key.\nyes There is a metallic key in the image, decorated and connected to a complex spherical object.\nno The sphere, which could be mistaken for a rubber ball, is not made of rubber; it appears to be metallic with intricate designs.\nyes The key in the image is made of metal, as indicated by its shiny surface and detailing.\nno The sphere is not on the bottom; it is positioned above the part of the key that would be inserted into a lock.\nyes The metallic key's lower part, resembling what would fit into a lock, is at the bottom of the image."
+}

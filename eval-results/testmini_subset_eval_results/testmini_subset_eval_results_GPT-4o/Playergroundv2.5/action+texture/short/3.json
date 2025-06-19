@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a dog in the image?  ",
+    "Are the boy and the dog standing on a beach?  ",
+    "Is the boy made of fabric?  ",
+    "Does the dog have a fabric collar?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because there is a child who appears to be a boy in the image.\nyes, because there is a dog standing next to the boy in the image.\nyes, because the boy and dog are standing on sand with the ocean in the background, which resembles a beach.\nno, because the boy appears to be a real human, not made of fabric.\nno, because the dog appears to have a real collar, not a fabric one."
+}

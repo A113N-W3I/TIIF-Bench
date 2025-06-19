@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a steak in the image?  ",
+    "Does the fork pierce the steak?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no fork in the image. The patterns do not resemble a fork.\nNo, there is no steak in the image. There is no element that resembles a steak.\nNo, the fork does not pierce the steak, as there is no fork nor steak in the image."
+}

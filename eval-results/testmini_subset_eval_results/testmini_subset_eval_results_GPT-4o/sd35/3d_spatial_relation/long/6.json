@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the desk behind the cup?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a cup in the image as it is visible on the desk.\nyes, there is a desk in the image as it serves as the surface for the cup.\nno, the desk is not behind the cup as the cup is positioned on the desk."
+}

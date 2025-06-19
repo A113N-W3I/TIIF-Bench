@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "No  \nThe model is holding a product but not actively applying cream to their face.  \n\nYes  \nThe image conveys a sense of relaxation and self-care through its composition and colors.  \n\nYes  \nSoft, natural lighting effectively highlights the model’s skin and the product.  \n\nYes  \nThe background includes pastel tones, notably blush pink.  \n\nNo  \nThere is no visible text overlay reading 'Glow Naturally' or '[Wish Glow] Skincare'.  \n\nNo  \nThere are no minimalistic icons like leaves and droplets included in the image.  \n\nYes  \nThe focus appears to be on the glowing skin and the held product.  \n\nYes  \nThe image creates an aspirational yet approachable aesthetic through its design.  \n\nNo  \nThere is no visible face cream applied to the model’s skin.  \n\nYes  \nThe limbs and face of the model appear natural in the image.  "
+}

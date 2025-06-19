@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image clearly shows a card with silhouettes that resemble a groom and bride, typical for wedding invitations.\nno While the card appears to have some texture, there is no explicit depiction indicating it's eggshell-based or heavily embossed.\nyes The silhouette designs at the bottom abstractly represent the couple, adding an elegant decoration to the card.\nyes The use of iconography is minimal, primarily showing a silhouette of the couple, aligning with a minimalist aesthetic.\nno The visible text does not mention a specific \"union of Image and Text.\"\nyes The text appears well-aligned with sufficient spacing between lines and letters, suggesting good typesetting.\nyes The card is visibly set upon what looks like a wooden desk surface.\nyes The text on the invitation card is legible and clear within the image.\nyes The specified date 'March 25, 2025' is present as part of the invitation details.\n"
+}

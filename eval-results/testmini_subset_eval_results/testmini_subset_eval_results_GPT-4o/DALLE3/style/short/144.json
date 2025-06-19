@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 144,
+  "questions": [
+    "Is the image in Pixel Art style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes, the image displays characteristics of Pixel Art, such as the use of low resolution and visible pixels forming the artwork."
+}

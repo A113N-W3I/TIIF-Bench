@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a car in the image?  ",
+    "Does the car have front wheels?  ",
+    "Is the car red in color?  ",
+    "Is anything else red in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a visible vehicle resembling a car.\nyes, the car has visible front wheels.\nyes, the car appears to be red.\nno, nothing else in the image appears to be red."
+}

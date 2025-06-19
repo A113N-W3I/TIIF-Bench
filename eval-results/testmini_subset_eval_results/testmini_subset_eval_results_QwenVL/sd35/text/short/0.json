@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is the text 'drink' in the image?",
+    "Is the text 'tea' in the image?",
+    "Is the text 'eat' in the image?",
+    "Is the text 'cake' in the image?",
+    "Is the text 'relax' in the image?",
+    "Is the text 'enjoy' in the image?",
+    "Is the text 'delight' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The word 'drink' is present to the left of the tea cup.\nyes The word 'tea' appears below 'drink', next to the steaming cup.\nyes The word 'eat' is visible below 'tea', preceding 'cake'.\nyes The word 'cake' follows 'eat', above a slice of cake.\nyes The word 'relax' is located at the bottom center of the image.\nyes The word 'enjoy' is at the lower right, just before 'delight'.\nyes The word 'delight' is positioned at the lower right corner, after 'enjoy'."
+}

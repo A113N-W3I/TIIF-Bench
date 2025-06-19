@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes. The image shows a jacket with a shiny surface and a hood, which is characteristic of a windbreaker.\nyes. The image shows dark fabric at the cuffs, suggesting the presence of a sweater underneath the jacket.\nyes. The jacket is worn over the dark cuffed garment, indicating the windbreaker is on top of the sweater."
+}

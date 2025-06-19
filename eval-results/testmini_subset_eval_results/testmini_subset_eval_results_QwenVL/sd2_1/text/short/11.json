@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 11,
+  "questions": [
+    "Is the text 'Miami' in the image?",
+    "Is the text 'Trance' in the image?",
+    "Is the text '2014' in the image?",
+    "Is the text 'Event' in the image?",
+    "Is the text 'Neon' in the image?",
+    "Is the text 'Beats' in the image?",
+    "Is the text 'Vibes' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The neon sign prominently displays 'Miami'.\nno There is no visible text 'Trance' in the image.\nno The year '2014' is not present in the image.\nno The word 'Event' does not appear in the image.\nyes The neon color scheme and style suggest 'Neon' is a theme.\nno The text 'Beats' is not present in the image.\nno There is no text 'Vibes' visible in the image."
+}

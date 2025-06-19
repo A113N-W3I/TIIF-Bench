@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 166,
+  "questions": [
+    "Is the image in Cyberpunk style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features a character dressed in futuristic attire, set against a neon-lit urban backdrop typical of the Cyberpunk genre, which includes advanced technology and low life.\n"
+}

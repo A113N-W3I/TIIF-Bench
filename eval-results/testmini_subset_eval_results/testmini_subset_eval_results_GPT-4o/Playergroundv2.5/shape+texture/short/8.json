@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a salt shaker in the scene?",
+    "Is the salt shaker cylindrical in shape?",
+    "Is there a gemstone in the scene?",
+    "Is the gemstone spherical in shape?",
+    "Is the cylindrical salt shaker plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no salt shaker visible in the scene.\nno, there is no salt shaker visible to determine its shape.\nno, there is no gemstone visible in the scene.\nno, there is no gemstone visible to determine its shape.\nno, there is no salt shaker visible to determine its material."
+}

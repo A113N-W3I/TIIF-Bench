@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image clearly displays a card with traditional wedding invitation elements.\nyes The card appears to have a textured surface suggesting eggshell qualities and features raised designs indicative of embossing.\nyes The card includes intricate patterns at the corners and borders which could be seen as abstract representations of elegance associated with couples.\nno The card uses detailed and ornate decorations rather than a minimalist approach.\nno The card does not explicitly mention a text about the union of Image and Text; it appears to focus on the event details.\nno While the text seems well-arranged, some parts might be stylized for aesthetics potentially impacting readability.\nyes The card is presented on what looks like a polished wooden surface, which adds a tasteful backdrop.\nyes The text is designed to be clear and legible within the stylistic choices made for the invitation.\nno The specific date of March 25, 2025 is not visible on the invitation card."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there televisions in the image?  ",
+    "Is the number of televisions 1?  ",
+    "Are there camels in the image?  ",
+    "Is the number of camels 3?  ",
+    "Are there chickens in the image?  ",
+    "Is the number of chickens 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there are no televisions in the image.\nno, there are no televisions in the image, so the number of televisions is not 1.\nyes, there are camels in the image.\nno, there are 5 camels in the image, not 3.\nno, there are no chickens in the image.\nno, there are no chickens in the image, so the number of chickens is not 4."
+}

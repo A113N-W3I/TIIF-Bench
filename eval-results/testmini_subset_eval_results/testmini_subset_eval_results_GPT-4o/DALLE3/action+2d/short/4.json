@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because the image shows a person with long hair wearing a winter outfit which is typically associated with girls.\nyes, a snowman is present in the image.\nno, the girl is holding a snowball but is not necessarily engaging in a snowball fight.\nno, the snowman is positioned to the left from the center of the girl."
+}

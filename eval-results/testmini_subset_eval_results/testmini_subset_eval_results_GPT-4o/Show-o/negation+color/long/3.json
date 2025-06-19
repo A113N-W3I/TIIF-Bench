@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a hand in the image?  ",
+    "Are there gloves in the image?  ",
+    "Are the hands wearing the gloves?  ",
+    "Are the hands orange in color?  ",
+    "Are the gloves white in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the image contains hands as seen in the foreground.\nyes, the image shows gloves covering the hands.\nyes, the gloves are worn on the hands in the image.\nyes, the exposed hands are orange as seen above the gloves.\nyes, the gloves are white, covering from the wrist area."
+}

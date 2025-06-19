@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a magician in the image?  ",
+    "Is there a rabbit in the image?  ",
+    "Is there a hat in the image?  ",
+    "Is the magician pulling the rabbit?  ",
+    "Is the rabbit being pulled from the hat?  ",
+    "Are the gloves made of leather?  ",
+    "Is the hat made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The individual is dressed in traditional magician attire.\nyes A white rabbit is being held by the person.\nyes The person is wearing a top hat, typical of magicians.\nno The magician is holding the rabbit in his hands, not pulling it.\nno The rabbit is not inside or coming out of the hat; it's in the magician's hands.\nno The gloves appear to be part of a tuxedo, likely not leather.\nno The hat appears to be a traditional fabric top hat, not plastic."
+}

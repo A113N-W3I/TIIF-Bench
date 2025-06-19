@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there an umbrella in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is the umbrella open?  ",
+    "Is the umbrella positioned in front of the chair?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a partially visible umbrella in the image.\nno There is no chair present in the image.\nyes The umbrella appears to be open as part of it is extended outward.\nno There is no chair in the image, so the umbrella cannot be positioned in front of it."
+}

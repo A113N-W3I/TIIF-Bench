@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a gorgeous metallic vinyl record player in the image?  ",
+    "Is there a smaller, older metallic vinyl record player in the image?  ",
+    "Does the image present a differentiation logic: one vinyl record player is gorgeous, while the other is smaller and older?  ",
+    "Is the gorgeous vinyl record player metallic?  ",
+    "Is the smaller, older vinyl record player metallic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the image does not contain a separate gorgeous metallic vinyl record player; it only depicts one player that is metallic and attractive.\nno, there is no smaller, older metallic vinyl record player in the image; the image only contains one vinyl record player.\nno, the image does not present a differentiation logic between two players; it only shows one vinyl record player.\nyes, the vinyl record player in the image appears metallic; it has a shiny and sleek metal finish.\nno, there is not another smaller, older metallic vinyl record player depicted in the image."
+}

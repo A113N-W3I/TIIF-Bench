@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 118,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The characters and environment in the image do not share specific artistic traits typically associated with Disney style, such as the particular shade of pastel colors, signature character designs, or classic animation techniques intrinsic to Disney productions.\n"
+}

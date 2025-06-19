@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no identifiable cushion in the scene.\nno, there is no spherical cushion in the scene.\nno, there is no identifiable bookstand in the scene.\nno, there is no conical bookstand in the scene.\nno, there is no blue bookstand in the scene."
+}

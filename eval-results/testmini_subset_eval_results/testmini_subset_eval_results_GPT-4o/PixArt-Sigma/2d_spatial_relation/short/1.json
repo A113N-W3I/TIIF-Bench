@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a pig in the image?  ",
+    "Is the cup on the left of the pig?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because there is a cup visible in the image.\nyes, because there is a pig visible in the image.\nno, because the cup is on the right of the pig."
+}

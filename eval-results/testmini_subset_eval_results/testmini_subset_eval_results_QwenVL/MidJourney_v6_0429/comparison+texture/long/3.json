@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "long_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a metallic Bengal tiger in the image?  ",
+    "Is there a wooden Bengal tiger in the image?  ",
+    "Does the image present a comparison logic: a Bengal tiger in the shade looks stronger than another Bengal tiger not in the shade?  ",
+    "Is the Bengal tiger in the shade metallic in texture?  ",
+    "Is the Bengal tiger not in the shade wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a metallic Bengal tiger visible in the foreground.\nno There is no wooden Bengal tiger depicted in the image.\nyes The larger tiger, which appears metallic and is partially shaded, gives an impression of greater strength due to its material and lighting compared to the smaller tiger.\nyes The tiger in the shade has a metallic appearance with reflective qualities.\nno The tiger not in the shade is not wooden; it has a striped pattern suggesting fur texture, not wood."
+}

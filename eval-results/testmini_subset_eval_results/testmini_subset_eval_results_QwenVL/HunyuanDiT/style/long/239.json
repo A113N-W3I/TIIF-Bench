@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 239,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features architectural elements, such as the pagoda-style tower and traditional walls, which are indicative of Chinese style. Additionally, the natural elements like the red maple trees and the landscape align with common themes in Chinese art and architecture."
+}

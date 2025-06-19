@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the text 'Corporate' is in the image on the glass door.\nYes, the text 'DISC' is in the image on the glass door.\nNo, the text 'Workshop' is not in the image.\nYes, the text 'THE' is in the image on the glass door.\nYes, the text 'BIZ' is in the image on the glass door.\nNo, the text 'STUDIO' is not in the image; it appears as 'SUUO' instead."
+}

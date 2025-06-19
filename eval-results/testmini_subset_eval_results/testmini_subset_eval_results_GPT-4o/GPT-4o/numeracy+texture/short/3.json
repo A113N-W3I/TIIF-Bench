@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there flags in the image?  ",
+    "Are there butterflies in the image?  ",
+    "Are there bananas in the image?  ",
+    "Are there apples in the image?  ",
+    "Is the number of flags 2?  ",
+    "Is the number of butterflies 3?  ",
+    "Is the number of bananas 4?  ",
+    "Is the number of apples 2?  ",
+    "Are the flags made of fabric?  ",
+    "Are the apples fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are flags in the image depicting the European Union and Canada.\nyes, there are butterflies in the image with a total of five butterflies visible.\nyes, there are bananas in the image with three bananas displayed.\nyes, there are apples in the image with two apples visible.\nyes, the number of flags is 2, as the image contains flags of the European Union and Canada.\nno, the number of butterflies is not 3, as there are five butterflies in the image.\nno, the number of bananas is not 4, as there are three bananas in the image.\nyes, the number of apples is 2, as there are two apples in the image.\nyes, the flags appear to be made of fabric based on their visual texture.\nno, the apples are not fluffy; they are depicted with a smooth texture."
+}

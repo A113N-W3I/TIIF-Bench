@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a plant holder in the image?  ",
+    "Is the plant holder made of wood?  ",
+    "Are the clouds behind the plant holder?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the image does not contain any actual clouds; the white fluffy object is part of the plant but resembles a cloud.\nyes, the image contains a plant holder situated at the bottom of the plants.\nyes, the plant holder appears to be made of wood, as indicated by its texture and appearance.\nno, the clouds are not behind the plant holder; the cloud-resembling object is part of the plant itself."
+}

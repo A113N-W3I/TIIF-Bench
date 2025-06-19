@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a bookshelf in the image?  ",
+    "Is there a shelf in the image?  ",
+    "Is the bookshelf in shape of diamond?  ",
+    "Is the shelf pentagonal?  ",
+    "Is the bookshelf on the top of the shelf?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is a shelf in the image, not a bookshelf.\nyes, there is a shelf in the image, holding multiple books.\nyes, the shelf is designed in the shape of a diamond.\nno, the shelf is not pentagonal in shape; it is diamond-shaped.\nno, the bookshelf is not on top of the shelf; it's integrated within the diamond shape."
+}

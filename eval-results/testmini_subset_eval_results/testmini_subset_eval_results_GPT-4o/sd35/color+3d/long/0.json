@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a toilet in the image?  ",
+    "Is there a sign in the image?  ",
+    "Is the toilet brown?  ",
+    "Is the sign green?  ",
+    "Is the toilet behind the sign?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a toilet in the image. It can be seen directly in front of the green wall.\nYes, there is a sign in the image. It is mounted on the wall above the toilet.\nYes, the toilet is brown. It appears to be a brown color against the green background.\nYes, the sign is green. It has white lettering on a green background.\nNo, the toilet is not behind the sign. The toilet is in front of the wall, below the sign, and clearly visible."
+}

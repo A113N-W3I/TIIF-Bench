@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The breaking news text is significantly larger than other texts present.\nno The text appears to overlap and crowd together without clear paragraph separations.\nyes The text uses bright and contrasting colors that stand out against the background.\nyes The background has elements resembling notebooks and digital interfaces.\nyes The icons used complement the design without overwhelming it.\nno The specific phrase 'Breaking News! ChatGPT has become even stronger!' is not present in this format.\nyes The phrase 'Better multitasking ✨' is visible in the image.\nno The text 'Improved programming skills 💪' does not appear in the image.\nno There is no text saying 'Creativity off the charts 🎨'.\nyes The text 'Try it now!' can be seen towards the bottom.\nno The dimensions of the image suggest it is not formatted for a 9:16 aspect ratio.\nno The text includes distorted and unclear parts making it not fully readable."
+}

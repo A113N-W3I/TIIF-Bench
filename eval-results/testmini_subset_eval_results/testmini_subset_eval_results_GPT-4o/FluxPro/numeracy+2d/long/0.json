@@ -1,0 +1,22 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there strawberries in the image?  ",
+    "Is the number of strawberries 7?  ",
+    "Are the strawberries on the bottom edge?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because there are strawberries in the image.\nno, because the number of strawberries in the image is 5.\nno, because the strawberries are positioned slightly above the bottom edge."
+}

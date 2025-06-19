@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image depicts various objects in an underwater scene, indicating their existence within the context of the artwork.\nyes There are cameras visible on the kayaks in the image.\nyes There are several fish swimming in the background of the image.\nyes There are multiple chairs placed underwater in the scene.\nno Candles are present but the number does not match; there are fewer than 4 clearly visible candles.\nno The kayaks have one paddle each, making a total of two paddles which matches the question's statement.\nno There are three cameras visible in the image, not four.\nno There are five fish visible in the image, not four.\nno There are four chairs visible in the image, not three.\nno There are six candles visible in the image, not four.\nno Paddles are typically not made of leather, they are usually made of materials like wood or fiberglass.\nno Cameras are generally not made entirely of plastic; they consist of metal and electronic components as well.\nno Chairs are usually not made of plastic; they appear to be wooden in the image."
+}

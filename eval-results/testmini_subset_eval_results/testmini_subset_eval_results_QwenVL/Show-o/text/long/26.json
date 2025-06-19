@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The word 'Vegetable' is not present in the visible text within the image.\nno There is no text 'Gardening' in the image; it contains other words.\nno The text 'with' is not in the image.\nyes The text 'MIKE' is present in the image, stylized to fit within the speech bubble.\nno There's no text 'THE' appearing in the image.\nyes The text 'GARDENER' is part of the phrase included in the image."
+}

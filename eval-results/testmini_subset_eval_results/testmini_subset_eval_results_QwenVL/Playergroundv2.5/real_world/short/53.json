@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image depicts a card with ornate floral designs that are common in wedding invitations.\nno The card does not visibly exhibit heavier materials like eggshell texture or prominent embossing features.\nyes There are flower-like decorations on the card that could represent the elegance associated with a couple on their wedding day.\nno The decorations are elaborate and not minimalistic; they span across the borders of the card.\nno There is no visible text about the union of \"Image and Text\" on the card.\nno The text appears slightly blurred and is not perfectly set for optimal clarity and readability.\nyes The invitation card is indeed placed on what looks like a wooden surface, consistent with a desk.\nno The text's blurriness makes it challenging to discern clearly.\nno The specific date \"March 25, 2025\" is not mentioned or visible within the context of the image."
+}

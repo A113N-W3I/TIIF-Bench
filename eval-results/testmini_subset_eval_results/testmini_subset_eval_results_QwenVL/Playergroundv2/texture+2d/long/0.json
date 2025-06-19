@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pen in the image?  ",
+    "Is there a blanket in the image?  ",
+    "Is the pen metallic?  ",
+    "Is the blanket made of fabric?  ",
+    "Is the pen on the right of the blanket?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because there are gold-colored pens visible.\nyes because there is a fabric with floral patterns.\nyes because the pens appear to have a metallic sheen.\nyes because the material has visible texture and patterns typical of fabric.\nno because the pens are positioned to the left of the blanket-like fabric."
+}

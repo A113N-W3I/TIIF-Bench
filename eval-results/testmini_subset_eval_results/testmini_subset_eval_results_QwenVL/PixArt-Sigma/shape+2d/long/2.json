@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no divider present in the image.\nyes There is a can of soda in the image.\nno The can of soda has a design that includes a triangle, but there are no dividers.\nyes The can of soda is cylindrical in shape.\nno There are no dividers in the image to determine their position relative to the can of soda."
+}

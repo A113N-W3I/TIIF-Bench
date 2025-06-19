@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The infographic does not contain the specific text 'Survey Results on Podcasts'.\nyes The infographic uses a variety of bright and saturated colors which can be described as vibrant.\nyes The infographic incorporates stylized icons, which appear modern in design.\nno The typography in the infographic is cluttered and intertwined with graphics, making it unclear.\nyes There are illustrations that seem to represent listening frequency, although the exact details aren't entirely clear.\nyes There are sections that likely relate to devices used, as suggested by relevant icons.\nno There are no clear indicators pointing to statistics on popular topics within the infographic.\nno With various overlapping elements and text fragments, the design appears complex and not clean.\nno Given the chaotic layout and unclear text, the infographic lacks a professional appearance.\nno Due to the graphic overlays and tangled text, the infographic is difficult to read.\nno The text is obscured by design elements and graphical overlays, reducing clarity and readability.\nno Numbers present in the infographic are obscured and intertwined with the design, leading to poor readability."
+}

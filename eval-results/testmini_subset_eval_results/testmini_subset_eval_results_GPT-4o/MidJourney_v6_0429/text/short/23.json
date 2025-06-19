@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Red' in the image?",
+    "Is the text 'Carpet' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Fashion' in the image?",
+    "Is the text 'Grace' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Charm' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, the text 'Glamour' is in the image. It is visible in the background.\nyes, the text 'Elegance' is in the image. It appears on the left side of the image.\nno, the text 'Red' is not in the image. It is not visible anywhere.\nno, the text 'Carpet' is not in the image. It is not visible anywhere.\nyes, the text 'Style' is in the image. It appears on the left side of the image.\nyes, the text 'Fashion' is in the image. It appears on the left side of the image.\nyes, the text 'Grace' is in the image. It appears on the left side of the image.\nno, the text 'Sophistication' is not in the image. It is not visible anywhere.\nyes, the text 'Charm' is in the image. It appears on the left side of the image."
+}

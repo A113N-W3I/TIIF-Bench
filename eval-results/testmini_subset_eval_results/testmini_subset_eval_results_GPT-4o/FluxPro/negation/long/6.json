@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a hat in the image?  ",
+    "Is there a cat in the image?  ",
+    "Is the hat providing shade for the cat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no hat in the image.\nyes, there is a cat in the image.\nno, there is no hat to provide shade for the cat."
+}

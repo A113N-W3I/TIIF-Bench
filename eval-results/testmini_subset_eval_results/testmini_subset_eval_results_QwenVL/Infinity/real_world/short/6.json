@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure in the image appears to be a humanoid android based on its metallic structure and design.\nyes The setting includes bookshelves filled with books, indicative of a library, and the overall aesthetic suggests a futuristic environment.\nno The android is holding a physical book, not a holographic one.\nyes The lighting in the scene casts a soft glow with tones that include blue and purple hues.\nyes There are visible metallic reflections on the android's face and body, highlighting its robotic nature.\nyes The android's facial features suggest a calm demeanor as it is focused on the book.\nyes The background has a blurred effect with high-tech elements like shelving, which gives it a futuristic look.\nyes The image displays a high level of detail and uses lighting and effects that are characteristic of cinematic style in science fiction.\nyes Elements such as the android's design, the futuristic library, and the overall atmosphere are reminiscent of motifs found in sci-fi films.\nno The book being read by the android is a physical object, not a hologram."
+}

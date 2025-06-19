@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a dog in the image?  ",
+    "Are the boy and the dog standing on a beach?  ",
+    "Is the boy made of fabric?  ",
+    "Does the dog have a fabric collar?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image shows a young person who appears to be a boy.\nyes There is a dog next to the boy in the image.\nyes Both the boy and the dog are standing on sand with water behind them, indicating a beach setting.\nno The boy is not made of fabric; he appears to be a real person wearing clothing.\nyes The dog has a collar around its neck, and it looks like it is made of fabric."
+}

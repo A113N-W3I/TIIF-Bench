@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The vertical lines in the background suggest a divider.\nyes There are two cans that appear to be soda cans.\nno The dividers are vertical lines, not triangular.\nyes The cans are cylindrical in shape.\nyes The dividers are positioned behind and to the left of the cans."
+}

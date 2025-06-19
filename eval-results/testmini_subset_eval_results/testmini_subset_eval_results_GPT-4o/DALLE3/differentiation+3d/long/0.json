@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a girl in overalls in the image?  ",
+    "Is there a girl in a floral sundress in the image?  ",
+    "Is there a butterfly in the image?  ",
+    "Does the image present a differentiation logic: a girl in overalls is showing a butterfly to a girl in a floral sundress?  ",
+    "Is the girl in overalls partially hidden by the girl in a floral sundress?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a girl in overalls in the image, as indicated by the denim garment with straps.  \nYes, there is a girl in a floral sundress in the image, visible on the right side.  \nYes, there is a butterfly in the image, located on the hands.  \nYes, the image presents a differentiation logic: the girl in overalls is showing a butterfly to the girl in a floral sundress, as evidenced by their positioning and interaction.  \nNo, the girl in overalls is not partially hidden by the girl in a floral sundress, as they are both visible without obstruction from each other."
+}

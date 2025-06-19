@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "short_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a mirror in the image?  ",
+    "Is there an engagement ring in the image?  ",
+    "Is the mirror oval?  ",
+    "Is the ring in diamond shape?  ",
+    "Is the mirror behind the ring?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, because the image shows a reflective surface characteristic of a mirror.\nyes, because there is a ring in the image that appears to be an engagement ring.\nyes, because the mirror shown in the image has an oval shape.\nno, because the ring has a round setting, not a diamond shape.\nyes, because the ring is shown in front of the mirror in the image."
+}

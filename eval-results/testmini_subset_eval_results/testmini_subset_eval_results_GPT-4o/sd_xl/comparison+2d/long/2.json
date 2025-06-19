@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Are there frogs in the image?  ",
+    "Does the image present a comparison logic: fish are more than frogs?  ",
+    "Are the fish and frogs on the top of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, because there are only fish in the image.\nno, because there are no frogs in the image.\nno, because there are no frogs to compare with the fish.\nyes, because the fish are predominantly at the top of the image."
+}

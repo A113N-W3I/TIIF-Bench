@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bag in the image?  ",
+    "Is there a bee in the image?  ",
+    "Is the bag on the left of the bee?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bag in the image. The left side of the image shows what appears to be part of a brown bag, possibly made of leather or fabric.\n\nYes, there is a bee in the image. The right side of the image shows a detailed, realistic depiction of a bee.\n\nYes, the bag is on the left of the bee. The bee is positioned on top of the bag, with the bag clearly situated to its left in the composition of the image."
+}

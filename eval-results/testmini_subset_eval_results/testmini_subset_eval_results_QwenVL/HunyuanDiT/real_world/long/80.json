@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not show a grading aura around the character.\nno The image is not cropped like a physical card but appears more as a digital illustration.\nno There is no label at the top with the title 'GNRLYXYZ'.\nno Since 'GNRLYXYZ' is not present, neither is '1/1' beneath it.\nno There is no barcode visible in the image provided.\nno There is no grade label present on the top right side of the label.\nno There isn't a visible numeric grade or a associated scale.\nno With no numeric grade, there is also no certification number displayed.\nno There are no visible labels or texts to evaluate uniformity of text size.\nno Without text presence, the concept of balanced padding cannot be assessed.\nno The display is against a gradient background, not a pure white.\nno The display includes a character and part of a window; hence it is not a blank display."
+}

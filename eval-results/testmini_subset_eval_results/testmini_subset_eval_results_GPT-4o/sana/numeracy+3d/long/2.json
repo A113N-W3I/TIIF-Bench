@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a person in the image?  ",
+    "Are there pillows in the image?  ",
+    "Are there printers in the image?  ",
+    "Is the number of persons 1?  ",
+    "Is the number of pillows 2?  ",
+    "Is the number of printers 2?  ",
+    "Is the person in front of the pillows and printers?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no - The image does not distinctly show a person; the elements are abstract.\nno - There are no clear and realistic pillows depicted; the shapes are distorted.\nyes - There is a printer-like object visible in the image.\nno - The abstract elements do not clearly represent a single person.\nno - The shapes in the image do not distinctly correspond to two pillows.\nno - Only a single printer-like object is identifiable.\nno - The image does not show a person in relation to the pillows and printers."
+}

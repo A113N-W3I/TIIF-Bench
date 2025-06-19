@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The toilet has sharp edges rather than rounded ones.\nyes The colors are soft beige for the toilet, light gray for the surface it stands on, and warm orange as the background and accent.\nyes The lighting appears soft and comes from slightly above and to the right, casting subtle shadows.\nyes The surface of the toilet looks matte and smooth with low reflectivity.\nyes The toilet is centered with significant negative space around it.\nno The perspective is straight-on, not tilted, which still provides a sense of three-dimensionality.\nno The background is a solid, warm orange, which contrasts rather than complements the soft beige toilet.\nno There is no visible typography in the image.\nno Since there is no typography present, the text's visibility and contrast cannot be assessed.\nno There is no gray text in the image."
+}

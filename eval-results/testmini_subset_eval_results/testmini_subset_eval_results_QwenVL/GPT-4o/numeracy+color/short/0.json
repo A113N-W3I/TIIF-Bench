@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there pigs in the image?  ",
+    "Are there shrimp in the image?  ",
+    "Is there a cake in the image?  ",
+    "Is there a menu in the image?  ",
+    "Is the number of pigs 2?  ",
+    "Is the number of shrimp 4?  ",
+    "Is the number of cake 1?  ",
+    "Are the pigs yellow in color?  ",
+    "Are the shrimp yellow in color?  ",
+    "Are the cake brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are two pig-shaped objects in the image.\nyes There are four shrimp-shaped objects in the image.\nyes There is one round object resembling a cake in the center of the image.\nno There is no menu present in the image.\nyes The number of pig-shaped objects is indeed 2.\nyes The number of shrimp-shaped objects is indeed 4.\nyes The number of cake-like objects is indeed 1.\nyes The pig-shaped objects are yellow in color.\nyes The shrimp-shaped objects are yellow in color.\nyes The cake-like object appears to be brown in color."
+}

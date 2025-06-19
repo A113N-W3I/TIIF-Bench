@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pair of sunglasses in the image?  ",
+    "Is there a mirror in the image?  ",
+    "Are the sunglasses under the mirror?  ",
+    "Are the sunglasses white in color?  ",
+    "Is the mirror green in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there are no sunglasses in the image because the eyewear shown are likely to be non-sunglasses based on their light lens color.\nno, there is no mirror in the image as none of the objects have reflective surfaces. \nno, the sunglasses are not under a mirror since there is no mirror in the image.\nno, the sunglasses are not white in color because they are shown with lenses that have a greenish tint.\nno, the mirror is not green in color since there is no mirror present in the image."
+}

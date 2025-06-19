@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 166,
+  "questions": [
+    "Is the image in Cyberpunk style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes, the image incorporates neon lights, futuristic clothing, and a high-tech aesthetic common in Cyberpunk style."
+}

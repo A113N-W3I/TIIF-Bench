@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the girl drinking from the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a young girl present in the image.\nyes A cup is visible, being held by the girl.\nyes The girl appears to be in the act of drinking from the cup she holds."
+}

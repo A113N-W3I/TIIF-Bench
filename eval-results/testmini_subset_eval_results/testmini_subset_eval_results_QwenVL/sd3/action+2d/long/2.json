@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image features a rodent that is clearly a mouse.\nyes There is a flat surface resembling a desk beneath the mouse.\nno The mouse is not depicted in motion; it appears stationary.\nyes The mouse is positioned on the flat surface that looks like the top of a desk."
+}

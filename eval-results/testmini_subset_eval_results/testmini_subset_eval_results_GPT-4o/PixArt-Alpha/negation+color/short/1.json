@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a car in the image?  ",
+    "Does the car have front wheels?  ",
+    "Is the car red in color?  ",
+    "Is anything else red in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because there is a car present in the image.\nyes, because the car has front wheels visible.\nyes, because the car is red in color.\nno, because there is nothing else red in the image."
+}

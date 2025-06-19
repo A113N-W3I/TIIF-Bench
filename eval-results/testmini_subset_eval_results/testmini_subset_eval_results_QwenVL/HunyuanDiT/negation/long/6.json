@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a hat in the image?  ",
+    "Is there a cat in the image?  ",
+    "Is the hat providing shade for the cat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image contains a hat that is being used as a resting place for the cat.\nyes There is a cat lying inside the hat in the image.\nno The hat is not providing shade for the cat; it appears to be placed upside down and the cat is inside it, exposed to light."
+}

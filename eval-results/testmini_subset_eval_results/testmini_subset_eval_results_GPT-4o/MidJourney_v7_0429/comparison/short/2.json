@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there chairs in the room?  ",
+    "Are there students in the room?  ",
+    "Does the image present a comparison logic: chairs are more than students?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there are many chairs in the room.\nno, there are no students in the room.\nyes, the image presents a comparison logic: chairs are more than students, as there are no students visible."
+}

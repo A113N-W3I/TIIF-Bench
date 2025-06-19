@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bed in the image?  ",
+    "Is there a cat in the image?  ",
+    "Is the bed with a cat on it?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because there is a sleeping arrangement with pillows and a blanket visible.\nyes, because there is an orange and white cat lying down.\nyes, because the cat is lying on what appears to be a bed covered with blankets and pillows."
+}

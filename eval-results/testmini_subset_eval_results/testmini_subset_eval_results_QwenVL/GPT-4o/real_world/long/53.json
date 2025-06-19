@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image includes text inviting to an event and decorative elements typical for a formal invitation.\nno The card does not appear to have an actual physical texture; it's a digital representation that could mimic various textures but specific ones like \"hefty\" and \"eggshell\" cannot be confirmed from the image alone.\nno The decorations do not represent a couple directly but use abstract and symbolic imagery to represent a partnership between \"Image and Text.\"\nyes The iconography is limited and uses minimalistic line art to frame the text, conveying elegance without being overly detailed.\nyes The invitation explicitly mentions the union of \"IMAGE AND TEXT,\" which appears prominently as part of the event being celebrated.\nyes The text is well-structured, evenly spaced, and professionally arranged, meeting standards for perfect typesetting in design.\nyes The card is displayed against a wood-grained background, suggesting a wooden desk surface, enhancing the aesthetic presentation of the invitation.\nyes The text is depicted clearly with good contrast against the background, ensuring readability.\nyes The date \"March 25, 2025\" is specifically mentioned within the content of the invitation."
+}

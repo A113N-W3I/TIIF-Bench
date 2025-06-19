@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 79,
+  "questions": [
+    "Is the image in Van Gogh style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image depicts a modern architectural structure with stained glass featuring geometric patterns and vibrant colors, which is distinctly different from the Post-Impressionist style characterized by thick paint application, impasto, and expressive brushstrokes typical of Van Gogh's work."
+}

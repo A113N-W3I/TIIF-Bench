@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a crystal wand in the scene?",
+    "Is the crystal wand spherical in shape?",
+    "Is there a snowball in the scene?",
+    "Is the snowball spherical in shape?",
+    "Is the snowball blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The object has a handle and a large crystal sphere resembling a wand.\nno The crystal part is spherical, not wand-shaped.\nno There is no distinct snowball present in the scene.\nyes The crystal sphere is spherical in shape.\nyes The crystal sphere has a blue hue."
+}

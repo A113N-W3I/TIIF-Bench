@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a table in the image?  ",
+    "Is there a painting in the image?  ",
+    "Is the table in front of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a table in the image. The table is made of wood and appears to have a rustic texture with unique legs.\n\nYes, there is a painting in the image. The painting is framed and hung on the wall behind the table.\n\nYes, the table is in front of the painting. The table is placed on the floor and the painting is on the wall behind it."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes there is a design resembling a divider on the can.\nyes the image depicts a can which is likely a can of soda.\nno the designs are not triangular; they are more like angular lines forming a 'V' shape.\nyes the can's shape is cylindrical.\nno the designs are part of the can, not separate from it and thus cannot be positioned relative to the can in that way."
+}

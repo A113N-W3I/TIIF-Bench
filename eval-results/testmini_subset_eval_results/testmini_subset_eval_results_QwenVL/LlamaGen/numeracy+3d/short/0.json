@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a man in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there toys in the image?  ",
+    "Is the number of men 1?  ",
+    "Is the number of clocks 4?  ",
+    "Is the number of toys 4?  ",
+    "Are the clocks behind the man?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a figure dressed in a suit and tie that appears to be a representation of a man.\nno There are no traditional clocks visible; however, the central figure has what looks like a clock face for a head.\nyes There are multiple objects resembling toy-like constructions standing upright next to the man.\nyes There is only one figure that could be considered a man due to its human-like attire and body shape.\nno There are not four clocks; only one clock face is present as the face of the central figure.\nno There are not four toys; there are two object sets on either side of the figure that may be interpreted as toys.\nno The clock, which is depicted as the face of the man, cannot be behind him."
+}

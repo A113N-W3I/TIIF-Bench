@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes This image does represent a wedding invitation card.\n\nno The card appears to have a smooth finish without visible eggshell texture or embossings.\n\nno The decorations are not abstract; they depict a bride and groom.\n\nno The card uses minimal iconography with a focus on the depicted couple and lace details.\n\nno The text refers to Image and Text but in an artistic style, not as specified in the question.\n\nno The typesetting includes some artistic distortions that may not align with traditional perfect typesetting standards.\n\nyes The card is placed on what appears to be a wooden desk, adding a tasteful background.\n\nno The text includes distorted letters, which make it unclear and not fully readable.\n\nno The date mentioned is March 22, 2069, not March 25, 2025."
+}

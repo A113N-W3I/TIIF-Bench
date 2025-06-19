@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there are two televisions.\nyes, there are animals resembling camels.\nno, there are no chickens present.\nno, there are two televisions.\nyes, there are three animals resembling camels.\nno, there are no chickens present.\nno, the televisions are not fabric-covered.\nyes, the camels are fluffy.\nno, there are no chickens to be fluffy."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does a computer exist in the image?  ",
+    "Does a computer mouse exist in the image?  ",
+    "Does the image present a comparison logic: computers are more than computer mice?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes A laptop is visible, which is a type of computer.\nyes There is a white computer mouse next to the laptop.\nno The image does not present any form of comparison between computers and computer mice."
+}

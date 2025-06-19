@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there chairs in the image?  ",
+    "Is there a table in the image?  ",
+    "Does the image present a comparison logic: chairs are more rickety than the table?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are two chairs visible in the image.\nyes There is a table positioned between the two chairs.\nno The image does not provide information about the stability or condition of the furniture to determine if chairs are more rickety than the table."
+}

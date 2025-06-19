@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there refrigerators in the image?  ",
+    "Are there plates in the image?  ",
+    "Is there a kitchen in the image?  ",
+    "Is the number of refrigerators 2?  ",
+    "Is the number of plates 3?  ",
+    "Are the refrigerators red in color?  ",
+    "Are the plates blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are two red refrigerators visible.\nyes There are stacks of blue plates on the table.\nyes The presence of refrigerators, a mixer, and plates indicates this is a kitchen.\nyes There are exactly two refrigerators visible.\nno There are more than three plates; there are multiple stacks on the table.\nyes The refrigerators are clearly red in color.\nyes The plates are blue in color."
+}

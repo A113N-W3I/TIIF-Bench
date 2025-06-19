@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 282,
+  "questions": [
+    "Is the image in American Comics style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, the image utilizes a hyper-realistic style with vivid details and dramatic lighting rather than the exaggerated line work and color styles typical of American Comics."
+}

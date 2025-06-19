@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 41,
+  "questions": [
+    "Is the image in LEGO style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features characters and structures built from LEGO bricks, with distinct blocky textures and bright colors typical of LEGO style.\n\n"
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'SIMPLY' appears twice in the image.\nyes The text 'Bullet' is present in the image.\nyes The text 'Proof' is visible in the image.\nyes The text 'Nothing' appears multiple times in the image.\nyes The text 'SAUCER' is part of the phrase 'NOTHING SAUCER' in the image."
+}

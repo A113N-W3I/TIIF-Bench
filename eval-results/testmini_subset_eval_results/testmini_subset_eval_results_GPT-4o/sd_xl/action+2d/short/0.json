@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a child in the image, indicated by the small human figure sitting on the grass.\nYes, there are bubbles in the image, as seen floating around the child.\nYes, there is a toy box in the image, shown open and directly in front of the child.\nNo, the child is not blowing the bubbles, as their mouth is not positioned to do so.\nYes, the toy box is on the bottom of the frame, with the base resting on the ground."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a pig in the image?  ",
+    "Is the cup on the left of the pig?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image contains a cup that is integrated into the pig's body.\nyes There is a pig in the image, which appears to be part of a cup.\nno The cup and the pig are combined as one object; thus, it cannot be said that the cup is on the left of the pig."
+}

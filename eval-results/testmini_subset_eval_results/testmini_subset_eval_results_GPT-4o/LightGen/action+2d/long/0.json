@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, because the image shows a small figure with features suggesting it might be a child.\nno, because there are no visible bubbles in the image.\nyes, because there is a container at the bottom filled with items that suggest it could be a toy box.\nno, because there are no bubbles to be blown in the image.\nyes, because the container resembling a toy box is located at the bottom of the frame."
+}

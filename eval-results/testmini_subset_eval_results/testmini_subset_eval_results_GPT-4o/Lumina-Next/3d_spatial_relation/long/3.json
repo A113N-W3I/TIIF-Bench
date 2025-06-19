@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a woman in the image?  ",
+    "Is the cup behind the woman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no cup visible in the image.\nyes, there appears to be a woman in the image based on the visible features.\nno, without a cup present, it cannot be behind the woman."
+}

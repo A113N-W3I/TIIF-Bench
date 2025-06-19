@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a frog in the image?  ",
+    "Is there a bear in the image?  ",
+    "Is the frog green?  ",
+    "Is the bear blue?  ",
+    "Is the frog near the bear?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no frog in the image.\nno, there is no bear in the image.\nno, there is no green frog to determine if it is green.\nno, there is no bear to determine if it is blue.\nno, as there is neither a frog nor a bear, a proximity cannot be determined."
+}

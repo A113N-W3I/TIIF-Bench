@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, the scene contains a large spherical object that appears to be a representation of a planet rather than a tennis ball.\nyes, the large red object in the scene is spherical in shape.\nyes, the entire scene appears to be an artistic picture framed in red.\nno, the picture itself is not spherical; it is rectangular within a frame.\nyes, the large spherical object within the picture is red."
+}

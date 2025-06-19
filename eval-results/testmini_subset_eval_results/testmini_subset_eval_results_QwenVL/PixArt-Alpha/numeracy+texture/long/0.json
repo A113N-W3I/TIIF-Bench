@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes This is a digital image depicting various objects, including furniture and cameras.\nyes There are multiple cameras visible in the image.\nno There are no fish present in the image.\nyes There are two chairs visible in the image.\nyes There are candles lit in the image.\nno There are no paddles shown in the image.\nno There is only one visible camera on the table.\nno There are no fish in the image; thus, there can't be four.\nno There are only two chairs in the image.\nno There are not four candles; there are more than four.\nno Paddles are not present in the image; therefore, their material cannot be determined.\nno The cameras appear to be made of metal, not plastic.\nno The chairs seem to have leather cushions and wooden frames, not entirely made of plastic."
+}

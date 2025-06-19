@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a man in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there toys in the image?  ",
+    "Is the number of men 1?  ",
+    "Is the number of clocks 4?  ",
+    "Is the number of toys 4?  ",
+    "Are the clocks behind the man?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a man in the image.\nyes, there are clocks in the image.\nno, there are toys in the image.\nyes, the number of men is 1.\nyes, the number of clocks is 4.\nno, the number of toys is 4.\nno, the clocks are not behind the man; they are in front of and around him."
+}

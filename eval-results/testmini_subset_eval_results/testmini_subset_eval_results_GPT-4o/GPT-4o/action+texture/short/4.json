@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there rubber shoes in the image?  ",
+    "Is there a nurse in the image?  ",
+    "Is there a patient in the image?  ",
+    "Are there fabric blankets in the image?  ",
+    "Is the nurse comforting the patient?  ",
+    "Are the blankets made of fabric?  ",
+    "Are the shoes made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there are rubber shoes in the image. The person on the left is wearing white shoes that are characteristic of being rubber.\nyes, there is a nurse in the image. The person wearing scrubs on the left suggests they are a nurse.\nyes, there is a patient in the image. The elderly individual covered in a blanket is likely to be a patient.\nyes, there are fabric blankets in the image. The individual seated on the right is draped in a textured, fabric blanket.\nyes, the nurse is comforting the patient. The nurse's hand is gently placed on the patient's shoulder, indicating comfort.\nyes, the blankets are made of fabric. The texture and appearance of the blankets suggest they are fabric.\nyes, the shoes are made of rubber. The material and style imply they are rubber shoes."
+}

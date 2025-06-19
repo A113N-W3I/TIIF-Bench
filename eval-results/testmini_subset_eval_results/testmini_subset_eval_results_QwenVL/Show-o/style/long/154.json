@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 154,
+  "questions": [
+    "Is the image in Cyberpunk style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image depicts an Asian temple structure with neon lights, which suggests a futuristic but not specifically Cyberpunk style; Cyberpunk typically includes more gritty, high-tech urban environments with a stark contrast between advanced technology and societal decay.\n"
+}

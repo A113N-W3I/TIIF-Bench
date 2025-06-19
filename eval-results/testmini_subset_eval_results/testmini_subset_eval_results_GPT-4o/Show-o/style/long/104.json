@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 104,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "No, the image does not exhibit the Disney style, which typically includes bright colors, expressive features, and whimsical designs that are characteristic of Disney's animated characters and environments."
+}

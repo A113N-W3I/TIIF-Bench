@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a ice cream cone in the scene?",
+    "Is the ice cream cone conical in shape?",
+    "Is there a sunflower in the scene?",
+    "Is the sunflower tall in shape?",
+    "Is the ice cream cone painted black?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is an ice cream cone in the scene as it is distinctly visible in the image.\nYes, the ice cream cone is conical in shape, as is typical for ice cream cones.\nYes, there is a sunflower in the scene, prominently displayed in the image.\nYes, the sunflower is tall in shape, fitting the usual depiction of sunflowers.\nYes, the ice cream cone is painted black, as evident from its dark coloration."
+}

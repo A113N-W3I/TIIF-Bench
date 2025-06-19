@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the text \"CARD\" is in the image because it is clearly visible and legible on the card being held by the fingers.\n\nNo, the text \"CLIP\" is not in the image because there is no such text visible on the card.\n\nYes, the text \"with\" is in the image because it is visible on the card although partially obscured.\n\nYes, the text \"Finger\" is in the image because it is visible on the card although partially obscured.\n\nNo, the text \"Blister\" is not in the image because there is no such text visible on the card."
+}

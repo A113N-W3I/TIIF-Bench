@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a couch in the image?  ",
+    "Is there a fish in the image?  ",
+    "Is the couch on the right of the fish?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a couch in the image because the image prominently displays a couch.\nYes, there is a fish in the image because the image contains a large fish on the couch.\nNo, the couch is not on the right of the fish because the couch is beneath the fish, with the fish positioned across the top."
+}

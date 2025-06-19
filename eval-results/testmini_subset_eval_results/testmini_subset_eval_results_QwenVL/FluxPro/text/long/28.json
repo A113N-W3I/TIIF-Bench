@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The word 'Champion' is visible below the number 50 on the jersey.\nyes The word 'Teamwork' is present above the number 50 on the jersey.\nyes The word 'Victory' is located above the number 50 on the jersey.\nno There is no text 'Game' in the image.\nno There is no text 'On' in the image.\nno There is no text 'All-Star' in the image.\nyes The word 'LEAGUE' is visible at the bottom right corner of the jersey."
+}

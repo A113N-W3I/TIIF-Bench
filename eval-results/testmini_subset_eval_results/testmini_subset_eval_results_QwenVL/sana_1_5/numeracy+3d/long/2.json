@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a person in the image?  ",
+    "Are there pillows in the image?  ",
+    "Are there printers in the image?  ",
+    "Is the number of persons 1?  ",
+    "Is the number of pillows 2?  ",
+    "Is the number of printers 2?  ",
+    "Is the person in front of the pillows and printers?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a person standing between two stacks of objects.\nyes There are pillows visible in the image.\nyes There are printers present in the image.\nyes There is only one person in the image.\nyes There are two pillows in the image.\nno There are not two printers; there are more than two.\nno The person is between the pillows and printers, not in front of them."
+}

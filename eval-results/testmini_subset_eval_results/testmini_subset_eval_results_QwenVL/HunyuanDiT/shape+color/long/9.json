@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The hat is wide-brimmed and not specific to tennis.\nno The hat is wide-brimmed and flat, not conical.\nyes There is a bag being carried by the person.\nno The bag is not round; it appears to be more rectangular.\nyes The bag is brown in color."
+}

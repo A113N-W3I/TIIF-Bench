@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the cloud white?  ",
+    "Is the cup blue?  ",
+    "Is the cloud on the right of the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no - The image does not depict a cloud; it appears to show distorted shapes resembling flowers or abstract patterns.  \nyes - There is a cup in the image, visible in the lower right corner.  \nno - The cloud is not white because there is no cloud in the image.  \nyes - The cup is blue; its color is discernible in the lower right corner.  \nno - The cloud is not on the right of the cup because there is no cloud in the image.  "
+}

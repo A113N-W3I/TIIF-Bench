@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No - The image does not depict a card with an aura being graded; it shows a person holding a glowing orb.\nNo - The image is not cropped to the size of a real card; it depicts a scene in a library with a person.\nNo - The image does not feature the title 'GNRLYXYZ' at the top; it shows a person holding an orb.\nNo - There is no '1/1' displayed below 'GNRLYXYZ'; the image doesn't have any text labels.\nNo - There is no barcode beneath '1/1'; the image lacks any form of labeling or numbering.\nNo - There is no grade label displayed on the right side; the image contains no labels.\nNo - A numeric grade is not displayed below a grade label; there are no labels present.\nNo - A certification number is not displayed below a numeric grade; the image has no labels.\nNo - There is no uniform text size since there is no text; the image is of a person and orb.\nNo - The image does not exhibit balanced padding for text because there is no text present.\nNo - The display is not on a white background; it shows a dark library setting.\nNo - There is no full display without text; the image does not depict a card or labels."
+}

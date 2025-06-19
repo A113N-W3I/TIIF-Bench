@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no wooden mountain in the image; the image contains a mountain covered in trees.\nNo, there is no snow on the mountain's peak; the peaks are not visible but appear to be forested.\nNo, the mountain is not wooden in texture; it is covered with forest.\nNo, the surface surrounding the mountain is not rubber in texture; it appears to be natural earth or grass."
+}

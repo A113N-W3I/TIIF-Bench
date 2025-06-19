@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 290,
+  "questions": [
+    "Is the image in American Comics style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, the image has a style more reflective of a fusion between Eastern and Western influences, with vibrant colors and dynamic poses typical of American Comics, yet the character design and composition suggest strong manga or anime influences."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 18,
+  "questions": [
+    "Is the text 'Joy' in the image?",
+    "Is the text 'Laughter' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Rain' in the image?",
+    "Is the text 'Childhood' in the image?",
+    "Is the text 'Happiness' in the image?",
+    "Is the text 'Freedom' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the reason is the word 'Joy' is clearly written on the left umbrella.\nno, the reason is the word 'Laughter' is not present in the image.\nno, the reason is the word 'Play' is written at the bottom left but not as the complete word.\nno, the reason is the word 'Rain' is not present in the image.\nyes, the reason is the word 'Childhood' can be seen near the bottom right and upper right.\nno, the reason is the word 'Happiness' is not present in the image.\nno, the reason is the word 'Freedom' is not present in the image."
+}

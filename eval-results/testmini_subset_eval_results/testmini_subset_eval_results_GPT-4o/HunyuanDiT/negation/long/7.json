@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a windbreaker in the image because the person is wearing a hooded jacket with a zipper and drawstrings.\nno, there is not a sweater in the image because only a black undershirt is visible beneath the windbreaker.\nno, the windbreaker is not on top of a sweater because there is no sweater visible under the windbreaker."
+}

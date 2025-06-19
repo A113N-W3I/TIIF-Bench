@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an angrier frog in the image?  ",
+    "Is there another frog jumping upward in the image?  ",
+    "Does the image present a differentiation logic: one frog is angrier sitting on the steps, while another frog is jumping upward?  ",
+    "Is the angrier frog on the top step?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no angrier frog in the image; both frogs appear calm.\nno, there is no frog jumping upward in the image; both frogs are sitting.\nno, the image does not present a differentiation logic between an angrier frog sitting and another jumping upward.\nno, the angrier frog is not on the top step; neither of the frogs appears angry."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a steaming cup of coffee in the image?  ",
+    "Is there a row of antique tea cups in the image?  ",
+    "Does the image present a differentiation logic: contrasting attributes between the steaming cup of coffee and the antique tea cups?  ",
+    "Is the steaming cup of coffee positioned left of the row of antique tea cups?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a steaming cup of coffee in the image, as indicated by the steam rising from the cup in the foreground.\nno, there is not a row of antique tea cups in the image, as there are only two cups visible and they are not arranged in a row.\nno, the image does not present a differentiation logic: contrasting attributes between the steaming cup of coffee and the antique tea cups.\nno, the steaming cup of coffee is positioned center in the image, not left of a row of antique tea cups."
+}

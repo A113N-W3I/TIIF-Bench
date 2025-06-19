@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "long_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because there is a person wearing an orange shirt climbing the wall.\nyes, because the person is climbing on a visible wall.\nyes, because the shadows of a tree are visible on the wall.\nno, because the person is wearing sandals, not sneakers.\nno, because the person's body is visible, although shadows from the tree fall on the wall."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The object is large and not designed for holding small items as a trinket box would be.\nyes The object has a triangular base and tapers to a point, which is characteristic of a pyramid.\nyes There is a corridor leading into the distance behind the pyramid structure.\nno The hallway follows an arched and straight path, not a diamond shape.\nyes The walls and overall lighting of the hallway emit a blue hue."
+}

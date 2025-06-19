@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes because there are structures that appear to separate space\nyes because there is an object that resembles a can of soda\nyes because the dividers have triangular shapes\nyes because the can has a cylindrical shape typical of a soda can\nyes because the dividers are positioned to the left of the cylindrical can"
+}

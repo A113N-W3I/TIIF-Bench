@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a shelf in the scene?",
+    "Is the shelf in the shape of a pentagon?",
+    "Is there a earring in the scene?",
+    "Is the earring in the shape of a teardrop?",
+    "Is the pentagonal shelf wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, the shelf is not in the shape of a pentagon; it is a rectangular shelf.\nyes, there is an earring in the scene; two earrings are visible hanging from the shelf.\nyes, the earring is in the shape of a teardrop; the visible earrings have a teardrop shape.\nno, the shelf is not in the shape of a pentagon; it is a rectangular shape.\nyes, the pentagonal shelf is wooden, assuming you meant the rectangular shelf, which is wooden."
+}

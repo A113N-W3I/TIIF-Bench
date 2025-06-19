@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a rubber band in the image because the black stretchy loop in the person's hand suggests it's a rubber band.  \nYes, there is a reader in the image because there is a book open with writing on it being looked at.  \nYes, the reader is fluffy because the furry object might be the reader within the scene.  \nNo, the rubber band is not behind the reader, as it is in front of the furry object in the person's hand."
+}

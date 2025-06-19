@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image presents a formal invitation with decorative elements typical of a wedding card.\n\nyes The card appears to have a textured surface and embossed designs that give it a sophisticated feel.\n\nno While the decorations are elegant, they consist of floral motifs that do not abstractly represent a couple but are more purely ornamental.\n\nno Iconography is moderately used; the design includes significant decorative floral embossings which are not minimalist.\n\nno There is no specific mention of \"Image and Text\" in the可见的 text on the card.\n\nyes The text is neatly arranged with clear fonts and hierarchy, suggesting careful typesetting for readability.\n\nyes The card is displayed on a surface resembling a wooden desk, enhancing its presentation with a natural, elegant backdrop.\n\nyes The text on the card, while in an unfamiliar script, seems well-defined and legible.\n\nno The image does not display any specific date, including March 25, 2025."
+}

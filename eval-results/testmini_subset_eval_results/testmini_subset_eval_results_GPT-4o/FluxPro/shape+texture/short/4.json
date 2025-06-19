@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a couch in the scene?",
+    "Is the couch rectangular in shape?",
+    "Is there a office in the scene?",
+    "Is the office pentagon-shaped?",
+    "Is the lamp glass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a couch in the scene.\nno, the couch is L-shaped, not rectangular.\nno, there is no office in the scene.\nno, there is no office in the scene, so it cannot be pentagon-shaped.\nyes, the lamp is glass."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a tennis ball in the scene because a yellow spherical object resembling a tennis ball is visible on a surface.\nYes, the tennis ball is spherical in shape because it has the appearance of a 3D sphere.\nYes, there is a picture in the scene because there is a framed image visible on the spherical object.\nNo, the picture is not spherical in shape because it is rectangular within a frame.\nNo, the picture is not red because the image itself does not predominantly contain red color; it is enclosed by a red circular object."
+}

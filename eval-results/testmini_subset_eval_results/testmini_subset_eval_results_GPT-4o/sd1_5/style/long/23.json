@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the image in Ghibli style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes, the image features elements such as intricate and whimsical structures, lush greenery, and a sense of fantasy that are characteristic of the Ghibli style."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is the text 'drink' in the image?",
+    "Is the text 'tea' in the image?",
+    "Is the text 'eat' in the image?",
+    "Is the text 'cake' in the image?",
+    "Is the text 'relax' in the image?",
+    "Is the text 'enjoy' in the image?",
+    "Is the text 'delight' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes 'drink' is clearly written in the image\nyes 'tea' appears after 'drink' in the image\nyes 'eat' is present before 'cake' in the image\nyes 'cake' is written next to 'eat' in the image\nyes 'relax' is shown on the cup and also below it in the image\nyes 'enjoy' is visible on the cup in the image\nyes 'delight' is found at the bottom next to 'relax' in the image"
+}

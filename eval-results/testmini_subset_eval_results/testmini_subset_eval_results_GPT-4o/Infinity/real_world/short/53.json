@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, the image shows a wedding invitation card because of its formal layout and decorative elements indicative of wedding stationery.  \nYes, the card shown is hefty with eggshell textures and embossings as evidenced by the visible intricate details and depth around the edges.  \nNo, elegant decorations abstractly representing the couple are not included; the floral designs do not appear explicitly representative of a couple.  \nYes, the usage of iconography on the card is sparing and minimalist, as there are only minimal decorative motifs and no excessive symbols.  \nNo, the invitation does not include the specified text about the union of Image and Text; the visible text does not align with this description.  \nYes, perfect typesetting is used on the invitation, with balanced spacing and alignment that complements its elegant design.  \nYes, the invitation card is placed on a tasteful wooden desk, as clearly depicted by the surface texture and color in the background.  \nNo, the text in the generated picture is not clear and readable, as parts of it appear blurry or distorted.  \nNo, the picture does not contain the time information of March 25, 2025, as no such details are visible in the provided text.  "
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are yellow triangular dividers in the image.\nno There is no single can of soda; instead, there are multiple cans.\nyes The dividers are triangular in shape.\nno The cans of soda are not all cylindrical; some are depicted as crushed and misshapen.\nno The dividers are not consistently left of the can of soda; they are interspersed among the cans in a star-like pattern."
+}

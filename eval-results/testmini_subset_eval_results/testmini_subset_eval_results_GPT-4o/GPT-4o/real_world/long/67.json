@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, the title text appears at least twice the size of the regular text because \"Breaking News!\" and \"ChatGPT has become even stronger!\" are substantially larger than the accompanying text elements.\nYes, there is adequate spacing between text paragraphs because the lines are clearly separated and visually distinct.\nYes, the emphasized text uses vibrant colors to attract attention, such as orange, purple, and green.\nYes, there is an eye-catching pattern in the background, such as a notebook grid design.\nYes, suitable icons or images are used, such as the notebook rings on the left and the palette emoji, enhancing depth without causing distraction.\nYes, the image contains the text 'Breaking News! ChatGPT has become even stronger!' as it is prominently displayed.\nYes, the image contains the text 'Better multitasking ✨' as it appears in orange.\nYes, the image contains the text 'Improved programming skills 💪' as it appears in magenta/purple.\nYes, the image contains the text 'Creativity off the charts 🎨' as it appears in purple with a palette emoji.\nYes, the image contains the text 'Try it now!' as it appears in green near the bottom.\nNo, the image is not in a 9:16 aspect ratio; it appears to be closer to a square aspect ratio instead.\nYes, the text in the generated picture is clear and readable, with strong contrast and appropriate font sizes."
+}

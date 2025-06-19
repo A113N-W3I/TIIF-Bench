@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image appears to display a 3D rendering of a toilet with smooth edges.\nyes The colors in the image consist of soft beige, light gray, and warm orange tones, with the orange serving as an accent color.\nno The lighting does not seem to come from above and to the right; it is more evenly distributed without a clear directional source.\nyes The surfaces in the image appear matte and smooth with minimal reflection.\nno The toilet is not centered and there is not ample negative space; instead, the surrounding objects are densely packed.\nno The perspective is not slightly tilted but rather straight-on or level with the subject.\nno The background is not a solid color but filled with complex shapes and patterns.\nno There is no visible typography in the image at all.\nno Since there is no typography, there cannot be gray text with low contrast.\nno There does not appear to be any gray text within the image."
+}

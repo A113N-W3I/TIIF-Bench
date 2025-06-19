@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a skyscraper in the scene. The image clearly shows a very tall building, characteristic of skyscrapers.\n\nYes, the skyscraper is tall in shape. The building is significantly taller than any other structure visible in the scene, reaching high into the sky.\n\nYes, there is a traffic sign in the scene. A traffic sign is visible in the foreground.\n\nNo, the traffic sign is not pentagonal in shape. The sign appears to be a diamond shape, which has four sides, while a pentagon has five sides.\n\nNo, the shadow is not fluffy. The fluffy appearance in the scene comes from the clouds, not any shadow."
+}

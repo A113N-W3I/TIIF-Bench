@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 15,
+  "questions": [
+    "Is the text 'Spin' in the image?",
+    "Is the text 'Glow' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Skill' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Twirl' in the image?",
+    "Is the text 'Fun' in the image?",
+    "Is the text 'Bounce' in the image?",
+    "Is the text 'Light' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, because the image does not contain any text.  \nno, because the image does not contain any text.  \nno, because the image does not contain any text.  \nno, because the image does not contain any text.  \nno, because the image does not contain any text.  \nno, because the image does not contain any text.  \nno, because the image does not contain any text.  \nno, because the image does not contain any text.  \nno, because the image does not contain any text.  "
+}

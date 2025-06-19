@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does a computer exist in the image?  ",
+    "Does a computer mouse exist in the image?  ",
+    "Does the image present a comparison logic: computers are more than computer mice?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a tunnel lined with items resembling computer keyboards, suggesting the presence of computers.\nno There are no computer mice in the image; the objects at the bottom appear more like technological elements not explicitly identifiable as mice.\nno The image does not explicitly present a quantitative or qualitative comparison between computers and computer mice."
+}

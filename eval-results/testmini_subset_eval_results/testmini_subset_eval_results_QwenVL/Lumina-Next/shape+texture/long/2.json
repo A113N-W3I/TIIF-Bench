@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no necklace in the scene.\nno The question about the necklace's shape is irrelevant as there is no necklace.\nyes A watermelon is visible in the scene.\nyes The watermelon appears oblong in shape.\nno Since there is no necklace, assessing its texture is not applicable."
+}

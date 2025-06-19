@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no The hat appears to be a wide-brimmed straw hat, not a tennis hat.\nno The hat is flat on top with a wide brim, not conical.\nyes There is a bag visible on the person's side.\nyes The bag is circular and thus can be described as round.\nyes The bag is a shade of brown."
+}

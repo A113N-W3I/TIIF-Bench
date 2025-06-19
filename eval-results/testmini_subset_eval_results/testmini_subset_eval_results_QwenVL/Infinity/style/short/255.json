@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 255,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features a contemporary digital art style with dynamic motion and a focus on ninja figures against a realistic moonlit backdrop, which differs from the traditional Ukiyo-e style characterized by woodblock prints and more static compositions."
+}

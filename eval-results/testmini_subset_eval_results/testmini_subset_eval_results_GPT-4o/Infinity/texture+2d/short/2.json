@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a shirt in the image?  ",
+    "Is the fork metallic?  ",
+    "Is the shirt made of fabric?  ",
+    "Is the fork on the bottom of the shirt?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because there are forks visible in the image.\nno, because there is no shirt visible in the image.\nyes, because the forks appear to be metallic.\nno, because there is no shirt visible, so no fabric to be identified.\nno, because there is no shirt in the image for the fork to be on."
+}

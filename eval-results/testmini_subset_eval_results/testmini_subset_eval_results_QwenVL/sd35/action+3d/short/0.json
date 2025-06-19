@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes because there is a clear depiction of a kangaroo in the foreground of the image.\nyes because there is a large rock visible in the background behind the kangaroo.\nno because the bird being held by the kangaroo resembles more of a vulture than a turkey.\nno because the kangaroo is holding a bird which looks like a vulture rather than a turkey.\nno because the kangaroo is in front of a rock but is not lifting anything resembling a turkey."
+}

@@ -1,0 +1,52 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Does this image show a realistic and whimsical miniature modern café inside a coffee-filled mug? Answer with yes or no.",
+    "Does this image include a tiny bar counter within the café? Answer with yes or no.",
+    "Is there a small coffee machine and grinder in the café? Answer with yes or no.",
+    "Are there a few small tables with miniature customer figurines seated in the café? Answer with yes or no.",
+    "Do the inner sides of the mug have tiny menu boards or decorative paintings? Answer with yes or no.",
+    "Is the coffee surface forming the 'floor' of the café? Answer with yes or no.",
+    "Does the coffee surface possibly have tiny latte art patterns? Answer with yes or no.",
+    "Is the mug placed on a coffee table or bar counter? Answer with yes or no.",
+    "Is there possibly a real croissant, laptop, or sugar jar next to the mug? Answer with yes or no.",
+    "Is the image created in a hyper-realistic style? Answer with yes or no.",
+    "Does the image have a shallow depth of field, focusing on lively scenes and characters inside the café? Answer with yes or no.",
+    "Is the lighting bright and soft, simulating natural café lighting or indoor lighting? Answer with yes or no.",
+    "Is there high detail in the image, like metallic texture of equipment, figures' postures, and café decor? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no the image shows a miniature bakery scene, not a café inside a coffee mug\nno the image depicts a bakery interior rather than a café scene with a bar counter\nno while there is a scale, there is no coffee machine or grinder depicted as expected in a café setting\nno there are no tables or customer figurines present; the scene includes bakery props instead\nyes the image does feature symbolic postings and decorations fitting for a bakery, not a café per se\nno since this is a bakery setup, not a café in a mug, there's no coffee surface forming the floor\nno there is no coffee nor latte art being depicted in this image\nno there is no mug present in this image, hence it cannot be placed on such a table or counter\nno the objects present are miniature bakery items; there are no real croissants, laptops, or sugar jars visible\nno the image is not in a hyper-realistic style but appears to be a carefully crafted miniature model scene\nyes there is an intentional shallow depth of field emphasizing certain elements within the miniature bakery, giving it a lively appearance\nyes the lighting seems bright and soft, providing a warm ambiance appropriate for a bakery interior\nyes there is high detail observed in the image, capturing textures and minutiae of the bakery props including scale, loaf of bread, and decorative items"
+}

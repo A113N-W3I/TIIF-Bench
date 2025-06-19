@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "short_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a metallic Bengal tiger in the image?  ",
+    "Is there a wooden Bengal tiger in the image?  ",
+    "Does the image present a comparison logic: a Bengal tiger in the shade looks stronger than another Bengal tiger not in the shade?  ",
+    "Is the Bengal tiger in the shade metallic in texture?  ",
+    "Is the Bengal tiger not in the shade wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no metallic Bengal tiger in the image; the larger tiger has a realistic fur texture.\nno There is no wooden Bengal tiger in the image; the smaller tiger appears to be made of a material resembling fabric or paper.\nyes The image presents a comparison where the Bengal tiger in the shade appears larger and more imposing than the smaller tiger not in the shade.\nno The Bengal tiger in the shade does not have a metallic texture; it has a realistic fur texture.\nno The Bengal tiger not in the shade does not have a wooden texture; it appears to be made of a material resembling fabric or paper."
+}

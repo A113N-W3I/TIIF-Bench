@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no rubber band present in the image.\nyes A reader in the form of an open newspaper is visible in the image.\nno The reader, which is an open newspaper, is not fluffy; it is depicted as flat and spread out.\nno Since there is no rubber band in the image, it cannot be located behind the reader."
+}

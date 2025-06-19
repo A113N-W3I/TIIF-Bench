@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 290,
+  "questions": [
+    "Is the image in American Comics style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features a detailed and realistic portrayal of a samurai in a modern urban setting, which is more indicative of cyberpunk aesthetics rather than the stylized, exaggerated features typically found in American comic book art."
+}

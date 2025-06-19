@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a skyscraper in the scene. The central building appears tall and prominent, indicative of a skyscraper.\nYes, the skyscraper is tall in shape. It has a sharp, vertical, and elongated design typical of tall buildings.\nNo, there is no traffic sign in the scene. The image features buildings and scaffolding but no visible traffic signs.\nNo, the traffic sign is not pentagonal in shape. There is no traffic sign present to determine its shape.\nNo, the shadow is not fluffy. Any variation in light or shadow appears sharp and defined, likely due to the hard textures of the buildings."
+}

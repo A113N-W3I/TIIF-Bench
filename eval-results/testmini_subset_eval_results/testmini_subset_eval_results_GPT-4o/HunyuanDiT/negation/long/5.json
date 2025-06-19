@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a hamster in the image?  ",
+    "Is there a wheel in the image?  ",
+    "Is the hamster running on the wheel?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a hamster in the image because the animal depicted is a hamster.\nyes, there is a wheel in the image because the hamster is sitting inside a wheel.\nno, the hamster is not running on the wheel because it is sitting and not in motion."
+}

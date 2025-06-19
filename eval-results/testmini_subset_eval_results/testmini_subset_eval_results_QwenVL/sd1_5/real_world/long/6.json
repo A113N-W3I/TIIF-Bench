@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The figure appears to be human, not an android.\nno The setting is a library filled with books, not futuristic.\nno The person is holding a physical book, not a holographic one.\nno The lighting seems natural and fluorescent, not soft blue and purple.\nno There are no visible metallic reflections on the figure's face or body.\nno The facial expression appears to be shocked or surprised, not calm.\nno The background is clear and shows a library setting with no high-tech blurring.\nno The image appears edited with a mix of realism and surrealism, but is not fully cinematic in style.\nyes There are sci-fi elements suggested by the unusual composition and setting.\nno The book is clearly a solid object, not a hologram."
+}

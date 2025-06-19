@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a bread basket in the scene?",
+    "Is the bread basket rectangular in shape?",
+    "Is there a water bottle in the scene?",
+    "Is the water bottle cylindrical in shape?",
+    "Is the bread basket gray?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a bread basket.\nno There is no bread basket present to assess its shape.\nno There is no water bottle visible in the image.\nno Since there is no water bottle, its shape cannot be determined.\nno There is no bread basket to determine its color."
+}

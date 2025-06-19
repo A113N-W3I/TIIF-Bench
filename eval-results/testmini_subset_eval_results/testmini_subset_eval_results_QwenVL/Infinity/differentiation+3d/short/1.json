@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a larger person in yellow clothing in the image?  ",
+    "Is there a smaller person in a different color in the image?  ",
+    "Does the image present a differentiation logic: a larger person in yellow clothing and a smaller person in a different color?  ",
+    "Is the larger person in yellow clothing partially hidden by the smaller person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a figure wearing a yellow garment that appears to cover a larger person.\nno There is no visible smaller person in a different color within the image.\nno The image does not show a smaller person in a different color; it only features a figure in yellow.\nno The larger person in yellow clothing is not partially hidden by a smaller person as there is no smaller person present."
+}

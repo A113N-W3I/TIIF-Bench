@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a crystal wand in the scene?",
+    "Is the crystal wand spherical in shape?",
+    "Is there a snowball in the scene?",
+    "Is the snowball spherical in shape?",
+    "Is the snowball blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a crystal wand in the scene because the image shows a wand-like object with a pointed crystal top.\nno, the crystal wand is not spherical in shape, as it has pointed crystal shapes at the top.\nno, there is not a snowball in the scene because the spherical object is crystalline, not made of snow.\nyes, the spherical object is in a spherical shape because it is round.\nyes, the spherical object is blue as it is depicted in shades of blue."
+}

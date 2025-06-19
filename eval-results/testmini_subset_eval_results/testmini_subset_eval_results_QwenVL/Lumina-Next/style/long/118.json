@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 118,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features astronauts in a surreal coral-like environment, which is not consistent with typical Disney animation styles and themes.\n"
+}

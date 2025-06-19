@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is the text 'Eternal' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'Promise' in the image?",
+    "Is the text 'Forever' in the image?",
+    "Is the text 'Commitment' in the image?",
+    "Is the text 'Together' in the image?",
+    "Is the text 'Yes' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Moment' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Eternal' is present as part of 'Eternal Love'.\nyes The text 'Love' is present as part of 'Eternal Love'.\nno The text 'Promise' is not visible in the image.\nno The text 'Forever' is misspelled as 'Froever' in the image.\nyes The text 'Commitment' is present below 'Eternal Love'.\nno The text 'Together' is not present in the image.\nyes The text 'Yes' is present twice, as 'Tes Yes Dream Moment' and 'Yes Dream'.\nyes The text 'Dream' is present twice, as 'Tes Yes Dream Moment' and 'Yes Dream'.\nyes The text 'Moment' is present twice, as 'Tes Yes Dream Moment' and 'Moment'."
+}

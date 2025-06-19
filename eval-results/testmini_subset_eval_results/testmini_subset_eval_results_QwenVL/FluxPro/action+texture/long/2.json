@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a magician in the image?  ",
+    "Is there a rabbit in the image?  ",
+    "Is there a hat in the image?  ",
+    "Is the magician pulling the rabbit?  ",
+    "Is the rabbit being pulled from the hat?  ",
+    "Are the gloves made of leather?  ",
+    "Is the hat made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The individual is dressed in a magician's outfit and is performing a trick with rabbits.\nyes There are three rabbits visible in the image.\nyes There is a top hat placed in front of the magician.\nno The magician is not pulling the rabbit; the rabbits are positioned as if they are standing on their own.\nno The rabbits are not being pulled from the hat; they are standing on it and in the magician's hands.\nyes The gloves appear to have a texture and sheen consistent with leather.\nno The hat does not appear to be made of plastic; it looks like a traditional felt top hat."
+}

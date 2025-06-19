@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a larger person in yellow clothing in the image?  ",
+    "Is there a smaller person in a different color in the image?  ",
+    "Does the image present a differentiation logic: a larger person in yellow clothing and a smaller person in a different color?  ",
+    "Is the larger person in yellow clothing partially hidden by the smaller person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a larger person in yellow clothing clearly visible on the right.\nno, the smaller person is also wearing yellow clothing, similar to the larger person.\nno, both the larger and smaller persons are dressed in yellow, not different colors.\nno, the larger person in yellow clothing is not partially hidden by the smaller person."
+}

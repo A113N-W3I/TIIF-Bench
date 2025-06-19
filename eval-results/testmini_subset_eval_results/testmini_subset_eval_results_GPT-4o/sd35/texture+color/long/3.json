@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a gloves in the scene?",
+    "Are the gloves rubber?",
+    "Is there a wine rack in the scene?",
+    "Is the wine rack made of wood?",
+    "Is the wooden wine rack brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a gloves in the scene. A pair of shiny gloves is visible hanging from the wooden cabinet.\nno, the gloves are not rubber. They appear to be made of a shiny material, but it is not rubber.\nyes, there is a wine rack in the scene. Several wine bottles are stored horizontally in the cabinet indicative of a wine rack.\nyes, the wine rack is made of wood. The cabinet structure appears to be made of wood.\nyes, the wooden wine rack is brown. The wood has a brown color as seen in the image."
+}

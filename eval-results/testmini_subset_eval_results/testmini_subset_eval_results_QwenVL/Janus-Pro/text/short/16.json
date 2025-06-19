@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 16,
+  "questions": [
+    "Is the text 'Life' in the image?",
+    "Is the text 'Beach' in the image?",
+    "Is the text 'Better' in the image?",
+    "Is the text 'Waves' in the image?",
+    "Is the text 'Ocean' in the image?",
+    "Is the text 'Sand' in the image?",
+    "Is the text 'Relax' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no The text 'Life' is partially obscured.\nyes 'Beach' is present in the image.\nno The text 'Better' appears to be part of another word.\nno 'Waves' is not a standalone text.\nyes 'Ocean' is part of the visible text.\nyes 'Sand' is included in the visible text.\nyes 'Relax' is present in the image."
+}

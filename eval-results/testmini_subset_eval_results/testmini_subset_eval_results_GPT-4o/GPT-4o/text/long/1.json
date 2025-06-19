@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the text 'Corporate' is visible in the image.\nyes, because the text 'DISC' is visible in the image.\nyes, because the text 'Workshop' is visible in the image.\nyes, because the text 'THE' is visible in the image.\nyes, because the text 'BIZ' is visible in the image.\nyes, because the text 'STUDIO' is visible in the image."
+}

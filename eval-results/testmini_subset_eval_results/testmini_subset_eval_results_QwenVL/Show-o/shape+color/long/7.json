@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a ice cream cone in the scene?",
+    "Is the ice cream cone conical in shape?",
+    "Is there a sunflower in the scene?",
+    "Is the sunflower tall in shape?",
+    "Is the ice cream cone painted black?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image clearly shows an ice cream cone holding a scoop of yellow ice cream topped with a flower resembling a sunflower.\nyes The bottom part of the ice cream holder is distinctly conical and resembles a typical waffle ice cream cone.\nyes There is a flower on top of the ice cream that has characteristics of a sunflower, such as its large petals and center.\nno Although the flower may resemble a sunflower, it does not have a noticeable height as it's placed on top of the ice cream; therefore, its shape cannot be described as tall in this context.\nyes The cone of the ice cream is depicted in a dark color, consistent with what might be perceived as black for an ice cream cone wrapper or cone material."
+}

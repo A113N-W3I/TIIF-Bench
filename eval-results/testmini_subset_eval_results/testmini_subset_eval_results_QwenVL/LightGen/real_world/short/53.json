@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no This is not a wedding invitation card; it appears to be a creative book cover or decorative paper project.\nno The card is not shown as having eggshell textures and embossings; it appears flat with illustrations and text.\nyes There are elegant decorations in the form of abstract sketches that could represent artistic elements related to the theme of the card.\nyes The usage of iconography seems sparing and minimalist, fitting within the design.\nno The card does not specifically mention a union of Image and Text; these seem to be part of its design concept.\nno The typesetting appears casual and creative rather than perfectly aligned for formal use like an invitation.\nno The card is placed on what looks like a wooden surface, but it's unclear if it can be classified as a \"tasteful wooden desk.\"\nno The text on the card is stylized and artistic but may not be universally clear and readable due to the handwriting-like font.\nno The picture does not contain specific time information such as \"March 25, 2025.\""
+}

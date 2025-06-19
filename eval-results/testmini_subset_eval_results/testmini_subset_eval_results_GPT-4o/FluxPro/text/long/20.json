@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 20,
+  "questions": [
+    "Is the text 'Kingston' in the image?",
+    "Is the text '64GB' in the image?",
+    "Is the text 'microSDXC' in the image?",
+    "Is the text 'UHS-I' in the image?",
+    "Is the text 'U1' in the image?",
+    "Is the text 'Memory' in the image?",
+    "Is the text 'Card' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the text 'Kingston' is in the image at the top.\nno, the text '64GB' is not in the image; only '64' is visible.\nno, the text 'microSDXC' is not in the image; it appears as 'microSD'.\nno, the text 'UHS-I' is not in the image; it appears as 'U0 1'.\nno, the text 'U1' is not in the image; it appears as 'U0 1'.\nyes, the text 'Memory' is in the image on the memory card itself.\nno, the text 'Card' is not in the image."
+}

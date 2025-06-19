@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace in the shape of a crescent?",
+    "Is there a strawberry in the scene?",
+    "Is the strawberry shaped like a teardrop?",
+    "Is the crescent necklace metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The scene includes a necklace with a prominent pendant.\nyes The necklace features a pendant in the shape of a crescent.\nyes There are strawberries visible in the scene alongside the necklace.\nno The strawberries are not shaped like a teardrop; they have a typical conical shape with a textured surface.\nyes The crescent-shaped pendant appears metallic and shines under the light."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there an umbrella in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is the umbrella open?  ",
+    "Is the umbrella positioned in front of the chair?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes because an open umbrella is visible in the rain.\nyes because there is a black chair present under the umbrella.\nyes because the umbrella is spread out over the chair.\nyes because the umbrella is located in front of the chair in the image."
+}

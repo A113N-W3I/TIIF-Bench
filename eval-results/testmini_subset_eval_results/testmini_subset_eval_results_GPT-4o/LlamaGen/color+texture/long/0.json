@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a piano in the scene?",
+    "Is the piano white?",
+    "Is there a suitcase in the scene?",
+    "Is the suitcase blue in color?",
+    "Is the lamp metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is a piano in the scene but it is black, not white.  \nno, the piano is not white, it is black with a gold inscription.  \nyes, there is a suitcase in the scene, it is sitting on the floor.  \nno, the suitcase is not blue in color, it is a light cream or white with some black accents.  \nno, the lamp is not metallic, it has a fabric shade and a classic design."
+}

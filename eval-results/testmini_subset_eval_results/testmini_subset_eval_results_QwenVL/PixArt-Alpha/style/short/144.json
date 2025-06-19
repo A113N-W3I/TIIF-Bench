@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 144,
+  "questions": [
+    "Is the image in Pixel Art style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features smooth gradients and detailed elements characteristic of digital or fantasy art styles rather than the blocky, grid-based pixels typical of Pixel Art.\n"
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there microphones in the image?  ",
+    "Are there breads in the image?  ",
+    "Are there camels in the image?  ",
+    "Is the number of microphones 1?  ",
+    "Is the number of breads 3?  ",
+    "Is the number of camels 2?  ",
+    "Is the microphone on the bottom?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image does not contain microphones.\nno, the image does not contain breads.\nyes, the image contains camels.\nno, there is no microphone, so the count of microphones cannot be 1.\nno, there are no breads, so the count of breads cannot be 3.\nno, the number of camels is more than 2.\nno, the image does not contain a microphone, so it cannot be on the bottom."
+}

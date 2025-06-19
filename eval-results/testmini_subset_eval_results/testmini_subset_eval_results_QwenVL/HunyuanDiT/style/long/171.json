@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 171,
+  "questions": [
+    "Is the image in Cyberpunk style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image depicts a futuristic cityscape with lush greenery and clean lines, which is more characteristic of a utopian or eco-friendly future rather than the high-tech, low-life aesthetic typical of Cyberpunk style."
+}

@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there flags in the image?  ",
+    "Are there butterflies in the image?  ",
+    "Are there bananas in the image?  ",
+    "Are there apples in the image?  ",
+    "Is the number of flags 2?  ",
+    "Is the number of butterflies 3?  ",
+    "Is the number of bananas 4?  ",
+    "Is the number of apples 2?  ",
+    "Are the flags made of fabric?  ",
+    "Are the apples fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there are flags in the image because three flags are visible.\nNo, there are butterflies in the image because there are no butterflies visible.\nYes, there are bananas in the image because five bananas are present.\nYes, there are apples in the image because two apples are visible.\nNo, the number of flags is 2 because there are three flags visible.\nNo, the number of butterflies is 3 because there are no butterflies visible.\nNo, the number of bananas is 4 because there are five bananas present.\nYes, the number of apples is 2 because two apples are visible.\nYes, the flags are made of fabric because they appear to have a textile texture.\nNo, the apples are fluffy because they appear smooth and shiny."
+}

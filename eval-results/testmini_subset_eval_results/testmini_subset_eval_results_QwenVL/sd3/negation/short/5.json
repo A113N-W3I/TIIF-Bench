@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a hamster in the image?  ",
+    "Is there a wheel in the image?  ",
+    "Is the hamster running on the wheel?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image features a small rodent with characteristics typical of a hamster, such as its rounded body shape, large cheek pouches, and the style of fur.\nno There is no circular object resembling a wheel in the image; the hamster stands on a flat surface.\nno Since there is neither a wheel nor any indication of motion, the hamster cannot be running on a wheel."
+}

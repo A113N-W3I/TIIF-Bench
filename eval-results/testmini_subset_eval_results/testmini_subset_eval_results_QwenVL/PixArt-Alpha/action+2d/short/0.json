@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a visible child in the image playing with bubbles.\nyes Bubbles are floating around the child in various sizes.\nno There is no toy box present in the image.\nno The child appears to be reaching for the bubbles, not blowing them.\nno There is no toy box to determine its position within the frame."
+}

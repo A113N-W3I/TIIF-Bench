@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a bell in the image?  ",
+    "Is there a dog in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the image contains a bell prominently displayed in the background.\nyes, there is a dog sitting in the foreground of the image.\nyes, the image presents a comparison logic where the bell is visually depicted as bigger than the dog."
+}

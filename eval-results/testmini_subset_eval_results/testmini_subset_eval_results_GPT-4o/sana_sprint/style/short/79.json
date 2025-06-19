@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 79,
+  "questions": [
+    "Is the image in Van Gogh style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, the image is in the style of stained glass art, which uses colorful glass pieces to create a mosaic effect, and while it includes swirling patterns reminiscent of Van Gogh's style, the medium and execution are not characteristic of his painting style."
+}

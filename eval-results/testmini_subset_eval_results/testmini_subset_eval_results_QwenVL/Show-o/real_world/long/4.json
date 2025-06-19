@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The top bar seems to capture the essence of asking about survey results related to podcasts.\nyes The infographic uses a mix of bright oranges and greens, which can be considered vibrant.\nyes There are various symbols suggesting technology and media which are typically modern icons.\nyes The text appears neatly organized without overlapping, suggesting clear typography.\nyes There are sections that seem to address different aspects like time, which could relate to listening frequency.\nyes The icons resemble devices which might indicate statistics related to device usage.\nyes Icons representing various categories possibly hint at topics covered by podcasts.\nyes The layout looks tidy with ample spacing between elements.\nyes The design is consistent and has a polished look, appropriate for a professional setting.\nyes Information appears in blocks with distinct sections, enhancing readability.\nyes The text is spaced properly, indicating clarity and readability.\nyes The numbers accompanying data points appear to be in a size that is legible."
+}

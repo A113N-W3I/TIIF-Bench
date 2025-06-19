@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a couch in the image?  ",
+    "Is there a fish in the image?  ",
+    "Is the couch on the right of the fish?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a couch in the image as it is clearly seen in the center with cushions.\nyes, there is an object resembling a fish in the image on the table on the left.\nno, the couch is on the left of the fish, which is on the table on the right side."
+}

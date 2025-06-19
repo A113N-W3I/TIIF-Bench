@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a table in the image?  ",
+    "Is the cat on the right of the table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no cat visible in the image.\nno There is no table visible in the image.\nno There is neither a cat nor a table in the image, so this cannot be determined."
+}

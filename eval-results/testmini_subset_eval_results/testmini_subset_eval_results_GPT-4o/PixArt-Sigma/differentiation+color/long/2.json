@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a man in a yellow suit in the image?  ",
+    "Is there a man in a black sweater in the image?  ",
+    "Does the image present a differentiation logic: one man is wearing a blue suit while the other man is wearing a green sweater?  ",
+    "Is the yellow suit a clothing item worn by one of the men?  ",
+    "Is the black sweater a clothing item worn by one of the men?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a man in a yellow suit in the image, as the left side of the image shows a person wearing a distinctively bright yellow suit.\nYes, there is a man in a black sweater in the image, as the right side of the image depicts a person wearing a bulky black sweater.\nNo, the image does not present a differentiation logic between a blue suit and a green sweater, as one person is in a yellow suit and the other in a black sweater.\nYes, the yellow suit is a clothing item worn by one of the men, as evident with the person on the left.\nYes, the black sweater is a clothing item worn by one of the men, as evident with the person on the right."
+}

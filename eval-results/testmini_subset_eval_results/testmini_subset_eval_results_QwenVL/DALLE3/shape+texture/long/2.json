@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a necklace-like object.\nno The necklace is not round; it has a twisted, rope-like structure.\nyes There is a watermelon visible in the upper left corner of the image.\nyes The watermelon appears to be oblong in shape.\nyes The necklace has a texture that resembles rubber."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "long_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a boy in the image, reaching towards a wall.\nyes The boy is touching a wall with one hand.\nyes A shadow is cast behind the boy and the tree.\nyes The boy is wearing sneakers on both feet.\nno The boy is not hidden; he is clearly visible climbing up the wall next to the tree."
+}

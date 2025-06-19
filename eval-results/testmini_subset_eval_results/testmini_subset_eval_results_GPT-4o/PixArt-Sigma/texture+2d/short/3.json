@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a rubber ball in the image, it is orange and spherical.\nyes, there is a metallic key in the image, it is located in the lower right corner.\nyes, the rubber ball is made of rubber, it has the appearance and texture typical of rubber balls.\nyes, the key is made of metal, it has the color and shine characteristic of metal.\nno, the rubber ball is not on the bottom, it is positioned slightly above on the left side.\nyes, the metallic key is on the bottom, it is placed on the wooden surface at the lower right."
+}

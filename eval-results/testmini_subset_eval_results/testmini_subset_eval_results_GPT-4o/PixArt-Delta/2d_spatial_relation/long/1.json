@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a pig in the image?  ",
+    "Is the cup on the left of the pig?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the image shows a bowl containing a piglet's head, not a cup.  \nyes, there is a pig in the image as a piglet's head is visible in the bowl.  \nno, there is no cup in the image to compare position with the pig."
+}

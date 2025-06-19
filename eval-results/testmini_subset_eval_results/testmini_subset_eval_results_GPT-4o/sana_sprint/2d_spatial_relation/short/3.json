@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bag in the image?  ",
+    "Is there a bee in the image?  ",
+    "Is the bag on the left of the bee?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bag in the image because a beige canvas bag with handles is visible.\nYes, there is a bee in the image because a large, realistic bee is shown next to the bag.\nYes, the bag is on the left of the bee because the bag is positioned to the left side of the bee in the image."
+}

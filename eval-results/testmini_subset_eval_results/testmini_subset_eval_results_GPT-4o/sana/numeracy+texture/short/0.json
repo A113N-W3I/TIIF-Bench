@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image is an abstract style and does not depict realistic objects.\nyes, there are objects that resemble cameras in the image.\nno, there are no fish in the image.\nyes, there are objects that resemble chairs in the image.\nyes, there are items that resemble candles in the image.\nno, there are no paddles in the image.\nyes, there are four objects that resemble cameras.\nno, there are no fish in the image.\nno, there are two objects that resemble chairs.\nyes, there are four objects that resemble candles.\nno, there are no paddles to assess material.\nno, the image is abstract and does not allow material determination.\nno, the image is abstract and does not allow material determination."
+}

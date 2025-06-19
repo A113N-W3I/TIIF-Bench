@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no - The model does not appear to be applying cream to their face; the hand positioning suggests a different action.\nyes - The model's posture and closed eyes suggest relaxation and self-care.\nyes - The lighting appears soft and natural, highlighting the skin.\nyes - The background contains pastel tones like blush pink and mint green.\nno - There is no text overlay with ‘Glow Naturally’ or ‘[Wish Glow] Skincare’.\nyes - There are icons resembling leaves and droplets included.\nyes - The focus seems on the model's skin and her action, without additional distractions.\nyes - The overall aesthetic appears both aspirational and approachable.\nno - There is no visible face cream on the model's face.\nyes - The limbs in the image appear to have a natural positioning."
+}

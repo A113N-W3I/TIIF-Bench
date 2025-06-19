@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 12,
+  "questions": [
+    "Is the text 'Trick' in the image?",
+    "Is the text 'or' in the image?",
+    "Is the text 'Treat' in the image?",
+    "Is the text 'Aam' in the image?",
+    "Is the text 'The' in the image?",
+    "Is the text 'Trickster' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes Trick is at the beginning of the text in the image.\nyes 'or' appears between Trick and Treat in the text of the image.\nyes 'Treat' is visible as part of the phrase 'or Treat' in the image.\nyes 'Aam' appears twice in the text shown in the image.\nno 'The' does not appear at the beginning of the phrase; it appears after \"Aam,\" in the image.\nyes 'Trickster' is present at the end of the text within the image."
+}

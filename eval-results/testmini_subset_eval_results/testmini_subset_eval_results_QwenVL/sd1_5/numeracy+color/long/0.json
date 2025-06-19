@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there pigs in the image?  ",
+    "Are there shrimp in the image?  ",
+    "Is there a cake in the image?  ",
+    "Is there a menu in the image?  ",
+    "Is the number of pigs 2?  ",
+    "Is the number of shrimp 4?  ",
+    "Is the number of cake 1?  ",
+    "Are the pigs yellow in color?  ",
+    "Are the shrimp yellow in color?  ",
+    "Are the cake brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are multiple pig figurines in the image.\nno There are no shrimp present in the image.\nyes There is a stack of what appears to be cakes in the background.\nno There is no menu visible in the image.\nyes There are two pigs sitting side by side on the left.\nno There are no shrimp, so the count cannot be four.\nno There is more than one object that could be interpreted as a cake.\nyes The pigs are painted in a yellowish hue.\nno There are no shrimp in the image to determine their color.\nno The cakes appear to be white and not brown."
+}

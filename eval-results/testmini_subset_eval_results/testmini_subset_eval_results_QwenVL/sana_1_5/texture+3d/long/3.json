@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The object in focus appears to be a rubber band based on its shape and context.\nno There is no clear indication of a reader in the image; the background figure is too blurred to identify as such.\nno The background figure, which might be interpreted as a reader, does not appear fluffy; it's out of focus but seems to be wearing a coat.\nno The rubber band is in the foreground, not behind the potentially perceived reader."
+}

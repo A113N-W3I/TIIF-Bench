@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pear in the image?  ",
+    "Are there cushions in the image?  ",
+    "Is the pear round?  ",
+    "Are the cushions spherical?  ",
+    "Is the pear on the left of the cushions?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a pear in the image, as it shows a yellow pear-shaped object with a stem.  \nYes, there are cushions in the image, as it depicts a white cushion or pillow to the right.  \nNo, the pear is not round, it is characteristically pear-shaped, which is asymmetrical.  \nNo, the cushions are not spherical, they appear oval or flat in shape.  \nYes, the pear is on the left of the cushions, as it is positioned to the left in the frame.  "
+}

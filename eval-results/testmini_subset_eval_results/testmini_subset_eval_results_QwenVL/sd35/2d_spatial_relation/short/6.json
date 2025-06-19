@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a couch in the image?  ",
+    "Is there a fish in the image?  ",
+    "Is the couch on the right of the fish?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because there is a yellow couch visible in the lower left portion of the image\nyes because the image shows a goldfish floating above the couch and wall\nno because the fish is positioned above the wall and not to the right of the couch"
+}

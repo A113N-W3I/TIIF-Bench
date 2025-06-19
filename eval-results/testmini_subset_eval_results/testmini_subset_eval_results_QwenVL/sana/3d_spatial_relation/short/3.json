@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a woman in the image?  ",
+    "Is the cup behind the woman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The image does not contain a discernible cup.\nyes There appears to be a figure that resembles a woman.\nno There is no cup present in the image, so it cannot be behind the woman."
+}

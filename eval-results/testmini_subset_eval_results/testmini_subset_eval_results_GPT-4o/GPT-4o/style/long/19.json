@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the image in Ghibli style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes: The soft, whimsical lighting, intricate nature-inspired details, and overall warm color palette resemble the Ghibli style."
+}

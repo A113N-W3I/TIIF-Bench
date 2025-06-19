@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no  \nThe image displays text that doesn't clearly indicate a character with an aura being graded.  \n\nno  \nThe image is not cropped to resemble the size of a card; it appears larger and includes additional elements.  \n\nno  \nThe label at the top does not bear the title 'GNRLYXYZ.'  \n\nno  \nThe text '1/1' is not displayed directly below 'GNRLYXYZ' on the label, as 'GNRLYXYZ' is not found on the label.  \n\nno  \nThere is no barcode beneath '1/1' in the image.  \n\nno  \nA grade label is not shown on the right side of the label at the top.  \n\nno  \nThere isn't a numeric grade visible from a scale below a grade label.  \n\nno  \nA certification number is not displayed below a numeric grade in the image.  \n\nno  \nThe text on the label is not uniform in size; varying fonts and sizes are observed.  \n\nno  \nThe padding from the border for all text is inconsistent throughout the label.  \n\nno  \nThe display is not placed on a white background; it has a patterned backdrop.  \n\nno  \nThe display is not fully shown without any text or labels, as text and labels are present.  "
+}

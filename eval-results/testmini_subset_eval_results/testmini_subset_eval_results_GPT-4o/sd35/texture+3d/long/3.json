@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a rubber band in the image. It is visible resting on the teddy bear.\nYes, there is a reader in the image. The teddy bear is depicted holding a book, suggesting it is the reader.\nYes, the reader is fluffy. The teddy bear has a fluffy and soft appearance due to its fur-like exterior.\nNo, the rubber band is not behind the reader. It is draped across the front of the teddy bear."
+}

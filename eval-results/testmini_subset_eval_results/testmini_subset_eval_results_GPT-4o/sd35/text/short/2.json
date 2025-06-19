@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the text 'Recycle' is present on a sticky note.\nyes, because the text 'Sustain' is present on sticky notes.\nyes, because the text 'Renew' is present on a sticky note.\nyes, because the text 'Choose' is present on a sticky note.\nyes, because the text 'wisely' is present on a sticky note (although misspelled as 'wisely').\nyes, because the text 'Eco-friendly' is present on sticky notes.\nyes, because the text 'Green' is present on a sticky note.\nyes, because the text 'living' is part of the misspelled phrase 'Gren living' on a sticky note.\nyes, because the text 'Minimalism' is present on a sticky note (although misspelled as 'Minimlsm')."
+}

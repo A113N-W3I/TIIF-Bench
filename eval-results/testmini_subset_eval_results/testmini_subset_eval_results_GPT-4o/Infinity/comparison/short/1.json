@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there people standing in the image?  ",
+    "Are there people sitting in the image?  ",
+    "Does the image present a comparison logic: people standing are more than people sitting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, the image shows a large crowd of people standing.\nno, the image does not show people sitting.\nyes, the image presents people standing in the context of a large crowd, and there are no people sitting, so people standing are more than people sitting."
+}

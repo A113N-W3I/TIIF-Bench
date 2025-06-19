@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cushion in the scene as it is visible at the base of the image.\nno, the cushion is not spherical in shape as it appears to be round and flat.\nno, a bookstand is not identifiable in the scene as the object present is not recognizable as a bookstand.\nyes, the object in the scene appears to be conical in shape but it is not identifiable as a bookstand, thus the specific question about a bookstand's shape is irrelevant.\nyes, the object that is conical in shape is blue."
+}

@@ -1,0 +1,37 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is the text 'Membership' in the image?",
+    "Is the text 'Access' in the image?",
+    "Is the text 'Exclusive' in the image?",
+    "Is the text 'Gold' in the image?",
+    "Is the text 'Premium' in the image?",
+    "Is the text 'Valid' in the image?",
+    "Is the text 'Cardholder' in the image?",
+    "Is the text 'Identity' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Membership' is clearly visible on the card in the image.\nyes The text 'Access' appears below 'Membership' on the card.\nno There is no text 'Exclusive' present in the image.\nno The text 'Gold' does not appear anywhere in the image.\nno There is no mention of 'Premium' in the text on the card or elsewhere in the image.\nno The word 'Valid' is not included in the text visible in the image.\nno There is no text 'Cardholder' on the card or in the surrounding area.\nno The term 'Identity' is not present in the image."
+}

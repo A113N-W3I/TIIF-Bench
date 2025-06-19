@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there bells in the image?  ",
+    "Are there dogs in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?  ",
+    "Is the bell on the bottom of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a bell designed with a dog's face.\nyes, there is a depiction of a dog on the bell.\nno, the image does not present a size comparison as the dog is part of the bell's design.\nno, the bell is positioned near the center of the image, not at the bottom."
+}

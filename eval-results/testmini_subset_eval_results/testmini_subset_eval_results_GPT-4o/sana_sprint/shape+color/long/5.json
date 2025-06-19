@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a ball in the scene?",
+    "Is the ball round in shape?",
+    "Is there a pendant in the scene?",
+    "Is the pendant shaped like a teardrop?",
+    "Is the teardrop pendant green?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a ball in the scene as observed near the bottom.\nyes, the ball is round in shape as typical for a sphere.\nyes, there is a pendant in the scene, hanging from a chain.\nno, the pendant is not shaped like a teardrop; it is more circular or oval.\nno, the teardrop pendant is not green, as it is absent and the pendant present is more blue."
+}

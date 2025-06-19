@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a bag in the image?  ",
+    "Are the clouds fluffy?  ",
+    "Is the bag made of leather?  ",
+    "Are the clouds partially hiding the bag?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a cloud in the image because the image shows white fluffy formations in the sky.\nno, there is not a bag in the image because the image only shows clouds.\nyes, the clouds are fluffy because they appear soft and round.\nno, the bag is not made of leather because there is no bag in the image.\nno, the clouds are not partially hiding the bag because there is no bag in the image."
+}

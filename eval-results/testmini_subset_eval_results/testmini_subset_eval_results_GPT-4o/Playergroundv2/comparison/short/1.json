@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there people standing in the image?  ",
+    "Are there people sitting in the image?  ",
+    "Does the image present a comparison logic: people standing are more than people sitting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there are people standing in the image. The central figure is standing, and there are many other people standing throughout the image, particularly in the background.\nYes, there are people sitting in the image. In the foreground and around the central figure, several people are seated on chairs.\nYes, the image presents a comparison logic: people standing are more than people sitting. The background is filled with standing people, whereas only a portion in the foreground and near the speaker are sitting."
+}

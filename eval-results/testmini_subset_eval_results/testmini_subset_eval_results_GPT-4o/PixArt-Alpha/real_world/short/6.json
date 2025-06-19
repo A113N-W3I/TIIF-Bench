@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because the figure in the image has a robotic appearance with humanoid features.  \nno, because although it appears to be a library, it's not distinctly futuristic from the provided image.   \nno, it looks like the android is reading a physical book rather than a floating holographic version.  \nyes, as the background and figure are illuminated with soft blue and purple lighting.  \nyes, the body of the android shows metallic reflections and appears sleek and shiny.  \nno, the facial expression cannot be determined due to the blur.  \nyes, as the background appears to have high-tech elements despite being blurry.  \nyes, the overall composition and style exhibit realistic detailing in a cinematic manner.  \nyes, the image incorporates sci-fi elements, including the android and the lighting.  \nno, the book appears to be physical rather than holographic."
+}

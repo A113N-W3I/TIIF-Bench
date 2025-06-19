@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fence in the scene?",
+    "Is the fence in the shape of a square?",
+    "Is there a fig in the scene?",
+    "Is the fig in the shape of a teardrop?",
+    "Is the carpet of grass fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are vertical structures resembling stakes that could form part of a fence.\nno The vertical structures do not form a square shape but rather appear scattered.\nno There is no visible fig in the scene.\nno Since there is no fig present, its shape cannot be described.\nno The grass appears flat and not fluffy."
+}

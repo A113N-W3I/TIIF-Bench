@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features characteristics of Ukiyo-e such as a detailed depiction of nature and a peacock, use of flat areas of color, and an illustrative style akin to traditional Japanese woodblock prints.\n\n"
+}

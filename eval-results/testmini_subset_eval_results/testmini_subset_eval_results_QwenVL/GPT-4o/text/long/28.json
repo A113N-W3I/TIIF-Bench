@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'Champion' is clearly visible at the top of the jersey.\nyes The text 'Teamwork' appears on the right sleeve of the jersey.\nyes The text 'Victory' is displayed at the bottom of the jersey.\nyes The text 'Game' is part of the phrase 'ALL-STAR GAME' on the jersey.\nyes The text 'On' is present after 'GAME' on the jersey.\nyes The text 'All-Star' is part of the phrase 'ALL-STAR GAME' on the jersey.\nno The text 'League' is not present in the image."
+}

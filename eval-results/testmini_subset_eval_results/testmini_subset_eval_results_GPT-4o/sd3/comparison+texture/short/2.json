@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "short_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a green ball in the image?  ",
+    "Is there a red ball in the image?  ",
+    "Does the image present a comparison logic: the green ball is bigger than the red ball?  ",
+    "Is the green ball made of rubber?  ",
+    "Is the red ball made of wood?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because there is a green ball visible in the image.\nyes, because there is a red ball visible in the image.\nyes, because the green ball is visibly larger than the red ball.\nno, because the material of the green ball is not indicated to be rubber.\nno, because the material of the red ball is not clearly indicated to be wood."
+}

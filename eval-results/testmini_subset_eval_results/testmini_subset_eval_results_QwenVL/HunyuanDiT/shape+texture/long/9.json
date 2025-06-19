@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a tall building that qualifies as a skyscraper in the scene.\nyes The skyscraper is tall in shape, extending high into the sky.\nyes There is a traffic sign in the scene, displaying a Facebook logo.\nno The traffic sign is rectangular, not pentagonal in shape.\nno Shadows are not visible in the image; therefore, it cannot be determined if they are fluffy."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 12,
+  "questions": [
+    "Is the text 'Trick' in the image?",
+    "Is the text 'or' in the image?",
+    "Is the text 'Treat' in the image?",
+    "Is the text 'Aam' in the image?",
+    "Is the text 'The' in the image?",
+    "Is the text 'Trickster' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the text 'Trick' is in the image. It is prominently displayed on the left side of the design.  \nYes, the text 'or' is in the image. It is located next to 'Trick' on the upper left.\nYes, the text 'Treat' is in the image. It appears on the upper right portion.  \nYes, the text 'Aam' is in the image. It is visible on the left portion among other design elements.\nYes, the text 'The' is in the image. It is located in the upper right corner preceding the text 'Treat.'  \nYes, the text 'Trickster' is in the image. It appears multiple times on the right side amidst intricate designs."
+}

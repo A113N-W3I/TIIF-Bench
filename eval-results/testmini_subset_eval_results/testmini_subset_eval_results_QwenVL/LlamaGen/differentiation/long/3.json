@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a black cat in the image?  ",
+    "Is there a white cat in the image?  ",
+    "Does the image present a differentiation logic: a black cat sits on a window sill, a white cat lies beneath the sill?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a black cat sitting on the lower window sill.\nno There are only three cats in the image, and two of them are light-colored but not pure white; also, one is black which does not fit the question.\nno The image does show a black cat but it's not on a window sill directly. It is seated on a surface below other windows where cats are perched."
+}

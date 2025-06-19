@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a laptop in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the laptop displaying a beautiful scenery?  ",
+    "Is the laptop wooden in texture?  ",
+    "Is the desk wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes because there is a visible laptop in the image.\nyes as the laptop is situated on a surface that appears to be a desk.\nyes because the laptop screen shows an image of a beach and cliffs which is typically considered a beautiful scenery.\nno because the laptop has a smooth plastic or metal frame, not a wooden texture.\nyes because the desk has the visible grain and coloration typical of wood."
+}

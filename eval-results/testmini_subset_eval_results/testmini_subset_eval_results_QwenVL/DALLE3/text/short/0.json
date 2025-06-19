@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is the text 'drink' in the image?",
+    "Is the text 'tea' in the image?",
+    "Is the text 'eat' in the image?",
+    "Is the text 'cake' in the image?",
+    "Is the text 'relax' in the image?",
+    "Is the text 'enjoy' in the image?",
+    "Is the text 'delight' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'Drink' is clearly visible at the top left of the image.\nyes The text 'Tea' is present below 'Drink'.\nno The text 'eat' is not present; instead, it says 'Eatx'.\nyes The text 'Cake' is visible near the slice of cake.\nno The text 'relax' is not present in the image.\nyes The text 'Enjoy' is present, although it is stylized as 'Enlogx'.\nno The text 'delight' is not present in the image."
+}

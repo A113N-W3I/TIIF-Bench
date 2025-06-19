@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows what appears to be a necklace made of seeds placed within half a watermelon.\nno The necklace is circular but not perfectly round; it follows the shape of the watermelon's interior.\nyes There is a whole watermelon in the background as well as a halved one in the foreground.\nyes The watermelon in the background appears to be oblong in shape.\nno The necklace is made of seeds and does not appear to have a rubber texture."
+}

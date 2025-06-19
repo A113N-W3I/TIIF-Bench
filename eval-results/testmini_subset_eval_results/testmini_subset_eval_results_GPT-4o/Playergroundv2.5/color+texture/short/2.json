@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bracelet in the scene?",
+    "Is the bracelet silver in color?",
+    "Is there a book in the scene?",
+    "Is the book the color of gold?",
+    "Is the table smooth?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bracelet in the scene. The image shows a circular piece that resembles a bracelet.\nYes, the bracelet is silver in color. The bracelet has a silver metallic sheen.\nYes, there is a book in the scene. The bracelet is resting on top of a rectangular object with pages, which is a book.\nNo, the book is not the color of gold. The cover of the book appears to be dark blue or grey, not gold.\nYes, the table is smooth. The surface reflects light clearly, indicating a smooth texture."
+}

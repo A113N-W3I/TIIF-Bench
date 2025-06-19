@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The distortion and unreadability of text make it unclear if the title text is twice the size of the regular text.\nno Due to the distortion of the text, it is not possible to assess the spacing between paragraphs.\nno It's not possible to determine if vibrant colors are used for emphasis due to the text distortion.\nyes The image has a colorful and dynamic design that resembles a digital pattern or chat interface.\nno The image's overall design is visually busy, possibly causing distraction rather than enhancing depth.\nno The distortion makes it impossible to confirm the presence of any specific text, including 'Breaking News! ChatGPT has become even stronger!'.\nno The distortion makes it impossible to confirm the presence of any specific text, including 'Better multitasking ✨'.\nno The distortion makes it impossible to confirm the presence of any specific text, including 'Improved programming skills 💪'.\nno The distortion makes it impossible to confirm the presence of any specific text, including 'Creativity off the charts 🎨'.\nno The distortion makes it impossible to confirm the presence of any specific text, including 'Try it now!'.\nno The aspect ratio appears to be square rather than 9:16.\nno The distortion of the text makes it unreadable."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a blue bird in the image?  ",
+    "Is there a red fish in the image?  ",
+    "Does the image present a comparison logic: the blue birds are more numerous than the red fish?  ",
+    "Are the birds in the image blue in color?  ",
+    "Are the fish in the image red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a blue bird in the image as evidenced by a prominently featured blue bird in the foreground.\nNo, there is no red fish in the image; I see no fish or marine life depicted at all.\nNo, there is no comparison logic regarding the numerical superiority of blue birds over red fish; only the blue bird is visible.\nYes, the bird in the image is blue in color, clearly shown by its feather coloring.\nNo, there are no fish depicted as red in color since there are no fish visible in the image."
+}

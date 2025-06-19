@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there pigs in the image?  ",
+    "Are there shrimp in the image?  ",
+    "Is there a cake in the image?  ",
+    "Is there a menu in the image?  ",
+    "Is the number of pigs 2?  ",
+    "Is the number of shrimp 4?  ",
+    "Is the number of cake 1?  ",
+    "Are the pigs yellow in color?  ",
+    "Are the shrimp yellow in color?  ",
+    "Are the cake brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are two yellow pigs on top of the cake slices.\nno There are no shrimp; there are crayfish instead.\nyes There is a cake that has been cut into two slices.\nno There is no menu present in the image.\nyes There are two pigs visible on the cake slices.\nno There are three crayfish, not four shrimp.\nyes There is one cake that has been sliced.\nyes The pigs are depicted in a bright yellow color.\nno The crayfish are orange, not yellow.\nno The cake layers appear to be dark brown, but the frosting is white and yellow."
+}

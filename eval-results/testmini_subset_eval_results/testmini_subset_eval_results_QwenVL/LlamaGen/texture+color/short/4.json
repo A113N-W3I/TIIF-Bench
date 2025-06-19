@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a towel in the scene?",
+    "Is the towel fluffy?",
+    "Is there a jewelry in the scene?",
+    "Is the jewelry made of metal?",
+    "Is the vibrant vase blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no towel in the scene; there is a shiny fabric on the stand and a fluffy item beside it, which do not appear to be a towel.\nno Since there is no towel in the scene, we cannot assess its fluffiness.\nno There is no jewelry present in the scene; instead, there's a cloth draped over a stand and a fluffy object.\nno As there is no jewelry in the scene, this question is not applicable.\nno There is no vibrant vase in the scene, let alone a blue one; the image contains fabrics and a fluffy object on the floor."
+}

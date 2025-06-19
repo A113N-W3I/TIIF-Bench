@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a bag in the image?  ",
+    "Are the clouds fluffy?  ",
+    "Is the bag made of leather?  ",
+    "Are the clouds partially hiding the bag?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no cloud in the image; it is an abstract pattern that resembles clouds.\nno, there is no bag in the image; it only contains abstract shapes.\nno, since there are no clouds, they cannot be described as fluffy.\nno, there is no bag in the image, so it cannot be made of leather.\nno, since there are no clouds or a bag, clouds cannot hide a bag."
+}

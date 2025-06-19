@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the cloud white?  ",
+    "Is the cup blue?  ",
+    "Is the cloud on the right of the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a clear depiction of a cloud.\nno There is no identifiable object resembling a cup in the image.\nno Since there is no cloud present, it cannot be described as white.\nno As there is no cup in the image, it cannot be described as blue.\nno Without both a cloud and a cup present, their relative positions cannot be determined."
+}

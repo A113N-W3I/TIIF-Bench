@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bag in the image?  ",
+    "Is there a bee in the image?  ",
+    "Is the bag on the left of the bee?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is an object that resembles a small bag or case in the image.\nno There is no bee present; the insect looks more like a fly.\nno The bag-like object is not to the left of a bee, as there is no bee in the image."
+}

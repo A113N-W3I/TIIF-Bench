@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Does this image show a young Indian woman? Answer with yes or no.",
+    "Does this image show the woman with dark hair in an open ponytail? Answer with yes or no.",
+    "Is the woman wearing a black jacket? Answer with yes or no.",
+    "Is the setting of the image on a university campus? Answer with yes or no.",
+    "Is the woman looking directly at the camera? Answer with yes or no.",
+    "Does the image have a 1990s-style movie still aesthetic? Answer with yes or no.",
+    "Is it a sunny day in the image? Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image features multiple surreal distortions that do not suggest a real-life young Indian woman.\nno The figure's hair is depicted unnaturally due to distortions; it cannot be described as an open ponytail.\nyes Despite distortions, the attire can be perceived as a black jacket.\nno The setting is too abstract and distorted to be identified as a university campus.\nno The eyes are distorted, so direct gaze cannot be discerned.\nno The distortions suggest a digital manipulation rather than a 1990s-style movie still.\nno The image's elements are too abstract to determine weather conditions like sunlight.\nno The distortions make the limbs and face appear unnatural and surreal."
+}

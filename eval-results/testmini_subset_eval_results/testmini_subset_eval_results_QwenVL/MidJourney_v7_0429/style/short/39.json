@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 39,
+  "questions": [
+    "Is the image in LEGO style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features structures and figures consistent with LEGO building elements, including blocky construction, figures with distinct heads, torsos, and limbs typical of LEGO minifigures, and a variety of specialized pieces like transparent bricks for ice effects."
+}

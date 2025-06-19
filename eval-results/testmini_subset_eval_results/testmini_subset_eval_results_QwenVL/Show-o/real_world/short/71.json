@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image depicts a toilet with a curved design that suggests rounded edges.\nyes The image primarily uses soft beige for the toilet, light gray for the walls, and a warm orange circle as an accent.\nyes The lighting in the scene is soft and appears to come from above and to the right, creating gentle shadows.\nyes The surfaces in the image appear matte and smooth, with minimal reflections indicating low reflectivity.\nyes The toilet is positioned centrally with a significant amount of empty space around it.\nyes The perspective is not straight on, but angled slightly to enhance the three-dimensional appearance of the toilet.\nyes The background consists of solid, muted colors that do not compete with the main subject.\nno There is no visible text in the lower-left corner of the image.\nno Since there is no text in the image, there cannot be text with low contrast.\nno As previously stated, there is no text in the image."
+}

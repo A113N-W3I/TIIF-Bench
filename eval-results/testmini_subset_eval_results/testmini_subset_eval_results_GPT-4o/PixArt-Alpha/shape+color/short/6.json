@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a bookend in the scene?",
+    "Is the bookend pyramid-shaped?",
+    "Is there a fig in the scene?",
+    "Is the fig shaped like a teardrop?",
+    "Is the pyramidal bookend blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no bookend in the scene because the triangular objects appear to be decorative pieces, not functional bookends.\nyes, there are pyramid-shaped objects in the scene, but they do not appear to be bookends.\nno, there is no fig in the scene; the object in the background appears to be a plant leaf, not a fig.\nno, the object in the background is not a fig and is not shaped like a teardrop.\nyes, one of the pyramid-shaped objects is blue, as seen on the right side of the image."
+}

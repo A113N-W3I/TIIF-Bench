@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the text 'Unite' in the image?",
+    "Is the text 'Perform' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Strive' in the image?",
+    "Is the text 'Inspire' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Commit' in the image?",
+    "Is the text 'Create' in the image?",
+    "Is the text 'Lead' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the text 'Unite' is prominent at the top left corner.\nyes, the text 'Perform' is underneath 'Unite' on the left side.\nyes, the text 'Dream' is at the top right corner.\nyes, the text 'Strive' is below 'Perform' on the left side.\nyes, the text 'Inspire' is underneath 'Dream' on the right side.\nyes, the text 'Shine' appears beneath 'Inspire' on the right.\nyes, the text 'Commit' is below 'Strive' on the left side.\nyes, the text 'Create' appears under 'Shine' on the right side.\nyes, the text 'Lead' appears twice, at the bottom of both lists on the left and right sides."
+}

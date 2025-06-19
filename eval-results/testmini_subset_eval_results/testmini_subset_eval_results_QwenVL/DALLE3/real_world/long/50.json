@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 50,
+  "questions": [
+    "Does the first panel show a small snail at the counter of a flashy car showroom with the salesman leaning over the desk to see him? Answer with yes or no.",
+    "Does the second panel show a close-up of the snail looking very serious, saying, 'I want your fastest sports car... and I want you to paint big letter 'S's on the doors, the hood, and the roof.'? Answer with yes or no.",
+    "Does the third panel show the salesman scratching his head, saying, 'Um... we can do that, but why the S's?'? Answer with yes or no.",
+    "Does the fourth panel show a red blur roaring down the highway with the sports car covered in giant S's and people on the sidewalk pointing and laughing, saying, 'WOW! LOOK AT THAT S-CAR GO!'? Answer with yes or no.",
+    "Is there padding around the border of the comic strip? Answer with yes or no.",
+    "Is this comic strip a four-panel one? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The first panel depicts a snail at a counter interacting with a salesman in what resembles a car showroom environment.\nyes The second panel features a close-up of the snail with dialogue indicating a desire for the fastest sports car and specific customization involving large 'S' letters.\nyes The third panel shows a salesman with a puzzled expression, asking about the reason for the requested 'S's.\nno The fourth panel displays a red sports car speeding along with an 'S' emblem, but it doesn't include people on the sidewalk laughing or speaking; it suggests speed through motion lines and appearance.\nno There is no visible padding around the border of the comic strip panels.\nyes The comic strip consists of four distinct panels, as observed in the layout of the image provided."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is the text 'Eternal' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'Promise' in the image?",
+    "Is the text 'Forever' in the image?",
+    "Is the text 'Commitment' in the image?",
+    "Is the text 'Together' in the image?",
+    "Is the text 'Yes' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Moment' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Eternal' is clearly visible at the top of the circular design.\nyes The text 'Love' is present within the circular design, next to 'Eternal'.\nyes The text 'Promise' is included in the circular text arrangement.\nyes The text 'Forever' appears at the bottom of the circular design.\nyes The text 'Commitment' is part of the circular text surrounding the central diamond.\nno The text 'Together' is not present in the image.\nno The text 'Yes' does not appear in the image.\nyes The text 'Dream' is located in the lower section of the circular text.\nyes The text 'Moment' is visible in the lower part of the circular text arrangement."
+}

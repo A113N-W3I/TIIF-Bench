@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes because the silhouette of a figure appears to be that of a boy.\nyes because the background shows a large flat surface typical of a wall.\nyes because there are dark areas cast by leaves and branches on the wall.\nno because the boy is barefoot, as there are no shoes visible.\nno because the boy is not obscured by shadows; his figure is clearly visible."
+}

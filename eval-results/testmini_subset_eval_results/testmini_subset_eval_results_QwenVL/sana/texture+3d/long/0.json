@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a bag in the image?  ",
+    "Are the clouds fluffy?  ",
+    "Is the bag made of leather?  ",
+    "Are the clouds partially hiding the bag?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains elements that resemble clouds.\nno There is no distinct object resembling a bag in the image.\nyes The cloud-like elements appear soft and voluminous, suggesting fluffiness.\nno There is no bag present, so it cannot be made of leather.\nno Since there is no bag in the image, the clouds cannot be hiding it."
+}

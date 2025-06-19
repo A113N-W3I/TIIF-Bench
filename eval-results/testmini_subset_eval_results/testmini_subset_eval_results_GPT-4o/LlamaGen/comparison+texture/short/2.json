@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "short_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a green ball in the image?  ",
+    "Is there a red ball in the image?  ",
+    "Does the image present a comparison logic: the green ball is bigger than the red ball?  ",
+    "Is the green ball made of rubber?  ",
+    "Is the red ball made of wood?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a green ball in the image as observed by the green sphere visible in the image.\nyes, there is a red ball in the image as observed by the red sphere visible in the image.\nyes, the image presents a comparison logic: the green ball is bigger than the red ball, indicated by the size difference.\nno, it is not clear if the green ball is made of rubber as the material is not evidently shown.\nno, it is not clear if the red ball is made of wood as the material is not evidently shown."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a larger person in yellow clothing in the image?  ",
+    "Is there a smaller person in a different color in the image?  ",
+    "Does the image present a differentiation logic: a larger person in yellow clothing and a smaller person in a different color?  ",
+    "Is the larger person in yellow clothing partially hidden by the smaller person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a person wearing a yellow garment that covers their body but not their face, making them appear larger due to perspective.\nyes There is a smaller child visible at the lower left side of the garment, wearing a yellow top which is a similar color but not the same as the garment.\nno Both individuals are seen in what appears to be similar shades of yellow, not different colors, thereby not presenting a differentiation logic based on color.\nno The smaller person is not hiding the larger person; instead, the larger person's garment creates an illusion while the smaller person stands beside it."
+}

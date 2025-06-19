@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the girl drinking from the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no girl in the image.\nyes, there is a cup in the image.\nno, there is no girl drinking from the cup."
+}

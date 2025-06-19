@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is an image of a character and an aura evaluation chart, indicating the aura is being graded.\nno The image appears larger and more detailed than a real card typically would be.\nyes The label at the top includes the text 'GNRLYXYZ'.\nno Below 'GNRLYXYZ', it does not show '1/1'; instead, it shows other text like 'PROFESIONAL CHARACTER'.\nno There is no barcode placed beneath the '1/1' as there isn't even a '1/1' listed.\nno The numeric grade is displayed on the side rather than below what might be considered a grade label.\nyes The numeric grades are displayed in a column next to what could be considered their respective grades.\nno The certification number, if present, is not clearly displayed; instead, there are various numbers and labels.\nno The text sizes vary, with some parts being bolder or larger than others.\nno The padding is inconsistent, with some areas being closely packed and others more spaced out.\nno The display has a greyish background rather than white.\nno Text and labels are present on the display, indicating it's not empty of text or labels."
+}

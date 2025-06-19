@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a black cat in the image?  ",
+    "Is there a white cat in the image?  ",
+    "Does the image present a differentiation logic: a black cat sits on a window sill, a white cat lies beneath the sill?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a black cat in the image because the cat shown has black fur.\nNo, there is not a white cat in the image because there is only one cat visible, and it is black.\nNo, the image does not present a differentiation logic: a black cat sits on a window sill, a white cat lies beneath the sill because only a black cat is visible sitting on the sill."
+}

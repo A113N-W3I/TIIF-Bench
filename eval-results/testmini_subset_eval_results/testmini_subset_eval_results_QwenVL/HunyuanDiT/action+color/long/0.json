@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a ballerina in the image.\nyes There is an iceberg in the background.\nno The ballerina is not pirouetting on the iceberg; she is on a rocky surface.\nyes The dress of the ballerina is red.\nno The iceberg is not brown; it appears blue and white."
+}

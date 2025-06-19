@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 15,
+  "questions": [
+    "Is the text 'Spin' in the image?",
+    "Is the text 'Glow' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Skill' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Twirl' in the image?",
+    "Is the text 'Fun' in the image?",
+    "Is the text 'Bounce' in the image?",
+    "Is the text 'Light' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'Spin' is visible at the top left of the image.\nno The word 'Glow' appears twice, but it's not the exact phrase 'Glow' as a standalone query without further context.\nyes The word 'Play' is present under the purple toy.\nno The text 'Skill' is not present in the image.\nyes The word 'Shine' is displayed under the blue toy.\nno The text 'Twirl' does not appear in the image.\nno The word 'Fun' is not present in the image.\nyes The word 'Bounce' is written under the purple toy on the right.\nno The text 'Light' does not appear in the image."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The object is a blue sphere, not a rubber ball.\nyes A metallic key is visible in the image.\nno The blue sphere appears to be plastic due to its shiny surface.\nyes The key has the appearance and texture typical of metallic objects.\nno The blue sphere is positioned towards the top of the image.\nyes The key is clearly positioned at the bottom of the image."
+}

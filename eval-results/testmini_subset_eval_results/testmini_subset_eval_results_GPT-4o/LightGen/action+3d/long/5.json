@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no scroll in the image. The object appears to be a piece of parchment or paper, but it is not clearly a scroll.\nno, there is no desk in the image. The object is on a dark background, which does not appear to be a desk.\nno, there is no inkwell in the image. There is an object which could be a stamp or something similar, but it does not clearly appear to be an inkwell.\nno, there is no scroll to be unrolled. The object is a flat piece of parchment or paper.\nno, there is no scroll and no inkwell, so one cannot be behind the other."
+}

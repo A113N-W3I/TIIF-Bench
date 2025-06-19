@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 15,
+  "questions": [
+    "Is the text 'Spin' in the image?",
+    "Is the text 'Glow' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Skill' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Twirl' in the image?",
+    "Is the text 'Fun' in the image?",
+    "Is the text 'Bounce' in the image?",
+    "Is the text 'Light' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the text 'Spin' is in the image because it is written at the top left.\nYes, the text 'Glow' is in the image because it is written under the two green circles.\nYes, the text 'Play' is in the image because it is written under the bottom left purple circle.\nYes, the text 'Shine' is in the image because it is written under the bottom middle blue circle.\nYes, the text 'Shine' is in the image because it is written under the bottom middle blue circle.\nNo, the text 'Twirl' is not in the image; there is no such text present.\nNo, the text 'Fun' is not in the image; there is no such text present. \nYes, the text 'Bounce' is in the image because it is written under the bottom right purple circle.\nNo, the text 'Light' is not in the image; there is no such text present."
+}

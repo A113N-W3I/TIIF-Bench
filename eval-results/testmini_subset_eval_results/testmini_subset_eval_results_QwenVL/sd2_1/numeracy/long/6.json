@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Are there helicopters in the image?  ",
+    "Is the number of helicopters 4?  ",
+    "Are there hamburgers in the image?  ",
+    "Is the number of hamburgers 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are helicopters visible in the hangar.\nno There are two helicopters, not four.\nno There are no hamburgers present in the image.\nno Since there are no hamburgers, their count cannot be four."
+}

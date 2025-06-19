@@ -1,0 +1,46 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bear in the image?  ",
+    "Are there cows in the image?  ",
+    "Is there a swan in the image?  ",
+    "Are there trucks in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of bears 4?  ",
+    "Is the number of cows 4?  ",
+    "Is the number of swans 1?  ",
+    "Is the number of trucks 2?  ",
+    "Is the number of sheep 3?  ",
+    "Are the bears and cows in front of the swan, trucks, and sheep?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are three bears visible.\nno There is no cow present.\nyes A swan is seen in the background.\nyes Trucks are visible in the distance.\nyes There is a sheep among the animals.\nno There are only three bears.\nno There are no cows in the image.\nyes There is one swan in the background.\nyes Two trucks can be identified in the background.\nno There are two sheep.\nno Bears are in front but no cows, swans, trucks, or multiple sheep combine as described."
+}

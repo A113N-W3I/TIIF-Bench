@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features traditional Japanese elements such as bamboo and floral designs, along with a peacock which is often depicted in Ukiyo-e art, though the style appears more modern and vibrant than classical Ukiyo-e prints."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no The text appears as 'SIMPLY', not 'SIMPLY'.\nyes The text 'Bullet' is part of 'bullet proof nothing'.\nyes The text 'Proof' is part of 'bullet proof nothing'.\nyes The text 'Nothing' is part of 'bullet proof nothing'.\nyes The text 'SAUCER' is visible on the person's clothing."
+}

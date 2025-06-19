@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a skyscraper present in the background featuring an antenna at the top.\nyes The skyscraper appears to be tall in shape, rising above other buildings and partially obscured by clouds.\nno There is no clearly visible traffic sign in the scene.\nno Since there is no traffic sign present, it cannot be described as pentagonal.\nno The shadows in the image appear sharp and not fluffy."
+}

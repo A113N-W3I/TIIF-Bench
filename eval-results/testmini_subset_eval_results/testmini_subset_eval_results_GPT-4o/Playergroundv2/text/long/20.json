@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 20,
+  "questions": [
+    "Is the text 'Kingston' in the image?",
+    "Is the text '64GB' in the image?",
+    "Is the text 'microSDXC' in the image?",
+    "Is the text 'UHS-I' in the image?",
+    "Is the text 'U1' in the image?",
+    "Is the text 'Memory' in the image?",
+    "Is the text 'Card' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the text 'Kingston' is not in the image.\nno, the text '64GB' is not in the image.\nno, the text 'microSDXC' is not in the image.\nno, the text 'UHS-I' is not in the image.\nno, the text 'U1' is not in the image.\nno, the text 'Memory' is not in the image.\nno, the text 'Card' is not in the image."
+}

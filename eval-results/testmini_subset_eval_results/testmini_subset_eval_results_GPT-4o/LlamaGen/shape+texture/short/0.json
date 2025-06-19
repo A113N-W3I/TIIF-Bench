@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fence in the scene?",
+    "Is the fence in the shape of a square?",
+    "Is there a fig in the scene?",
+    "Is the fig in the shape of a teardrop?",
+    "Is the carpet of grass fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no fence in the scene; there are upright panels but not connected to form a fence.\nno, the fence is not in the shape of a square because the panels are not connected to form a shape.\nno, there is no fig in the scene as no fruit is visible.\nno, the fig is not in the shape of a teardrop; no fig is present to assess its shape.\nyes, the carpet of grass is fluffy because the grass appears soft and has volume."
+}

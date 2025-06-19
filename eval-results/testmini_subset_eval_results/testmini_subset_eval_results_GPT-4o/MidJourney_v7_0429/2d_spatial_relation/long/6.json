@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a couch in the image?  ",
+    "Is there a fish in the image?  ",
+    "Is the couch on the right of the fish?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a couch visible on the left side of the image.\nyes, there are several fish visible in the aquarium on the right side of the image.\nno, the couch is on the left side of the fish."
+}

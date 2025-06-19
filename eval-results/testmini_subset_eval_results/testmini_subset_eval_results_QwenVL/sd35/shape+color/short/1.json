@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a bread basket in the scene?",
+    "Is the bread basket rectangular in shape?",
+    "Is there a water bottle in the scene?",
+    "Is the water bottle cylindrical in shape?",
+    "Is the bread basket gray?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a basket holding a loaf of bread.\nyes The basket has a rectangular shape.\nyes There is a black object that appears to be a water bottle in the image.\nyes The water bottle is cylindrical with a rounded bottom and top.\nyes The bread basket is gray with a textured pattern."
+}

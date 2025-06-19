@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a plant holder in the image?  ",
+    "Is the plant holder made of wood?  ",
+    "Are the clouds behind the plant holder?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There are no clouds visible in the image.\nyes There is a plant holder in the image.\nno The plant holder is not made of wood; it appears to be made of a woven material.\nno There are no clouds behind the plant holder."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a panda in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is there a student in the image?  ",
+    "Is the panda comforting the student?  ",
+    "Is the panda hidden behind the tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a panda visible in the image.\nyes There is a large tree in the background of the image.\nyes There is a child who appears to be a student, given their young age and attire.\nyes The panda seems to be resting peacefully while the child leans against it, suggesting comfort.\nno The panda is not behind the tree; it is in front of it, with the tree in the background."
+}

@@ -1,0 +1,37 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 13,
+  "questions": [
+    "Is the text 'London' in the image?",
+    "Is the text 'MAX' in the image?",
+    "Is the text 'Private' in the image?",
+    "Is the text 'Helicopter' in the image?",
+    "Is the text 'Tour' in the image?",
+    "Is the text 'Skyline' in the image?",
+    "Is the text 'Adventure' in the image?",
+    "Is the text 'Luxury' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'London' is clearly visible in the top left corner.\nyes The text 'MAX' is prominently displayed on the right side of the image.\nyes The text 'Private' appears as part of \"Private Helicopter Tour\".\nyes The text 'Helicopter' is present as part of \"Private Helicopter Tour\".\nyes The text 'Tour' appears twice, as part of \"Private Helicopter Tour\" and \"Skyline Luxe Helicopter Tour\".\nyes The text 'Skyline' is visible as part of \"Skyline Luxe Helicopter Tour\".\nno The text 'Adventure' is not present in the image.\nyes The text 'Luxury' appears as part of \"Skyline Luxe Helicopter Tour\"."
+}

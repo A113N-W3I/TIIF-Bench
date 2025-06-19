@@ -1,0 +1,25 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a hammock in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the hammock tied to something?  ",
+    "Is the hammock in front of the tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a visible hammock in the image.\nyes There is a tree present in the background of the image.\nyes The hammock appears to be tied to some wooden structures.\nno The hammock is not situated in front of the tree; it's between the viewer and the tree."
+}

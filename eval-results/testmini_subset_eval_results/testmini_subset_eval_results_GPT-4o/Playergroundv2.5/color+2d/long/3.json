@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rat in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is the rat yellow?  ",
+    "Is the chair gold?  ",
+    "Is the rat on the top of the chair?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a rat in the image. The image features a rat prominently sitting on the chair.\nYes, there is a chair in the image. The chair is visible and the rat is sitting on it.\nNo, the rat is not yellow. The rat has a natural fur color that is not yellow.\nNo, the chair is not gold. The chair is upholstered in yellow fabric and has ornate gold-colored woodwork, but it is not entirely gold.\nYes, the rat is on the top of the chair. The rat is positioned on the seat of the chair."
+}

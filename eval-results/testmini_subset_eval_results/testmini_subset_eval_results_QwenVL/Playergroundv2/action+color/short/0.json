@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a figure in a ballet pose, suggesting a ballerina.\nyes The structure she stands on resembles an iceberg.\nyes The ballerina's posture suggests a pirouette atop the iceberg.\nyes The ballerina is wearing a vivid red dress.\nno Icebergs are typically white and blue due to ice, not brown."
+}

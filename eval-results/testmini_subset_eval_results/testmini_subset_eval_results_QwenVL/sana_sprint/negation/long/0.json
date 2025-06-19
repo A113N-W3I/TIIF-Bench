@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a steak in the image?  ",
+    "Does the fork pierce the steak?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes there is a fork in the image\nyes there is a steak in the image\nyes the fork pierces the steak"
+}

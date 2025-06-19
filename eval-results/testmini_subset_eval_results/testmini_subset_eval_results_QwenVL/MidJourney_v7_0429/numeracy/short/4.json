@@ -1,0 +1,31 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there cameras in the image?  ",
+    "Is the number of cameras 2?  ",
+    "Are there cats in the image?  ",
+    "Is the number of cats 4?  ",
+    "Are there swans in the image?  ",
+    "Is the number of swans 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a camera visible in the foreground.\nno, there is only one camera visible.\nyes, there are cats present in the image.\nyes, there appear to be four cats in the image.\nyes, there are swans visible in the background.\nyes, there appear to be four swans in the image."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a woman in the image?  ",
+    "Is there a microwave in the image?  ",
+    "Is the woman near a microwave?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a woman in the image. A woman is visible standing in profile.\nyes, there is a microwave in the image. A microwave is on the kitchen counter.\nyes, the woman is near a microwave. The woman is standing right next to the microwave."
+}

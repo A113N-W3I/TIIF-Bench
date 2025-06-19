@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a refrigerator in the image?  ",
+    "Is there a plate in the image?  ",
+    "Is the refrigerator in front of the plate?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes there is a refrigerator on the left side of the image.\nyes there is a plate on a table in front of the refrigerator.\nno the refrigerator is not in front of the plate; it is to the left and behind the table where the plate is located."
+}

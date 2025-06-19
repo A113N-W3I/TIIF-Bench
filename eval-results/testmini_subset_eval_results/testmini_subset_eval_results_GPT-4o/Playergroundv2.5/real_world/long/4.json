@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "No - The infographic does not include the exact text 'Survey Results on Podcasts.'  \nYes - The infographic uses vibrant colors, evident in the bright palette.  \nYes - The infographic includes modern icons, such as stylized representations of headphones and graphs.  \nYes - The infographic includes clear typography; the design ensures readable text areas.  \nYes - The infographic highlights key statistics such as listening frequency, visible in graphical elements.  \nYes - The infographic highlights key statistics on devices used, represented in the icons and visuals.  \nNo - The infographic does not focus explicitly on statistics regarding popular topics.  \nYes - The infographic is designed to be clean, featuring an organized layout.  \nYes - The infographic is designed to be professional, visible in its polished composition.  \nYes - The infographic is easy to read, with distinguishable sections and graphics.  \nNo - The text in the generated picture is not entirely clear and readable due to distorted elements.  \nNo - The number in the generated picture is not entirely clear and readable due to graphical distortion.  "
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the girl drinking from the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the image shows a person with long hair and feminine features, commonly associated with a girl.\nyes, there is a cup visible in the person's hands.\nno, the cup is being held but not being drunk from."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pen in the image?  ",
+    "Is there a blanket in the image?  ",
+    "Is the pen metallic?  ",
+    "Is the blanket made of fabric?  ",
+    "Is the pen on the right of the blanket?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no pen in the image.\nyes, there is a blanket in the image.\nno, the pen is not metallic because there is no pen.\nyes, the blanket is made of fabric.\nno, the pen is not on the right of the blanket because there is no pen."
+}

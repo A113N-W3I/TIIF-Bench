@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a chef hat in the image?  ",
+    "Is there a snowball in the image?  ",
+    "Is the chef hat conical?  ",
+    "Is the snowball spherical?  ",
+    "Is the chef hat hidden behind the snowball from the viewer's perspective?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image clearly shows a person wearing a traditional chef hat.\nno There is no snowball present in the image; the spherical objects appear to be decorative elements.\nno The chef hat is not conical; it has a more rounded and tall shape typical of chef hats.\nno The spherical objects are not snowballs, but even if they were, their shape cannot be confirmed as spherical due to perspective and design.\nno The chef hat is visible and not hidden behind any object that could be mistaken for a snowball."
+}

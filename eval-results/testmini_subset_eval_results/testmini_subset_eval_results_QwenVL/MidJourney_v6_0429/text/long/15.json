@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 15,
+  "questions": [
+    "Is the text 'Spin' in the image?",
+    "Is the text 'Glow' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Skill' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Twirl' in the image?",
+    "Is the text 'Fun' in the image?",
+    "Is the text 'Bounce' in the image?",
+    "Is the text 'Light' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes 'Spin' is visible on two objects in the image.\nyes 'Glow' appears on two of the circular objects.\nyes 'Play' is part of the text on one of the circles.\nyes 'Skill' is misspelled as 'SKILWL' on one of the objects but is intended to be 'Skill'.\nyes 'Shine' is listed alongside 'Play' on one object.\nyes 'Twirl' appears on three of the objects.\nyes 'Fun' does not appear on any object in the image.\nno 'Bounce' is not present in the text on any object.\nno 'Light' does not appear in any of the text on the objects."
+}

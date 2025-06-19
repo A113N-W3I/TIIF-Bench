@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a couch in the scene?",
+    "Is the couch rectangular in shape?",
+    "Is there a office in the scene?",
+    "Is the office pentagon-shaped?",
+    "Is the lamp glass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The image does not contain a couch.\nno There is no couch present to determine its shape.\nno The image does not depict an office.\nno There is no office present to assess its shape.\nyes The lamp appears to be constructed from glass-like fragments."
+}

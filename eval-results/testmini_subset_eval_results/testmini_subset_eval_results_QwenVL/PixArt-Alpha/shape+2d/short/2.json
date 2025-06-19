@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There appears to be a divider created by the lighting and shadows between the objects.\nno There is no can of soda visible; the objects present resemble stylized metallic cylinders.\nno The dividers, if any, are not triangular but seem to be linear due to light and shadow.\nno The objects in question do not depict a soda can, thus their shape is not applicable.\nno Since there is no can of soda in the image, this relationship cannot be assessed."
+}

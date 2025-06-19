@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mountain in the image?  ",
+    "Is there snow on the mountain?  ",
+    "Is the mountain brown in color?  ",
+    "Is the sky blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no There is no mountain in the image; it is a sand dune.\nno There is no snow present on the sand dune.\nno The sand dune is not brown; it appears dark due to shadows.\nyes The sky is blue in color."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a house cat with a leather collar in the image?  ",
+    "Is there a feral cat in the image?  ",
+    "Does the image present a differentiation logic: a house cat lounges in the sunlight, while a feral cat sits in the shadows?  ",
+    "Is the collar made of leather?  ",
+    "Is the surface where the feral cat sits made of plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The cat in the sunlight wears a collar that appears to be made of leather.\nno There is no clear indication in the image that the cat not wearing a collar is feral; it may simply be a house cat not wearing a collar.\nno The image does not suggest the cats' living situations or imply their relationship to their environment in the way described.\nyes The collar visible on the larger cat in the image has the appearance and texture consistent with leather material.\nno The feral cat is sitting on a surface that appears to be concrete, not plastic."
+}

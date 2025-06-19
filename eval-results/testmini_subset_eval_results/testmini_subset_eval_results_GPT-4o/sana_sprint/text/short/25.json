@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the text 'BREWING' is not in the image. The image has 'Brreving' which is a misspelling.\nNo, the text 'COMPANY' is not in the image. The image has 'copmny' which is a misspelling.\nNo, the text 'Pure' is not in the image. The image has 'Purre' which is a misspelling.\nNo, the text 'Pleasure' is not in the image. The image has 'Pleeese' which is a misspelling.\nNo, the text 'No' is not in the image. The text 'No' does not appear.\nNo, the text 'Guilt' is not in the image. The image has 'Guulty' which is a misspelling."
+}

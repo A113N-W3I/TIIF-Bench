@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a kangaroo in the image. The kangaroo is clearly visible in the foreground.  \nYes, there is a rock in the image. The kangaroo is sitting on a rock, and there are several rocks in the background.  \nNo, there is not a turkey in the image. The image shows only a kangaroo, rocks, and natural landscape elements.  \nNo, the kangaroo is not lifting the turkey. There is no turkey in the image to be lifted.  \nYes, the kangaroo is in front of the rock. The kangaroo is sitting on a rock in the foreground, while there are more rocks in the background."
+}

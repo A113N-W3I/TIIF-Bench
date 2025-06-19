@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a microwave in the image?  ",
+    "Is the cat on the bottom of the microwave?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The lower part of a cat's face is visible at the bottom of the image.\nno There is an object resembling a microwave oven base but missing the upper part including the door and controls.\nno The visible part of the cat appears below what seems to be the base of a microwave, not on top of it."
+}

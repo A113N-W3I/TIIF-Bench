@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains an object that could be interpreted as a trinket box based on its size and shape.\nyes The object resembling a trinket box has a pyramid-like structure with multiple triangular facets.\nno There is no visible hallway in the scene; the background appears to be open space.\nno Since there is no hallway present, it cannot be described as diamond-shaped.\nno Given that there is no hallway in the scene, it cannot be blue either."
+}

@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there flags in the image?  ",
+    "Are there butterflies in the image?  ",
+    "Are there bananas in the image?  ",
+    "Are there apples in the image?  ",
+    "Is the number of flags 2?  ",
+    "Is the number of butterflies 3?  ",
+    "Is the number of bananas 4?  ",
+    "Is the number of apples 2?  ",
+    "Are the flags made of fabric?  ",
+    "Are the apples fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a red flag visible in the image.\nyes There are multiple butterflies flying around the flag.\nno There are no bananas in the image; instead, there are fluffy objects resembling pom-poms.\nyes There are two apples in the image.\nno There is only one flag in the image, not two.\nno There are five butterflies in the image, not three.\nno There are no bananas in the image; instead, there are fluffy objects resembling pom-poms.\nyes There are two apples in the image.\nyes The flag appears to be made of fabric based on its texture and how it flutters.\nno The apples are not fluffy; they appear smooth and shiny."
+}

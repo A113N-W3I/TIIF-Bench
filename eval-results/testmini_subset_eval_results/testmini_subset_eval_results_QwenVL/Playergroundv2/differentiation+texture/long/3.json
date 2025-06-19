@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a house cat with a leather collar in the image?  ",
+    "Is there a feral cat in the image?  ",
+    "Does the image present a differentiation logic: a house cat lounges in the sunlight, while a feral cat sits in the shadows?  ",
+    "Is the collar made of leather?  ",
+    "Is the surface where the feral cat sits made of plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a domestic cat wearing a red collar which appears to be made of leather.\nyes The second cat in the background lacks a collar and has a wilder appearance, suggestive of a feral cat.\nno Both cats are depicted in similar lighting conditions; neither is specifically placed in shadows.\nyes The collar on the cat in the foreground is visibly textured and designed in a manner consistent with leather material.\nno The surface beneath both cats appears to be a flat, matte material, likely concrete, not plastic."
+}

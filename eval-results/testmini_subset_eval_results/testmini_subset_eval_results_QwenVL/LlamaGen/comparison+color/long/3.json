@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a blue bird in the image?  ",
+    "Is there a red fish in the image?  ",
+    "Does the image present a comparison logic: the blue birds are more numerous than the red fish?  ",
+    "Are the birds in the image blue in color?  ",
+    "Are the fish in the image red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no blue bird in the image; the birds depicted are primarily in shades of gray and red.\nno There are no red fish in the image; instead, there are red shapes resembling berries or seeds.\nno The image does not present a comparison between birds and fish but features birds and berry-like shapes; also, there are no blue birds or red fish.\nno The birds in the image are primarily gray with some red accents, not blue.\nno There are no fish in the image to determine their color; the red shapes are berry-like."
+}

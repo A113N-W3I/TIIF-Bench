@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the girl drinking from the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a figure depicted that appears to be a girl based on the stylistic characteristics and presentation.\nyes A cup is visible in the image, held in what appears to be the girl's hands.\nyes The position of the cup suggests the girl is drinking from it, as the edge is at mouth level."
+}

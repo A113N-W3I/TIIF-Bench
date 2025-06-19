@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Does this image show a glowing cybernetic highway at night? Answer with yes or no.",
+    "Is the universe futuristic and inspired by a neon-lit digital world? Answer with yes or no.",
+    "Does the rider on a lightbike leave a blue light trail behind? Answer with yes or no.",
+    "Does the image have ultra-sharp lines? Answer with yes or no.",
+    "Is the background dark? Answer with yes or no.",
+    "Is the image high contrast? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image depicts a highway illuminated with bright, glowing neon lines that stand out against the dark background, resembling a cybernetic environment at night.\nyes The scene is set in a universe that features advanced technology and aesthetics reminiscent of a digital world highlighted by vibrant neon lights.\nno There is no visible rider on a lightbike in the image; instead, the image shows a lone figure riding a conventional bike, which does not leave a light trail behind.\nyes The image showcases roads and structures with very sharp, linear designs and edges, giving it a defined look.\nyes The background is predominantly dark, providing a stark contrast to the glowing neon elements in the foreground and enhancing their brightness.\nyes The image contrasts brightly lit elements against a deep black backdrop, creating a high level of contrast throughout the scene."
+}

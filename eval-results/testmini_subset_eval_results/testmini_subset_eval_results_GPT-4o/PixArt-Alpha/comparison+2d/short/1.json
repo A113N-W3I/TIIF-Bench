@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there bells in the image?  ",
+    "Are there dogs in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?  ",
+    "Is the bell on the bottom of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because there is a large metal bell visible in the image.\nyes because there is a dog visible sitting in the image.\nyes because the size of the bell is depicted larger than the dog.\nno because the bell is at the top of the image."
+}

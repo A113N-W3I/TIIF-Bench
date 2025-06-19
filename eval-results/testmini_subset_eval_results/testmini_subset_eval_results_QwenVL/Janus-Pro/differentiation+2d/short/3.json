@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a larger person wearing a yellow hat in the image?  ",
+    "Is there a smaller person without a hat in the image?  ",
+    "Does the image present a differentiation logic: the larger person wears a yellow hat, the smaller person does not?  ",
+    "Are these two people positioned side by side in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The larger silhouette has a yellow hat on its head.\nyes The smaller silhouette does not have a hat.\nyes The larger silhouette has a yellow hat while the smaller silhouette does not, showing a clear differentiation.\nyes The silhouettes of both figures are next to each other horizontally."
+}

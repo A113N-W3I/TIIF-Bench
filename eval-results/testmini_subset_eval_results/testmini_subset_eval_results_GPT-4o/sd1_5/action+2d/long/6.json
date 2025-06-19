@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a bed in the image?  ",
+    "Is the cat sleeping on the bed?  ",
+    "Is the cat on the side of the bed?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, because I cannot see the image.\nno, because I cannot see the image.\nno, because I cannot see the image.\nno, because I cannot see the image."
+}

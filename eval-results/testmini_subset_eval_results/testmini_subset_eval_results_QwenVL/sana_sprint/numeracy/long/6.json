@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Are there helicopters in the image?  ",
+    "Is the number of helicopters 4?  ",
+    "Are there hamburgers in the image?  ",
+    "Is the number of hamburgers 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are helicopters visible in the background of the image.\nyes The image shows four helicopters in the background.\nyes There are hamburgers present in the foreground of the image.\nyes There are four hamburgers aligned in the foreground."
+}

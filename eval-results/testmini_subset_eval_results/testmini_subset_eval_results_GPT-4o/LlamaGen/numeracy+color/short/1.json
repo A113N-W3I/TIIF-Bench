@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there refrigerators in the image?  ",
+    "Are there plates in the image?  ",
+    "Is there a kitchen in the image?  ",
+    "Is the number of refrigerators 2?  ",
+    "Is the number of plates 3?  ",
+    "Are the refrigerators red in color?  ",
+    "Are the plates blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there are no refrigerators in the image; the objects are containers but not refrigerators.\nno, there are no plates in the image; nothing resembling plates is visible.\nno, there is no kitchen in the image; the scene does not depict a kitchen.\nno, the number of refrigerators is not 2; there are no refrigerators.\nno, the number of plates is not 3; there are no plates.\nno, the refrigerators are not red in color; there are no refrigerators.\nno, the plates are not blue in color; there are no plates."
+}

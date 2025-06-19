@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pear in the image?  ",
+    "Are there cushions in the image?  ",
+    "Is the pear round?  ",
+    "Are the cushions spherical?  ",
+    "Is the pear on the left of the cushions?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is not a real pear in the image; it is a pear-shaped chair.  \nyes, there are cushions in the image; the chair itself is cushiony in appearance.  \nno, the pear is not round; it is pear-shaped, which is more bulbous at the bottom and narrower at the top.  \nno, the cushions are not spherical; they take on the pear shape of the chair.  \nno, there is only one cushion (pear-shaped chair) visible, so there is no concept of left or right relative to another cushion.  "
+}

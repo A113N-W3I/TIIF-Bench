@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fence in the scene?",
+    "Is the fence in the shape of a square?",
+    "Is there a fig in the scene?",
+    "Is the fig in the shape of a teardrop?",
+    "Is the carpet of grass fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a fence in the scene because it is visible behind the tree.\nNo, the fence is not in the shape of a square because it is long and flat.\nNo, there is no fig in the scene because it is not visible.\nNo, there is no fig in the shape of a teardrop because no fig is present.\nYes, the carpet of grass appears fluffy because it looks thick and lush."
+}

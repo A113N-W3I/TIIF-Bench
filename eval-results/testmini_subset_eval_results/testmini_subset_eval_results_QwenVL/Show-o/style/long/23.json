@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the image in Ghibli style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features intricate architecture with organic details and a harmony between the man-made structure and nature, which is characteristic of Ghibli's visual style."
+}

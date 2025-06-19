@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 239,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features traditional Chinese architectural elements such as upturned eaves and intricate roof designs, along with motifs like dragons, which are characteristic of Chinese artistic styles. Additionally, the use of layered mountains and cherry blossoms in the background aligns with classic Chinese painting themes and aesthetics."
+}

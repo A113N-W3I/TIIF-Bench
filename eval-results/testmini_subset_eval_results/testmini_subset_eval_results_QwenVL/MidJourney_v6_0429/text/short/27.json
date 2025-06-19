@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 27,
+  "questions": [
+    "Is the text 'AND' in the image?",
+    "Is the text 'PROOFREADING' in the image?",
+    "Is the text 'PROOFREAD' in the image?",
+    "Is the text 'Spelling' in the image?",
+    "Is the text 'Grammar' in the image?",
+    "Is the text 'Accuracy' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'AND' is visible at the beginning of the phrase 'AND PROOOREADING'.\nno The exact text 'PROOFREADING' is not in the image; it is misspelled as 'PROOOREADING'.\nyes The text 'PROOFREAD' is present below the misspelled 'PROOOREADING'.\nno The text 'Spelling' is not in the image; it is misspelled as 'Speling'.\nno The text 'Grammar' is not in the image; it is misspelled as 'Grammary'.\nno The text 'Accuracy' is not present in the image."
+}

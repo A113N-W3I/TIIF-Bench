@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a larger person wearing a hat in the image?  ",
+    "Is there a smaller person not wearing a hat in the image?  ",
+    "Does the image present a comparison logic: the larger person wears a hat, and the smaller person does not wear a hat?  ",
+    "Is the smaller person hidden in relation to the larger person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a larger person wearing a hat in the image; the profile of the person with a large hat is depicted prominently.\nYes, there appears to be a smaller person not wearing a hat in the image; the face of a smaller person is formed by the details of the larger person's profile.\nYes, the image presents a comparison logic: the larger person wears a hat, and the smaller person does not wear a hat; the image creatively shows both personas using the same lines.\nNo, the smaller person is not hidden in relation to the larger person; the smaller person's face is integrated into the larger person's profile."
+}

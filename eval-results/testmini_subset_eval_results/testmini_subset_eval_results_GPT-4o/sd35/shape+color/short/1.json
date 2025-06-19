@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a bread basket in the scene?",
+    "Is the bread basket rectangular in shape?",
+    "Is there a water bottle in the scene?",
+    "Is the water bottle cylindrical in shape?",
+    "Is the bread basket gray?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, because there is a container that holds a loaf of bread.  \nYes, because the bread basket has a long and narrow rectangular shape.  \nYes, because there is a container on the right side of the image that resembles a water bottle.  \nYes, because the water bottle is uniformly round with a long cylindrical shape.  \nYes, because the bread basket has a gray color."
+}

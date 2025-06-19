@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image text is not clear enough to read 'Wisdom'\nno, the image text is not clear enough to read 'Knowledge'\nno, the image text is not clear enough to read 'Stories'\nno, the image text is not clear enough to read 'Timeless'\nno, the image text is not clear enough to read 'Pages'\nno, the image text is not clear enough to read 'Explore'\nno, the image text is not clear enough to read 'Learn'\nno, the image text is not clear enough to read 'Journey'\nno, the image text is not clear enough to read 'Books'"
+}

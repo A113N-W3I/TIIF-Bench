@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Red' in the image?",
+    "Is the text 'Carpet' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Fashion' in the image?",
+    "Is the text 'Grace' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Charm' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The text 'Glamour' is not visibly written on the dress or anywhere else in the image.\nyes The text 'Elegance' is part of the small words written on the woman's dress and visible in the image.\nno The text 'Red' does not appear among the written words on the dress or elsewhere in the image.\nno The text 'Carpet' is not present as written text on the dress or anywhere in the image.\nno The text 'Style' is not included among the visible words on the dress or in the image.\nyes The text 'Fashion' appears as one of the small words written on the woman's dress in the image.\nno The text 'Grace' is not written on the dress or found elsewhere in the image.\nno The text 'Sophistication' is not among the words written on the dress or visible in the image.\nyes The text 'Charm' can be seen as one of the small words written on the woman's dress in the image."
+}

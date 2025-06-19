@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the image shows a wedding invitation card with decorative elements.\nno, the card is not hefty with eggshell textures and embossings, the textures are visually delicate.\nyes, elegant decorations abstractly representing the couple are included on the card.\nno, the usage of iconography is not sparing and minimalist, it includes intricate designs.\nno, the invitation does not include the specified text about the union of Image and Text.\nyes, perfect typesetting appears to be used on the invitation.\nno, the invitation card is not placed on a tasteful wooden desk, it is placed on a light-colored surface with various decorative items surrounding it.\nno, the text in the generated picture is not entirely clear and readable; some parts are stylized.\nno, the picture does not contain the time information of March 25, 2025."
+}

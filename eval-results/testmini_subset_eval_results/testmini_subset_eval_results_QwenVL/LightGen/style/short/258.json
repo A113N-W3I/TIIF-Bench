@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 258,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no Ukiyo-e is characterized by its woodblock printing technique and traditional Japanese scenes, often including kabuki actors, beautiful women, and famous landscapes, which are not evident in this painting's Western style and subject matter."
+}

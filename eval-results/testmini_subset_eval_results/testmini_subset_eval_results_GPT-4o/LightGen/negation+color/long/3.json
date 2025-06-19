@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a hand in the image?  ",
+    "Are there gloves in the image?  ",
+    "Are the hands wearing the gloves?  ",
+    "Are the hands orange in color?  ",
+    "Are the gloves white in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a hand in the image. \nNo, there are no gloves in the image.\nNo, the hands are not wearing gloves.\nYes, the hands are orange in color.\nNo, the gloves are not white in color."
+}

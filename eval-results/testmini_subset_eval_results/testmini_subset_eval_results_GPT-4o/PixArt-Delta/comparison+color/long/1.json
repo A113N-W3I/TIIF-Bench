@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a blue chair in the image?  ",
+    "Is there a red student in the image?  ",
+    "Does the image present a comparison logic: the number of blue chairs exceeds the number of red students?  ",
+    "Are the chairs blue in color?  ",
+    "Are the students red in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because there are blue chairs visible in the image.\nno, because there are no students, let alone red ones, in the image.\nyes, because the image contains only chairs, and the number of blue chairs exceeds any other count of people.\nyes, because the chairs are clearly depicted in blue.\nno, because there are no students visible, and thus no red students."
+}

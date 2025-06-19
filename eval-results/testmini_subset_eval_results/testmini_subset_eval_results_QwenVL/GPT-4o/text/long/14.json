@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 14,
+  "questions": [
+    "Is the text 'JOy' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'PEACE' in the image?",
+    "Is the text 'HEALTH' in the image?",
+    "Is the text 'FAMILY' in the image?",
+    "Is the text 'HAPPINESS' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'JOY' is clearly visible at the top of the tree.\nyes The text 'Love' appears below 'JOY'.\nyes The text 'PEACE' is present below 'Love'.\nyes The text 'HEALTH' is visible below 'PEACE'.\nyes The text 'FAMILY' appears below 'HEALTH'.\nyes The text 'HAPPINESS' is at the bottom of the tree."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes because there is a visible green and fuzzy object characteristic of a tennis ball.\nyes because the tennis ball, as shown, has a round and smooth outer surface typical of spheres.\nyes because there is a circular frame that contains imagery within it, resembling a picture.\nno because the picture is enclosed in a circular frame, not spherical.\nno because the frame containing the picture is red, not the picture itself."
+}

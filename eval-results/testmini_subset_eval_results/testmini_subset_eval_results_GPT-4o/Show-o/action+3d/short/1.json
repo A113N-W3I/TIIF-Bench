@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pillow in the image?  ",
+    "Is there an armchair in the image?  ",
+    "Is there a small side table in the image?  ",
+    "Is the pillow perched on the armchair?  ",
+    "Is the armchair in front of the small side table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a pillow on the armchair with a beige color.\nyes, there is a beige armchair prominently featuring a large pillow.\nyes, there is a small side table, topped with a lamp and a cup.\nyes, the pillow is perched on the beige armchair.\nno, the armchair is situated beside the small side table, not in front of it."
+}

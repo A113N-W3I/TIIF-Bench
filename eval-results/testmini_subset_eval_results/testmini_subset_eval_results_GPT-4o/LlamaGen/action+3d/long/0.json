@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no - The animal depicted standing is not a kangaroo; it has a similar posture but a different facial structure.\nyes - There are rocks visible in the background of the image, forming part of the landscape.\nno - The animal that is on the ground resembles a large bird but does not appear to be a turkey.\nno - There is no kangaroo in the image to lift a turkey.\nno - The standing animal is in front of rocks, but it is not a kangaroo."
+}

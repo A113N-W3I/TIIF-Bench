@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The infographic does not contain the specific text 'Survey Results on Podcasts'.\nyes The infographic uses vibrant and varied colors for different bars and elements.\nyes The infographic includes modern icons such as a graph arrow and various bar chart elements.\nno The infographic lacks clear typography and has symbols instead of readable text.\nno There are no statistics related to listening frequency presented in the infographic.\nno There is no data specifically highlighting devices used in the infographic.\nno The infographic does not present information about popular topics.\nno While colorful, the lack of text and recognizable data makes it seem messy rather than clean.\nno Without readable text or clear data, the infographic cannot be considered professional.\nno Without clear text or data, the infographic is not easy to interpret.\nno The text is unclear and mostly non-existent, with only symbols and numbers without context.\nno The numbers present lack context and do not form part of a coherent statistic."
+}

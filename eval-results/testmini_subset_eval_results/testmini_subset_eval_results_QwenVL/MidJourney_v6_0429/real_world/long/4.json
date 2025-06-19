@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The infographic does not display any title that matches exactly 'Survey Results on Podcasts'.\nyes The infographic uses a variety of bright and eye-catching colors.\nyes The infographic incorporates icons that have a modern style.\nyes The fonts used in the infographic are legible and well-defined.\nyes The infographic includes elements that suggest listening frequency statistics.\nyes The infographic depicts devices which likely indicate their usage for podcasts.\nyes The infographic contains sections that could represent popular podcast topics.\nyes The layout is uncluttered and straightforward.\nyes The design elements and structure appear professional.\nyes The information is presented in a way that is easy to understand.\nno Some parts of the text are too small and intricate to be easily readable.\nno The numbers in some areas are part of dense data blocks, making them hard to distinguish quickly."
+}

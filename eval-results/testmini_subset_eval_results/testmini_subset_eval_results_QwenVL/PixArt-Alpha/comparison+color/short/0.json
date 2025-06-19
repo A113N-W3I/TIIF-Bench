@@ -1,0 +1,31 @@
+{
+  "attribute": "comparison+color",
+  "desc": "short_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a yellow mouse in the image?  ",
+    "Is there a brown mouse in the image?  ",
+    "Is there a table in the image?  ",
+    "Does the image present a comparison logic: the yellow mouse is smaller than the brown mouse?  ",
+    "Is the mouse on table yellow in color?  ",
+    "Is the mouse hanging on the side brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a mouse wearing a yellow outfit in the image.\nno There is no mouse that is entirely brown; there are two mice, one with a yellow outfit and one primarily orange with white patches.\nno There is no object resembling a table in the image; the background appears to be a wooden floor.\nno The image does not present a clear size comparison between the animals, as they appear similar in size and no direct comparison is made.\nyes One of the mice is wearing a yellow outfit and standing on what appears to be a surface, which could be interpreted as a table given the context.\nno The mouse on the right side is primarily orange with white patches and is not brown. It is also not hanging but sitting on the surface."
+}

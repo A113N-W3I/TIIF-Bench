@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there microphones in the image?  ",
+    "Are there breads in the image?  ",
+    "Are there camels in the image?  ",
+    "Is the number of microphones 1?  ",
+    "Is the number of breads 3?  ",
+    "Is the number of camels 2?  ",
+    "Is the microphone on the bottom?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a single microphone visible in the center of the image.\nyes There are several loaves of bread positioned on the left side of the image.\nyes Two small camel figurines are present on the right side of the image.\nyes There is precisely one microphone in the middle of the scene.\nno There are multiple pieces of bread, not exactly three.\nyes Two camels can be clearly seen standing next to each other.\nno The microphone is central and elevated, not at the bottom."
+}

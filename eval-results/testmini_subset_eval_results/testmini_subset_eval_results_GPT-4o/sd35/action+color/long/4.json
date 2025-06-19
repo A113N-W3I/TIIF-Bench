@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a canoe in the image?  ",
+    "Is there a lake in the image?  ",
+    "Is the canoe floating on the lake?  ",
+    "Is the canoe green?  ",
+    "Is the lake white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a canoe in the image; a canoe is visible with its distinct shape and structure.\nYes, there is a lake in the image; the water surrounding the canoe suggests it is on a lake.\nYes, the canoe is floating on the lake; it is positioned on the water's surface without visible support.\nYes, the canoe is green; the color of the canoe is predominantly green.\nNo, the lake is not white; the lake appears to be a hue of blue or teal."
+}

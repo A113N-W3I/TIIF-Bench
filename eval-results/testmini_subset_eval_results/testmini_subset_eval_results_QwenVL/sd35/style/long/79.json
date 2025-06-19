@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 79,
+  "questions": [
+    "Is the image in Van Gogh style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features a highly stylized, fragmented mosaic-like appearance which does not align with Van Gogh's post-impressionist style characterized by bold colors and expressive brushstrokes."
+}

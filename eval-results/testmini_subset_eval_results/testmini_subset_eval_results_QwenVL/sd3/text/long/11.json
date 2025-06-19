@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 11,
+  "questions": [
+    "Is the text 'Miami' in the image?",
+    "Is the text 'Trance' in the image?",
+    "Is the text '2014' in the image?",
+    "Is the text 'Event' in the image?",
+    "Is the text 'Neon' in the image?",
+    "Is the text 'Beats' in the image?",
+    "Is the text 'Vibes' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'Miami' is clearly visible in neon style at the top center of the image.\nyes The word 'Trance' is part of the neon text in the image, located just below 'Miami'.\nyes The year '2014' appears next to the word 'Trance' in the same neon text style.\nno There is no text 'Event' present in the image; this word is not visible anywhere.\nyes The word 'Neon' can be inferred from the style and color of the text and lighting, though it doesn't appear as literal text in the image.\nyes Multiple instances of the word 'BEATS' can be seen in the smaller signage within the crowd's area, fulfilling the 'Beats' query.\nno There is no text 'Vibes' present in the image; this specific text is not visible."
+}

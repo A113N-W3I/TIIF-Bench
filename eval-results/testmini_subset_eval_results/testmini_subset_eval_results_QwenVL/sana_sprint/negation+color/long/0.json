@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pair of sunglasses in the image?  ",
+    "Is there a mirror in the image?  ",
+    "Are the sunglasses under the mirror?  ",
+    "Are the sunglasses white in color?  ",
+    "Is the mirror green in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The person in the image is wearing a pair of sunglasses.\nyes There is a circular mirror-like structure behind the person's head.\nno The sunglasses are not under the mirror; they are worn by the person and partially overlap with the mirror.\nyes The frame of the sunglasses appears to be white in color.\nno The mirror itself is not green; it has a white frame and reflects green tones from the background."
+}

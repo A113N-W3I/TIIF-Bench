@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pair of yellow rubber boots in the image?  ",
+    "Is there a pair of green gardening gloves in the image?  ",
+    "Does the image present a differentiation logic: a pair of yellow rubber boots and a pair of green gardening gloves?  ",
+    "Are the yellow rubber boots in front of the green gardening gloves?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a clear depiction of a pair of yellow rubber boots with green accents in the image.\nyes A pair of green gardening gloves can be seen in the foreground of the image, placed on the ground.\nyes The image shows a pair of yellow rubber boots and a pair of green gardening gloves, presenting a clear visual differentiation between the two items.\nno The green gardening gloves are placed in front of the yellow rubber boots, not the other way around."
+}

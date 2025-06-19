@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 24,
+  "questions": [
+    "Is the text 'Solitude' in the image?",
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Eternity' in the image?",
+    "Is the text 'Contemplation' in the image?",
+    "Is the text 'Serenity' in the image?",
+    "Is the text 'Depth' in the image?",
+    "Is the text 'Mystery' in the image?",
+    "Is the text 'Reflection' in the image?",
+    "Is the text 'Stillness' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Solitude' is not present in the image.\nno The text 'Wisdom' is not present in the image.\nno The text 'Eternity' is not present in the image.\nno The text 'Contemplation' is not present in the image.\nno The text 'Serenity' is not present in the image.\nno The text 'Depth' is not present in the image.\nno The text 'Mystery' is not present in the image.\nno The text 'Reflection' is not present in the image.\nno The text 'Stillness' is not present in the image."
+}

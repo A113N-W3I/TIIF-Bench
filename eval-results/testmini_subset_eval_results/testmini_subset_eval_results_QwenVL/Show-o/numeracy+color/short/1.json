@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there refrigerators in the image?  ",
+    "Are there plates in the image?  ",
+    "Is there a kitchen in the image?  ",
+    "Is the number of refrigerators 2?  ",
+    "Is the number of plates 3?  ",
+    "Are the refrigerators red in color?  ",
+    "Are the plates blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are two refrigerators visible in the image.\nyes There are three plates visible on the refrigerator shelves and counters.\nyes The setting includes cabinets and countertops indicative of a kitchen environment.\nyes There are two distinct refrigerators shown side by side in the image.\nyes Three plates can be seen—one on the left counter, one on the right counter, and one on the shelf between the refrigerators.\nyes The refrigerators are clearly depicted in a red color.\nno The plates appear to be in a light blue color, not blue."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a gloves in the scene?",
+    "Are the gloves rubber?",
+    "Is there a mallet in the scene?",
+    "Is the mallet made of wood?",
+    "Are the rubber gloves yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure is wearing gloves.\nno The gloves appear to be made of a material consistent with the rest of the figure, which looks like wood, not rubber.\nyes There is an object resembling a mallet in the figure's hand.\nyes The mallet appears to be made of wood, matching the aesthetic of the scene.\nno The gloves are not rubber and their color cannot be determined as they are part of a monochromatic wooden sculpture."
+}

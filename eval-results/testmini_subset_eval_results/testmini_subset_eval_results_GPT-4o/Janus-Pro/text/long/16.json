@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 16,
+  "questions": [
+    "Is the text 'Life' in the image?",
+    "Is the text 'Beach' in the image?",
+    "Is the text 'Better' in the image?",
+    "Is the text 'Waves' in the image?",
+    "Is the text 'Ocean' in the image?",
+    "Is the text 'Sand' in the image?",
+    "Is the text 'Relax' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the text 'Life' is clearly visible at the top left of the image.\nno, the text 'Beach' appears to be misspelled as 'Beah'.\nno, the text 'Better' is not present in the image.\nyes, the text 'Waves' is visible near the center top of the image.\nno, the text 'Ocean' is not present in the image.\nyes, the text 'Sand' is partially visible in the lower part of the image.\nno, the text 'Relax' is not present in the image."
+}

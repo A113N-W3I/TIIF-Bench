@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the desk behind the cup?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because there is a white cup prominently displayed on a surface.\nyes, because the surface that the cup is on resembles a desk or a tabletop.\nyes, because the desk-like surface is under and therefore behind the cup in spatial arrangement."
+}

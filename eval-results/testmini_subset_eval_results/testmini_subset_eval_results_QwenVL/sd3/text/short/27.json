@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 27,
+  "questions": [
+    "Is the text 'AND' in the image?",
+    "Is the text 'PROOFREADING' in the image?",
+    "Is the text 'PROOFREAD' in the image?",
+    "Is the text 'Spelling' in the image?",
+    "Is the text 'Grammar' in the image?",
+    "Is the text 'Accuracy' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'AND' is clearly visible at the top of the clipboard.\nyes The text 'PROOFREADING' is misspelled as 'POOFEEDING' but intended text is present.\nno The text 'PROOFREAD' is not present; instead, 'POOFEEDING' is displayed.\nyes The word 'Spelling' is present and checked off on the list.\nno The correct spelling of 'Grammar' is not present; instead, there's 'Prammar'.\nno The correct spelling of 'Accuracy' is not present; instead, there's 'Acururacy'."
+}

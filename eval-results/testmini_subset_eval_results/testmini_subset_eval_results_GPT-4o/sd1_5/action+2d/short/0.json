@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a child in the image because a young person is visible.\nyes, there are bubbles in the image because many floating spheres can be seen.\nno, there is not a toy box in the image as no such object is visible.\nyes, the child is blowing the bubbles because they are holding a bubble wand and the bubbles are in front of them.\nno, the toy box is not on the bottom of the frame because there is no toy box visible."
+}

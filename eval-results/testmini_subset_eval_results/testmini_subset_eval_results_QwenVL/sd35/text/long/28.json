@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Champion' is clearly visible on the white jersey.\nno There is no text 'Teamwork' present in the image.\nyes The text 'Victory' is visible on the bottom of the green and blue jersey.\nyes The text 'Game' is part of the phrase 'Game On' on the green and blue jersey.\nyes The text 'On' is part of the phrase 'Game On' on the green and blue jersey.\nno There is no text 'All-Star' present in the image.\nno There is no text 'League' present in the image."
+}

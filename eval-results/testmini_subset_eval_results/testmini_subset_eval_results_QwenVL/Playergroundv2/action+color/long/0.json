@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a woman in a ballet pose wearing a flowing gown.\nyes There are large ice formations that resemble icebergs in the background.\nyes The ballerina appears to be standing in a ballet pose on top of what looks like an iceberg.\nyes The dress worn by the ballerina is a shade of red.\nno The iceberg is primarily white and blue, with hints of reflection from the sky, not brown."
+}

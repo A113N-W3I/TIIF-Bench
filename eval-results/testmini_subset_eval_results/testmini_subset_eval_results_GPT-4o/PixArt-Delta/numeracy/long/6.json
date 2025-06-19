@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Are there helicopters in the image?  ",
+    "Is the number of helicopters 4?  ",
+    "Are there hamburgers in the image?  ",
+    "Is the number of hamburgers 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there are not helicopters in the image. The image contains a vehicle that appears as a helicopter body, but it has a hamburger bun on top. \nno, the number of helicopters is not 4. There is only 1 vehicle resembling a helicopter with a burger bun on it.\nyes, there are hamburgers in the image. Two large hamburgers are visible.\nno, the number of hamburgers is not 4. There are only 2 hamburgers in the photo."
+}

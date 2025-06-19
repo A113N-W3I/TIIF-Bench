@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there bread on the table in the image?  ",
+    "Is there bread baking in the oven in the image?  ",
+    "Does the image present a comparison logic: bread baking in the oven holds more promise than the bread already on the table?  ",
+    "Is the oven behind the table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a loaf of bread visible on what appears to be a table or foreground surface.\nno The oven, which seems to be a wood-fired type, does not show any bread inside it.\nno The image does not convey a comparative logic; it simply shows bread on a surface without suggesting anything about bread baking in an oven.\nno The oven is not positioned behind the table but rather seems to be off to the side and in the background."
+}

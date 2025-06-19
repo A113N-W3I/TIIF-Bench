@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a microwave in the image?  ",
+    "Is the cat on the bottom of the microwave?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cat in the image because there is an orange tabby cat sitting on a countertop.\nyes, there is a microwave in the image because there is a kitchen appliance that resembles a microwave with a door and control panel.\nyes, the cat is on the bottom of the microwave because the cat is sitting directly in front of the microwave, on the same countertop."
+}

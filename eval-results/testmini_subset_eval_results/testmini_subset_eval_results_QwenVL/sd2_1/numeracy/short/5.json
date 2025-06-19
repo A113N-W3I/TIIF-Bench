@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Is the number of fish 4?  ",
+    "Are there bees in the image?  ",
+    "Is the number of bees 2?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no there are no fish in the image\nno there are no fish present to count\nyes there are bees in the image\nno there is only one bee in the image"
+}

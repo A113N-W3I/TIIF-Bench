@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "short_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a metallic rose in the image?  ",
+    "Is there a fabric rose in the image?  ",
+    "Does the image present a comparison logic: a rose that is not fully bloomed is higher than a rose that is already in bloom?  ",
+    "Is the not fully bloomed rose metallic in texture?  ",
+    "Is the blooming rose fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the image does not contain a metallic rose in the described scenario. The object visible is a single rose crafted to appear metallic, with a blooming structure. There is no comparison or second rose to evaluate.\nNo, no fabric rose is depicted in the image uploaded. The image displays a singular rose, which is entirely metallic in nature, comprising both petals and leaves of a shiny silver-blue metallic form.\nNo, the image does not deliver a comparison concept; it contains a singular metallic rose which is fully bloomed. There are no additional elements or components to substantiate a comparison or logic involving roses.\nNo, the concept of using a rose yet to bloom in metallic texture as per the discussed context is inaccurate. The image showcases a singular rose, and it is fully bloomed and metallic in texture.\nNo, the image does not feature a blossoming rose with fabric texture. The apparent rose is totally metallic in both the representation of its blooming form and all associated appearance."
+}

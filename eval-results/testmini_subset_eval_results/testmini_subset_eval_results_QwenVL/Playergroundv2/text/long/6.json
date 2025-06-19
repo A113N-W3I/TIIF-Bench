@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is the text 'QUICK' in the image?",
+    "Is the text 'START' in the image?",
+    "Is the text 'TENNIS' in the image?",
+    "Is the text 'BEFORE' in the image?",
+    "Is the text 'SCHOOL' in the image?",
+    "Is the text 'CLUB' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain the text 'QUICK'.\nno The image does not contain the text 'START'.\nyes The image contains a tennis ball, indicating the sport 'TENNIS'.\nno The image does not contain the text 'BEFORE'.\nno The image does not contain the text 'SCHOOL'.\nno The image does not contain the text 'CLUB'."
+}

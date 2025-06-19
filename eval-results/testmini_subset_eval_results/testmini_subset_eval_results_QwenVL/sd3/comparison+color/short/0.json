@@ -1,0 +1,31 @@
+{
+  "attribute": "comparison+color",
+  "desc": "short_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a yellow mouse in the image?  ",
+    "Is there a brown mouse in the image?  ",
+    "Is there a table in the image?  ",
+    "Does the image present a comparison logic: the yellow mouse is smaller than the brown mouse?  ",
+    "Is the mouse on table yellow in color?  ",
+    "Is the mouse hanging on the side brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes there is a distinct yellow mouse visible.\nyes a brown mouse is clearly present.\nyes a table is visible beneath the mice.\nyes the small mouse between two larger ones implies size comparison but does not specify which is yellow or brown.\nyes the mouse on the table left side is yellow.\nno the mouse on the table right side is brown, not hanging on the side."
+}

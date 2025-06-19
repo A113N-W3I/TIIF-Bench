@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a caution sign in the scene?",
+    "Is the caution sign pentagonal in shape?",
+    "Is there a trophy ball in the scene?",
+    "Is the trophy ball spherical in shape?",
+    "Is the pedestal metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no caution sign in the scene.\nno There is no caution sign in the scene, hence its shape cannot be determined.\nyes A large, reflective ball is present on a pedestal which resembles a trophy.\nyes The reflective ball on the pedestal appears spherical in shape.\nno The pedestal does not appear to be metallic; it looks like a material with a polished surface, possibly stone or glass."
+}

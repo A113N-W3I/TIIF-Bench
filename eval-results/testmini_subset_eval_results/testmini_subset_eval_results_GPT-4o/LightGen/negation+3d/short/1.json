@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no boy in the image; the figure appears to be part of a surreal artwork.  \nyes, there is a wall in the image; the shadow and figure suggest a vertical surface.  \nyes, there is a shadow in the image; the shadow of the tree branches is visible.  \nno, there are no sneakers on the boy's feet; the figure is not wearing sneakers.  \nyes, the boy is hidden by the shadow of the tree; the surreal figure's head is obscured."
+}

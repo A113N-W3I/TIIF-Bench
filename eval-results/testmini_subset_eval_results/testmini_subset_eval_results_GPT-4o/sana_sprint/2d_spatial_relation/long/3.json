@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bag in the image?  ",
+    "Is there a bee in the image?  ",
+    "Is the bag on the left of the bee?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a bag in the image, as a cloth bag is seen in the foreground.\nno, there is no bee in the image; the insect in the image is a moth, not a bee, identified by its wings and body shape.\nyes, the bag is on the left of the moth, as the bag is positioned to the left of the insect in the composition."
+}

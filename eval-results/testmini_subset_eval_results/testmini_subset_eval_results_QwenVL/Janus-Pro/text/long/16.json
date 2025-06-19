@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 16,
+  "questions": [
+    "Is the text 'Life' in the image?",
+    "Is the text 'Beach' in the image?",
+    "Is the text 'Better' in the image?",
+    "Is the text 'Waves' in the image?",
+    "Is the text 'Ocean' in the image?",
+    "Is the text 'Sand' in the image?",
+    "Is the text 'Relax' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'Life' is present in the image.\nyes The word 'Beach' appears twice in the visible text.\nno The text 'Better' is not present in the image.\nyes The word 'Waves' can be seen in the image.\nno The text 'Ocean' is not present in the image.\nyes The word 'Sand' can be found in the image.\nno The text 'Relax' does not appear in the image."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a balloon in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the balloon behind the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a balloon in the image because a red balloon is visible on the right side.  \nyes, there is a desk in the image because a surface with books and folders is visible.  \nno, the balloon is not behind the desk because it is in front of the desk.  "
+}

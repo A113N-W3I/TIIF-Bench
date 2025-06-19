@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a hat in the image?  ",
+    "Is there a cat in the image?  ",
+    "Is the hat providing shade for the cat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a hat on the cat's head.\nyes There is a cat in the image wearing a hat.\nyes The hat is positioned over the cat's eyes, suggesting it is providing shade."
+}

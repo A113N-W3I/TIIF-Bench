@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rug in the scene?",
+    "Is the rug pentagon-shaped?",
+    "Is there a paper towel roll in the scene?",
+    "Is the paper towel roll cylindrical in shape?",
+    "Is the shoe rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a rug on the floor.\nNo, the rug is not pentagon-shaped; it has circular patterns.\nNo, there is no paper towel roll in the scene.\nNo, there is no paper towel roll to assess its shape.\nNo, there is no shoe present in the scene."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no ballerina in the image; it's a digitally created figure.\nNo, there is no iceberg in the image; the object resembles a tree stump.\nNo, the ballerina is not pirouetting on the iceberg; it's not a real ballerina or iceberg.\nYes, the dress of the ballerina is red; this is visible in the image.\nNo, the iceberg is not brown; the cylindrical object is brown but not an iceberg."
+}

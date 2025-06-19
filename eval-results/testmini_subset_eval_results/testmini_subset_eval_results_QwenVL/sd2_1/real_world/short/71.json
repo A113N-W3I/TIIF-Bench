@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image shows a 3D illustration of a stool, not a toilet.\nyes The color palette consists of soft beige for the surface, light gray for the stool, and warm orange as an accent on the seat.\nno The lighting appears to come from above but not specifically to the right, and it is not clearly diffuse.\nyes The surface texture of the stool and the surrounding area looks matte and smooth with low reflectivity.\nno The stool is positioned towards the left side, leaving more negative space on the right, rather than being centered.\nno The perspective does not appear tilted; it presents a straightforward side view.\nyes The background is a solid, low-saturation brownish-gray that complements the stool.\nno There is no visible typography anywhere in the image.\nno Since there is no typography, there is no gray text or contrast to assess.\nno There is no text present in the image, thus no gray text."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a crystal wand in the scene?",
+    "Is the crystal wand spherical in shape?",
+    "Is there a snowball in the scene?",
+    "Is the snowball spherical in shape?",
+    "Is the snowball blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no crystal wand in the scene.\nno, there is no spherical crystal wand as there is no crystal wand.\nyes, there is a snowball in the scene.\nyes, the snowball is spherical in shape.\nno, the snowball is not blue; it appears white."
+}

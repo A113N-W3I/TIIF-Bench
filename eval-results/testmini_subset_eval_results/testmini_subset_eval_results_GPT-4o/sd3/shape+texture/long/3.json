@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rug in the scene?",
+    "Is the rug pentagon-shaped?",
+    "Is there a paper towel roll in the scene?",
+    "Is the paper towel roll cylindrical in shape?",
+    "Is the shoe rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a rug in the scene. The background appears to be a rug with a pattern.\nNo, the rug is not pentagon-shaped. The rug has a pattern that includes geometric shapes, but the rug itself is not pentagon-shaped.\nYes, there is a paper towel roll in the scene. It is located to the left of the shoes.\nYes, the paper towel roll is cylindrical in shape. It is visibly cylindrical.\nNo, the shoe is not obviously rubber-textured. The surface of the shoe looks like fabric or synthetic material rather than rubber."
+}

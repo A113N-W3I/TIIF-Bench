@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, the image shows a 3D illustration of a toilet as it exhibits characteristics of a digital model rather than a real-world photo.\nyes, the illustration features rounded edges and smooth, soft forms with simplified geometry, evident in the curvy, polished silhouette of the toilet.\nyes, the color palette is limited to soft beige, light gray, and warm orange; warm orange is prominently used on the toilet seat, serving as the focal color.\nyes, the shading and gradients are soft, with smooth transitions that avoid harsh shadows or highlights, maintaining a subtle blend in the illustration.\nyes, the lighting is soft and diffused, coming from above and slightly to the right, as observed by the shadow on the lower-left side of the toilet.\nyes, the toilet is presented as a single, central object displayed in isolation with ample negative space around it.\nyes, the toilet is slightly angled to give a three-dimensional feel without extreme depth, aligning it with the intended perspective.\nyes, the background is a solid, muted color that complements the object without distraction, enhancing the focus on the toilet.\nno, there is no minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray visible in the image.\nyes, the rendering style features a 3D render with simplified, low-poly aesthetics, characterized by the smoothness and simplified shape of the object."
+}

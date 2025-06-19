@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Does a large green apple exist in the image?  ",
+    "Does a small red apple exist in the image?  ",
+    "Does the image present a differentiation logic: a big green apple next to a small red apple?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because there is a large green apple in the image.\nno, because the red apples in the image are not small.\nno, because the red apples are not smaller than the green apple to differentiate in size."
+}

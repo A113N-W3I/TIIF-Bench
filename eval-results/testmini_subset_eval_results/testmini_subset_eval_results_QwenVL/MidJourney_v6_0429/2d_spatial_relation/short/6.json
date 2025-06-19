@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a couch in the image?  ",
+    "Is there a fish in the image?  ",
+    "Is the couch on the right of the fish?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a couch visible in the foreground of the image.\nyes There is a large fish floating above the couch in the image.\nno The couch is not on the right of the fish; instead, the fish is positioned above the couch."
+}

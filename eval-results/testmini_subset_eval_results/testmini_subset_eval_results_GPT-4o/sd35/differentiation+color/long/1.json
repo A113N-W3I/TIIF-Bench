@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a red rose in the image?  ",
+    "Is there a blue rose in the image?  ",
+    "Does the image present a differentiation logic: a rose that is not fully bloomed is higher than a rose that is already in bloom?  ",
+    "Is the red rose not fully bloomed?  ",
+    "Is the blue rose already in full bloom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a red rose in the image.\nyes, there is a blue rose in the image.\nyes, the image presents a differentiation logic: a rose that is not fully bloomed is higher than a rose that is already in bloom.\nyes, the red rose is not fully bloomed.\nyes, the blue rose is already in full bloom."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a mouse in the image. The image shows a small, brown and white mouse with ears and a tail, which is characteristic of mice.\nYes, there is a desk in the image. The mouse is situated on a flat, wooden surface that is a desk with papers and a computer on it.\nNo, the mouse is not gliding across the desk. The mouse appears to be standing still on the desk rather than gliding.\nYes, the mouse is on the top of the desk. The image depicts the mouse clearly on top of the flat wooden surface of the desk."
+}

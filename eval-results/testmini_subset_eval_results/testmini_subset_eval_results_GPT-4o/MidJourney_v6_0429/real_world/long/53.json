@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no - The image depicts an invitation card, but it is not explicitly a wedding invitation as it invites to a union of text and image.\nyes - The card has an eggshell texture and visible embossings that give it a hefty appearance.\nno - The decorations do not abstractly represent a couple; they instead show floral embossings.\nno - The iconography is floral and decorative rather than sparing or minimalist.\nyes - The card includes text about the union of Image and Text.\nno - The typesetting on the invitation is not perfect as some words appear to be jumbled or incorrectly spaced.\nyes - The invitation card is placed on a wooden desk, which appears tasteful.\nno - The text is not entirely clear or readable in certain sections, affecting readability.\nno - There is no mention or visible text of the time information of March 25, 2025 in the picture."
+}

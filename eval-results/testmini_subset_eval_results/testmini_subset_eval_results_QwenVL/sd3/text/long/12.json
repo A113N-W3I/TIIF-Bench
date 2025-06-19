@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 12,
+  "questions": [
+    "Is the text 'Trick' in the image?",
+    "Is the text 'or' in the image?",
+    "Is the text 'Treat' in the image?",
+    "Is the text 'Aam' in the image?",
+    "Is the text 'The' in the image?",
+    "Is the text 'Trickster' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Trick' is part of the inscription around the circular emblem.\nno There is no isolated word 'or', though it appears as part of longer inscriptions.\nyes The word 'Treat' is visible within the circular band of text around the emblem.\nno The text 'Aam' does not appear in the image.\nyes The word 'The' is part of the longer inscription along the edge of the design.\nyes The text 'Trickster' is clearly visible at the bottom of the circles inscription."
+}

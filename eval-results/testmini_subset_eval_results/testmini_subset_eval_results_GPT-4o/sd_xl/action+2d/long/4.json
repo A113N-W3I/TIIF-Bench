@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a girl in the image - she is standing near the snowman.\nyes, there is a snowman in the image - the snowman is in a snowy setting with children.\nno, the girl is not engaging in a snowball fight - she is standing with a dog, observing the snowman.\nyes, the snowman is on the right - it is positioned to the right side of the scene with the girl and dog on the left."
+}

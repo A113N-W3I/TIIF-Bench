@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mountain in the image?  ",
+    "Is there snow on the mountain?  ",
+    "Is the mountain brown in color?  ",
+    "Is the sky blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a mountain in the image as a prominent landform is visible.\nno, there is no noticeable snow on the main mountain, but there is snow on mountains in the distance.\nyes, the main mountain appears brown in color due to its earthy tones.\nyes, the sky is blue in color, as evident from the image background."
+}

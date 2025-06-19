@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rug in the scene?",
+    "Is the rug pentagon-shaped?",
+    "Is there a paper towel roll in the scene?",
+    "Is the paper towel roll cylindrical in shape?",
+    "Is the shoe rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no rug in the scene; instead, there is a circular design on the floor.  \nNo, there is no pentagon-shaped rug in the scene; the design in the room does not resemble a pentagon.  \nNo, there is no paper towel roll in the scene; no cylindrical paper product is visible.  \nNo, the object that could be mistaken for a paper towel roll is not cylindrical; it is a vertical column with a spiral pattern.  \nNo, there is no shoe visible in the scene; therefore, I cannot determine if a shoe is rubber-textured."
+}

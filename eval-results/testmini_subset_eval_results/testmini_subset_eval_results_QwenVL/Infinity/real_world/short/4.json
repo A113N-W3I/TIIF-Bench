@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text visible is distorted and does not clearly state 'Survey Results on Podcasts'.\nyes The infographic employs a range of colors that stand out against the background.\nyes Modern icons are present, representing various devices and objects related to podcasts.\nno The typography lacks clarity due to distortion and blending effects which make it difficult to read.\nyes Despite the distortion, symbols indicating statistics like percentages seem to be highlighted.\nyes There are icons suggestive of devices, even though the specific details are unclear.\nyes Icons and symbols hint at different categories that could represent podcast topics.\nno The design elements are cluttered and lack sharpness, detracting from a clean appearance.\nno Professionalism is undermined by the distorted visuals and illegible text.\nno The distortion of images and text makes the infographic hard to interpret.\nno The text within the image suffers from blurriness and distortion.\nno The numbers in the image are affected by the same distortion affecting other elements."
+}

@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a model touching her face as if applying cream.\nyes The model appears relaxed with closed eyes, suggesting self-care.\nyes The lighting is soft and enhances the natural look of the skin.\nno The background includes green leaves but not pastel tones like blush pink or mint green.\nno There is no visible text overlay in the image.\nno There are no minimalistic icons like leaves or droplets present.\nyes The focus is on the model’s face and the act that resembles applying cream.\nyes The image has a clean, aspirational, and relatable appearance.\nyes There seems to be a trace of cream on the model's finger and face.\nno The image appears to be photo-realistic rather than a generated image, with natural-looking features."
+}

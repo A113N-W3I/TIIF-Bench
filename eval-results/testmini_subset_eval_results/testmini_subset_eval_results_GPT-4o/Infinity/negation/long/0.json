@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a steak in the image?  ",
+    "Does the fork pierce the steak?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a fork in the image as its prongs are visible at the top.\nyes, there is a steak in the image as the piece of meat is clearly shown.\nyes, the fork pierces the steak as its prongs are inserted into the meat."
+}

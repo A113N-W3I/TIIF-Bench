@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 64,
+  "questions": [
+    "Does the image show multi-layered shelves filled with identical red baseball caps? Answer with yes or no.",
+    "Do the red baseball caps have bold text on the front reading 'MAKE AMERICA GREAT AGAIN'? Answer with yes or no.",
+    "Is there a white tag on the side of the caps labeled 'MADE IN CHINA'? Answer with yes or no.",
+    "Is there a close-up view of one red baseball cap? Answer with yes or no.",
+    "Is there a price tag below the image with '$50.00' crossed out and replaced with '$77.00'? Answer with yes or no.",
+    "Is the color palette of the image made up of nostalgic earthy yellows and dark reds? Answer with yes or no.",
+    "Does the shadowing mimic the vintage printing texture of the 1990s? Answer with yes or no.",
+    "Is the overall composition exaggerated and satirical? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image displays multi-layered shelves with identical red baseball caps.\nyes The caps clearly have the text 'MAKE AMERICA GREAT AGAIN' on them.\nyes There is a visible white tag on the side of the caps that reads 'MADE IN CHINA'.\nyes A single red baseball cap is shown in a detailed close-up at the center.\nyes There is a price tag showing '$50.00' crossed out and replaced with '$77.00'.\nyes The image uses a color palette with earthy yellows and dark reds, fitting the description.\nyes The shadowing and textures evoke a style reminiscent of vintage 1990s printing.\nyes The combination of elements such as the increased price and mass-produced goods suggests satire."
+}

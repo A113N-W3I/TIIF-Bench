@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a frog in the image?  ",
+    "Is there a bear in the image?  ",
+    "Is the frog green?  ",
+    "Is the bear blue?  ",
+    "Is the frog near the bear?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, a frog is in the image\nno, a bear is not in the image\nyes, the frog is green\nno, a bear is not in the image\nno, a bear is not in the image"
+}

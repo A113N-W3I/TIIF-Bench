@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is the text 'Eternal' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'Promise' in the image?",
+    "Is the text 'Forever' in the image?",
+    "Is the text 'Commitment' in the image?",
+    "Is the text 'Together' in the image?",
+    "Is the text 'Yes' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Moment' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the text 'Eternal' is in the image.\nno, the text 'Love' is not in the image.\nyes, the text 'Promise' is in the image.\nno, the text 'Forever' is not in the image.\nno, the text 'Commitment' is not in the image.\nno, the text 'Together' is not in the image.\nno, the text 'Yes' is not in the image.\nno, the text 'Dream' is not in the image.\nno, the text 'Moment' is not in the image."
+}

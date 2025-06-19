@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The background shows green foliage which is characteristic of a shrub.\nyes The shrub appears to have a cluster of leaves close to the ground, suggesting it is short in shape.\nyes There is an object resembling a paperweight present in the scene.\nyes The paperweight clearly has a pyramidal shape with flat triangular faces and a square base.\nyes The surface of the paperweight reflects light in a manner consistent with metallic material."
+}

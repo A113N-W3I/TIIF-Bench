@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bag in the scene?",
+    "Is the bag made of plastic?",
+    "Is there a door in the scene?",
+    "Is the door made of wood?",
+    "Is the glow on the wooden door yellow?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows what appears to be a crumpled plastic cover or bag on the floor.\nyes The material visible looks translucent and flexible, typical characteristics of plastic.\nno There is a luminous object with grid patterns in the background, but it is not identifiable as a door.\nno Since there is no identifiable door in the scene, this question cannot be answered affirmatively.\nno Without an identifiable door, assessing the color of its glow is not applicable."
+}

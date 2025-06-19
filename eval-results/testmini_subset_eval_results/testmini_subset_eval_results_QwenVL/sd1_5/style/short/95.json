@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image does not display characteristic elements specifically associated with Disney's artistic style, such as iconic characters or the specific animation techniques typical of Disney. Instead, it features a highly detailed and vibrant depiction of a storefront with fantastical elements which appear more akin to a whimsical or magical realism style rather than Disney's signature look."
+}

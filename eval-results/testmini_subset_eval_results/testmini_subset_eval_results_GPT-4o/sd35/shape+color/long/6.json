@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a bookend in the scene?",
+    "Is the bookend pyramid-shaped?",
+    "Is there a fig in the scene?",
+    "Is the fig shaped like a teardrop?",
+    "Is the pyramidal bookend blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bookend in the scene. It is visible next to the books on the right side.\nYes, the bookend is pyramid-shaped. The shape is clearly a triangular pyramid.\nYes, there is a fig in the scene. The plant in the vase is a fig plant, also known as a ficus.\nNo, the fig itself is not shaped like a teardrop. The fig plant's leaves are not shaped like a teardrop.\nYes, the pyramidal bookend is blue. The color of the bookend is blue."
+}

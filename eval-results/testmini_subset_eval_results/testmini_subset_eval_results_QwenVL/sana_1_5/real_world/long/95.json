@@ -1,0 +1,52 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Does this image show a realistic and whimsical miniature modern café inside a coffee-filled mug? Answer with yes or no.",
+    "Does this image include a tiny bar counter within the café? Answer with yes or no.",
+    "Is there a small coffee machine and grinder in the café? Answer with yes or no.",
+    "Are there a few small tables with miniature customer figurines seated in the café? Answer with yes or no.",
+    "Do the inner sides of the mug have tiny menu boards or decorative paintings? Answer with yes or no.",
+    "Is the coffee surface forming the 'floor' of the café? Answer with yes or no.",
+    "Does the coffee surface possibly have tiny latte art patterns? Answer with yes or no.",
+    "Is the mug placed on a coffee table or bar counter? Answer with yes or no.",
+    "Is there possibly a real croissant, laptop, or sugar jar next to the mug? Answer with yes or no.",
+    "Is the image created in a hyper-realistic style? Answer with yes or no.",
+    "Does the image have a shallow depth of field, focusing on lively scenes and characters inside the café? Answer with yes or no.",
+    "Is the lighting bright and soft, simulating natural café lighting or indoor lighting? Answer with yes or no.",
+    "Is there high detail in the image, like metallic texture of equipment, figures' postures, and café decor? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image depicts a highly detailed miniature modern café scene inside what appears to be a large coffee mug, creating a whimsical and fantastical visual illusion.\nyes A bar counter is clearly visible within the miniature café setting inside the coffee mug, complete with stools around it.\nyes There are distinct representations of a coffee machine and a grinder within the café environment, suggesting a full service coffee bar setup.\nyes The café scene includes several small tables with tiny figurines that appear to be seated customers, enhancing the realism of the depiction.\nyes Decorative elements can be seen on the inner sides of the mug, resembling menu boards or paintings which contribute to the detailed miniature café atmosphere.\nyes The surface of the actual coffee inside the mug serves as the floor for the miniature café, providing a fascinating foundation for the scene.\nyes The coffee surface features intricate latte art patterns, adding an extra layer of visual interest and detail to the image.\nno The mug itself does not seem to be placed on a specific coffee table or bar counter but rather seems floating or isolated in the background for effect.\nyes There is indeed a croissant positioned next to the mug, as well as what could be interpreted as a laptop corner, although no sugar jar is distinctly visible.\nyes The overall style of the image is very much hyper-realistic, capturing lifelike textures and fine details.\nyes The use of lighting and focus emphasizes the miniature world inside the mug, creating a lively and engaging scene.\nyes The image displays very bright and soft lighting effects, mimicking the warm ambiance typically found in cafes.\nyes High levels of detail are evident throughout, from the metallic textures of the coffee machines to the individual postures of the miniature figurines and café decor."
+}

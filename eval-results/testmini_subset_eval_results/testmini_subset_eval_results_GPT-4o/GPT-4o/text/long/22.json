@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the word 'Chanel' is prominently displayed at the top left of the image.\nyes, because the word 'Elegance' is listed on the right side of the image.\nyes, because the word 'Style' is listed on the right side of the image.\nyes, because the word 'Luxury' is listed on the right side of the image.\nyes, because the word 'Iconic' is listed on the right side of the image.\nyes, because the word 'Glamour' is listed on the right side of the image.\nyes, because the word 'Timeless' is listed on the right side of the image.\nyes, because the word 'Sophistication' is listed on the right side of the image.\nyes, because the word 'Fashion' is listed on the right side of the image."
+}

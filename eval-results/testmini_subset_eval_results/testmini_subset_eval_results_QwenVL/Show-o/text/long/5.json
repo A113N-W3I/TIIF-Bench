@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is the text 'Eternal' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'Promise' in the image?",
+    "Is the text 'Forever' in the image?",
+    "Is the text 'Commitment' in the image?",
+    "Is the text 'Together' in the image?",
+    "Is the text 'Yes' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Moment' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The word 'Eternal' is part of the stylized text in the image.\nno The word 'Love' is not visible anywhere in the image.\nno The word 'Promise' does not appear in the text within the image.\nyes The word 'Forever' is present as part of the text beneath the main stylized word in the image.\nno The word 'Commitment' is not present in any of the visible text in the image.\nyes The word 'Together' is visible as part of a phrase within the stylized text elements in the image.\nno The word 'Yes' does not appear in the image.\nno There is no word 'Dream' in the visible text of the image.\nno The word 'Moment' is not included in the text elements shown in the image."
+}

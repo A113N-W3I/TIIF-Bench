@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a toilet in the image?  ",
+    "Is there a sign in the image?  ",
+    "Is the toilet brown?  ",
+    "Is the sign green?  ",
+    "Is the toilet behind the sign?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no toilet in the image. The image contains abstract shapes that vaguely resemble a toilet, but they do not definitively depict one.\nYes, there is a sign in the image. The structure at the center top resembles a sign.\nNo, the toilet is not brown, as there is no definitive toilet in the image.\nYes, the sign is green. The top structure in the middle has a greenish hue.\nNo, the toilet is not behind the sign, as there is no definitive toilet."
+}

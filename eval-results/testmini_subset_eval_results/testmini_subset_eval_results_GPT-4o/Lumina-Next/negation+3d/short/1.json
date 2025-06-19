@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no boy in the image; the figure is more likely an adult male.\nYes, there is a wall in the image; it appears in the background.\nNo, there is no shadow in the image; the image does not show any distinct shadows.\nNo, there are no sneakers on the boy's (or figure's) feet; the feet are bare.\nNo, the boy is not hidden by the shadow of the tree; there is no boy and no shadow of the tree."
+}

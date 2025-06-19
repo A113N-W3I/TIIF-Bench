@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a steak in the image?  ",
+    "Does the fork pierce the steak?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image clearly shows a fork.\nyes There is a piece of meat resembling a steak on top of the fork.\nno The steak is placed on top of the fork but does not appear to be pierced by it."
+}

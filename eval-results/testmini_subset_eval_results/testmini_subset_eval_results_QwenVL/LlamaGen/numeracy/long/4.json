@@ -1,0 +1,31 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there cameras in the image?  ",
+    "Is the number of cameras 2?  ",
+    "Are there cats in the image?  ",
+    "Is the number of cats 4?  ",
+    "Are there swans in the image?  ",
+    "Is the number of swans 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no There are no cameras visible in the image.\nno There are no cameras present, so the number cannot be two.\nno There are no cats in the image.\nno Since there are no cats in the image, the number cannot be four.\nyes There are swans depicted in the image.\nyes The image contains a total of four swans."
+}

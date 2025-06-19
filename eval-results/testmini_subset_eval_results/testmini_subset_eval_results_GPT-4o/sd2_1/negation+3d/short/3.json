@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there an old wooden bench in the image?  ",
+    "Does the tree have leaves?  ",
+    "Is the tree behind the old wooden bench from the viewer's perspective within the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a tree in the image. The background shows a noticeable large twisted tree.  \nYes, there is an old wooden bench in the image. A wooden bench with signs of aging is visible in the foreground.  \nNo, the tree does not have leaves. The tree in the image appears to be bare, without leaves, likely in winter.  \nYes, the tree is behind the old wooden bench from the viewer's perspective within the image. The bench is in front, with the tree situated behind it."
+}

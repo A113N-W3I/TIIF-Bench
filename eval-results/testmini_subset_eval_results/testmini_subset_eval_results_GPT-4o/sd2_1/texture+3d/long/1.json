@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a plant holder in the image?  ",
+    "Is the plant holder made of wood?  ",
+    "Are the clouds behind the plant holder?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is not a cloud in the image; it appears to be a sculpture or abstract representation.\nyes, there is a plant holder in the image; the object above the sculpture resembles a plant holder.\nyes, the plant holder is made of wood; the frame above the sculpture appears to be wooden.\nno, the clouds are not behind the plant holder; the object resembling clouds is below the wooden frame."
+}

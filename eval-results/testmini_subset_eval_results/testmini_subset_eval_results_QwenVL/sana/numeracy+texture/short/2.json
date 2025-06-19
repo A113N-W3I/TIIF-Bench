@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains an object resembling bread.\nyes The image contains multiple objects resembling fish.\nno There is no object in the image that resembles a computer.\nno There are no objects in the image that resemble bags.\nyes The image contains an object resembling a bicycle.\nno The image shows more than one piece of bread.\nno The image does not contain exactly four fish; there are more.\nno There is no computer in the image.\nno There are no bags in the image.\nyes The image contains one bicycle.\nno There is no computer in the image to assess material.\nno Bicycles are typically not made of rubber, and the image does not suggest otherwise."
+}

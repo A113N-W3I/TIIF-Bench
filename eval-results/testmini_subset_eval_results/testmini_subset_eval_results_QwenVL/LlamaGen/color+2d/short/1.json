@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "short_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the cloud white?  ",
+    "Is the cup blue?  ",
+    "Is the cloud on the right of the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image features a structure resembling a cloud.\nno There is no cup in the image.\nyes The structure resembling a cloud is white.\nno There is no cup in the image to determine its color.\nno There is no cup in the image for comparison with the cloud's position."
+}

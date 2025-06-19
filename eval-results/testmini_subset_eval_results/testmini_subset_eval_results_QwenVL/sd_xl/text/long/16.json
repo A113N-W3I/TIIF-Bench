@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 16,
+  "questions": [
+    "Is the text 'Life' in the image?",
+    "Is the text 'Beach' in the image?",
+    "Is the text 'Better' in the image?",
+    "Is the text 'Waves' in the image?",
+    "Is the text 'Ocean' in the image?",
+    "Is the text 'Sand' in the image?",
+    "Is the text 'Relax' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Life' is not present in the image.\nno The text 'Beach' is not present in the image.\nno The text 'Better' is not present in the image.\nno The text 'Waves' is not present in the image.\nno The text 'Ocean' is not present in the image.\nno The text 'Sand' is not present in the image.\nno The text 'Relax' is not present in the image."
+}

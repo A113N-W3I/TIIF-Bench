@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "short_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a blue bird in the image?  ",
+    "Is there a red fish in the image?  ",
+    "Does the image present a comparison logic: the blue birds are more numerous than the red fish?  ",
+    "Are the birds in the image blue in color?  ",
+    "Are the fish in the image red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a blue bird in the image because several birds depicted are indeed blue.\n\nNo, there is not a red fish in the image because the image does not show any fish.\n\nNo, the image does not present a comparison logic: the blue birds are more numerous than the red fish, because there are no red fish depicted.\n\nYes, the birds in the image are blue in color because they are depicted as blue.\n\nNo, the fish in the image are not red in color because there are no fish depicted."
+}

@@ -1,0 +1,19 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there frogs in the image?  ",
+    "Is the number of frogs 7?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are frogs in the image.  \nno, the number of frogs is not 7; there are 3 frogs in the image."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a figure that appears to be a girl based on the clothing and hairstyle.\nyes There is a figure resembling a snowman with typical features like a carrot nose and coal eyes.\nyes The girl appears to be throwing something towards the snowman, suggesting a snowball fight.\nyes The snowman is positioned on the right side of the image relative to the girl."
+}

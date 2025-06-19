@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there wall art in the image?  ",
+    "Is there a fireplace in the image?  ",
+    "Is there a large window in the image?  ",
+    "Is the wall art hanging above the fireplace?  ",
+    "Is the large window behind the fireplace?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is artwork depicting a fire scene on the wall.\nno There is no actual fireplace present in the image, only an illustration of flames in the wall art.\nno There is no large window visible in the image; the only large element is the wall art.\nno The wall art features flames but does not hang above an actual fireplace, as no fireplace exists in the room.\nno There is no large window in the image to be behind a fireplace."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image shows an office space, not shops on the left.\nno, the image shows an office space, not shops on the right.\nno, the image does not present a comparison of liveliness between shops on the left and right."
+}

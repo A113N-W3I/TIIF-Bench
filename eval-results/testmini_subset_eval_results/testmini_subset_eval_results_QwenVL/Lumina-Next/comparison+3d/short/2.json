@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a larger person wearing a hat in the image?  ",
+    "Is there a smaller person not wearing a hat in the image?  ",
+    "Does the image present a comparison logic: the larger person wears a hat, and the smaller person does not wear a hat?  ",
+    "Is the smaller person hidden in relation to the larger person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a person in the foreground on the left side who appears larger and is wearing a hat.\nyes There is a person in the foreground on the right side who appears smaller and is not wearing a hat.\nyes The image shows a larger person wearing a hat on the left and a smaller person not wearing a hat on the right, presenting a contrast.\nno The smaller person is not hidden but is clearly visible in the foreground on the right side of the image."
+}

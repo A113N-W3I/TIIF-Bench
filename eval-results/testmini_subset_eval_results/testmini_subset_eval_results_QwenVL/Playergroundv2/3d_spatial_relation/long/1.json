@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a balloon in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the balloon behind the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image clearly shows two red balloons floating near the window.\nyes A wooden desk is visible in the foreground of the image.\nno The balloons are positioned above and beside the desk, not behind it."
+}

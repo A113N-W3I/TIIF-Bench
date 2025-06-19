@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, a shrub is visible in the scene located around the base of the pyramid.\nyes, the shrub appears to be short in height, as it does not extend beyond the height of the pyramidal structure.\nyes, there is a paperweight in the scene as identified by its placement and context in the image.\nyes, the paperweight is in the shape of a pyramid.\nyes, the pyramidal paperweight appears to be metallic judging by its reflective surface and metallic sheen."
+}

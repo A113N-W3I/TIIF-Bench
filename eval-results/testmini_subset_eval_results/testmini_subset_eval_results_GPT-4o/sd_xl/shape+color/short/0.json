@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no cushion in the scene; the objects are a chair and a pillow.\nNo, the cushion is not spherical in shape; there is no cushion present.\nNo, there is no bookstand in the scene; the objects do not indicate a bookstand.\nNo, the bookstand is not conical in shape; there is no bookstand present.\nNo, the bookstand is not blue; there is no bookstand present."
+}

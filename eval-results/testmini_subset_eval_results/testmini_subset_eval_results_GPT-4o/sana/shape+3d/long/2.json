@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, The image is distorted in a way that suggests various shapes throughout, but no discernible soccer ball is clearly visible.\nno, The distorted artistic depiction makes it difficult to identify any objects with certainty as an ottoman.\nno, There is no soccer ball in the image to determine its shape.\nno, There is no ottoman in the image to determine its shape.\nno, As neither a soccer ball nor an ottoman can be identified in the image, their positions relative to each other cannot be determined."
+}

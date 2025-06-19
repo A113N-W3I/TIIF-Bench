@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an airplane in the image?  ",
+    "Is there a giraffe in the image?  ",
+    "Is the airplane in front of the giraffe?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because there is an airplane in the sky.\nyes, because there is a giraffe standing on the ground.\nyes, because the airplane is positioned in front of the giraffe in the image perspective."
+}

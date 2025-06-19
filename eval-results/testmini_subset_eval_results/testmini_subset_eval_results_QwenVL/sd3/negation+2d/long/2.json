@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a skateboard in the image?  ",
+    "Are the ears of the cat visible?  ",
+    "Is the cat on the top of the skateboard?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes there is a cat in the image\nyes there is a skateboard in the image\nyes the ears of the cat are visible\nno the cat is standing on the skateboard, not on top of it"
+}

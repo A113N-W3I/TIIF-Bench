@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a vase in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the vase on the left of the sheep?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no vase present in the image.\nyes A sheep is clearly visible in the center of the image.\nno There is no vase, so it cannot be on the left of the sheep."
+}

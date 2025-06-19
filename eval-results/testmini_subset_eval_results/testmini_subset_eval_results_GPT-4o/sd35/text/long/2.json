@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, because the word 'Recycle' is not present; 'Reycle' is present.\nno, because the word 'Sustain' is not present; 'Sustabi' is present.\nno, because the word 'Renew' is not present.\nyes, because the word 'Choose' is present.\nyes, because the word 'wisely' is present.\nno, because 'Eco-friendly' is not present; 'eco fiendly' is present.\nno, because the word 'Green' is not present; 'green' is lowercase.\nno, because the word 'living' is not present; 'livnly' and 'living' with other letters are present.\nno, because the word 'Minimalism' is not present; 'minimlism' is present."
+}

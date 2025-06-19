@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an insulated cup in the image?",
+    "Is there a notebook in the image?",
+    "Are the insulated cup and notebook on the same desk?",
+    "Is the insulated cup metallic in texture?",
+    "Is the notebook fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes It appears to be shiny and reflective like insulated cups often are.\nyes A notebook is open with writing visible on the pages.\nyes Both items are placed on a single surface which appears to be a desk.\nyes The cup reflects light and has a smooth appearance typical of metallic objects.\nno The notebook has a paper and cloth cover, not fabric."
+}

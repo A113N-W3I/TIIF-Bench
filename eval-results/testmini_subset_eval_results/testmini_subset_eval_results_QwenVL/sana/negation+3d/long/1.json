@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "long_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a child who appears to be a boy based on the clothing and posture.\nyes There is a wall visible in the background of the image.\nyes There are shadows cast by branches and leaves on the wall and the boy.\nno The boy is wearing one sneaker, but his other foot is bare.\nno The boy is not hidden; he is partially illuminated and clearly visible despite the shadows from the tree."
+}

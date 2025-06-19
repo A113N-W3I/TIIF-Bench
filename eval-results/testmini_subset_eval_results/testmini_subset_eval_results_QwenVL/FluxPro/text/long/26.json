@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Vegetable' is clearly visible at the top of the image.\nyes The text 'Gardening' appears directly below 'Vegetable'.\nyes The word 'with' is present between 'Gardening' and 'MIKE'.\nyes The name 'MIKE' is displayed prominently in orange letters.\nyes The word 'THE' is located just below 'MIKE'.\nyes The text 'GARDENER' follows 'THE' in the sequence."
+}

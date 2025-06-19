@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The card does not appear to be a wedding invitation, as there are no typical wedding invitation elements present.\nno The card does not show signs of being hefty, nor does it display eggshell texture or embossings; it appears smooth with a wood grain design.\nno There are no abstract representations of a couple visible on the card.\nyes The usage of iconography is indeed sparing and minimalist, with very little decoration.\nno There is no text specifying the union of \"Image and Text\" on the invitation.\nyes The typesetting appears to be well done, with legible and aesthetically arranged text.\nyes The card is placed on what looks like a wooden desk or surface.\nyes The text on the card is clear and legible.\nno The picture does not contain any time information or date indicating March 25, 2025."
+}

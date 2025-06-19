@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Are there helicopters in the image?  ",
+    "Is the number of helicopters 4?  ",
+    "Are there hamburgers in the image?  ",
+    "Is the number of hamburgers 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are three helicopter-like structures in the image.\nno The number of helicopter-like structures is three, not four.\nyes There are hamburger elements integrated into the design of the helicopter-like structures.\nno The number of distinct hamburger-like structures is two, not four."
+}

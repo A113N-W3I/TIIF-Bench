@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no. The image does not reflect the traditional elements and stylistic characteristics of Ukiyo-e art, such as the use of specific color palettes, depiction of everyday life, and certain forms of Japanese landscape or portraiture."
+}

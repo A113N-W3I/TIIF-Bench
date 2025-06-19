@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does a computer exist in the image?  ",
+    "Does a computer mouse exist in the image?  ",
+    "Does the image present a comparison logic: computers are more than computer mice?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes A computer is visible in the form of a desktop monitor displaying various graphics and designs.\nno There is no computer mouse visible in the image; only a keyboard and part of a hand are seen.\nno The image does not present a comparison between the quantity of computers and computer mice; it simply shows a computer setup without a mouse."
+}

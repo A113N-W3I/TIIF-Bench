@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features a detailed and colorful rendering of a peacock in a bamboo forest setting, which is not characteristic of the traditional Ukiyo-e style. Ukiyo-e typically involves woodblock prints with more stylized and simpler lines, whereas this image has a more realistic and painterly quality."
+}

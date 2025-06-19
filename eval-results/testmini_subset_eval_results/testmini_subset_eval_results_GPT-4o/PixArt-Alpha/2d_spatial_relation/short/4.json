@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a vase in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the vase on the left of the sheep?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a vase in the image. There are two vases visible on the table in front of the sheep.\nYes, there is a sheep in the image. The sheep is positioned behind the vases.\nYes, the vase is on the left of the sheep. One of the vases is directly in front of and slightly to the left of the sheep."
+}

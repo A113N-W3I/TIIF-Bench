@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains various objects that can exist in reality.\nyes There are multiple cameras visible in the image.\nyes There are several fish depicted in the image.\nyes There are four chairs arranged around the scene.\nno There is no candle present in the image; there are candlesticks with unlit candles.\nyes There are two paddles crossing over the boats.\nno There are three cameras visible, not four.\nno There are four fish in the image.\nno There are four chairs in the image, not three.\nno There are five candles in the image, not four.\nno The paddles appear to be made of wood, not leather.\nno The cameras do not appear to be made entirely of plastic; they seem to have metallic components.\nno The chairs appear to be made of plastic, but the question asks if they are made of plastic, which is redundant as plastic is already implied."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a pond in the image?  ",
+    "Is the boy under a tree?  ",
+    "Is the boy on the side of the pond?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a boy standing in the image.\nyes There is a body of water that appears to be a pond.\nyes The boy is standing near a tree which provides shade.\nyes The boy is positioned on the edge of the pond."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a couch in the scene?",
+    "Is the couch rectangular in shape?",
+    "Is there a office in the scene?",
+    "Is the office pentagon-shaped?",
+    "Is the lamp glass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a couch in the scene; it is centrally placed in the image.\nYes, the couch is rectangular in shape; it has a straight, elongated form that resembles a rectangle.\nNo, there is not an office in the scene; the room appears to be a living area.\nNo, the office is not pentagon-shaped, as there is no office present in the image.\nNo, the lamp is not glass; it appears to be made of another material that emits a warm glow, possibly fabric or metal."
+}

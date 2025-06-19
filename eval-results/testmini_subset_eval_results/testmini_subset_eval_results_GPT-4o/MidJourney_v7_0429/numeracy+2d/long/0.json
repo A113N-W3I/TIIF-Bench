@@ -1,0 +1,22 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there strawberries in the image?  ",
+    "Is the number of strawberries 7?  ",
+    "Are the strawberries on the bottom edge?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there are strawberries visible prominently in the image.\nyes, there are exactly 7 strawberries depicted in the image.\nyes, the strawberries are primarily located along the bottom edge."
+}

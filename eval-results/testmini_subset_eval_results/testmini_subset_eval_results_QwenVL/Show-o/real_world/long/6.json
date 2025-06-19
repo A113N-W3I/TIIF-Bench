@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure in the image has human-like features but is clearly mechanical, indicating it's an android.\nyes The setting includes bookshelves and a modern aesthetic, suggesting a library of the future.\nno The book the android holds is physical with pages, not a floating hologram.\nyes The lighting casts hues of blue and purple throughout the scene.\nyes There are visible reflections and metallic textures on the android's surface.\nyes The android's facial features appear neutral and composed.\nyes The background is out of focus with hints of technology, giving a blurred, high-tech effect.\nyes The image has a high level of detail, a blend of realism and fantasy typical of cinematic styles.\nyes Elements such as the design of the android and the technological setting suggest inspiration from sci-fi.\nno While the book gives off a glow, it appears to be a traditional book with pages rather than a holographic projection."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, the image contains a child, as evidenced by the appearance of the upper body and the shape of the figure in the image.\nYes, there are bubbles in the image, visible around the child and reflecting light.\nYes, there is a toy box in the image, discernible by its rectangular shape and position in the background.\nNo, the child is not clearly shown blowing the bubbles, as the image captures their hands near the bubbles but not the act of blowing.\nYes, the toy box is on the bottom of the frame, indicated by its placement in relation to the child and other elements in the image."
+}

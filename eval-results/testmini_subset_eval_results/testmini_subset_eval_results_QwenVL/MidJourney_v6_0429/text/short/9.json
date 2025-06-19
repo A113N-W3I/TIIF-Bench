@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is the text 'Strike' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Precision' in the image?",
+    "Is the text 'Momentum' in the image?",
+    "Is the text 'Bowling' in the image?",
+    "Is the text 'Night' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Pins' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no Strike is not visible as the text in the image; it reads 'Strikence'.\nno Elegance is present but not as a standalone word; it is part of 'Elegance Precision'.\nyes Focus is in the image as part of the text 'Focus Precision'.\nno Precision is not alone; it appears twice as part of the phrase 'Elegance Precision Precision'.\nno Momentum is misspelled as 'Momertum' and is therefore not the same as 'Momentum'.\nno Bowling is not an exact match as it appears distorted as 'Bowomuwm'.\nyes Night is in the image as part of the text 'Night Style Pins'.\nyes Style is in the image as part of the text 'Night Style Pins'.\nyes Pins is in the image as part of the text 'Night Style Pins'."
+}

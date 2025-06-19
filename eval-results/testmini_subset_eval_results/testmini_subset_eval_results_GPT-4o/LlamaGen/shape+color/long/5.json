@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a ball in the scene?",
+    "Is the ball round in shape?",
+    "Is there a pendant in the scene?",
+    "Is the pendant shaped like a teardrop?",
+    "Is the teardrop pendant green?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, because there is no ball present in the scene.\nno, because there is no ball to be round in shape.\nyes, because there is a pendant in the scene.\nno, because the pendant is not shaped like a teardrop.\nno, because there is no teardrop pendant that is green."
+}

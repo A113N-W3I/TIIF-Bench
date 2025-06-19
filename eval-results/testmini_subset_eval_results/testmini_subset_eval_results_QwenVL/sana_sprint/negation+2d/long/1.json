@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an insulated cup in the image?  ",
+    "Is there a notebook in the image?  ",
+    "Are the insulated cup and the notebook on the same desk?  ",
+    "Is the insulated cup to the left of the notebook?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows a white cup with a lid that appears to be insulated.\nyes There is a closed book with a light-colored cover next to the cup.\nyes Both the insulated cup and the notebook are placed on the same surface, which appears to be a desk.\nyes The insulated cup is positioned to the left of the notebook when viewing the image."
+}

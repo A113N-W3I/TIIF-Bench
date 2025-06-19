@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, the text 'SIMPLY' is in the image.\nyes, the text 'Bullet' is in the image.\nyes, the text 'Proof' is in the image.\nno, the text 'Nothing' is not in the image.\nyes, the text 'SAUCER' is in the image."
+}

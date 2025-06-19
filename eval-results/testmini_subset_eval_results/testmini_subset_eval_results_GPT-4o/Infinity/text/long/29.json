@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 29,
+  "questions": [
+    "Is the text 'School' in the image?",
+    "Is the text 'Kills' in the image?",
+    "Is the text 'My' in the image?",
+    "Is the text 'Vibe' in the image?",
+    "Is the text 'Rebel' in the image?",
+    "Is the text 'Bold' in the image?",
+    "Is the text 'Statement' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the text 'School' is in the image because it is visible on the t-shirt on the left.\nyes, the text 'Kills' is in the image because it is visible on the t-shirt on the right.\nno, the text 'My' is not in the image as it is not visible on any t-shirt.\nyes, the text 'Vibe' is in the image because it is visible on the central t-shirt.\nyes, the text 'Rebel' is in the image because it can be seen faintly under 'Kills' on the right t-shirt.\nno, the text 'Bold' is not in the image since it is absent from all visible t-shirts.\nno, the text 'Statement' is not in the image as it doesn't appear on any t-shirt."
+}

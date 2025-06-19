@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features a whimsical and detailed animation style reminiscent of Disney's attention to color, character, and environmental storytelling, particularly with the vibrant aurora and cozy interior reminiscent of animated films like Frozen or Tangled."
+}

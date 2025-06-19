@@ -1,0 +1,31 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a yellow dog in the image?  ",
+    "Is there a gold dog in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the yellow dog chasing the gold dog?  ",
+    "Is the yellow dog colored yellow?  ",
+    "Is the gold dog colored gold?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a yellow dog in the image. The larger dog is yellowish in color.\nNo, there is not a gold dog in the image. The second dog is more of a similar yellow-brown color.\nYes, there is a tree in the image. A tree is visible in the background.\nNo, the yellow dog is not chasing the gold dog. There is no distinction as both dogs are of similar color and running in the same direction.\nYes, the yellow dog is colored yellow. Its fur appears yellow.\nNo, the gold dog is not colored gold. The fur of the second dog does not appear gold, but more yellow-brown."
+}

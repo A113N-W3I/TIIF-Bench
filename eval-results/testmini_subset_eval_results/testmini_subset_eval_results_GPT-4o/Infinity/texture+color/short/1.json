@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a kettle in the scene?",
+    "Is the kettle made of metal?",
+    "Is there a bag in the scene?",
+    "Is the bag made of fabric?",
+    "Is the fabric bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a kettle in the scene. It is clearly depicted on the left side of the image.\nYes, the kettle is made of metal. It has a metallic sheen and reflective surface typical of metal.\nYes, there is a bag in the scene. It is visible on the right side of the image.\nYes, the bag is made of fabric. The texture and appearance suggest it is made from a textile material.\nYes, the fabric bag is brown. The color of the bag is a brown shade."
+}

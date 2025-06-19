@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a microwave in the image?  ",
+    "Is the cat on the bottom of the microwave?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cat in the image because a cat is sitting on a surface.\nyes, there is a microwave in the image because it is behind the cat.\nyes, the cat is on the bottom of the microwave because it is sitting below it."
+}

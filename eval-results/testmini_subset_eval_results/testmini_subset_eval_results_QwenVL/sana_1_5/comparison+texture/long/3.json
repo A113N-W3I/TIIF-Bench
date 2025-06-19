@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "long_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a metallic Bengal tiger in the image?  ",
+    "Is there a wooden Bengal tiger in the image?  ",
+    "Does the image present a comparison logic: a Bengal tiger in the shade looks stronger than another Bengal tiger not in the shade?  ",
+    "Is the Bengal tiger in the shade metallic in texture?  ",
+    "Is the Bengal tiger not in the shade wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image contains two Bengal tigers with a metallic appearance.\nno There are no wooden Bengal tigers in the image; both tigers appear metallic.\nno The image does not present a comparison of strength based on shading; it shows two metallic tigers with different lighting effects.\nyes The Bengal tiger in the shade has a metallic texture as seen in the reflective and shiny surface.\nno The Bengal tiger not in the shade also has a metallic texture, not wooden."
+}

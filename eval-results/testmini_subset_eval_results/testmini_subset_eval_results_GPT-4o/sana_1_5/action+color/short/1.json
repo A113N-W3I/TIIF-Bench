@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a white cat in the image?  ",
+    "Is there a blue coyote in the image?  ",
+    "Is the cat watching the coyote?  ",
+    "Is the cat white?  ",
+    "Is the coyote blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a white cat in the image because a white cat is visible sitting on the left side.\nYes, there is a blue coyote in the image because a blue coyote is visible sitting on the right side.\nYes, the cat is watching the coyote because the cat is facing and looking towards the coyote.\nYes, the cat is white because the fur of the cat is white in color.\nYes, the coyote is blue because the fur of the coyote is blue in color."
+}

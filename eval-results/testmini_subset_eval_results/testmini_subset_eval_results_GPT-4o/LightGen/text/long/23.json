@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Red' in the image?",
+    "Is the text 'Carpet' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Fashion' in the image?",
+    "Is the text 'Grace' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Charm' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, 'Glamour' is not in the image.\nno, 'Elegance' is not in the image.\nno, 'Red' is not in the image.\nno, 'Carpet' is not in the image.\nno, 'Style' is not in the image.\nno, 'Fashion' is not in the image.\nno, 'Grace' is not in the image.\nno, 'Sophistication' is not in the image.\nno, 'Charm' is not in the image."
+}

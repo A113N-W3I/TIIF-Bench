@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a crystal wand in the scene?",
+    "Is the crystal wand spherical in shape?",
+    "Is there a snowball in the scene?",
+    "Is the snowball spherical in shape?",
+    "Is the snowball blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, there is no crystal wand in the scene; the object in question is not clearly recognizable as a wand.\nno, the crystal object is not spherical in shape; it has facets and is more polyhedral.\nyes, there is a snowball in the scene; the blue object resembles a snowball in shape and texture.\nyes, the snowball is spherical in shape; it has a round appearance.\nyes, the snowball is blue; the object in question is distinctly blue in color."
+}

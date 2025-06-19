@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a computer in the image?  ",
+    "Is there a microphone in the image?  ",
+    "Are there flags in the image?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of microphone 1?  ",
+    "Is the number of flags 2?  ",
+    "Is the computer hidden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a laptop and a monitor which can be considered as parts of a computer setup.\nyes A microphone is clearly visible on the desk.\nyes There are American flags in the background.\nno There are multiple devices that could be part of a computer setup, including a laptop and a monitor.\nyes There is one microphone visible on the desk.\nyes There appear to be two American flags in the background.\nno The computer components, including the laptop and monitor, are clearly visible and not hidden."
+}

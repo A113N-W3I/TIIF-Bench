@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a woman in the image?  ",
+    "Is there a microwave in the image?  ",
+    "Is the woman near a microwave?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a woman in the image. The presence of a person with a visible shoulder and hair suggests it.\n\nYes, there is a microwave in the image. The appliance on the right side with dials and buttons resembles a microwave.\n\nYes, the woman is near a microwave. The proximity of the woman's position to the appliance indicates this."
+}

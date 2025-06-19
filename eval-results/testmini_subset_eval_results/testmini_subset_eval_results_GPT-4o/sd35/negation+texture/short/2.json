@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a wooden mountain in the image as the shape of the wood resembles a mountain.\nyes, there is snow on the mountain's peak, simulated by the white texture at the top.\nyes, the mountain is wooden in texture as it is made from wood.\nno, the surface surrounding the mountain is not rubber in texture; it appears to be a horizontal-striped pattern."
+}

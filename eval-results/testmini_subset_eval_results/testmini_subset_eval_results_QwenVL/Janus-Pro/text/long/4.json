@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'CARD' is visible in the image at the lower part of the keychain object.\nyes The text 'CLIP' can be seen upside down above the small lock graphic within the blue rectangular area of the keychain.\nyes The word 'with' appears below the hand, though partially cut off at the bottom of the image.\nyes The word 'Finger' is part of 'Blister Finger,' which is written near the bottom right corner of the image.\nyes The word 'Blister' forms part of 'Blister Finger' and is visible near the bottom right corner of the image."
+}

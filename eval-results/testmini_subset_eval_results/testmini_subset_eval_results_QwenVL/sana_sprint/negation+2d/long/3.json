@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a pond in the image?  ",
+    "Is the boy under a tree?  ",
+    "Is the boy on the side of the pond?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The figure appears to be a boy based on the short hair and stature.\nyes There is a body of water that resembles a pond in the image.\nyes The boy is standing beneath the branches of a large tree.\nyes The boy is positioned at the edge of the pond."
+}

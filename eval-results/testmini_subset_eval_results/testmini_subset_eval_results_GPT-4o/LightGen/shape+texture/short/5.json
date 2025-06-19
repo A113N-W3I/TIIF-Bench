@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a shelf in the scene?",
+    "Is the shelf in the shape of a pentagon?",
+    "Is there a earring in the scene?",
+    "Is the earring in the shape of a teardrop?",
+    "Is the pentagonal shelf wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a shelf in the scene. It appears as a wooden structure that items are resting on.\nYes, the shelf is in the shape of a pentagon. The outline of the shelf clearly shows five edges forming a pentagon.\nYes, there is an earring in the scene. The shiny object indicates it's an earring.\nYes, the earring is in the shape of a teardrop. One of the earrings has a distinctly teardrop shape.\nYes, the pentagonal shelf is wooden. The texture and color of the shelf indicate it's made of wood."
+}

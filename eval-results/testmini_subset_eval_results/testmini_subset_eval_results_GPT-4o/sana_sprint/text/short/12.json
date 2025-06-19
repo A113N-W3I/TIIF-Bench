@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 12,
+  "questions": [
+    "Is the text 'Trick' in the image?",
+    "Is the text 'or' in the image?",
+    "Is the text 'Treat' in the image?",
+    "Is the text 'Aam' in the image?",
+    "Is the text 'The' in the image?",
+    "Is the text 'Trickster' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, the text 'Trick' is not in the image. The text closely resembles 'T IICK' instead.\nYes, the text 'or' is in the image near the top.\nNo, the text 'Treat' is not in the image. The text closely resembles 'Ttreer' instead.\nNo, the text 'Aam' is not in the image. \nYes, the text 'The' is in the image near the center.\nNo, the text 'Trickster' is not in the image."
+}

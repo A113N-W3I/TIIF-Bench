@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a person wearing a luminous turquoise jacket in the image?  ",
+    "Is there a person wearing a charcoal peacoat in the image?  ",
+    "Does the image present a differentiation logic: a person in a luminous turquoise jacket stands beside another person in a charcoal peacoat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the jackets appear to have a luminous effect and are displayed on stands without visible people wearing them.\nno, the image shows luminous jackets but they are not identified as charcoal peacoats.\nno, there are no people present to create a differentiation logic as the jackets are displayed on stands."
+}

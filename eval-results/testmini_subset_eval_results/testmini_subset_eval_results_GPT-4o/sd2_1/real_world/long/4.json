@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, The text 'Survey Results on Podcasts' is not included; it only says 'Survey Results'.\nyes, The infographic does use vibrant colors like pink, blue, and orange.\nyes, The infographic includes modern icons such as arrows and abstract graph elements.\nno, The typography is not clear, as the text appears distorted and difficult to read.\nyes, There are large charts and numbers indicating listening frequency.\nno, The infographic does not highlight key statistics on devices used.\nno, The infographic does not highlight key statistics on popular topics.\nyes, The general design seems intended to be clean with organized sections.\nyes, The use of bold colors and structured layout aim to create a professional appearance.\nno, Some text is distorted and difficult to read, making it not easy to read overall.\nno, The text is not entirely clear or readable due to distortion.\nno, The numbers in the graphic are not entirely clear or readable due to distortion."
+}

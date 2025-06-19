@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The orange ring-like object on the ground appears to be a rubber band.\nyes The dog is holding an object that resembles a rolled-up piece of paper, which could be interpreted as a 'reader'.\nno The object the dog is holding does not appear fluffy; it looks like paper.\nno The rubber band is on the ground, not behind the reader."
+}

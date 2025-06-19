@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a chef hat in the image?  ",
+    "Is there a snowball in the image?  ",
+    "Is the chef hat conical?  ",
+    "Is the snowball spherical?  ",
+    "Is the chef hat hidden behind the snowball from the viewer's perspective?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a chef hat visible on the character in the image.\nno There is no distinct snowball; instead, there are multiple white spherical objects that resemble eggs.\nno The chef hat is not conical; it has a more traditional rounded top and flared base.\nno The spherical objects are not snowballs but appear to be eggs, which are egg-shaped and not perfectly spherical like typical snowballs.\nno The chef hat is clearly visible above the character's head and is not hidden by any snowball."
+}

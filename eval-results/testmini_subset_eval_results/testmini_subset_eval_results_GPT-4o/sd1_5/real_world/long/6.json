@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no humanoid android in the image; the figure appears to be a human.\nYes, the figure is sitting in a futuristic library, as indicated by the design and layout.\nNo, the figure is not reading a floating holographic book; it appears to be a physical book.\nYes, the lighting in the scene is soft blue and purple, as visible in the ambiance.\nNo, there are no metallic reflections on the android's face and body; the figure appears to be wearing traditional clothing.\nYes, the figure appears to have a calm facial expression, indicated by the relaxed posture.\nYes, there is a high-tech blurred background, suggesting a futuristic environment.\nYes, the image is realistic, detailed, and in cinematic style, shown by its composition and quality.\nYes, the image has elements inspired by sci-fi films, such as a futuristic setting and styling.\nNo, the book is not a holographic book, as it seems to be tangible and held physically."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a trinket box in the center of the image.\nyes The trinket box has a pyramid-shaped top.\nyes There is a hallway visible behind the trinket box.\nno The hallway is not diamond-shaped; it appears to be a corridor with a curved ceiling.\nno The hallway is not blue; it is illuminated with light that gives a bluish tint but the structure itself is not blue."
+}

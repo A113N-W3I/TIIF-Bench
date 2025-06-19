@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image clearly shows a television set.\nyes Camels are present in the image, identifiable by their features and desert-adapted appearance.\nno Only one chicken is visible in the image; it stands out due to its distinct features compared to the camels.\nyes There is only one television visible in the center of the scene.\nno There are more than three camels partially visible in the composition.\nno There is only one chicken visible in the image.\nno The television has a screen and wooden casing typical of older model TVs; it is not covered in fabric.\nno Camels typically do not have fluffy coats; their fur appears more coarse and less voluminous.\nyes The chicken in the image has a fluffy appearance typical of certain breeds."
+}

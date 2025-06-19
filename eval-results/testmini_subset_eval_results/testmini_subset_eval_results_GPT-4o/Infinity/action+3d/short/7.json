@@ -1,0 +1,25 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a hammock in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the hammock tied to something?  ",
+    "Is the hammock in front of the tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a hammock in the image. The hammock is clearly visible, strung between parts of the tree.\n\nYes, there is a tree in the image. The tree is very prominent and dominates the scene.\n\nYes, the hammock is tied to something. It appears to be tied to the tree itself.\n\nNo, the hammock is not in front of the tree. The hammock is actually tied to the tree, integrating with it rather than being in front of it."
+}

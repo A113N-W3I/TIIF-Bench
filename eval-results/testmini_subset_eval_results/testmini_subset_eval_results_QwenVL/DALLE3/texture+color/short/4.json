@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a towel in the scene?",
+    "Is the towel fluffy?",
+    "Is there a jewelry in the scene?",
+    "Is the jewelry made of metal?",
+    "Is the vibrant vase blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The item draped over the chair appears soft and textured like a towel.\nyes The item has a visibly soft texture, resembling fluffiness typical of a towel.\nyes There are various jewelry pieces placed on the landscape.\nyes Some of the jewelry pieces appear metallic based on their reflective surfaces.\nyes The vase is covered in a blue glaze with floral patterns, indicating it is vibrant blue."
+}

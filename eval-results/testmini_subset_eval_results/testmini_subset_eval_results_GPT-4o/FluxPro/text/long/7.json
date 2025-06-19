@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the word 'SIMPLY' is clearly visible at the top of the image.\nyes, the word 'Bullet' appears in the second line of the image.\nyes, the word 'Proof' is shown in the third line of the text in the image.\nyes, the word 'Nothing' can be seen just above the musicians in the image.\nno, the word 'SAUCER' is not present in the text within the image."
+}

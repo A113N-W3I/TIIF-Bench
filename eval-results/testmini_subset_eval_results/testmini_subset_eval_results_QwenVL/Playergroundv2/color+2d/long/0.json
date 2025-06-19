@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a clock in the image?  ",
+    "Is there a car in the image?  ",
+    "Is the clock brown?  ",
+    "Is the car red?  ",
+    "Is the clock on the top of the car?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a clock located on a tower in the image.\nyes There is a car visible in the foreground and others further back.\nno The clock tower features a red top, but the structure housing the clock is not brown.\nyes The car in the foreground is red.\nno The clock is on a tower, not on the top of a car."
+}

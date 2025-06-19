@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there airplanes in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there lamps in the image?  ",
+    "Is the number of airplanes 4?  ",
+    "Is the number of clocks 3?  ",
+    "Is the number of lamps 2?  ",
+    "Are the airplanes near the clocks?  ",
+    "Are the clocks near the lamps?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there are airplanes in the image.\nyes, there are clocks in the image.\nyes, there are lamps in the image.\nno, the number of airplanes is not 4; it is more than 4.\nno, the number of clocks is not 3; it is fewer than 3.\nyes, the number of lamps is 2.\nno, the airplanes are not particularly near the clocks.\nno, the clocks are not particularly near the lamps."
+}

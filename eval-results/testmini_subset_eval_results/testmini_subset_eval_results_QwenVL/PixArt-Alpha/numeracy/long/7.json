@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there helmets in the image?  ",
+    "Is the number of helmets 4?  ",
+    "Is there a lamp in the image?  ",
+    "Is the number of lamps 1?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of sheep 1?  ",
+    "Are there bowls in the image?  ",
+    "Is the number of bowls 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There are no helmets in the image.\nno Since there are no helmets, it cannot be four.\nno There is no lamp; the illuminated object is a lantern.\nno There is no lamp, so the count does not apply.\nno There are sheep, but they appear as human-sheep hybrid characters.\nno There is more than one sheep, so the count does not match.\nyes There are bowls among the objects on the table.\nno The number of bowls is less than 4."
+}

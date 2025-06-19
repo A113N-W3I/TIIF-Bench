@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pen in the image?  ",
+    "Is there a blanket in the image?  ",
+    "Is the pen metallic?  ",
+    "Is the blanket made of fabric?  ",
+    "Is the pen on the right of the blanket?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a pen in the image. The pen is clearly visible on top of the blanket.\nYes, there is a blanket in the image. The image shows a fabric underneath the pen which resembles a blanket or cloth.\nYes, the pen is metallic. The pen has a shiny metallic appearance.\nYes, the blanket is made of fabric. The texture and appearance of the blanket indicate it is made of fabric.\nYes, the pen is on the right of the blanket. The pen is positioned towards the right side of the image on the blanket."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a shelf in the scene?",
+    "Is the shelf in the shape of a pentagon?",
+    "Is there a earring in the scene?",
+    "Is the earring in the shape of a teardrop?",
+    "Is the pentagonal shelf wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a flat object that serves as a base which can be considered a type of shelf.\nno The shelf is not in the shape of a pentagon; it appears to be a simple flat rectangular shape.\nyes There are earrings in the scene, specifically two of them.\nyes The earrings appear to be in the shape of a teardrop.\nno The shelf, while possibly wooden due to the texture visible, is not confirmed to be made of wood and may simply appear so due to its design."
+}

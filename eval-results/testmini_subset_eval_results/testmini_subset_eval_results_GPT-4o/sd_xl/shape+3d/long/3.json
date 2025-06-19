@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an eggplant in the image?  ",
+    "Is there a mobile home in the image?  ",
+    "Is the eggplant oblong in shape?  ",
+    "Is the mobile home short in shape?  ",
+    "Is the eggplant behind the mobile home?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is an eggplant in the image because a large purple oblong-shaped vegetable is visible attached to the structure.\nyes, there is a mobile home in the image because the structure resembles a mobile home with siding.\nyes, the eggplant is oblong in shape because it has an elongated and rounded form typical of an eggplant.\nyes, the mobile home is short in shape because it is compact and not particularly tall.\nno, the eggplant is not behind the mobile home because it is attached to the front of the structure."
+}

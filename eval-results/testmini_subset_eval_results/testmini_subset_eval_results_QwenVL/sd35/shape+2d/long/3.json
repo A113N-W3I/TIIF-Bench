@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no pizza cutter visible in the image; it shows a circular object atop a rectangular base.\nno The image contains a circular object on a possibly reflective surface, but there's no indication of a jewelry appraisal.\nno Since the image does not contain a pizza cutter, this question is not applicable.\nno The image does not depict a jewelry appraisal, making the shape irrelevant.\nno As there is no pizza cutter and no jewelry appraisal, the question regarding their spatial relationship cannot be answered."
+}

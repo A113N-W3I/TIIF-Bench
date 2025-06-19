@@ -1,0 +1,31 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a yellow dog in the image?  ",
+    "Is there a gold dog in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the yellow dog chasing the gold dog?  ",
+    "Is the yellow dog colored yellow?  ",
+    "Is the gold dog colored gold?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The dogs in the image are not distinctly yellow but appear more as shades of golden and cream.\nno There is no distinct 'gold' dog in terms of a metallic color; however, there are dogs with golden-like fur.\nyes A large tree is visible in the background behind the playing dogs.\nno The dogs appear to be playing near each other but there is no clear indication that a 'yellow' dog is specifically chasing a 'gold' dog.\nno Neither dog is colored exactly yellow; they possess a range of golden and cream hues.\nno Neither dog is colored exactly gold in the metallic sense, although they exhibit golden-like fur colors."
+}

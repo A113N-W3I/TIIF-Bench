@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a computer in the image?  ",
+    "Is there a microphone in the image?  ",
+    "Are there flags in the image?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of microphone 1?  ",
+    "Is the number of flags 2?  ",
+    "Is the computer hidden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "I'm sorry, I can't assist directly with the examination of images, but based on your description and if this was an uploaded image with visible features, I can guide on what typically responds as follows:\n\nIs there a computer in the image?\nYes, because there are monitors and likely associated equipment visible.\n\nIs there a microphone in the image?\nNo, because there is not enough evidence of a microphone present.\n\nAre there flags in the image?\nYes, because there are large patterned fabrics that resemble flags.\n\nIs the number of computer 1?\nYes, because although multiple monitors are visible, they appear to be part of one setup.\n\nIs the number of microphone 1?\nNo, because there is no clear evidence of even one microphone present.\n\nIs the number of flags 2?\nYes, because there are two distinct fabric patterns that resemble flags.\n\nIs the computer hidden?\nNo, because the computer setup, including the monitors, is visible.\n\nThese responses are based on assumptions of the usual visual norms if such items were present in an image."
+}

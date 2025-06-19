@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The Chanel logo is visible on the handbag.\nyes The word 'Elegance' is written in the image.\nno The word 'Style' is not present in the image.\nno The word 'Luxury' does not appear in the image.\nno The word 'Iconic' is not found in the image.\nyes The word 'Glamour' is part of the text in the image.\nyes The word 'Timeless' is included in the text within the image.\nyes The word 'Sophistication' appears in the image.\nyes The word 'Fashion' is written in the image."
+}

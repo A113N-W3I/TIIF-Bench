@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 11,
+  "questions": [
+    "Is the text 'Miami' in the image?",
+    "Is the text 'Trance' in the image?",
+    "Is the text '2014' in the image?",
+    "Is the text 'Event' in the image?",
+    "Is the text 'Neon' in the image?",
+    "Is the text 'Beats' in the image?",
+    "Is the text 'Vibes' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes 'Miami' is prominently displayed in large letters.\nno The word 'Trance' is not present in the image.\nyes '2014' is visible in the image.\nno The word 'Event' is not present as a whole; it's part of 'EVENTS'.\nno There is no text 'Neon' in the image.\nno The word 'Beats' does not appear in the image.\nyes 'Vibes' appears next to 'Miami'."
+}

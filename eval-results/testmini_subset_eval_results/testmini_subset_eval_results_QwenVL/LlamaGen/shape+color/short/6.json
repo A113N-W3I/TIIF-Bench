@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a bookend in the scene?",
+    "Is the bookend pyramid-shaped?",
+    "Is there a fig in the scene?",
+    "Is the fig shaped like a teardrop?",
+    "Is the pyramidal bookend blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The object in question does not resemble a traditional bookend.\nyes The structure is stacked and diminishes towards the top, resembling a pyramid shape.\nyes There is an object that resembles a fig in the stack.\nno The fig-like object is not shaped like a teardrop; it is more rounded at the bottom.\nyes The entire stack including the pyramidal-shaped part appears to be blue."
+}

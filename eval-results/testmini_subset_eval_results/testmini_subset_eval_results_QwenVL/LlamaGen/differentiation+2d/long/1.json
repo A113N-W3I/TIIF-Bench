@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a rabbit on a stump in the image?  ",
+    "Is there a rabbit not on a stump in the image?  ",
+    "Does the image present a differentiation logic: one rabbit on a stump, while another rabbit not on a stump?  ",
+    "Is a rabbit on the right side?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes the image contains rabbits on what appears to be a large, hollowed tree trunk which can be considered a type of stump\nno there is no rabbit depicted outside of being on the tree trunk in the image\nno both rabbits are shown situated on the same tree trunk; there is no differentiation between one being on a stump and the other not\nno the rabbits are positioned more towards the center of the image rather than the right side"
+}

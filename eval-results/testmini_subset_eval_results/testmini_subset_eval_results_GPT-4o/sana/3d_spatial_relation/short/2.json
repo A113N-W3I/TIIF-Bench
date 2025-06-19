@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the girl in front of the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a girl in the image, standing in the foreground.\nno, there is no desk in the image; the background is a bookshelf.\nno, the girl is in front of a bookshelf, not a desk."
+}

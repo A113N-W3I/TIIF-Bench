@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the text is 'VEGTABLEE'.\nyes, the text 'Gardening' is in the image.\nno, the text is 'VIA'.\nno, the text is 'MIKE DEER'.\nno, the text is incorrect, it's 'VIA MIKE DEER'.\nno, the text is not present in the image."
+}

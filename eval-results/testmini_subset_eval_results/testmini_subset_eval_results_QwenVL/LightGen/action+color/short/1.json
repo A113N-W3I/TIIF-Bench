@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a white cat in the image?  ",
+    "Is there a blue coyote in the image?  ",
+    "Is the cat watching the coyote?  ",
+    "Is the cat white?  ",
+    "Is the coyote blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no white cat in the image; both animals appear to be foxes.\nno There is no blue coyote in the image; the animals are white and not blue.\nno The animals in the image are not a cat and a coyote, so the cat cannot be watching the coyote.\nno There is no cat in the image, only two white foxes.\nno There is no blue coyote in the image; the animals depicted are white foxes."
+}

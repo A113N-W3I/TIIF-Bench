@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a larger person wearing a hat in the image?  ",
+    "Is there a smaller person not wearing a hat in the image?  ",
+    "Does the image present a comparison logic: the larger person wears a hat, and the smaller person does not wear a hat?  ",
+    "Is the smaller person hidden in relation to the larger person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, there is not a larger person wearing a hat prominently visible.\nyes, there is a smaller person not wearing a hat visible in the profile silhouette illusion.\nyes, the image presents a comparison logic through the visual illusion of a person wearing a hat (larger silhouette) and a smaller person not wearing a hat.\nyes, the smaller person is hidden within the illusion of the larger person's hat and face profile."
+}

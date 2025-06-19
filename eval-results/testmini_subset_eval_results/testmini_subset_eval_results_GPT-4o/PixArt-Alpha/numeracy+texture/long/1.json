@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, because the object that looks like a television is not a real television.\nno, because the animals do not look like real camels.\nyes, because there appear to be creatures that resemble chickens.\nno, because there is no real television present in the image.\nyes, because there are three creatures resembling camels.\nno, because there are not four chickens in the image.\nno, because the object resembling a television is not fabric-covered.\nyes, because the creatures resembling camels appear to have fluffy fur.\nyes, because the creatures resembling chickens appear to have fluffy feathers."
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No  \nThe title text does not appear at least twice the size of the regular text.\n\nYes  \nThere is adequate spacing between text paragraphs, providing a clean and organized layout.\n\nNo  \nThe emphasized text does not use vibrant colors to attract attention; it primarily uses subdued or similar tones.\n\nYes  \nThere is an eye-catching pattern in the background resembling artistic designs and objects.\n\nYes  \nSuitable icons and images are used to enhance visual depth without causing distraction.\n\nNo  \nThe image does not contain the text \"Breaking News! ChatGPT has become even stronger!\"\n\nNo  \nThe image does not contain the text \"Better multitasking ✨.\"\n\nNo  \nThe image does not contain the text \"Improved programming skills 💪.\"\n\nNo  \nThe image does not contain the text \"Creativity off the charts 🎨.\"\n\nNo  \nThe image does not contain the text \"Try it now!\"\n\nNo  \nThe image is not in a 9:16 aspect ratio; it's closer to square.\n\nNo  \nThe text in the generated picture is not clear and readable; some words are distorted or illegible."
+}

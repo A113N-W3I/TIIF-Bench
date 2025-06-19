@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there stools in the image?  ",
+    "Are there balloons in the image?  ",
+    "Are there bananas in the image?  ",
+    "Is the number of stools 1?  ",
+    "Is the number of balloons 4?  ",
+    "Is the number of bananas 3?  ",
+    "Are the balloons black in color?  ",
+    "Are the bananas yellow in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes there are objects resembling stools in the image.\nyes there are objects resembling balloons in the image.\nyes there are objects resembling bananas in the image.\nno there are multiple objects that resemble stools, not just 1.\nyes there appear to be 4 objects resembling balloons.\nno there appear to be more than 3 objects resembling bananas.\nyes the balloon-like objects are black in color.\nyes the banana-like objects are yellow in color."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "long_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there an old wooden bench in the image?  ",
+    "Does the tree have leaves?  ",
+    "Is the tree behind the old wooden bench from the viewer's perspective within the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a tree in the image because a large tree is visible with branches extending throughout the frame.\nNo, there is not an old wooden bench in the image; the image contains a unique sculpture that resembles an iron garden bench.\nNo, the tree does not have leaves; the branches are bare without foliage, indicating it may be winter.\nYes, the tree is behind the bench from the viewer's perspective within the image, as the branches of the tree extend beyond the bench, placing it in the background."
+}

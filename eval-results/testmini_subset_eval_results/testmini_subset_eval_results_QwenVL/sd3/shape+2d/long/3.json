@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no pizza cutter in the image; it features metal objects that resemble a letter and a partially cut sheet of paper.\nno The image does not show a jewelry appraisal; instead, it contains a metallic letter-like object and a piece of paper.\nno There is no pizza cutter in the image to assess its shape.\nno There is no jewelry appraisal in the image to determine its shape.\nno Since there is neither a pizza cutter nor a jewelry appraisal in the image, this relationship cannot be determined."
+}

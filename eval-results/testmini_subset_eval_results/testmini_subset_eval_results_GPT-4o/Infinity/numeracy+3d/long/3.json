@@ -1,0 +1,46 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bear in the image?  ",
+    "Are there cows in the image?  ",
+    "Is there a swan in the image?  ",
+    "Are there trucks in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of bears 4?  ",
+    "Is the number of cows 4?  ",
+    "Is the number of swans 1?  ",
+    "Is the number of trucks 2?  ",
+    "Is the number of sheep 3?  ",
+    "Are the bears and cows in front of the swan, trucks, and sheep?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a bear in the image. There are four bears in the image.\nNo, there are no cows in the image.\nNo, there is no swan in the image. The bird in the sky resembles a swan but cannot be definitively identified as one.\nYes, there are trucks in the image. There are two trucks visible.\nYes, there is a sheep in the image. There are three sheep in the foreground.\nYes, the number of bears is 4.\nNo, the number of cows is 4. There are no cows.\nNo, the number of swans is 1. There are no definitive swans.\nYes, the number of trucks is 2.\nYes, the number of sheep is 3.\nNo, the bears are in front of the sheep but not in front of trucks and there are no swans."
+}

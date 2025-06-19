@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a computer in the image?  ",
+    "Is there a microphone in the image?  ",
+    "Are there flags in the image?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of microphone 1?  ",
+    "Is the number of flags 2?  ",
+    "Is the computer hidden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is a computer screen but no visible computer tower.\nno, there is no microphone in the image.\nyes, there is a flag in the image.\nyes, there is 1 computer screen visible in the image.\nno, there is no microphone in the image.\nno, there is 1 flag in the image.\nno, the computer screen is clearly visible."
+}

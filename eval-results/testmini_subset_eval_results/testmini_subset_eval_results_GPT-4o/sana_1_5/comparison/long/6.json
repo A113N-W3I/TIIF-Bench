@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a backpack in the image?  ",
+    "Is there an ant in the image?  ",
+    "Does the image present a comparison logic: a backpack is bigger than the ant?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a backpack in the image, taking the form of a massive structure.  \nyes, there is an ant in the image, with two oversized ants in a fantastical portrayal.  \nyes, the image presents a comparison logic: a backpack is bigger than the ant, as the backpack is depicted as an enormous object in contrast to the ants.  "
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 50,
+  "questions": [
+    "Does the first panel show a small snail at the counter of a flashy car showroom with the salesman leaning over the desk to see him? Answer with yes or no.",
+    "Does the second panel show a close-up of the snail looking very serious, saying, 'I want your fastest sports car... and I want you to paint big letter 'S's on the doors, the hood, and the roof.'? Answer with yes or no.",
+    "Does the third panel show the salesman scratching his head, saying, 'Um... we can do that, but why the S's?'? Answer with yes or no.",
+    "Does the fourth panel show a red blur roaring down the highway with the sports car covered in giant S's and people on the sidewalk pointing and laughing, saying, 'WOW! LOOK AT THAT S-CAR GO!'? Answer with yes or no.",
+    "Is there padding around the border of the comic strip? Answer with yes or no.",
+    "Is this comic strip a four-panel one? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The first panel depicts a small snail sitting at the edge of a counter in what appears to be a car dealership, engaging with a human who seems like a salesman, indicated by the setting and their interaction.\nyes The second panel features a close-up view of the snail, with a serious expression and text bubbles conveying its request for a fast sports car with large 'S's painted on various parts.\nyes The third panel includes the salesman with a hand scratching his head, showing confusion as he responds about the unusual customization requested by the snail.\nno The fourth panel displays a red sports car moving along the road with 'S' markings, but the reactions of people are not accurately described in the question; they appear surprised or puzzled rather than specifically pointing and laughing.\nyes There is a white padding along the borders of the comic, separating it from the edges of the panel and providing a clean look to the comic strip.\nyes The comic strip is structured with four distinct panels, each contributing to the progression of the story."
+}

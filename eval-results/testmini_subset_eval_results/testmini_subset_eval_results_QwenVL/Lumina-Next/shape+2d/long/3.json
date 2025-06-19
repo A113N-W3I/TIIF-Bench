@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no pizza cutter visible in the image.\nno There is no jewelry appraisal present in the image.\nno Since there isn't a pizza cutter, it cannot be square.\nno There is no jewelry appraisal, so its shape cannot be assessed.\nno There is neither a pizza cutter nor a jewelry appraisal in the image."
+}

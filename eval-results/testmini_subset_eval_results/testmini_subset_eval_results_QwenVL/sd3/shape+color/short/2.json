@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a trinket box in the form of a blue, faceted pyramid.\nyes The trinket box is pyramid-shaped with a reflective, multi-faceted surface.\nyes There is a hallway visible in the background behind the trinket box.\nno The hallway is not diamond-shaped; it has arched doorways and extends into distance.\nno While the overall color scheme includes blue tones, the hallway itself is not specifically blue but rather decorated with blue elements."
+}

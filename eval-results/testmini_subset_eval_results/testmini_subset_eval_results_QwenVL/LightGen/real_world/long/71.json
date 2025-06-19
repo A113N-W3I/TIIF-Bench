@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a toilet that appears to be a 3D illustration with rounded edges.\nyes The image features soft beige, light gray, and a warm orange which enhances the tone of the subject.\nyes The lighting in the image is not harsh and seems to come from above and slightly to the right, illuminating the toilet gently.\nyes The toilet and surrounding surfaces exhibit a matte finish without much reflection.\nyes The toilet is positioned centrally in the image with substantial empty space surrounding it.\nyes The perspective has a subtle angle that provides depth to the object depiction.\nyes The background is a muted, single-colored backdrop that matches well with the main object.\nno There is no visible text or typography present in the image.\nno Since there is no text, there cannot be any gray text or contrast considerations.\nno As mentioned previously, there is no gray text within the image."
+}

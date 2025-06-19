@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There are visible shop fronts illuminated from within on the left side of the image.\nno The right side mainly features tree trunks and hanging decor; shop details are not as apparent or as lively as on the left.\nyes The left side shows brighter, more active shop fronts compared to the quieter ambiance on the right where shops are less noticeable."
+}

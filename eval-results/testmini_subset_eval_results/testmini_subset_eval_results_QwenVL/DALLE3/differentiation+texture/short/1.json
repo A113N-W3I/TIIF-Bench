@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a gorgeous metallic vinyl record player in the image?  ",
+    "Is there a smaller, older metallic vinyl record player in the image?  ",
+    "Does the image present a differentiation logic: one vinyl record player is gorgeous, while the other is smaller and older?  ",
+    "Is the gorgeous vinyl record player metallic?  ",
+    "Is the smaller, older vinyl record player metallic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image features a modern, sleek metallic vinyl record player with a reflective surface and contemporary design elements.\nyes There is a smaller, older-looking metallic vinyl record player with a vintage design and a large horn speaker, indicative of earlier models.\nyes The image shows two distinct vinyl record players; one is modern and described as gorgeous due to its sleek design, while the other is smaller and has an older aesthetic with a traditional horn speaker.\nyes The gorgeous vinyl record player is indeed metallic, as evidenced by its shiny, reflective surfaces and modern design.\nyes The smaller, older vinyl record player also appears to be metallic, given its reflective surfaces and the way light interacts with its structure."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "long_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a wooden flower in the image?  ",
+    "Is there a wooden tree in the image?  ",
+    "Does the image present a comparison logic: the wooden flowers are taller than the wooden trees?  ",
+    "Are the flowers made of wood?  ",
+    "Are the trees made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a visible structure resembling a flower made out of material with a wooden texture.\nyes The image features a structure with the appearance and characteristics of a tree, constructed from material mimicking wood.\nno The image shows wooden flowers that are not taller than the wooden tree; in fact, they appear significantly shorter.\nyes The structures resembling flowers in the image are depicted with a wooden texture, suggesting they are made of wood.\nyes The tree in the image is clearly designed to look like it is made of wood, with a bark-like texture and wood grain."
+}

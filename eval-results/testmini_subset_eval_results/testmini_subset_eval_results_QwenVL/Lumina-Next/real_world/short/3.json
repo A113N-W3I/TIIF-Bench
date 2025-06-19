@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does this landing page feature a clean and modern design? Answer with yes or no.",
+    "Is there a hero section on this landing page? Answer with yes or no.",
+    "Does the hero section showcase an image of the shampoo bottle? Answer with yes or no.",
+    "Is there a catchy headline that says 'Transform Your Hair Today'? Answer with yes or no.",
+    "Is there a call-to-action button like 'Shop Now' or 'Learn More'? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The landing page uses a minimalist layout with ample white space and contemporary elements, contributing to a clean and modern aesthetic.\nyes There is a prominent visual area at the top of the landing page which is typical for a hero section, designed to capture attention.\nyes The hero section displays a large image prominently featuring a yellow bottle, which appears to be a shampoo container based on its shape and labeling.\nno The headline present does not match 'Transform Your Hair Today', instead, it discusses something related to nutrients and hair ctype support, indicating a different specific message.\nyes A call-to-action button is visible towards the bottom of the page, although the exact text is not fully legible from the image provided; its placement suggests it serves a similar function to 'Shop Now' or 'Learn More'.\nyes The text within the image seems crisp and legible against the background, allowing for easy reading of the content presented."
+}

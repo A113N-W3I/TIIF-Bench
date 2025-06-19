@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain any visible text or indicators of the word 'CARD'.\nno There is no text or elements in the image that suggest the presence of the word 'CLIP'.\nno The image lacks any textual or visual elements that would imply the presence of the word 'with'.\nno No text or content in the image corresponds to the word 'Finger', though a finger is visually present, the text form is not.\nno The image does not feature the word 'Blister' or any related text."
+}

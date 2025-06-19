@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in yellow glasses in the image?  ",
+    "Is there another child in a brown hoodie and jeans in the image?  ",
+    "Does the image present a differentiation logic: a child wearing glasses and another child wearing a hoodie and jeans?  ",
+    "Are the glasses yellow in color?  ",
+    "Is the hoodie brown in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no child wearing yellow glasses in the image since the child with glasses is wearing clothes of similar color to the other child.\nyes, there is a child in a brown hoodie and jeans in the image since the child on the right is in a brown hoodie and jeans.\nno, the image does not differentiate a child wearing glasses and another wearing a hoodie and jeans as both children are wearing brown hoodies and jeans.\nno, the glasses are not yellow in color in the image since the glasses are not visible clearly as yellow.\nyes, the hoodie is brown in color in the image since both hoodies appear brown."
+}

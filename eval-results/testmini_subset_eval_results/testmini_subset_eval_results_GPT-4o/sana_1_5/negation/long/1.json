@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the girl drinking from the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a girl in the image. She is seated at a table with long hair and wearing a white shirt.\n\nYes, there is a cup in the image. It is placed on the table directly in front of her.\n\nNo, the girl is not drinking from the cup. Her hands are resting on the table, but she is not actively holding or drinking from the cup."
+}

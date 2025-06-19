@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there stools in the image?  ",
+    "Are there balloons in the image?  ",
+    "Are there bananas in the image?  ",
+    "Is the number of stools 1?  ",
+    "Is the number of balloons 4?  ",
+    "Is the number of bananas 3?  ",
+    "Are the balloons black in color?  ",
+    "Are the bananas yellow in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a stool in the image.\nyes There are balloons in the image.\nyes There are bananas in the image.\nyes There is only one stool visible in the image.\nno There are two balloons visible in the image, not four.\nyes There are three bananas visible in the image.\nyes The balloons are black in color.\nyes The bananas are yellow in color."
+}

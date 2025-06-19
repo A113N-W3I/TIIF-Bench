@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an angrier frog in the image?  ",
+    "Is there another frog jumping upward in the image?  ",
+    "Does the image present a differentiation logic: one frog is angrier sitting on the steps, while another frog is jumping upward?  ",
+    "Is the angrier frog on the top step?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because the frog on the lower step has a more intense expression which can be interpreted as anger.\nno because there is no frog captured mid-jump in an upward motion.\nyes because the frogs' positions and expressions illustrate contrasting actions; one appears relaxed on the top step, while the other seems agitated and is posed at the bottom step.\nno because the apparently angrier frog is situated on the lower step, not the top one."
+}

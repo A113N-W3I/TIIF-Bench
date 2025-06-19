@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, a traditional kitchen bowl is not present in the scene; only a bathroom sink is visible.\nyes, the bathroom sink in the scene is white in color, resembling a bowl shape.\nyes, there is a toilet present in the scene, to the right of the sink.\nyes, the toilet in the scene is white in color.\nyes, the bathroom faucet is metallic, with a gold/brass appearance."
+}

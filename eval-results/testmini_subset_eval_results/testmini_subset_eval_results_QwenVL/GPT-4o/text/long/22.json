@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Chanel' is prominently displayed at the top left of the image.\nyes The text 'Elegance' is present in the upper right section of the image.\nyes The text 'Style' appears below 'Elegance' in the same column.\nyes The text 'Luxury' is listed further down the same column as 'Elegance' and 'Style'.\nyes The text 'Iconic' is visible in the list of words on the right side of the image.\nyes The text 'Glamour' is included in the vertical list of terms on the right.\nyes The text 'Timeless' is part of the horizontal list of words at the bottom of the image.\nyes The text 'Sophistication' is located next to 'Timeless' in the bottom horizontal list.\nyes The text 'Fashion' is the last word in the horizontal list at the bottom of the image."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a brown dog in the image?  ",
+    "Is there a black dog in the image?  ",
+    "Does the image present a differentiation logic: the brown dog chases the black dog?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a brown dog in the image as evidenced by the visible brown fur.\nyes, there is a black dog in the image as evidenced by the visible black fur.\nno, the image does not show the brown dog chasing the black dog; rather, they are running side by side."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a towel in the scene?",
+    "Is the towel fluffy?",
+    "Is there a jewelry in the scene?",
+    "Is the jewelry made of metal?",
+    "Is the vibrant vase blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the scene contains a fabric that looks more like a shiny, decorative drape or cloth rather than a towel.\nno, the fabric does not appear fluffy; it looks smooth and reflective.\nno, there do not appear to be any pieces of jewelry in the scene.\nno, there are no evident pieces of jewelry, hence nothing to determine if made of metal.\nno, there is no vibrant blue vase in the scene."
+}

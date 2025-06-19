@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there an umbrella in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is the umbrella open?  ",
+    "Is the umbrella positioned in front of the chair?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is an umbrella in the image. It is positioned above the chair.  \nYes, there is a chair in the image. It is located beneath the umbrella.  \nYes, the umbrella is open. It is covering the area above the chair.  \nNo, the umbrella is not positioned in front of the chair. It is positioned above the chair."
+}

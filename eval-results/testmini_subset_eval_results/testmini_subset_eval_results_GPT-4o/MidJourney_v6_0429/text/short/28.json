@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the text 'Champion' is on the jersey on both shoulders and the label.\nyes, the text 'Teamwork' is just above the number '50'.\nyes, the text 'Victory' is above the number '50'.\nyes, the text 'Game' is just after 'Teamwork' above the number '50'.\nyes, the text 'On' is below the number '50'.\nyes, the text 'All-Star' is above the number '50'.\nyes, the text 'League' is after 'All-Star' above the number '50'."
+}

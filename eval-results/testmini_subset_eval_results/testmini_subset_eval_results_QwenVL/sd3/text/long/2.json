@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Recycle' appears multiple times in the image.\nyes The text 'Sustain' is visible as 'Sutalie', which seems to be a misspelling.\nno The text 'Renew' is not present; instead, there's a misspelling 'Rneew'.\nyes The text 'Choose' is visible on a note.\nyes The text 'wisely' is present but slightly misspelled as 'wiisn'.\nno The correct spelling 'Eco-friendly' is not found, but a similar term 'eco Faindly' is present.\nno The exact text 'Green' is not seen in the image.\nno The correct phrase 'living' does not appear in full form, only partially in 'greedy living'.\nno The term 'Minimalism' is seen as 'Siimalhism', which appears to be a misspelling."
+}

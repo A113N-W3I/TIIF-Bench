@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Does this image show a glowing cybernetic highway at night? Answer with yes or no.",
+    "Is the universe futuristic and inspired by a neon-lit digital world? Answer with yes or no.",
+    "Does the rider on a lightbike leave a blue light trail behind? Answer with yes or no.",
+    "Does the image have ultra-sharp lines? Answer with yes or no.",
+    "Is the background dark? Answer with yes or no.",
+    "Is the image high contrast? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image depicts a cyborg highway illuminated by vibrant lights against a dark backdrop.\nyes The environment features bright, colorful neon lights and a sleek, modern design indicative of a futuristic digital world.\nno The rider's lightbike emits a mix of colors, not a specific blue light trail.\nyes The artwork employs crisp, well-defined edges to create a sense of structure.\nyes With a deep black setting that allows the neon elements to stand out sharply.\nyes The stark difference between the bright neon hues and the dark background enhances visual contrast."
+}

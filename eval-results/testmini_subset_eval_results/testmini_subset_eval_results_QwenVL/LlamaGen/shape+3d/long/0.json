@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a mirror in the image?  ",
+    "Is there an engagement ring in the image?  ",
+    "Is the mirror oval?  ",
+    "Is the ring in diamond shape?  ",
+    "Is the mirror behind the ring?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a mirror structure present in the image, reflecting various objects including what appears to be a phone screen.\nno There is no engagement ring visible in the image; instead, the reflected objects and the mirror's structure are the focal points.\nno The mirror is not oval; it has an unconventional, angular shape with multiple facets.\nno There is no ring present in the image, thus it cannot be determined if any part is shaped like a diamond.\nno Since there is no ring in the image, it cannot be positioned behind a mirror."
+}

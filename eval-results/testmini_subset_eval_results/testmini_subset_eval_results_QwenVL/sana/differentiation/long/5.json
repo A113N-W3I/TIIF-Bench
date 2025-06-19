@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a person wearing a luminous turquoise jacket in the image?  ",
+    "Is there a person wearing a charcoal peacoat in the image?  ",
+    "Does the image present a differentiation logic: a person in a luminous turquoise jacket stands beside another person in a charcoal peacoat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not clearly depict individuals with distinct clothing colors due to its abstract and blurred nature.\nno The image does not clearly depict individuals with distinct clothing colors due to its abstract and blurred nature.\nno The image's abstract and blurred nature prevents the identification of specific clothing colors or the positioning of individuals relative to each other."
+}

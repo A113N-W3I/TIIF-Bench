@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, because the image clearly depicts a wedding invitation card with relevant text and design elements.  \nyes, because the card appears substantial with eggshell textures and some embossing visible.  \nyes, because the card includes elegant, abstract decorations symbolizing a union.  \nyes, because the use of iconography is minimal, focusing on the textual elements.  \nyes, because the specified text about the union of Image and Text is included.  \nyes, because the typesetting appears to be carefully done with good alignment and spacing.  \nyes, because the invitation card is placed on a wooden desk in a tasteful manner.  \nno, because some text is distorted and not fully readable.  \nyes, because the exact date \"March 25, 2025\" is included in the text.  "
+}

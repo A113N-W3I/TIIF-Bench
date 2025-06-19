@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a steaming cup of coffee in the image?  ",
+    "Is there a row of antique tea cups in the image?  ",
+    "Does the image present a differentiation logic: contrasting attributes between the steaming cup of coffee and the antique tea cups?  ",
+    "Is the steaming cup of coffee positioned left of the row of antique tea cups?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The foreground shows a cup with visible steam, indicating it is hot, likely containing coffee.\nyes A row of teacups, distinguishable by their more elaborate and traditional designs, can be seen in the background.\nyes There is a visual contrast between the central modern steaming cup, emphasized for its immediate use, and the ornate, yet unused, antique teacups in the background.\nno The steaming cup of coffee is centered, not to the left of the row of antique teacups which are placed behind it."
+}

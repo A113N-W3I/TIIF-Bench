@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a mirror in the image?  ",
+    "Is there an engagement ring in the image?  ",
+    "Is the mirror oval?  ",
+    "Is the ring in diamond shape?  ",
+    "Is the mirror behind the ring?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a mirror in the image because the entire center object appears to be reflective.\nNo, there is no engagement ring in the image as its main subject is a mirror with ornate design.\nYes, the mirror is oval because it has a rounded, elongated shape.\nNo, there is no ring with a diamond shape in the image, only circular motifs.\nNo, the mirror is not behind the ring because the mirror is the central object in the image."
+}

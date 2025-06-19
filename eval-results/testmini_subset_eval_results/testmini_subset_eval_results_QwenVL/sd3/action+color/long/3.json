@@ -1,0 +1,31 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a yellow dog in the image?  ",
+    "Is there a gold dog in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the yellow dog chasing the gold dog?  ",
+    "Is the yellow dog colored yellow?  ",
+    "Is the gold dog colored gold?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The smaller dog has a light brown color, which is often described as golden, not yellow.\nyes The larger dog appears to be a golden retriever, which typically has a golden-colored coat.\nyes There is a large tree visible in the background behind the dogs.\nno Both dogs appear to be running towards the camera together, not chasing each other.\nno The smaller dog has a light brown color, which may be perceived as golden but is not yellow.\nyes The larger dog, a golden retriever, has a coat that is indeed colored gold."
+}

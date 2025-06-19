@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a refrigerator in the image?  ",
+    "Is there a plate in the image?  ",
+    "Is the refrigerator in front of the plate?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a large white appliance in the image that resembles a refrigerator.\nyes There is a circular white object on the floor which appears to be a plate.\nno The refrigerator is not in front of the plate; instead, the plate is positioned in front of the refrigerator."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there birds in the image?  ",
+    "Are there trees in the image?  ",
+    "Does the image present a comparison logic: birds are more than trees?  ",
+    "Is the birds and trees on one side of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there are birds in the image as multiple birds can be seen flying across the scene.  \nyes, there are trees in the image as the scene is filled with trees throughout the landscape. \nno, the image does not present a comparison logic: birds are more than trees, as it does not logically indicate that birds outnumber the trees. \nno, the birds and trees are not on one side of the image as they are spread out across the scene."
+}

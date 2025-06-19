@@ -1,0 +1,52 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Does this image show a realistic and whimsical miniature modern café inside a coffee-filled mug? Answer with yes or no.",
+    "Does this image include a tiny bar counter within the café? Answer with yes or no.",
+    "Is there a small coffee machine and grinder in the café? Answer with yes or no.",
+    "Are there a few small tables with miniature customer figurines seated in the café? Answer with yes or no.",
+    "Do the inner sides of the mug have tiny menu boards or decorative paintings? Answer with yes or no.",
+    "Is the coffee surface forming the 'floor' of the café? Answer with yes or no.",
+    "Does the coffee surface possibly have tiny latte art patterns? Answer with yes or no.",
+    "Is the mug placed on a coffee table or bar counter? Answer with yes or no.",
+    "Is there possibly a real croissant, laptop, or sugar jar next to the mug? Answer with yes or no.",
+    "Is the image created in a hyper-realistic style? Answer with yes or no.",
+    "Does the image have a shallow depth of field, focusing on lively scenes and characters inside the café? Answer with yes or no.",
+    "Is the lighting bright and soft, simulating natural café lighting or indoor lighting? Answer with yes or no.",
+    "Is there high detail in the image, like metallic texture of equipment, figures' postures, and café decor? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no The image shows a detailed miniature model of a café but it's not inside a coffee-filled mug.\nno There does not appear to be a tiny bar counter in this particular miniature model.\nno A small coffee machine or grinder is not visible in the presented miniature model.\nno The miniature model includes tables but no specific mention of miniature customer figurines can be confirmed from the image.\nno There are no visible menu boards or decorative paintings on the inner sides of a mug; the scene is a standalone miniature model.\nno The floor is part of the miniature model's design rather than a coffee surface.\nno There are no latte art patterns as there is no actual coffee surface present.\nno The miniature model is not in a mug and therefore not on a coffee table or bar counter.\nno There are no real croissants, laptops, or sugar jars adjacent to the miniature model.\nyes The model is rendered with details meant to mimic reality closely, characteristic of a hyper-realistic style.\nyes The photograph utilizes a shallow depth of field for emphasizing specific areas.\nyes The lighting seems intended to replicate the warm ambiance of a café.\nyes The image captures finely modeled textures and details."
+}

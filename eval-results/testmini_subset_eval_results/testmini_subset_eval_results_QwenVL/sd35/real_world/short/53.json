@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The content suggests it's an invitation for a wedding, with details such as date and couple's names.\nyes The card appears to have intricate designs that suggest an eggshell texture and embossing.\nno There are no abstract representations of a couple; the decorations are more ornamental floral patterns.\nno The use of iconography is not sparse; the card has ample decorative elements around the text.\nyes The text includes phrases like \"union of Image and Text,\" which could metaphorically represent a couple.\nno The typesetting seems inconsistent, with unusual spacing and lettering that doesn't adhere to standard formatting.\nyes The card is displayed against a background that resembles a wooden desk.\nno The text contains numerous nonsensical words and phrases that make it unreadable and unclear.\nyes The image clearly shows a date at the bottom that reads \"2025, 25, 0025.\""
+}

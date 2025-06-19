@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is the text 'Visionary' in the image?",
+    "Is the text 'Leadership' in the image?",
+    "Is the text 'Success' in the image?",
+    "Is the text 'Inspiration' in the image?",
+    "Is the text 'Clarity' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Innovation' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, the text 'Visionary' is not in the image. The text 'Visnacce Say' is present.\nno, the text 'Leadership' is not in the image. The text 'Ladeshp' is present.\nno, the text 'Success' is not in the image. \nyes, the text 'Inspiration' is present in the image.\nyes, the text 'Clarity' is present in the image.\nyes, the text 'Focus' is in the image. The text 'Focus' appears twice including variations like 'Focit', 'Focaty', 'Focvss' and others.\nno, the text 'Innovation' is not in the image. The text 'Invoaction' is present."
+}

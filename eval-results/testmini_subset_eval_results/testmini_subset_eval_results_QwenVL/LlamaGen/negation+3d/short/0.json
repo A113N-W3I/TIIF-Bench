@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a group of people in the image?  ",
+    "Is there a tall tree in the image?  ",
+    "Are the people wearing hats?  ",
+    "Are the people hidden by the tall tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a dense crowd visible in the image.\nyes A large, distinct tree dominates the upper part of the image.\nno The people in the image are not depicted as wearing hats.\nno The people are not hidden; they are visible around and under the tree."
+}

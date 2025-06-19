@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The figure appears to be a humanoid with robotic features.\nyes The setting includes shelves in the background suggesting a library environment.\nyes The book is visibly holographic with pages that appear to be light-based projections.\nyes The scene is illuminated with soft tones of blue and purple.\nyes There are reflective qualities on the facial and bodily features consistent with metallic materials.\nyes The facial features and posture suggest a state of calm concentration.\nyes The background has a soft focus with technological design elements.\nyes The image shows high detail with an emphasis on atmospheric lighting similar to cinematic productions.\nyes Various elements such as the android, the holographic book, and the setting are reminiscent of science fiction aesthetics.\nyes The book has a holographic quality with pages that emit light, indicating it is not a traditional paper book."
+}

@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 255,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image does not strictly adhere to Ukiyo-e stylistic conventions; it appears to integrate elements of motion and modern artistic influences rather than the traditional woodblock print style characteristic of Ukiyo-e."
+}

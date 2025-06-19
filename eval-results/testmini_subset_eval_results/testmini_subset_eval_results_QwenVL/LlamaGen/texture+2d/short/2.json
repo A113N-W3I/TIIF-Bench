@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a shirt in the image?  ",
+    "Is the fork metallic?  ",
+    "Is the shirt made of fabric?  ",
+    "Is the fork on the bottom of the shirt?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is a knife, not a fork.\nyes The image shows a piece of fabric that resembles a shirt.\nno There is no fork; therefore, it cannot be metallic.\nyes The material present appears to be made of fabric.\nno There is no fork in the image to determine its position relative to the shirt."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Does this image feature a crescent moon? Answer with yes or no.",
+    "Does this image feature a steaming coffee cup? Answer with yes or no.",
+    "Is the design clean and modern in style? Answer with yes or no.",
+    "Does the image use soft earthy tones like beige, warm brown, and dark blue? Answer with yes or no.",
+    "Is the word 'Moonbrew' clearly visible and integrated into the design? Answer with yes or no.",
+    "Is the logo suitable for black and white? Answer with yes or no.",
+    "Does the coffee in the image have obvious steaming characteristics?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the image features a crescent moon as part of its design.\nYes, the image includes a steaming coffee cup as an integral element.\nYes, the design is clean and modern in style, with minimalistic features.\nYes, the image uses soft earthy tones like beige, warm brown, and dark blue.\nNo, the word 'Moonbrew' is not visible in the image.\nYes, the logo is suitable for black and white due to its simple and high-contrast design.\nYes, the coffee in the image has obvious steaming characteristics represented by stylized steam shapes."
+}

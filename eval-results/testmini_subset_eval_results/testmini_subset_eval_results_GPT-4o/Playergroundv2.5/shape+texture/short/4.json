@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a couch in the scene?",
+    "Is the couch rectangular in shape?",
+    "Is there a office in the scene?",
+    "Is the office pentagon-shaped?",
+    "Is the lamp glass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a couch in the scene. The image shows a large sectional couch in the foreground.\nNo, the couch is not rectangular in shape. It appears to be a sectional couch with a curved L-shape.\nYes, there is an office in the scene. The image shows a desk with a chair and computer, suggesting an office area.\nNo, the office is not pentagon-shaped. The image does not provide any indication of a pentagon-shaped office.\nNo, the lamp is not glass. The image shows a lamp with a solid, opaque shade, not a glass one."
+}

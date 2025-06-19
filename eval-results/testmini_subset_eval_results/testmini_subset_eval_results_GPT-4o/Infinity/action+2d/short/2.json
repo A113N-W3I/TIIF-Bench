@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a mouse in the image because the image shows a small rodent that is identifiable as a mouse.  \nNo, there is not a desk in the image because there are no visible features or structures that indicate the surface is part of a desk.  \nNo, the mouse is not gliding across the desk because there is no indication of movement or a desk surface for it to glide on.  \nNo, the mouse is not on the top of the desk because the surface does not exhibit typical desk characteristics."
+}

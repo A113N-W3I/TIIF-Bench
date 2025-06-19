@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Recycle' is visible on a yellow sticky note in the top left area of the image.\nyes The word 'Sustain' appears on an orange sticky note near the center-top of the image.\nyes The text 'Renew' is present on an orange sticky note, paired with 'Sustain,' in the upper center portion of the image.\nno There is no exact match for the text 'Choose' presented alone; however, related words like 'Choose wisely' are present.\nyes The phrase 'choose wisely' appears together on a pink sticky note situated in the middle-left side of the image.\nyes The word 'eco-friendly' can be found on a yellow sticky note located in the middle-right section of the image.\nyes The word 'Green' forms part of a longer phrase 'Green living.' This can be seen on a light green sticky note in the lower center area of the image.\nyes The term 'living' is part of 'Green living,' which occurs in the text on a light green sticky note towards the bottom center area of the image.\nyes The word 'Minimalism' appears as part of a longer phrase on a pink sticky note at the bottom right, and also individually on another light green sticky note below the center of the image."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a yellow dog in the image?  ",
+    "Is there a gold dog in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the yellow dog chasing the gold dog?  ",
+    "Is the yellow dog colored yellow?  ",
+    "Is the gold dog colored gold?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a dog with a yellowish hue in the image.\nno The other dog appears to be more golden than explicitly gold.\nyes A large tree is prominent on the left side of the image.\nyes The positioning suggests the yellow dog is behind and could be interpreted as chasing the other dog.\nno The yellow dog has shades of brown and yellow, but isn't purely yellow.\nno The gold dog's coloration includes golden tones but also has brown and is not purely gold."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a gorgeous metallic vinyl record player in the image?  ",
+    "Is there a smaller, older metallic vinyl record player in the image?  ",
+    "Does the image present a differentiation logic: one vinyl record player is gorgeous, while the other is smaller and older?  ",
+    "Is the gorgeous vinyl record player metallic?  ",
+    "Is the smaller, older vinyl record player metallic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because the vinyl record player has an elegant design typical of high-quality equipment and it is made of metal.\nno because there is no smaller, older metallic vinyl record player; the second device appears to be an amplifier or radio, not a record player.\nno because the image contains only one vinyl record player, which can be described as gorgeous and metallic; there isn't a second vinyl record player to compare it to.\nyes because the vinyl record player's casing is clearly metallic, contributing to its attractive appearance.\nno because the second metallic item beside the record player is not a vinyl record player; it seems to serve a different function, so its size and age aren't relevant to the description of a vinyl record player."
+}

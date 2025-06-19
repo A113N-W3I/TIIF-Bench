@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the image depicts a 3D rendered toilet with a sleek design that includes rounded edges.\nyes, the image uses a color palette consisting of soft beige for the walls, light gray for the toilet, and warm orange as an accent on the wall decorations.\nyes, the lighting in the image is soft and appears to come from a source slightly above and to the right, creating gentle shadows.\nyes, the surface texture of the toilet appears matte and smooth with no significant reflections.\nyes, the toilet is positioned centrally in the image with considerable empty space around it, enhancing its prominence.\nno, the perspective does not appear tilted; it provides a straightforward view that does not enhance three-dimensionality through tilt.\nyes, the background is a solid, low-saturation peach color that complements the white toilet without overpowering it.\nno, there is no minimalist sans-serif typography visible in the lower-left corner of the image.\nno, since there is no text present in the image, there is no gray text with low contrast against the background.\nno, there is no text present in the image, thus no gray text can be found."
+}

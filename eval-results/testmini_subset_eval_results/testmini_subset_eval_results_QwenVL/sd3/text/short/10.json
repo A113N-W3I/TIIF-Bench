@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 10,
+  "questions": [
+    "Is the text 'forever' in the image?",
+    "Is the text 'always' in the image?",
+    "Is the text 'eternity' in the image?",
+    "Is the text 'love' in the image?",
+    "Is the text 'together' in the image?",
+    "Is the text 'united' in the image?",
+    "Is the text 'infinite' in the image?",
+    "Is the text 'bond' in the image?",
+    "Is the text 'cherish' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The word 'forever' is clearly visible at the top of the list in the image.\nno The text 'always' is not present in the image; it lists other words related to commitment and time but not 'always'.\nyes The word 'eternity' is displayed prominently as the second item in the list within the image.\nyes The word 'love' is visible as part of the text presented in the image's content.\nyes The word 'together' is found as part of the list shown in the image.\nno The text 'united' does not appear in the image; it features a different selection of relationship-related words.\nno The text 'infinite' is not included in the content of the image; other concepts regarding long-lasting relationships are listed.\nyes The word 'bond' appears as part of the text shown in the image alongside other terms like love and cherish.\nyes The word 'cherish' is included in the last phrase in the image's content."
+}

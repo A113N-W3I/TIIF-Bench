@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an insulated cup in the image?",
+    "Is there a notebook in the image?",
+    "Are the insulated cup and notebook on the same desk?",
+    "Is the insulated cup metallic in texture?",
+    "Is the notebook fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows a cylindrical object with a lid that appears to be an insulated cup.\nyes There is a rectangular object with pages visible, which is characteristic of a notebook.\nno The insulated cup is on a different surface than the notebook; the cup is on a table while the notebook is on a bench.\nyes The surface of the cup reflects light and has a sheen typical of metallic textures.\nyes The cover of the notebook has a woven pattern consistent with fabric textures."
+}

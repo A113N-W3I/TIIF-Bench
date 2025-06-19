@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there wall art in the image?  ",
+    "Is there a fireplace in the image?  ",
+    "Is there a large window in the image?  ",
+    "Is the wall art hanging above the fireplace?  ",
+    "Is the large window behind the fireplace?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the reason is there is a piece of wall art visible above the fireplace.  \nYes, the reason is there is a fireplace visible in the image.  \nYes, the reason is there is a large window visible in the image.  \nYes, the reason is the wall art is indeed hanging above the fireplace.  \nNo, the reason is the large window is not located directly behind the fireplace; it is on either side of the fireplace.  "
+}

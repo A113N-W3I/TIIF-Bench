@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Recycle' is not visible among the post-it notes.\nno The text 'Sustain' does not appear on any of the post-it notes.\nno The text 'Renew' is not present in the image.\nno There is no post-it note with the word 'Choose'.\nyes The word 'wisely' is written on one of the post-it notes at the bottom left corner of the image.\nno The phrase 'Eco-friendly' is not found on any of the notes in the image.\nno The text 'Green' does not appear anywhere in the image.\nno There is no mention of 'living' in the text on the sticky notes.\nno The term 'Minimalism' is not written on any of the post-it notes."
+}

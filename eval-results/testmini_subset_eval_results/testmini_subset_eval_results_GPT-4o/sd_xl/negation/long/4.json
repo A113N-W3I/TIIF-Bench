@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a city intersection in the image?  ",
+    "Are there blue cars in the image?  ",
+    "Is there a city intersection with blue cars?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a city intersection in the image. The image depicts a busy city street with vehicles crossing, which indicates the presence of an intersection.\n\nYes, there are blue cars in the image. The image contains multiple cars, including some with blue coloring.\n\nYes, there is a city intersection with blue cars. The city intersection has blue cars present in the traffic."
+}

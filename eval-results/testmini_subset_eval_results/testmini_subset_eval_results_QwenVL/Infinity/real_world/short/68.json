@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes This image depicts a 3D style toilet with a modern aesthetic.\nyes The toilet has a clean look with rounded and smooth contours.\nyes The image primarily features soft beige and light gray tones with a hint of warm orange inside the bowl, emphasizing simplicity.\nyes The lighting appears soft, creating gentle gradients and mild transitions.\nyes The illumination is consistent with a source positioned above and slightly to the right, casting subtle shadows.\nyes The toilet stands as the main object in focus with ample empty space around it.\nyes The object is not straight-on but slightly turned, giving it dimensionality while maintaining a minimalistic appearance.\nno The background includes textural elements like cracks, which adds some detail behind the toilet.\nno There is no visible text in the image at all.\nno The style is realistic rather than low-poly, with sufficient detailing for a modern, minimalist aesthetic."
+}

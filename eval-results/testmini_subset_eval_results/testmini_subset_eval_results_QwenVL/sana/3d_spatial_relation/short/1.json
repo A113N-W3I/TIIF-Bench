@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a balloon in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the balloon behind the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a spherical object that resembles a balloon.\nyes There is a rectangular structure resembling a desk in the lower part of the image.\nyes The balloon-like object appears to be positioned above and behind the desk-like structure."
+}

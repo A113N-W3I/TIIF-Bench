@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there teddy bears in the image?  ",
+    "Is there a large teddy bear wearing a bow tie in the image?  ",
+    "Is there a small teddy bear wearing a party hat in the image?  ",
+    "Does the image present a differentiation logic: one teddy bear is large and wears a bow tie, while the other teddy bear is small and wears a party hat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no This image features an animal resembling a fox, not a teddy bear.\nno The image shows an animal similar to a fox wearing a bow tie, not a teddy bear.\nno There is no small teddy bear wearing a party hat; the image depicts a fox-like animal.\nno There are no teddy bears in the image, therefore no differentiation between sizes or accessories can be made regarding teddy bears."
+}

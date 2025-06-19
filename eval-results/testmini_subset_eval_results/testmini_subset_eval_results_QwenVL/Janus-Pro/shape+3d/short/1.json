@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "short_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a chef hat in the image?  ",
+    "Is there a snowball in the image?  ",
+    "Is the chef hat conical?  ",
+    "Is the snowball spherical?  ",
+    "Is the chef hat hidden behind the snowball from the viewer's perspective?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a white object resembling a chef hat.\nyes There is a round white object that looks like a snowball.\nyes The white object resembling a chef hat has a conical shape.\nyes The round white object appears to have a spherical shape.\nno The chef hat is not hidden behind the snowball; both are clearly visible."
+}

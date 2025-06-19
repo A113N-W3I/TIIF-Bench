@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a table in the image?  ",
+    "Is there a tablecloth in the image?  ",
+    "Is the cat sitting under the table?  ",
+    "Is the tablecloth on the bottom of the table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a cat in the image because a cat is visible.\nyes, there is a table in the image because part of a table leg can be seen above the cat.\nno, there is not a tablecloth in the image because there is no visible tablecloth.\nyes, the cat is sitting under the table because it is under the top part where the leg of the table begins.\nno, the tablecloth is not on the bottom of the table because there is no tablecloth present."
+}

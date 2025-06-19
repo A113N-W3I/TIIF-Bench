@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a model with a hand gesture that suggests applying cream.\nyes The model's closed eyes and calm pose suggest relaxation and self-care.\nno The lighting appears even and studio-like rather than soft and natural.\nyes The background features pastel tones including blush pink and soft beige.\nno There is no visible text overlay with those specific phrases.\nno There are no minimalistic icons such as leaves or droplets.\nyes The focus is clearly on the model's skin and the action of applying cream.\nyes The image portrays an aesthetic that seems both desirable and relatable.\nyes The model has face cream on her face being applied from a container.\nno The limbs and face appear overly smooth and uniform, suggesting artificial generation."
+}

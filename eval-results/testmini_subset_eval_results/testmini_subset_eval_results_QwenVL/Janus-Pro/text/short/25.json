@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The word 'BREWING' is clearly visible at the top of the image.\nyes The word 'COMPANY' appears below 'BREWING', slightly smaller.\nno The word 'Pure' is not present; it's part of 'Pure Pleasure'.\nyes 'Pleasure' is readable as part of the phrase 'Pure Pleasure'.\nyes The word 'No' is displayed above the word 'Guilt'.\nyes 'Guilt' is part of the phrase 'No Guilt' at the bottom."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a woman in the image?  ",
+    "Is there a microwave in the image?  ",
+    "Is the woman near a microwave?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes A person with long blonde hair is standing next to a front-loading washing machine.\nno There is no microwave present in the image; the appliance visible is a washing machine.\nno The person is not near a microwave; they are standing next to a washing machine."
+}

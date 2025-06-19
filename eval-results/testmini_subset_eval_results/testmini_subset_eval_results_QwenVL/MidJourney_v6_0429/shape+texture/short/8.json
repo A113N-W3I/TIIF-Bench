@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a salt shaker in the scene?",
+    "Is the salt shaker cylindrical in shape?",
+    "Is there a gemstone in the scene?",
+    "Is the gemstone spherical in shape?",
+    "Is the cylindrical salt shaker plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The object appears to contain white granules consistent with salt and has a shape commonly associated with a salt shaker.\nyes The container holding what looks like salt has a cylindrical body with a dome-shaped top which suggests it's cylindrical in form.\nyes There is an object with a shiny, reflective surface and faceted cuts characteristic of a gemstone.\nno The object resembling a gemstone is not spherical; it has flat faces and edges typical of a faceted gemstone.\nno The cylindrical object looks transparent and solid, consistent with glass rather than plastic."
+}

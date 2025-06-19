@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes because the text 'Wisdom' is visible on the spine of the second book from the top.\nno because while the text 'Knowledge' appears, it is part of a larger phrase and not standalone as asked.\nyes because the word 'Stories' is part of the phrase printed on the third book's edge.\nyes because 'Timeless' is part of the text visible on the third book.\nno because there is a typographical error in 'Pagees' instead of 'Pages.'\nno because the text 'Explore' does not appear in the visible parts of the books.\nyes because the word 'Learn' is clearly visible on the red book.\nno because the text 'Journey' is not present among the visible texts on the books.\nyes because 'Books' as the subject is represented even if not explicitly written since the image shows books."
+}

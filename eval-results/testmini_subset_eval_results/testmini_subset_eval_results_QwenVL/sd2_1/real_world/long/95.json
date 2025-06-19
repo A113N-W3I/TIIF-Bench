@@ -1,0 +1,52 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Does this image show a realistic and whimsical miniature modern café inside a coffee-filled mug? Answer with yes or no.",
+    "Does this image include a tiny bar counter within the café? Answer with yes or no.",
+    "Is there a small coffee machine and grinder in the café? Answer with yes or no.",
+    "Are there a few small tables with miniature customer figurines seated in the café? Answer with yes or no.",
+    "Do the inner sides of the mug have tiny menu boards or decorative paintings? Answer with yes or no.",
+    "Is the coffee surface forming the 'floor' of the café? Answer with yes or no.",
+    "Does the coffee surface possibly have tiny latte art patterns? Answer with yes or no.",
+    "Is the mug placed on a coffee table or bar counter? Answer with yes or no.",
+    "Is there possibly a real croissant, laptop, or sugar jar next to the mug? Answer with yes or no.",
+    "Is the image created in a hyper-realistic style? Answer with yes or no.",
+    "Does the image have a shallow depth of field, focusing on lively scenes and characters inside the café? Answer with yes or no.",
+    "Is the lighting bright and soft, simulating natural café lighting or indoor lighting? Answer with yes or no.",
+    "Is there high detail in the image, like metallic texture of equipment, figures' postures, and café decor? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The image shows a miniature café scene within a retro-style refrigerator, not a coffee mug.\nyes There is a tiny bar counter setup within the café.\nno There is no coffee machine or grinder visible inside the café.\nyes There are small tables with miniature customer figurines seated.\nno The inner sides of the refrigerator do not have tiny menu boards or decorative paintings.\nno The floor of the café does not appear to be made of a coffee surface.\nno There are no latte art patterns on the coffee surface, as it's not present as a floor.\nyes The refrigerator seems to be placed on a wooden floor which could represent a coffee table or bar counter.\nyes There is a small object resembling a sugar jar next to the cylinder filled with liquid.\nno The image has a stylistic and miniature model look rather than hyper-realistic quality.\nyes The focus is primarily on the inside of the café with a blurred background.\nno The lighting appears to be consistent with overhead artificial light rather than natural or warm indoor lighting.\nyes High details are visible including the texture of the equipment and figures' postures."
+}

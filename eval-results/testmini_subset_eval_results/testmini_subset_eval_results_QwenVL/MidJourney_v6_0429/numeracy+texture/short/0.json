@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes This is a constructed scene combining elements like cameras and fish which may not naturally coexist, indicating it is an artistic representation rather than a literal, real-world scenario.\n\nyes There are multiple cameras placed around the scene.\n\nyes Fish are depicted on a screen in the background and as small figures among the other objects.\n\nyes There are two visible chairs in the scene.\n\nno There are no candles in the traditional sense; the flames appear to be projections or effects rather than actual candles.\n\nno There are no paddles in the image.\n\nno There are several cameras, but not exactly four.\n\nno There are at least five fish depicted in the image.\n\nno There are two chairs, not three.\n\nno There are no actual candles, thus they cannot be counted.\n\nno There are no paddles present, hence their material cannot be determined.\n\nno The cameras appear to be made of usual camera materials, likely metal and possibly some plastic parts, but they do not seem entirely made of plastic.\n\nno The chairs are wicker, not made of plastic."
+}

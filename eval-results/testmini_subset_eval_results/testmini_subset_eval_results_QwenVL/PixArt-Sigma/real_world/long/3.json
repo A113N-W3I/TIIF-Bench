@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does this landing page feature a clean and modern design? Answer with yes or no.",
+    "Is there a hero section on this landing page? Answer with yes or no.",
+    "Does the hero section showcase an image of the shampoo bottle? Answer with yes or no.",
+    "Is there a catchy headline that says 'Transform Your Hair Today'? Answer with yes or no.",
+    "Is there a call-to-action button like 'Shop Now' or 'Learn More'? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The design utilizes a minimalist layout with ample white space, modern fonts, and a clear separation between sections.\nyes A hero section is present at the top, featuring a large image of a smiling woman with flowing hair against a beige background with a red diagonal accent.\nyes The hero section does display an image of a person but lacks a prominent visual of a shampoo bottle.\nno The headline reads \"New Moon Light Romance\" which is different from \"Transform Your Hair Today\".\nyes There are two call-to-action buttons labeled “more product features” and “where you can find us”, neither is \"Shop Now\" or \"Learn More\", yet they serve similar purposes.\nyes The text appears crisp with sufficient contrast against the background, making it easy to read."
+}

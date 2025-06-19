@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 186,
+  "questions": [
+    "Is the image in 3D style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image appears to be a photograph of a highly detailed mechanical interior, but it does not exhibit characteristics typical of a 3D style rendering such as textures or shading designed specifically for digital 3D perspectives.\n"
+}

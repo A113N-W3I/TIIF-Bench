@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 193,
+  "questions": [
+    "Is the image in 3D style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image appears to be a two-dimensional representation with an illusion of depth through color gradients and perspective, but it does not exhibit characteristics of a 3D rendered model like surface texture variance or complex shadowing."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image depicts a card that appears to be designed for a formal occasion like a wedding.\nyes The card exhibits a delicate texture and has raised patterns which suggest eggshell and embossing.\nyes Swirls and other design elements elegantly adorn the card, indicative of symbolic representation.\nyes The decorative elements are used subtly without overcrowding the card's space.\nno There is no visible text that mentions a union of Image and Text specifically.\nyes The text on the card is well-organized and professionally laid out.\nyes The card is positioned on a surface that looks like a wooden desk based on the visible grain texture.\nyes The text, although in a cursive font, is legible and clear within the image.\nno There is no mention or indication of the date March 25, 2025, in the visible text."
+}

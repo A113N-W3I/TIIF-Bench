@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a woman not wearing a hoodie in the image?  ",
+    "Are there people wearing hoodies in the image?  ",
+    "Does the image present a differentiation logic: one woman is not wearing a hoodie while the people around her are wearing hoodies?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no woman not wearing a hoodie in the image.\nyes There are people wearing hoodies in the image.\nno The image does not present a differentiation logic as all individuals appear to be wearing hoodies."
+}

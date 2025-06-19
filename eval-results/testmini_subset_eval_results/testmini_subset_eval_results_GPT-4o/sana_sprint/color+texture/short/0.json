@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a piano in the scene?",
+    "Is the piano white?",
+    "Is there a suitcase in the scene?",
+    "Is the suitcase blue in color?",
+    "Is the lamp metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a piano in the scene. The image shows a piano on the right side.\nYes, the piano is white. The piano in the image is painted in a white color.\nYes, there is a suitcase in the scene. It is positioned beside the lamp.\nYes, the suitcase is blue in color. The suitcase in the image is a bright blue shade.\nNo, the lamp is not metallic. The lamp has a fabric shade and a metallic stand, but the question specifically asks about the lamp, which is likely referring to the shade being fabric, not metallic."
+}

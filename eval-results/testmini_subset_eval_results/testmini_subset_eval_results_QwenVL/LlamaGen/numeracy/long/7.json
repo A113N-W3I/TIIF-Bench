@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there helmets in the image?  ",
+    "Is the number of helmets 4?  ",
+    "Is there a lamp in the image?  ",
+    "Is the number of lamps 1?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of sheep 1?  ",
+    "Are there bowls in the image?  ",
+    "Is the number of bowls 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The characters are wearing helmet-like headgear.\nno There are not exactly 4 helicopters, but rather all characters wear similar head gear which might be considered more like helmets or protective caps and does not match the count.\nno There is no lamp visible in the scene depicted.\nno Since there is no lamp in the image, its quantity cannot be determined.\nyes A sheep is central to the image sitting among other characters.\nyes There is exactly one sheep present in the picture.\nyes There are multiple bowls on the table among other ceramic items.\nyes There appear to be at least four distinct bowls visible on the table."
+}

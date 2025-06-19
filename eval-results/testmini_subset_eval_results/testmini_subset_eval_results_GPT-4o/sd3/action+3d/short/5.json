@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a scroll in the image, it is visible on the desk.\nYes, there is a desk in the image as it provides the surface on which the scroll and objects are placed.\nNo, there is no inkwell in the image, only a sealing wax stamp.\nYes, the scroll is unrolled on the desk as it lies open along the surface.\nNo, the inkwell is not behind the scroll because there is no inkwell in the image."
+}

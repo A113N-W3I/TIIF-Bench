@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 64,
+  "questions": [
+    "Does the image show multi-layered shelves filled with identical red baseball caps? Answer with yes or no.",
+    "Do the red baseball caps have bold text on the front reading 'MAKE AMERICA GREAT AGAIN'? Answer with yes or no.",
+    "Is there a white tag on the side of the caps labeled 'MADE IN CHINA'? Answer with yes or no.",
+    "Is there a close-up view of one red baseball cap? Answer with yes or no.",
+    "Is there a price tag below the image with '$50.00' crossed out and replaced with '$77.00'? Answer with yes or no.",
+    "Is the color palette of the image made up of nostalgic earthy yellows and dark reds? Answer with yes or no.",
+    "Does the shadowing mimic the vintage printing texture of the 1990s? Answer with yes or no.",
+    "Is the overall composition exaggerated and satirical? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows shelves that appear to be layered and filled with visually similar red baseball caps.\nyes The caps feature bold text that reads 'MAKE AMERICA GREAT AGAIN', albeit with some stylistic variations.\nyes There is text visible suggesting the caps are 'MADE IN CHINA', including a smaller tag-like element to this effect.\nyes A single cap is prominently displayed in the foreground, offering a detailed view compared to the others.\nno There is no noticeable price tag present in the image at all.\nyes The image utilizes a palette that includes yellow tones, contributing to a nostalgic feel, and the deep red of the caps reinforces this impression.\nyes The shadowing and overall texture of the image do suggest a style reminiscent of 1990s printwork.\nyes The juxtaposition of elements such as the slogan on the caps being from a particular political campaign and the 'MADE IN CHINA' label, along with the visual style, contributes to a satirical tone."
+}

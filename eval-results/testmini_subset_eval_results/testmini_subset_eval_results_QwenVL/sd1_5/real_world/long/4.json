@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Survey Results on Podcasts' is not present in the visible content of the image.\nno The colors used do not appear vibrant; they seem muted and mostly consist of oranges, blues, and grays.\nno Modern icons are not evident in the content provided in the image.\nyes The typography appears clear with distinct separations between different sections and readable sizes.\nno There are no visible statistics related to listening frequency in the image content.\nno There is no data or mention of devices used for podcast consumption in the image.\nno There are no visible statistics indicating popular topics of podcasts.\nno The design elements appear cluttered, which does not suggest a clean layout.\nno The overall design lacks professionalism due to cluttered elements and inconsistent visual hierarchy.\nno The information presented is not easily readable due to small text size and possibly complex layout.\nno The text is not entirely clear and readable, appearing to be reduced in size and possibly stylized in a way that impacts readability.\nno The numbers are styled in a way that may reduce their clarity, making them not particularly clear and readable."
+}

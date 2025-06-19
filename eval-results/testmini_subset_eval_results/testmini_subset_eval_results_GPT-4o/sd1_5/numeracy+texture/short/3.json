@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there flags in the image?  ",
+    "Are there butterflies in the image?  ",
+    "Are there bananas in the image?  ",
+    "Are there apples in the image?  ",
+    "Is the number of flags 2?  ",
+    "Is the number of butterflies 3?  ",
+    "Is the number of bananas 4?  ",
+    "Is the number of apples 2?  ",
+    "Are the flags made of fabric?  ",
+    "Are the apples fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there are no flags in the image. The image shows butterflies against a natural backdrop.\nYes, there are butterflies in the image. The image contains several butterflies in vibrant colors.\nNo, there are no bananas in the image. The image does not depict any fruit resembling bananas.\nNo, there are no apples in the image. The image does not feature any fruit resembling apples.\nNo, the number of flags is not 2. The image does not contain any flags.\nNo, the number of butterflies is not 3. There are more than three butterflies in the image.\nNo, the number of bananas is not 4. There are no bananas in the image.\nNo, the number of apples is not 2. There are no apples in the image.\nNo, there are no flags, so they cannot be made of fabric.\nNo, there are no apples, so they cannot be fluffy."
+}

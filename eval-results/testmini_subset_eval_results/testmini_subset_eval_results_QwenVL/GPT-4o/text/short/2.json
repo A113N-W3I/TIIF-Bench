@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Recycle' is clearly visible on a yellow sticky note.\nyes The text 'Sustain' is present on a pink sticky note.\nyes The text 'Renew' appears on a blue sticky note.\nyes The text 'Choose' is part of the phrase 'Choose wisely' on a yellow sticky note and also appears alone on another yellow sticky note.\nyes The text 'wisely' is part of the phrase 'Choose wisely' on a yellow sticky note.\nyes The text 'Eco-friendly' is written on a green sticky note.\nyes The text 'Green' is on a light blue sticky note.\nyes The text 'living' is on a yellow sticky note.\nyes The text 'Minimalism' is on a pink sticky note."
+}

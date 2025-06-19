@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a necklace in the scene. It is visible on the wooden surface.\nNo, the necklace is not completely round; it is curved but not in a complete circular shape.\nYes, there is a watermelon in the scene. There are multiple watermelons in the background.\nYes, the watermelons are oblong in shape. The visible watermelons have an elongated shape.\nNo, the round necklace is not rubber-textured. It appears to be made of beads or a similar hard material."
+}

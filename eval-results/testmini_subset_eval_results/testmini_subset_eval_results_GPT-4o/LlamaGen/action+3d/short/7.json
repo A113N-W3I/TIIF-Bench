@@ -1,0 +1,25 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a hammock in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the hammock tied to something?  ",
+    "Is the hammock in front of the tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no hammock in the image; the image shows a macramé decoration.\nyes, there is a tree in the image; a tree branch is visible.\nyes, the macramé is tied to something; it appears tied to the tree branch.\nno, the macramé is not a hammock; it is a decorative hanging and not in front of the tree."
+}

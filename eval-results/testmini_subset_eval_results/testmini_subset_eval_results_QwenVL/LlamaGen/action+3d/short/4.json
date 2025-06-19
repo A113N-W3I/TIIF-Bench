@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there wall art in the image?  ",
+    "Is there a fireplace in the image?  ",
+    "Is there a large window in the image?  ",
+    "Is the wall art hanging above the fireplace?  ",
+    "Is the large window behind the fireplace?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a piece of wall art depicted on the right side above the window.\nno There is no visible fireplace in the image; instead, it appears to be a decorative element resembling a fireplace.\nyes There is indeed a large window on the right side of the image.\nno Since there is no actual fireplace, the concept of wall art hanging above it does not apply.\nno Considering the absence of a real fireplace and the position of the window, this statement does not accurately reflect the image's composition."
+}

@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text appears scrambled and does not clearly state 'Survey Results on Podcasts'.\nyes The infographic uses a variety of bright and eye-catching colors.\nyes There are modern icons depicting items like headphones and electronic devices.\nno The typography is garbled, making it difficult to read and understand.\nno The statistics related to listening frequency are not discernible due to scrambled text.\nno Key statistics on devices used are not identifiable because of the text distortion.\nno Statistics on popular topics are also not clear due to the bizarre text layout.\nno The overall design includes scrambled elements which disrupts a clean appearance.\nno With the scrambled text and distorted elements, professionalism is compromised.\nno The infographic is not easy to read due to text and numerical distortions.\nno The text is scrambled, preventing clarity and readability.\nno Numbers appear alongside the text but are not clear due to the overall distortion."
+}

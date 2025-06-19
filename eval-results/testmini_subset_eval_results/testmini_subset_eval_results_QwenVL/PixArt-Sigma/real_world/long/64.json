@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 64,
+  "questions": [
+    "Does the image show multi-layered shelves filled with identical red baseball caps? Answer with yes or no.",
+    "Do the red baseball caps have bold text on the front reading 'MAKE AMERICA GREAT AGAIN'? Answer with yes or no.",
+    "Is there a white tag on the side of the caps labeled 'MADE IN CHINA'? Answer with yes or no.",
+    "Is there a close-up view of one red baseball cap? Answer with yes or no.",
+    "Is there a price tag below the image with '$50.00' crossed out and replaced with '$77.00'? Answer with yes or no.",
+    "Is the color palette of the image made up of nostalgic earthy yellows and dark reds? Answer with yes or no.",
+    "Does the shadowing mimic the vintage printing texture of the 1990s? Answer with yes or no.",
+    "Is the overall composition exaggerated and satirical? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows shelves stacked with red caps that appear identical.\nyes The caps have text on them which is consistent with the description given.\nyes There is a visible tag on the caps that indicates their origin.\nno The image does not focus closely on a single cap but shows a view of several caps.\nyes A price tag in the image shows a crossed-out price followed by a new higher price.\nno The colors used are bright and do not align with earthy tones.\nyes The style of lines and shadows suggests a retro printing technique.\nyes The elements together suggest an exaggerated and satirical setup."
+}

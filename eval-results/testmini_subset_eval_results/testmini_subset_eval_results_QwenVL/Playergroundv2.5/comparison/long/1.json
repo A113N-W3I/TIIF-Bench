@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there people standing in the image?  ",
+    "Are there people sitting in the image?  ",
+    "Does the image present a comparison logic: people standing are more than people sitting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is at least one person standing in the center of the image.\nyes The majority of the people in the image are seated.\nno There is only one person standing, while many more are sitting, so standing people are not more than sitting people."
+}

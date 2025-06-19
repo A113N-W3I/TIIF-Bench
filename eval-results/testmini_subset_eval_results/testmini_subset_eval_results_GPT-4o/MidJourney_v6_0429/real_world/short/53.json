@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no - The image does not show a traditional wedding invitation card; it references a metaphorical union related to AI.\nyes - The card appears to have eggshell textures and embossings, giving it a hefty appearance.\nno - There are no decorations abstractly representing a couple; the focus is on AI-related concepts.\nyes - The iconography used is sparing and minimalist, emphasizing text and subtle design.\nno - The invitation does not include text about the union of Image and Text directly; it references a union metaphorically.\nno - The typesetting is imperfect, with intentional typographical errors.\nyes - The invitation card is placed on what appears to be a tasteful wooden desk.\nno - The text in the image is intentionally scrambled and not fully clear or readable.\nno - The picture does not contain the time information of March 25, 2025."
+}

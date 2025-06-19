@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the image depicts an android figure with humanoid features.\nno, the setting does not include any clear indicators of being a futuristic library.\nno, the android is holding a physical book, not a floating holographic one.\nyes, the scene is bathed in a soft blue and purple light, contributing to the ambiance.\nyes, the metallic reflections on the android's body are visible.\nyes, the android appears to have a calm demeanor based on the posture and setting.\nyes, the background contains elements that suggest a high-tech environment.\nyes, the image possesses realistic detailing and could be described as cinematic in style.\nyes, the overall aesthetic of the image is influenced by sci-fi themes.\nno, the book in the android's hands appears to be tangible, not holographic."
+}

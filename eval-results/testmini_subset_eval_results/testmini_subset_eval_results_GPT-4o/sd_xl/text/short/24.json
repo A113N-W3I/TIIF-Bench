@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 24,
+  "questions": [
+    "Is the text 'Solitude' in the image?",
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Eternity' in the image?",
+    "Is the text 'Contemplation' in the image?",
+    "Is the text 'Serenity' in the image?",
+    "Is the text 'Depth' in the image?",
+    "Is the text 'Mystery' in the image?",
+    "Is the text 'Reflection' in the image?",
+    "Is the text 'Stillness' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the text 'Solitude' is not in the image. Upon examination, the word 'Solitude' does not appear.\n\nno, the text 'Wisdom' is not in the image. I have thoroughly checked the text, but the word 'Wisdom' is absent.\n\nno, the text 'Eternity' is not in the image. A careful search shows that 'Eternity' is not present in the text.\n\nno, the text 'Contemplation' is not in the image. The word 'Contemplation' does not appear in the image text.\n\nno, the text 'Serenity' is not in the image. Upon inspection, 'Serenity' is absent.\n\nno, the text 'Depth' is not in the image. The word 'Depth' is not found within the text.\n\nno, the text 'Mystery' is not in the image. A detailed look confirms 'Mystery' does not appear.\n\nno, the text 'Reflection' is not in the image. The word 'Reflection' is not present.\n\nno, the text 'Stillness' is not in the image. After reviewing, 'Stillness' is not in the text."
+}

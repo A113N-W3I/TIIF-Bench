@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a tennis ball in the scene. It is yellow with distinct markings characteristic of a tennis ball.\nYes, the tennis ball is spherical in shape, as shown by its round appearance.\nNo, there is not a picture in the scene. A picture typically refers to a flat image like a painting or photograph.\nNo, the picture is not spherical in shape, because there is no picture present to be spherical.\nNo, the picture is red, but there is no picture present. The red object is a spherical item, likely a ball."
+}

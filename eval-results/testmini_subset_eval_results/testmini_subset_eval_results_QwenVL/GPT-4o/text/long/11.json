@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 11,
+  "questions": [
+    "Is the text 'Miami' in the image?",
+    "Is the text 'Trance' in the image?",
+    "Is the text '2014' in the image?",
+    "Is the text 'Event' in the image?",
+    "Is the text 'Neon' in the image?",
+    "Is the text 'Beats' in the image?",
+    "Is the text 'Vibes' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'Miami' is prominently displayed at the top of the image.\nyes The text 'Trance' is visible in large letters at the bottom of the image.\nyes The text '2014' appears on the left side of the image.\nyes The text 'Event' is present below '2014' on the left side.\nno The text 'Neon' is not in the image; however, 'NEON' is part of 'NEON BEATS'.\nyes The text 'Beats' is part of 'NEON BEATS' on the right side of the image.\nno The text 'Vibes' is not present in the image."
+}

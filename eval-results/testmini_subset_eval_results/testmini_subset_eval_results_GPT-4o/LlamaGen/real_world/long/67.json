@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the title text does not appear to be at least twice the size of the regular text as the characters are irregularly sized and distorted.\nNo, there is no clear indication of adequate spacing between paragraphs due to the illegibility of the text.\nNo, the emphasized text does not use vibrant colors as the colors are scattered and chaotic without a clear focus.\nYes, there is an eye-catching pattern in the background resembling abstract shapes and geometric designs.\nNo, suitable icons or images are not used to enhance visual depth; the elements appear random and unrefined.\nNo, the image does not contain the text 'Breaking News! ChatGPT has become even stronger!' as no readable text is present.\nNo, the image does not contain the text 'Better multitasking ✨' as the text is not discernible.\nNo, the image does not contain the text 'Improved programming skills 💪' due to the distorted and unreadable nature of the text.\nNo, the image does not contain the text 'Creativity off the charts 🎨' as there is no recognizable or readable content.\nNo, the image does not contain the text 'Try it now!' since the text is unintelligible.\nNo, the image is not in a 9:16 aspect ratio as it appears more square-like.\nNo, the text in the generated picture is not clear and readable due to distortion and poor legibility."
+}

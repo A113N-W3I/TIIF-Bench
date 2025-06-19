@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an insulated cup in the image?",
+    "Is there a notebook in the image?",
+    "Are the insulated cup and notebook on the same desk?",
+    "Is the insulated cup metallic in texture?",
+    "Is the notebook fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is an insulated cup in the image as evidenced by the steam coming out of the container, indicating it is designed to retain heat.\nyes, there is a notebook in the image as visible with the orange and brown checkered cover.\nyes, both the insulated cup and notebook are placed on the same desk, as shown by their proximity in the image.\nyes, the insulated cup appears metallic in texture, as seen from its shiny and reflective surface.\nno, the notebook is fabric in texture, as evident by the woven appearance of its checkered cover."
+}

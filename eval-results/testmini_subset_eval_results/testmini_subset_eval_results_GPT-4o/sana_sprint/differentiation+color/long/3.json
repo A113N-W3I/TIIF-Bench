@@ -1,0 +1,31 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an elegant cat with a long tail in the image?  ",
+    "Is there a ball in the image?  ",
+    "Is there a cute cat without a long tail in the image?  ",
+    "Does the image present a differentiation logic: an elegant cat with a long tail throws a ball at a cute cat without a long tail?  ",
+    "Is the elegant cat blue in color?  ",
+    "Is the cute cat red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is an elegant cat with a long tail in the image. The blue cat has a long tail.\nyes, there is a ball in the image. A red ball is present being held by the blue cat.\nno, there is no cute cat without a long tail in the image. Both cats have long tails.\nno, the image does not present the logic where an elegant cat with a long tail throws a ball at a cute cat without a long tail. The cats appear to be interacting with the ball, not throwing it at each other.\nyes, the elegant cat is blue in color.\nyes, the cute cat is red in color."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a couch in the scene?",
+    "Is the couch rectangular in shape?",
+    "Is there a office in the scene?",
+    "Is the office pentagon-shaped?",
+    "Is the lamp glass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There is a large sectional sofa visible in the scene.\nno The couch has a section that extends at a right angle, making it not purely rectangular.\nno The scene appears to be more like a minimalist living room rather than an office.\nno The room depicted does not show the characteristics of a pentagon shape; it looks like a standard rectangular room.\nyes The lamp has a glass covering over the light source."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes because the word 'Corporate' is present in the image.\nyes because the word 'DISC' is part of the text visible in the image.\nyes because the phrase 'WORKSHOP,' is clearly visible in the image.\nyes because the word 'THE' appears as part of the text in the image.\nno because there is no appearance of the text 'BIZ' in the visible content of the image.\nyes because 'STUDIO' is listed as part of the text in the image."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace in the shape of a crescent?",
+    "Is there a strawberry in the scene?",
+    "Is the strawberry shaped like a teardrop?",
+    "Is the crescent necklace metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a necklace in the scene. The necklace is visible on the wooden surface.  \nYes, the necklace is in the shape of a crescent. It has a crescent-shaped pendant.  \nYes, there is a strawberry in the scene. It is located to the right of the necklace.  \nNo, the strawberry is not shaped like a teardrop. It has a typical strawberry shape, more heart-like.  \nYes, the crescent necklace is metallic. It has a shiny, metal appearance."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are shops on the left in the image. This is evident from the shop windows displaying various items and decorations, indicating commercial activity.\nyes, there are shops on the right in the image. The shop fronts and merchandise visible through the windows also denote a shopping area.\nno, the image does not present a comparison logic that shops on the left are livelier than shops on the right. Both sides appear vibrant with colorful items displayed openly, and there is no clear indication of liveliness being more prominent on one side over the other."
+}

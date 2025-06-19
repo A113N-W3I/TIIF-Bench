@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Does a large green apple exist in the image?  ",
+    "Does a small red apple exist in the image?  ",
+    "Does the image present a differentiation logic: a big green apple next to a small red apple?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a large green apple.\nyes There is a small red apple visible in the image.\nyes The image shows a large green apple placed next to a smaller red apple, illustrating size and color contrast."
+}

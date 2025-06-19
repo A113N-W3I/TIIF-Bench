@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 64,
+  "questions": [
+    "Does the image show multi-layered shelves filled with identical red baseball caps? Answer with yes or no.",
+    "Do the red baseball caps have bold text on the front reading 'MAKE AMERICA GREAT AGAIN'? Answer with yes or no.",
+    "Is there a white tag on the side of the caps labeled 'MADE IN CHINA'? Answer with yes or no.",
+    "Is there a close-up view of one red baseball cap? Answer with yes or no.",
+    "Is there a price tag below the image with '$50.00' crossed out and replaced with '$77.00'? Answer with yes or no.",
+    "Is the color palette of the image made up of nostalgic earthy yellows and dark reds? Answer with yes or no.",
+    "Does the shadowing mimic the vintage printing texture of the 1990s? Answer with yes or no.",
+    "Is the overall composition exaggerated and satirical? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes\n\nno\n\nno\n\nyes\n\nno\n\nno\n\nno\n\nyes"
+}

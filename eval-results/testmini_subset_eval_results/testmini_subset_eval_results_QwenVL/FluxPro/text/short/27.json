@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 27,
+  "questions": [
+    "Is the text 'AND' in the image?",
+    "Is the text 'PROOFREADING' in the image?",
+    "Is the text 'PROOFREAD' in the image?",
+    "Is the text 'Spelling' in the image?",
+    "Is the text 'Grammar' in the image?",
+    "Is the text 'Accuracy' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'AND' is clearly visible at the top of the clipboard in the image.\nyes The text 'PROOFREADING' is present just below 'AND' on the clipboard.\nyes The text 'PROOFREAD' appears as an item on the checklist on the clipboard.\nno The text 'Spelling' is misspelled as 'Spellling' in the image.\nyes The text 'Grammar' appears twice on the checklist on the clipboard.\nyes The text 'Accuracy' is listed as an item on the checklist, albeit with a slight spelling variation 'Accucacy'."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the cloud white?  ",
+    "Is the cup blue?  ",
+    "Is the cloud on the right of the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a cloud in the image because there are fluffy white shapes in the sky that resemble clouds.\nYes, there is a cup in the image because there is a visible object shaped like a cup.\nYes, the cloud is white because the fluffy shapes in the sky have a white color.\nYes, the cup is blue because the object shaped like a cup is blue in color.\nNo, the cloud is not on the right of the cup because the cloud is positioned behind and above the cup, not on the right."
+}

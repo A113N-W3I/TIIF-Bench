@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes This is a 3D illustration depicting a toilet.\nyes The toilet has rounded edges and smooth forms with simplified geometry typical for such illustrations.\nyes The image uses soft beige and light gray for the toilet, with warm orange as an accent on the wall附件.\nyes The shading and gradients are indeed soft with smooth transitions.\nyes The lighting appears soft and diffused from above and slightly to the right.\nyes The toilet is presented as a single, central object with ample negative space around it.\nyes The toilet is slightly angled to provide a three-dimensional effect with moderate depth.\nyes The background is a solid, muted color that complements the toilet without causing distraction.\nno There is no visible typography in the bottom-left corner of the image.\nno The rendering style does not feature low-poly aesthetics but rather smooth surfaces and detailed geometry."
+}

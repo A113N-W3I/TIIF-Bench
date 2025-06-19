@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there airplanes in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there lamps in the image?  ",
+    "Is the number of airplanes 4?  ",
+    "Is the number of clocks 3?  ",
+    "Is the number of lamps 2?  ",
+    "Are the airplanes near the clocks?  ",
+    "Are the clocks near the lamps?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there are airplanes in the image because I can see four airplanes flying in the sky.\nYes, there are clocks in the image because I can see three clocks on the table.\nYes, there are lamps in the image because I can see two lamps on the table.\nYes, the number of airplanes is 4 because there are four airplanes depicted.\nYes, the number of clocks is 3 because there are three clocks on the table.\nYes, the number of lamps is 2 because there are two lamps on the table.\nYes, the airplanes are near the clocks because the airplanes are flying in front of a large clock in the background.\nYes, the clocks are near the lamps because the clocks and lamps are both located on the same table."
+}

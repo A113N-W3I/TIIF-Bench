@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a salt shaker in the scene?",
+    "Is the salt shaker cylindrical in shape?",
+    "Is there a gemstone in the scene?",
+    "Is the gemstone spherical in shape?",
+    "Is the cylindrical salt shaker plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The object appears to be a perfume bottle rather than a salt shaker.\nno The object is not cylindrical; it has a rounded, spherical body.\nyes There is a spherical object that resembles a gemstone adjacent to the sphere.\nyes The spherical object resembling a gemstone is indeed spherical in shape.\nno The object identified as a potential salt shaker is not cylindrical and does not appear to be made of plastic; it looks like a bottle."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a bookshelf in the image?  ",
+    "Is there a shelf in the image?  ",
+    "Is the bookshelf in shape of diamond?  ",
+    "Is the shelf pentagonal?  ",
+    "Is the bookshelf on the top of the shelf?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The structure contains multiple compartments for books, resembling a bookshelf.\nyes The structure includes multiple compartments that can hold items, which qualifies as a shelf.\nno The bookshelf is hexagonal, not diamond-shaped.\nno The shelf is hexagonal, not pentagonal.\nno The bookshelf and shelf are the same structure; there is no separate shelf on top."
+}

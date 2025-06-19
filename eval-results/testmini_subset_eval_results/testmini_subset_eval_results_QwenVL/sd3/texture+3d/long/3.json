@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a black rubber band placed on the open pages of the book.\nyes There is an open book, which can be considered as a reader, visible in the image.\nyes The background includes a white, fluffy textile, and the book appears to rest partially under it, giving the impression of fluffiness.\nno The rubber band lies on top of the pages of the book, not behind it."
+}

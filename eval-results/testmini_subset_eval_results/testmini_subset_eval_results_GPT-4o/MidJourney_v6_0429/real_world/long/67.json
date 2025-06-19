@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes - The title text 'Breaking News!' appears significantly larger than the regular text beneath it.\nno - The text paragraphs appear densely packed with little to no spacing between them.\nyes - Emphasized text such as 'Breaking News!' and category labels use vibrant colors like yellow and pink.\nyes - The background is designed with colorful abstract patterns resembling paper, notebooks, or art materials.\nno - There are various colorful icons and shapes, but they contribute to the clutter rather than enhancing visual depth cohesively.\nno - The text is too jumbled to distinctly contain 'Breaking News! ChatGPT has become even stronger!'.\nno - The text appears distorted and doesn't clearly reflect 'Better multitasking ✨'.\nno - The text is unclear and does not contain 'Improved programming skills 💪'.\nno - The text is too distorted to identify 'Creativity off the charts 🎨'.\nyes - The image distinctly contains the text 'Try it now!'.\nno - The image appears to be in a square format rather than a 9:16 aspect ratio.\nno - The text throughout the image is jumbled and challenging to read clearly."
+}

@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 104,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The character design and animation style are characteristic of modern Disney's animation, featuring a well-drawn anthropomorphic figure with a clean, appealing, and somewhat exaggerated but proportionate look typical for Disney animations."
+}

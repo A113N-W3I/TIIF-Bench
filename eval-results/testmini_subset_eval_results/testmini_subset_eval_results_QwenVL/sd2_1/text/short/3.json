@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is the text 'Visionary' in the image?",
+    "Is the text 'Leadership' in the image?",
+    "Is the text 'Success' in the image?",
+    "Is the text 'Inspiration' in the image?",
+    "Is the text 'Clarity' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Innovation' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'Visionary' is visible in the image among other words.\nno The text 'Leadership' is not present in the image.\nno The text 'Success' does not appear in the image.\nyes The word 'Inspiration' can be seen within the collection of words in the image.\nno 'Clarity' is not among the words displayed in the image.\nno The image does not contain the text 'Focus'.\nyes The text 'Innovation' is clearly visible upside down in the image."
+}

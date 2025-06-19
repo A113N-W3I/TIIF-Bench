@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there bells in the image?  ",
+    "Are there dogs in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?  ",
+    "Is the bell on the bottom of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there are bells in the image because there is a bell visible hanging from the dog's mouth.\nYes, there are dogs in the image because a dog can be seen clearly despite the face not being visible.\nNo, the image does not present a comparison logic of a bell being bigger than the dog, as the bell is smaller than the dog.\nNo, the bell is not on the bottom of the image as it is suspended from the dog's mouth, which is at the top of the bell."
+}

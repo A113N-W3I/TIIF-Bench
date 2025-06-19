@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cup in the image?",
+    "Is there a toilet in the image?",
+    "Is the cup blue?",
+    "Is the toilet blue?",
+    "Is the cup behind the toilet?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a cup depicted in the image as part of a blendomatic machine.\nno There is no toilet present in this image; it shows a toy blendomatic.\nyes The cup is illustrated in blue as part of the blendomatic design.\nno The image does not contain a toilet, so it cannot be blue.\nno Since there is no toilet in the image, the cup cannot be behind it."
+}

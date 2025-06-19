@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Champion' is visible on the shoulders and collar of the jersey.\nyes The text 'Teamwork' is part of the phrase 'Teamwork Game' below the number 5.\nyes The text 'Victory' is prominently displayed across the chest of the jersey.\nyes The text 'Game' is part of the phrase 'Teamwork Game' below the number 5.\nyes The text 'On' appears below the number 0.\nyes The text 'All-Star' is part of the phrase 'All-Star League' above the number 0.\nyes The text 'League' is part of the phrases '50 League' and 'All-Star League'."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a vase in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the vase on the left of the sheep?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a blue and white patterned vase in the image.\nyes There is a sheep standing next to the vase.\nno The vase is on the right side of the sheep, not the left."
+}

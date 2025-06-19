@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The text 'SIMPLY' is clearly visible in the neon sign on the wall.\nno There is no text 'Bullet' visible in the image.\nno There is no text 'Proof' alone; however, the word is part of the phrase 'nothing proof' in the neon sign.\nyes The word 'nothing' appears as part of the phrase 'nothing proof' in the neon sign.\nno There is no text 'SAUCER' visible in the image."
+}

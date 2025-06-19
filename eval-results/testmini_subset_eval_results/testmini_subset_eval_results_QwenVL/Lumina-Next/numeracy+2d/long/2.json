@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there ships in the painting?  ",
+    "Are there horses in the painting?  ",
+    "Are there shrimp in the painting?  ",
+    "Are there pears in the painting?  ",
+    "Is the number of ships 2?  ",
+    "Is the number of horses 2?  ",
+    "Is the number of shrimp 3?  ",
+    "Is the number of pears 2?  ",
+    "Are the objects on the left of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are two ships in the painting.\nyes There are unicorn-like horses in the painting.\nno There are no shrimp depicted in the painting.\nyes There are fruits resembling pears among other fruits in the painting.\nno There is an abundance of ships, but it is not specified as just 2 in this painting.\nno There is more than one horse and they do not appear to be limited to just 2.\nno There are no shrimp in the painting; therefore their count cannot be described.\nyes There are multiple pears visible in the painting, at least 2 can be identified.\nno The main objects including fruits and unicorns are centrally and to the right, not exclusively on the left."
+}

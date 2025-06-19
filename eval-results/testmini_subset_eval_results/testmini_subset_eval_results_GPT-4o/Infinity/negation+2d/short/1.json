@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an insulated cup in the image?  ",
+    "Is there a notebook in the image?  ",
+    "Are the insulated cup and the notebook on the same desk?  ",
+    "Is the insulated cup to the left of the notebook?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is an insulated cup in the image. The image shows a cylindrical cup with a metallic rim, which is characteristic of an insulated cup.\nYes, there is a notebook in the image. The image clearly shows an open notebook with a pen resting on it.\nYes, the insulated cup and the notebook are on the same desk. Both the insulated cup and the notebook are placed on the same flat surface.\nYes, the insulated cup is to the left of the notebook. The cup is placed on the desk to the left of the notebook and pen."
+}

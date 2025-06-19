@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an insulated cup in the image?  ",
+    "Is there a notebook in the image?  ",
+    "Are the insulated cup and the notebook on the same desk?  ",
+    "Is the insulated cup to the left of the notebook?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is an insulated cup in the image because you can see a cup with a lid.\nyes, there is a notebook in the image because you can see an open notebook with pages.\nyes, the insulated cup and the notebook are on the same desk because they are both visible on the desk in the image.\nyes, the insulated cup is to the left of the notebook because it appears on the left side of the notebook in the image."
+}

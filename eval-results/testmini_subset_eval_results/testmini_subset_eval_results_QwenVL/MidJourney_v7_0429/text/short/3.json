@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is the text 'Visionary' in the image?",
+    "Is the text 'Leadership' in the image?",
+    "Is the text 'Success' in the image?",
+    "Is the text 'Inspiration' in the image?",
+    "Is the text 'Clarity' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Innovation' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes 'Visionary' is visible in the image.\nyes 'Leadership' appears as 'Clessp' which is 'Leadership' reversed.\nyes 'Success' is directly visible and also reversed as 'Success'.\nno 'Inspiration' is not present in the image.\nno 'Clarity' is not present in the image.\nno 'Focus' is not present in the image.\nyes 'Innovation' appears as 'Inotims' which is 'Innovation' reversed."
+}

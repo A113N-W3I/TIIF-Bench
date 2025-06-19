@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 18,
+  "questions": [
+    "Is the text 'Joy' in the image?",
+    "Is the text 'Laughter' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Rain' in the image?",
+    "Is the text 'Childhood' in the image?",
+    "Is the text 'Happiness' in the image?",
+    "Is the text 'Freedom' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Joy' is visible multiple times in the image.\nyes The text 'Laughter' appears at the top right corner of the image.\nno The text 'Play' is not present in the image; however, 'play' in lowercase letters is visible.\nno The text 'Rain' does not appear in the image, but there are references to rain through other texts like 'rainy day'.\nyes The text 'Childhood' can be seen among the scattered words in the image.\nyes The text 'Happiness' is visible, although partially obscured by elements in the image.\nyes The text 'Freedom' is written towards the bottom left area of the image."
+}

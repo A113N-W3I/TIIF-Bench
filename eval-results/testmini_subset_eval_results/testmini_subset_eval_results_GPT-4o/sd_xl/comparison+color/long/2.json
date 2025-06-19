@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a yellow frog in the image?  ",
+    "Is there a black frog in the image?  ",
+    "Does the image present a comparison logic: the yellow frog is angrier than the black frog?  ",
+    "Is the angrier frog yellow in color?  ",
+    "Is the less angry frog black in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is not a yellow frog in the image. There are two yellow frogs in the image.\nNo, there is not a black frog in the image. Both frogs are yellow with black spots.\nNo, the image does not present a comparison logic: the yellow frog is angrier than the black frog. Both frogs carry the same expression.\nNo, the angrier frog is not yellow in color, as there is no sign of anger.\nNo, the less angry frog is not black in color, as there is no black frog and no sign of anger."
+}

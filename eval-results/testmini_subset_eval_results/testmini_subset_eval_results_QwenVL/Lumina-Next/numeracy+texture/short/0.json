@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes the objects in the image appear as arranged items reflecting creative intent.\nno there is no camera present in the image.\nyes there are fish depicted on the left chair's seat.\nyes there are chairs present with objects placed on them.\nyes multiple candles are lit and visible at different points.\nno there are no paddles present in this indoor scene.\nno there are two devices resembling old cameras not four.\nyes there are three fish lying on the chair.\nno there are two wooden-framed chairs visible, not three.\nyes there are four visible lit candles in the image.\nno paddles are an outdoor item not appearing here.\nno the devices resemble vintage cameras likely made from metal components.\nno the chairs have a wood frame rather than being made of plastic."
+}

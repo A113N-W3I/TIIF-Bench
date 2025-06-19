@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image shows an object which appears to be a scale and not a pizza cutter.\nno The image shows an object resembling a scale, which is not related to jewelry appraisal.\nno There is no pizza cutter visible in the image; the object appears to be a round scale.\nno There is no jewelry appraisal present in the image.\nno Since neither a pizza cutter nor a jewelry appraisal is present in the image, this cannot apply."
+}

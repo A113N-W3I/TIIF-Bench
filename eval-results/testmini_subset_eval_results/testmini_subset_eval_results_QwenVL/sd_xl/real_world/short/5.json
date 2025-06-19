@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Does this image show a glowing cybernetic highway at night? Answer with yes or no.",
+    "Is the universe futuristic and inspired by a neon-lit digital world? Answer with yes or no.",
+    "Does the rider on a lightbike leave a blue light trail behind? Answer with yes or no.",
+    "Does the image have ultra-sharp lines? Answer with yes or no.",
+    "Is the background dark? Answer with yes or no.",
+    "Is the image high contrast? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The scene is illuminated by artificial lights with a cybernetic feel, typical for a futuristic setting.\nyes The environment features vivid neon colors and advanced technology elements.\nno The rider's lighttrail appears to blend with the surrounding neon lights rather than being distinctly blue.\nyes The image showcases crisp, defined edges and geometric forms.\nyes The overall lighting scenario has a darker backdrop with highlighted elements.\nyes There is a stark difference between the bright lights and the dark spaces."
+}

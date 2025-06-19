@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there turtles in the image?  ",
+    "Is the number of turtles 3?  ",
+    "Are there sofas in the image?  ",
+    "Is the number of sofas 3?  ",
+    "Are there birds in the image?  ",
+    "Is the number of birds 3?  ",
+    "Is there a boat in the image?  ",
+    "Is the number of boats 1?  ",
+    "Are there flags in the image?  ",
+    "Is the number of flags 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are three turtle figures sitting on what appears to be a picnic area.\nyes The image clearly shows three turtles.\nyes Each turtle is seated on a separate sofa-like structure.\nno There are three sofas, not two.\nyes Two turtles are seated and there's one additional figure that could be considered a bird.\nyes The central figure looks like a bird, making the count of bird-like figures three.\nyes A small boat is floating in front of the turtles.\nyes There is exactly one visible boat in the water.\nyes American flags are placed on poles behind the turtles.\nyes There are four American flags clearly visible."
+}

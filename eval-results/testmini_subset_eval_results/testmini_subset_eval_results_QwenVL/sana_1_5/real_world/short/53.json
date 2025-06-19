@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a card with design elements typical of wedding invitations, such as floral trimmings and formal script.\nyes The card displays a textured appearance consistent with eggshell finish and contains embossed decorative patterns.\nno While there are elegant decorations, they do not specifically represent the couple; instead, they appear as ornate borders.\nno The card features multiple decorative borders and script, indicating that the use of decoration is not minimalist.\nno The text on the card does not mention \"Image and Text\"; it appears to include congratulatory phrases associated with weddings.\nno The typesetting includes both decorative scripts and possibly places for personalization, which may not constitute as 'perfect' given layout specifics for individual reading styles.\nyes The card is laid out on a surface that resembles a wooden desk based on visible grain patterns.\nyes The text presented on the invitation card is sufficiently clear and legible in the image.\nno There is no visible text detailing the date of March 25, 2025."
+}

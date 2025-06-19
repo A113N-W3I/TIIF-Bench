@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The object depicted is not a real object but an artistic and surreal representation combining fish and boats, which does not exist in reality.\nno There is no camera visible in the image.\nyes There are fish in the image; they are part of the boats' design.\nno There is no chair present in the image.\nyes There is a candle visible in the background on a table.\nno The number of paddles visible is 1, not 2.\nno There are no cameras in the image; thus, the quantity cannot be four.\nyes There are two boats designed as fish in the forefront, and if counting the partial view of another similar object, it could imply the presence of four fish-like structures.\nno There are no chairs in the image, making it impossible for there to be three.\nno There is only one candle visible, not four.\nno The paddles appear to be metallic or wooden, not made of leather.\nno There are no cameras in the image, so their material cannot be assessed.\nno The chairs are not made of plastic; there are no chairs in the image at all."
+}

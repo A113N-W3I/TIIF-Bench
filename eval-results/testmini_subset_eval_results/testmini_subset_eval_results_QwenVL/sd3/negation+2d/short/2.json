@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a skateboard in the image?  ",
+    "Are the ears of the cat visible?  ",
+    "Is the cat on the top of the skateboard?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a cat standing on a skateboard in the center of the image.\nyes A skateboard is present under the cat, with red wheels and black grip tape.\nyes The cat's two pointed ears are clearly visible above its head.\nyes The cat is positioned on top of the skateboard, balancing on it with its paws."
+}

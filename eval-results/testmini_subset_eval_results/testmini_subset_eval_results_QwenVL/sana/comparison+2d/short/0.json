@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there birds in the image?  ",
+    "Are there trees in the image?  ",
+    "Does the image present a comparison logic: birds are more than trees?  ",
+    "Is the birds and trees on one side of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are numerous birds depicted in various colors and styles throughout the image.\nyes Trees are visible as part of the background, with branches extending into the scene.\nyes The image shows a multitude of birds that clearly outnumber the trees, indicating a comparison where birds are more prevalent.\nno Birds and trees are distributed across the entire image rather than being confined to one side."
+}

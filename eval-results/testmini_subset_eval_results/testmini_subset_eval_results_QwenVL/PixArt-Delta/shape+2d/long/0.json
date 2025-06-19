@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a bookshelf in the image?  ",
+    "Is there a shelf in the image?  ",
+    "Is the bookshelf in shape of diamond?  ",
+    "Is the shelf pentagonal?  ",
+    "Is the bookshelf on the top of the shelf?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a structure that holds books, which is commonly referred to as a bookshelf.\nyes There is a structure in the image that serves as a shelf for holding items like books.\nno The bookshelf has a complex geometric shape but it is not in the shape of a diamond.\nno The shelf does not have a pentagonal shape; it has a more complex geometric form.\nno The bookshelf and the shelf are the same structure; the bookshelf is not placed on top of a separate shelf."
+}

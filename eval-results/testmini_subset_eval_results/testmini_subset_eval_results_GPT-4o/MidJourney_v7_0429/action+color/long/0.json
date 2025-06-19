@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there isn't a ballerina in the image. The image shows a woman in a pose similar to a ballerina, but not specifically as a ballerina.\nYes, there is an iceberg in the image. It is the structure on which the woman is standing.\nNo, the ballerina is not pirouetting on the iceberg. The woman is posing with one leg raised and one arm extended, not pirouetting.\nYes, the dress of the woman resembling a ballerina is red. This is evident from the striking color of her attire.\nNo, the iceberg is not brown. It has a light blue hue, typical of icebergs."
+}

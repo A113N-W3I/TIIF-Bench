@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rug in the scene?",
+    "Is the rug pentagon-shaped?",
+    "Is there a paper towel roll in the scene?",
+    "Is the paper towel roll cylindrical in shape?",
+    "Is the shoe rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The hexagonal patterned surface under the objects suggests it is a rug.\nno The rug has a hexagonal pattern, not pentagon-shaped.\nyes A paper towel roll is visible next to the shoe.\nyes The paper towel roll appears to be cylindrical in shape.\nno The shoe does not appear to have a rubber texture; it looks more like leather or synthetic material."
+}

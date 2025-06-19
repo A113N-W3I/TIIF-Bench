@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no complete soccer ball in the image; it shows part of a soccer ball-like texture on a larger object.\nno, there is no ottoman in the image; the object does not have the typical cubic shape of an ottoman.\nno, the soccer ball is not spherical; it is part of another object that is oval in shape.\nno, there is no ottoman, and thus it cannot be cubic in shape.\nno, the soccer ball is not in front of the ottoman; the image depicts part of a soccer ball-like design on an oval object, with no ottoman present."
+}

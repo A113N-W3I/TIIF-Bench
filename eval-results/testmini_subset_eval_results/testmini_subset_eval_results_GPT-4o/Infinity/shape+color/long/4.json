@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a bagel in the scene because it is clearly visible in the foreground with sesame seeds on top.\nYes, the bagel is round in shape because it has a circular form with a hole in the center.\nNo, there is no melon in the scene, as there is no fruit visible that resembles a melon.\nNo, the melon is not shaped like a teardrop because there is no melon present in the image.\nNo, the bagel is not white; it appears to have a golden-brown color typical of a baked bagel."
+}

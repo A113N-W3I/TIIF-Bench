@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the word 'Vegetable' is clearly visible in the image.\nyes, the word 'Gardening' is clearly visible in the image.\nno, the word 'with' is partially visible as 'with h' due to overlap.\nno, the word 'MIKE' is partially visible as 'h MIKE' due to overlap.\nyes, the word 'THE' is clearly visible in the image.\nyes, the word 'GARDENER' is clearly visible in the image."
+}

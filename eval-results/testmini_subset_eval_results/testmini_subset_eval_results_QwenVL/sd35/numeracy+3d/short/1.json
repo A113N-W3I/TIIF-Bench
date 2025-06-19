@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a computer in the image?  ",
+    "Is there a microphone in the image?  ",
+    "Are there flags in the image?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of microphone 1?  ",
+    "Is the number of flags 2?  ",
+    "Is the computer hidden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a monitor and accompanying keyboard indicating the presence of a computer.\nyes A microphone is visible on the right side of the desk.\nyes Two flags are positioned on either side of the computer setup.\nyes There is only one monitor visible which suggests the presence of one computer.\nyes Only one microphone can be seen on the desk.\nyes There are two distinct flags in the image, one on each side of the computer.\nno The computer components such as the monitor and keyboard are clearly visible and not hidden."
+}

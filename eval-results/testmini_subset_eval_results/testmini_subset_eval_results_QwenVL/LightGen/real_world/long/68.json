@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image clearly depicts a 3D illustration of a toilet with a cover opened at an angle.\nyes The illustration indeed has rounded edges and uses a simplified geometric form for the toilet and surrounding objects.\nyes The color palette observed is soft beige, light gray for the toilet itself, and warm orange for the träsk features, which serve as the focal point.\nyes The shading and gradients are soft, with no sharp shadows or bright highlights visible, creating a smooth appearance.\nyes The lighting appears to be effectively diffuse and softly illuminates the toilet from above and slightly to the right, casting gentle shadows.\nyes The toilet is the sole focus of the image, placed centrally with considerable empty space around it to emphasize isolation.\nyes The projection of the toilet is slightly angled, enhancing the perception of depth subtly but not overly deepening the perspective.\nyes The background maintains a consistency with a solid, muted color that harmonizes with the overall aesthetic without diverting attention from the subject.\nno There is no text present on the image; therefore, there is no typography, minimalistic or otherwise, at any location including the bottom-left corner.\nyes The 3D rendering employs a simplified, low-poly aesthetic noticeable in the flat planes and minimal detailing of the toilet and its environment."
+}

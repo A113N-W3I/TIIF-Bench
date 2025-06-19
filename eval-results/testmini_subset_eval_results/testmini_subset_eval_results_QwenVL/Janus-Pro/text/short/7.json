@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'SIMPLY' is clearly visible at the top of the image.\nno The text does not display 'Bullet' as one word; it shows '-=b0L=m'.\nyes The text 'Proof' appears next to '-=b0L=m'. \nno The text 'Nothing' is not present in the image.\nyes The text 'SAUCER' is shown at the bottom beneath the performance area."
+}

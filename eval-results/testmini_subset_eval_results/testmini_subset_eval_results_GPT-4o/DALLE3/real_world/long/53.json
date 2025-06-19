@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the image shows a wedding invitation card, as indicated by the text and decorative elements.\nyes, the card has a hefty appearance with eggshell textures and embossings visible in the design.\nno, there are no decorations abstractly representing the couple included on the card; the motifs are floral.\nno, the usage of iconography does not appear sparing and minimalist as there are multiple ornate elements.\nyes, the invitation includes text about the union of Image and Text, as evidenced by the large text in the center.\nyes, perfect typesetting seems to be used on the invitation with well-aligned text and decorative styles.\nyes, the invitation card is placed on a tasteful wooden desk, visible in the background.\nyes, the text in the generated picture is clear and readable, although some parts are creatively designed.\nno, the picture doesn't contain the exact time information of March 25, 2025; the year is obscured."
+}

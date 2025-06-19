@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a tennis ball prominently featured in the scene at the center bottom.\nyes, the tennis ball is spherical in shape as is typical for a tennis ball.\nyes, there is a picture in the scene as evidenced by the framed image showing the moon and sky.\nno, the picture is not spherical in shape; it is oval in shape as defined by the frame.\nyes, the frame around the picture is red."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bowl in the scene because a rounded basin resembling a bowl is visible.\nYes, the bowl is white in color because the bowl appears to be white.\nYes, there is a toilet in the scene because a toilet tank is visible.\nYes, the toilet is white because the toilet tank appears to be white.\nYes, the bathroom faucet is metallic because the faucet has a shiny metallic appearance."
+}

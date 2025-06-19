@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the reason is the outline of a skyscraper is visible in the center of the scene.  \nyes, the reason is the skyscraper has a tall and slender shape.  \nyes, the reason is a traffic sign is visible on the right side of the scene.  \nno, the reason is the traffic sign appears to be diamond-shaped, not pentagonal.  \nno, the reason is the shadows lack a \"fluffy\" texture, appearing more abstract and solid.  "
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There is no wooden mountain; the mountain appears to be composed of materials resembling stacked logs or wood-like structures, not a solid wooden mass.\nno There is no visible snow on the mountain's peak.\nyes The mountain is indeed wooden in texture as it is made up of what looks like stacked wooden planks.\nno The surface surrounding the mountain does not appear to have a rubber texture; instead, it seems to have an earthy and natural grounding appearance."
+}

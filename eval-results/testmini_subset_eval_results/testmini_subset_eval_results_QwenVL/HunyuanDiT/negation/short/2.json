@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bed in the image?  ",
+    "Is there a cat in the image?  ",
+    "Is the bed with a cat on it?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The object in the image is not a bed but a large cushion or pet bed.\nyes There is a cat lying on the large cushion.\nno The cat is on a large cushion, not a bed."
+}

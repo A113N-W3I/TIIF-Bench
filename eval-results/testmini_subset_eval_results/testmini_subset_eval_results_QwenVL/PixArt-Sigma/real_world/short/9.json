@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Does this image show a young Indian woman? Answer with yes or no.",
+    "Does this image show the woman with dark hair in an open ponytail? Answer with yes or no.",
+    "Is the woman wearing a black jacket? Answer with yes or no.",
+    "Is the setting of the image on a university campus? Answer with yes or no.",
+    "Is the woman looking directly at the camera? Answer with yes or no.",
+    "Does the image have a 1990s-style movie still aesthetic? Answer with yes or no.",
+    "Is it a sunny day in the image? Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image depicts a young individual who appears to be Indian based on visual features and attire.\nno Her hair is not in an open ponytail; it seems to be pulled back into what looks like a bun with loose strands around her face.\nyes The person in the image is indeed wearing a black jacket over a darker garment.\nyes The background architecture resembles that of a university campus with buildings typical of educational institutions.\nno The woman is slightly looking away from the camera rather than directly engaging with it.\nno There are no elements within the image that suggest a 1990s-style movie still aesthetic; instead, it appears contemporary.\nyes The lighting in the image, along with the shadows and bright areas on the subject and background, suggests it's a sunny day.\nno The image shows some inconsistencies in the woman's proportions and features, suggesting it may be AI-generated, which often lacks natural limb and facial proportions."
+}

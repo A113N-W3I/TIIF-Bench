@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 14,
+  "questions": [
+    "Is the text 'JOy' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'PEACE' in the image?",
+    "Is the text 'HEALTH' in the image?",
+    "Is the text 'FAMILY' in the image?",
+    "Is the text 'HAPPINESS' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'JOY' is present as part of 'JOYE' which is prominently displayed at the top of the image.\nno The word 'Love' appears in the image but not as a standalone word; it's part of a stylized graphic design within the Christmas tree shape.\nyes The word 'PEACE' is visible in the third section of the stylized Christmas tree in the image.\nyes 'HEALTH' is displayed in the fourth section of the stylized Christmas tree depicted in the image.\nyes 'FAMILY' can be seen written in the fifth section of the stylized Christmas tree shown in the image.\nyes 'HAPPINESS' appears in the bottom section of the stylized Christmas tree presented in the image."
+}

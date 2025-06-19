@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a bed in the image?  ",
+    "Is there a cat in the image?  ",
+    "Is the bed with a cat on it?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bed in the image because the bedding is clearly visible with pillows and blankets.\nYes, there is a cat in the image because a cat is lying on the bed.\nYes, the bed has a cat on it because the cat is lying directly on the bed."
+}

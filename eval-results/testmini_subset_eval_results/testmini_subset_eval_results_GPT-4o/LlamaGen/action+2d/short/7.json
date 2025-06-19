@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a window sill in the image?  ",
+    "Is the cat napping?  ",
+    "Is the cat on top of the window sill?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a cat in the image - the picture depicts a clearly visible orange tabby cat.  \nYes, there is a window sill in the image - the cat is lying on what appears to be a wooden window sill next to a window.  \nYes, the cat is napping - the cat's eyes are closed, indicating it is resting.  \nYes, the cat is on top of the window sill - its body is positioned on the window sill in the image.  "
+}

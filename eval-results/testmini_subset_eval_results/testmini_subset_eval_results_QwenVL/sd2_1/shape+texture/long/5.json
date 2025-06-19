@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a shelf in the scene?",
+    "Is the shelf in the shape of a pentagon?",
+    "Is there a earring in the scene?",
+    "Is the earring in the shape of a teardrop?",
+    "Is the pentagonal shelf wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image contains geometric shapes mounted on the wall that function as shelves.\nno The shelves in the image are not in the shape of a pentagon; they appear to be hexagons and other geometric shapes.\nno There is no earring visible in the scene; it features a plant, a book, and geometric wall-mounted shelves.\nno Since there is no earring in the scene, it cannot be in the shape of a teardrop.\nyes The geometric wall-mounted shelves appear to be wooden based on their color and texture."
+}

@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there people standing in the image?  ",
+    "Are there people sitting in the image?  ",
+    "Does the image present a comparison logic: people standing are more than people sitting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are individuals depicted as standing in the crowd.\nno There are no people clearly shown as sitting in this specific viewpoint; the figures are predominantly standing in a dense formation.\nno Given the visible section, it is unclear if there's a comparison since the focus seems to be more on standing figures rather than comparing them to seated ones."
+}

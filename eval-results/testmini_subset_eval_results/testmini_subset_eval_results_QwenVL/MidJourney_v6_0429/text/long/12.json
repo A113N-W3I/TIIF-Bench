@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 12,
+  "questions": [
+    "Is the text 'Trick' in the image?",
+    "Is the text 'or' in the image?",
+    "Is the text 'Treat' in the image?",
+    "Is the text 'Aam' in the image?",
+    "Is the text 'The' in the image?",
+    "Is the text 'Trickster' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The word 'Trick' is present in the phrase 'Trick Treat'.\nyes The word 'or' appears between 'Trick' and 'Treat'.\nyes The word 'Treat' is visible next to 'Trick'.\nyes The word 'Aam' appears as part of the text below the skeleton.\nno The word 'The' is not present in the image.\nyes The word 'Trickster' is found at the bottom of the image."
+}

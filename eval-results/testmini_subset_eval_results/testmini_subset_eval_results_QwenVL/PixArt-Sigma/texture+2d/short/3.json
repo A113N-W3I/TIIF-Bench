@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is an orange spherical object that resembles a rubber ball in the image.\nno There is no metallic key visible; instead, there is a blue key-shaped object which appears not to be metallic.\nno The orange spherical object may resemble a rubber ball but its material cannot be confirmed as rubber from the image alone.\nno The blue key-shaped object does not appear to be made of metal based on its color and texture.\nyes The orange spherical object resembling a rubber ball is positioned on the bottom surface of the scene.\nyes The blue key-shaped object is also placed on the bottom surface of the scene."
+}

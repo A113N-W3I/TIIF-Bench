@@ -1,0 +1,31 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a yellow dog in the image?  ",
+    "Is there a gold dog in the image?  ",
+    "Is there a tree in the image?  ",
+    "Is the yellow dog chasing the gold dog?  ",
+    "Is the yellow dog colored yellow?  ",
+    "Is the gold dog colored gold?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no yellow dog in the image. The dogs appear to be brown and grayish, not yellow.\nNo, there is no gold dog in the image. The dogs appear to be brown and grayish, not golden.\nYes, there is a tree in the image. A tree with branches and leaves is clearly visible.\nNo, the yellow dog is not chasing the gold dog, as there are no yellow or gold dogs in the image.\nNo, the yellow dog is not colored yellow, as there is no yellow dog in the image.\nNo, the gold dog is not colored gold, as there is no gold dog in the image."
+}

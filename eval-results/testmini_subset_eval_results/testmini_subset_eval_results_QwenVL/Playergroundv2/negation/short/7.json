@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The individual is wearing a jacket that fits the description of a windbreaker: lightweight with a hood and zipper.\nno There is no visible garment resembling a sweater underneath or elsewhere in the image.\nno Since there isn't a sweater visible, it's not possible for the windbreaker to be on top of one."
+}

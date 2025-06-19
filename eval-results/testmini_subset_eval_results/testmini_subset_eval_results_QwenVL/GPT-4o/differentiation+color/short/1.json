@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+color",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a red rose in the image?  ",
+    "Is there a blue rose in the image?  ",
+    "Does the image present a differentiation logic: a rose that is not fully bloomed is higher than a rose that is already in bloom?  ",
+    "Is the red rose not fully bloomed?  ",
+    "Is the blue rose already in full bloom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a red rose that is not fully bloomed.\nyes There is a blue rose depicted in the image which appears to be in full bloom.\nyes The red rose, which is not fully bloomed, is positioned higher than the blue rose that is in full bloom.\nyes The red rose in the image is shown as a bud, indicating it is not fully bloomed.\nyes The blue rose is illustrated with open petals, signifying it is in full bloom."
+}

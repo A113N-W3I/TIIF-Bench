@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "short_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a cup in the image?  ",
+    "Is the cloud white?  ",
+    "Is the cup blue?  ",
+    "Is the cloud on the right of the cup?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no cloud in the image; the shape appears more artistic than a literal cloud.\nno, there is no cup in the image; the shapes in the image are abstract and do not resemble a cup.\nyes, the object that resembles a cloud is white.\nno, there is no cup, so it cannot be blue.\nno, there is no cloud in relation to a cup, as there is no cup in the image."
+}

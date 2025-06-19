@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes This image shows an ornate card which is likely a wedding invitation based on its design and layout.\nno The card has intricate lace-like cut-out details rather than being hefty with eggshell textures and embossings.\nno The decorations are botanical and floral representations, not abstract forms representing the couple.\nno The card features elaborate cut-out designs around the edge, which is not minimalist but rather detailed and decorative.\nno The specified text about the union of Image and Text is not present; instead, it appears to have placeholder or generic text.\nno The typesetting is not perfect as there are words like \"ofe\" and \"nveimt\" which seem incorrect or out of place.\nyes The card is indeed placed on what looks like a wooden surface with a natural finish, suggesting a tasteful wooden desk.\nno The text contains some words that are not clear and seem incorrect, such as \"ofe\" and \"seret,\" making it not fully readable.\nno There is no mention or indication of a specific date such as March 25, 2025, on the invitation."
+}

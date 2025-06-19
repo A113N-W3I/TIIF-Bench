@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a larger person wearing a yellow hat in the image?  ",
+    "Is there a smaller person without a hat in the image?  ",
+    "Does the image present a differentiation logic: the larger person wears a yellow hat, the smaller person does not?  ",
+    "Are these two people positioned side by side in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The larger figure is the yellow chick-like creature and it appears to be wearing something resembling a hat.\nno There is no smaller person without a hat; the small human figure is wearing a hat.\nyes The larger yellow creature has what could be interpreted as a yellow hat, while the smaller human figure also has a hat, but they differ in appearance and size.\nyes The two figures, the human and the yellow chick, are standing next to each other side by side."
+}

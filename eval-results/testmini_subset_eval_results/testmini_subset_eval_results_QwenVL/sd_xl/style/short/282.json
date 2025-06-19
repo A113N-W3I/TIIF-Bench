@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 282,
+  "questions": [
+    "Is the image in American Comics style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no This image depicts a highly detailed and realistic mecha robot standing amidst a devastated urban landscape, which is more characteristic of Japanese mecha art styles rather than American Comics style, which typically features a different approach to visual storytelling and design elements."
+}

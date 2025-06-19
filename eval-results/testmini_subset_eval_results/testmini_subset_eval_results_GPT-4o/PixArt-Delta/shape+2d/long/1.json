@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pear in the image?  ",
+    "Are there cushions in the image?  ",
+    "Is the pear round?  ",
+    "Are the cushions spherical?  ",
+    "Is the pear on the left of the cushions?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no pear in the image. The image shows an object that looks like a green spherical fruit, but it doesn't resemble the typical elongated shape of a pear.\nNo, there are no cushions in the image. The image contains only a single object, which is the spherical fruit-like object.\nNo, the pear is not round. Although the object appears round, since it is likely not a pear, the question of its shape as a pear is moot.\nNo, there are no cushions, so they cannot be spherical. The image contains no cushions, so their shape is irrelevant.\nNo, there is no pear and no cushions in the image, thus the pear cannot be on the left of cushions. The question doesn't apply to the image as shown."
+}

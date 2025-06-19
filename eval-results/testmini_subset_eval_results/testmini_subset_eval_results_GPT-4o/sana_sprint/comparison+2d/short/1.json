@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there bells in the image?  ",
+    "Are there dogs in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?  ",
+    "Is the bell on the bottom of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there are no bells in the image because the object that resembles a bell is part of an animal.  \nyes, there is a dog in the image sitting to the right of the object.  \nno, the image does not present a comparison logic of a bell being bigger than the dog, as the object is not a bell by itself.  \nno, there is no bell on the bottom of the image because the object resembling a bell is part of an animal."
+}

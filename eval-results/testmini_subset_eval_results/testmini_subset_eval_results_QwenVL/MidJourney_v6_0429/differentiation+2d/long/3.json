@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a larger person wearing a yellow hat in the image?  ",
+    "Is there a smaller person without a hat in the image?  ",
+    "Does the image present a differentiation logic: the larger person wears a yellow hat, the smaller person does not?  ",
+    "Are these two people positioned side by side in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The larger figure in the image is wearing a large yellow hat.\nno Both the larger and smaller figures in the image are wearing hats; the smaller figure's hat is just smaller in proportion.\nno While there is a size difference between the two figures, both are depicted with hats, so there is no differentiation based on hat-wearing alone.\nno The two figures are not positioned side by side; they are apart from each other, with some space between them."
+}

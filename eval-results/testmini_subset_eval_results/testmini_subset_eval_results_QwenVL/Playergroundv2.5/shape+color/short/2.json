@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The object in the center appears to be a decorative item that could serve as a trinket box.\nyes The object is clearly pyramid-shaped with a triangular base and pointed top.\nno There is no visible hallway in the background; it appears to be a dark, possibly indoor setting with columns.\nno Since there is no hallway present, it cannot be described as diamond-shaped.\nno As there is no hallway, it cannot be assessed for color."
+}

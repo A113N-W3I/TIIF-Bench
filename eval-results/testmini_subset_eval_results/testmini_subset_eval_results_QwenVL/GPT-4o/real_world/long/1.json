@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The model is shown with her fingers placed upon her face, holding a dollop of cream which suggests she is about to apply it.\nyes The model's closed eyes and gentle expression suggest a state of relaxation, commonly associated with self-care activities.\nyes The lighting in the image appears soft and diffused, enhancing the natural glow of the model's skin without harsh shadows or highlights.\nno The background does not prominently feature pastel tones such as blush pink, soft beige, or mint green; it appears more neutral.\nyes There is a text overlay that reads 'GLOW NATURALLY' and 'WISH GLOW SKINCARE', which matches the description given.\nyes There are minimalist icons of leaves and a droplet incorporated into the image alongside the text.\nyes The model is at the center of the frame, with attentiondrawn to her skin and the cream being applied.\nyes The overall look of the image aims for an aspirational aesthetic through the model's serene expression and pristine skin, while remaining approachable due to the simple setting and actions depicted.\nyes The model has cream visibly on her face, specifically a dollop under her eye where her fingers are poised.\nyes The proportions and appearance of the model's limbs and face seem natural and realistic."
+}

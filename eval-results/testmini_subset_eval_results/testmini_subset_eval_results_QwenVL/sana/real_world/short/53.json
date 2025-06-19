@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not depict a wedding invitation card; it appears to be an abstract, collage-like composition.\nno There is no indication of eggshell textures or embossings as the image contains no physical textures discernible within its abstract design.\nno The image does not feature abstract representations specific to a couple or any personal elements typically associated with wedding invitations.\nno The image is characterized by a chaotic assembly of visual elements rather than minimalistic use of iconography.\nno The image does not include any recognizable text specifying the union of Image and Text; the text appears distorted and abstract.\nno With the overlapping and distorted letters, it can be concluded that the typesetting is not perfect or legible.\nno The image background is not identifiable as a tasteful wooden desk; it is an abstract mixture of colors and shapes.\nno The text in the image is severely distorted and not clear or readable.\nno There is no visible specific date such as March 25, 2025 within the abstract elements and distorted text of the image."
+}

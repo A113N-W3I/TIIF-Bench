@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a refrigerator in the image?  ",
+    "Is there a plate in the image?  ",
+    "Is the refrigerator in front of the plate?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image does not contain distinct features of a clear refrigerator.\nno, there is no clear depiction of a plate in the image.\nno, there is no refrigerator or plate to determine if one is in front of the other."
+}

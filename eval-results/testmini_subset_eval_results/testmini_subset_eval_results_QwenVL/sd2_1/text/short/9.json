@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is the text 'Strike' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Precision' in the image?",
+    "Is the text 'Momentum' in the image?",
+    "Is the text 'Bowling' in the image?",
+    "Is the text 'Night' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Pins' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes Because the word 'Strike' is present in the image.\nno There is no text 'Elegance' visible in the image.\nno The text 'Focus' does not appear anywhere in the image.\nno 'Precision' is not written in the image provided.\nno The image does not contain the text 'Momentum'.\nno 'Bowling' is not seen as a text within this image.\nno There is no mention of 'Night' in the text of the image.\nno The word 'Style' is not present in the image.\nno The image does not display the text 'Pins'."
+}

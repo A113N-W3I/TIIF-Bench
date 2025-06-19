@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is the text 'Eternal' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'Promise' in the image?",
+    "Is the text 'Forever' in the image?",
+    "Is the text 'Commitment' in the image?",
+    "Is the text 'Together' in the image?",
+    "Is the text 'Yes' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Moment' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Eternal' is missing an 'a', but 'ETRNAL' is present.\nyes The word 'love' is part of the text string below the main word.\nno The text 'Promise' is not in the image; there is 'PROMS.' which seems like a variant.\nyes The text 'Forever' is inherently suggested in 'ETRNAL,' although not spelled out directly.\nno The word 'Commitment' appears misspelled as 'COMMIIIMENT' in the image.\nno The word 'Together' appears misspelled as 'TOGETHHER' in the image.\nyes The word 'Yes' is present in the bottom text string.\nyes The word 'Dream' is present in the bottom text string.\nyes The word 'Moment' is present in the bottom text string."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The word 'Vegetable' is present in the image.\nyes The word 'Gardening' is visible in the image.\nyes The word 'with' appears in the image.\nyes The word 'MIKE' is found in the image.\nno The word 'THE' does not appear in the image as it does in the question; instead, it is part of another phrase 'THE GARDENER.'\nno The words 'GARDENER' are not standalone but part of the phrase 'THE GARDENER.'"
+}

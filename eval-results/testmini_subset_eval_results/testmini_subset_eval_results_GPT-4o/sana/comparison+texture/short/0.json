@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "short_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a metallic rose in the image?  ",
+    "Is there a fabric rose in the image?  ",
+    "Does the image present a comparison logic: a rose that is not fully bloomed is higher than a rose that is already in bloom?  ",
+    "Is the not fully bloomed rose metallic in texture?  ",
+    "Is the blooming rose fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the image does not display a metallic rose; the textures visible are abstract and unclear, without distinct metallic characteristics.  \nNo, the image does not display a fabric rose; there is no discernible fabric texture in the composition.  \nNo, the image does not present a clear comparison logic where a rose that is not fully bloomed is higher than a blooming rose; the layout and details are ambiguous.  \nNo, the image does not display a not fully bloomed rose with metallic texture; the abstract nature of the image prevents a definitive assessment.  \nNo, the image does not display a blooming rose with fabric texture; the textural characteristics of the roses are indistinct.  "
+}

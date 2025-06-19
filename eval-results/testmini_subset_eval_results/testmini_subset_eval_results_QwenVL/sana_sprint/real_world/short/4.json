@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The infographic does not appear to include specific text indicating 'Survey Results on Podcasts'.\nyes The infographic uses a wide range of colorful sections which suggest vibrant colors.\nno There are no distinctly recognizable modern icons present within the design elements.\nno The text is too distorted and unclear to determine if clear typography has been used.\nno Key statistics, including listening frequency, are not clearly highlighted due to lack of clarity and specific data representations.\nno There is no distinct mention or indication of highlighted statistics based on devices used.\nno No specific popular topics are discernibly highlighted among the distorted elements.\nno Due to the disorganized and cluttered appearance, it cannot be described as clean.\nno The chaotic layout and unclear information prevent it from being considered professional.\nno The distortion and lack of focus make it difficult to read easily.\nno The text is unclear and not legible due to distortion.\nno The numbers included are not clear or legible because of the same distortion issue."
+}

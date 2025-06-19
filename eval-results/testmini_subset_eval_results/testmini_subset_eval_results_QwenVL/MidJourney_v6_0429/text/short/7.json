@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'SIMPLY' is part of the sign above the stage.\nyes The text 'Bullet' appears as part of 'Bullett Proof' on the sign.\nyes The text 'Proof' is visible as part of 'Bullett Proof' on the sign.\nyes The text 'Nothing' is displayed twice under the main sign.\nyes The text 'SAUCER' is visible on the drum set and on one of the musicians' shirts."
+}

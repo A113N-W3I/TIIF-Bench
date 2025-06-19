@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The title text is significantly larger than the regular text, indicating emphasis.\nno There aren't distinct text paragraphs; the text is presented in a continuous flow without paragraph breaks.\nyes The emphasized text uses vibrant colors like yellow and orange, which stand out against the darker background.\nyes There is an eye-catching pattern in the background resembling a collage of paper notes and chat windows.\nno While there are icon-like elements, they are not clearly interpretable and could cause some distraction.\nno The text 'Breaking News! ChatGPT has become even stronger!' is mistranscribed and scrambled in the image.\nno The text 'Better multitasking ✨' is not present in the given image.\nno The text 'Improved programming skills 💪' is not found within the image.\nno The image does not contain the text 'Creativity off the charts 🎨'.\nno The phrase 'Try it now!' is not included in the image's text.\nno The image does not maintain a 9:16 aspect ratio; it appears wider, likely closer to a 16:9 format.\nno The text is scrambled making it unclear and unreadable, except for stylized large words that can be inferred but not fully read."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a shirt in the image?  ",
+    "Is the fork metallic?  ",
+    "Is the shirt made of fabric?  ",
+    "Is the fork on the bottom of the shirt?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The object in the image resembles a tag or label, not a fork.\nno The image shows a piece of fabric with a tag, but it's not clear whether it's part of a shirt or another type of garment.\nno There is no fork present in the image, so its material cannot be assessed.\nyes The object in the image appears to be a piece of folded fabric, which is consistent with what a shirt would be made of.\nno There is no fork present in the image, therefore its position relative to the shirt cannot be determined."
+}

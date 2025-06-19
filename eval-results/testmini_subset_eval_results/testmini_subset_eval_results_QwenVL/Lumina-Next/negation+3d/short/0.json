@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a group of people in the image?  ",
+    "Is there a tall tree in the image?  ",
+    "Are the people wearing hats?  ",
+    "Are the people hidden by the tall tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a visible gathering of individuals in the scene.\nyes A tall tree can be seen towering over the crowd.\nyes Many individuals in the group appear to be wearing hats.\nno The tall tree does not obscure the view of the people; they are clearly visible around it."
+}

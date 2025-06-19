@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an angrier frog in the image?  ",
+    "Is there another frog jumping upward in the image?  ",
+    "Does the image present a differentiation logic: one frog is angrier sitting on the steps, while another frog is jumping upward?  ",
+    "Is the angrier frog on the top step?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not convey a sense of anger in either frog.\nyes There is a frog captured mid-jump in the image, implying upward motion.\nno Both frogs appear similar in their behavior and emotions; none seem specifically angry or differentiated through action in terms of anger.\nno The frog on the rock appears calm and composed, not exhibiting any signs of anger; it is also not on a set of steps."
+}

@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No - The image shows a 3D illustration of a toilet with rounded edges.   \nNo - The color palette primarily features a rust-like warm orange tone without soft beige or light gray present prominently.    \nYes - The lighting is soft and diffuse, coming slightly from above and to the right.     \nYes - The image has a matte and smooth surface texture with low reflectivity.    \nYes - The toilet is centered in the composition with ample negative space around it.     \nYes - The perspective is slightly tilted to provide a moderate sense of three-dimensionality.    \nYes - The background is a solid, low-saturation gray color that complements the subject.    \nNo - There is no typography positioned in the lower-left corner.     \nNo - There is no gray text present with low contrast against the background.    \nNo - There is no gray text in the image."
+}

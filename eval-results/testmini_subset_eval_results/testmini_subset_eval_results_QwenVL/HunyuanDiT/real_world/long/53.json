@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image does appear to depict a card with ornate designs typical of a wedding invitation.\nno The card has intricate paper-cut floral patterns, but these do not appear to have eggshell textures or embossings in the traditional sense.\nyes The card features elegant floral decorations that could abstractly symbolize the union of two individuals.\nno The use of iconography includes detailed floral patterns which go beyond a spare and minimalist approach.\nno There is no visible text on the card relating to the union of Image and Text; the text present appears to be in an unrecognized script.\nno The typesetting seems unconventional using an unreadable font and layout that is not typically associated with 'perfect' typesetting in invitation context.\nyes The card is placed upon a surface that resembles a wooden desk, contributing to a tasteful presentation.\nno While artistic, the stylized text on the card is not clear or easily readable, as it uses a decorative, non-standard script.\nno The picture does not display any explicit textual information indicating a date such as March 25, 2025."
+}

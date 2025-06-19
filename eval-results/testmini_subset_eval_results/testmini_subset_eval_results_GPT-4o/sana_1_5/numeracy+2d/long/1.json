@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there airplanes in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there lamps in the image?  ",
+    "Is the number of airplanes 4?  ",
+    "Is the number of clocks 3?  ",
+    "Is the number of lamps 2?  ",
+    "Are the airplanes near the clocks?  ",
+    "Are the clocks near the lamps?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are airplanes in the image as seen inside the clock.\nyes, there are clocks in the image as the background features a large clock face.\nyes, there are lamps in the image as shown on either side of the smaller clock.\nyes, the number of airplanes is 4, as depicted inside the clock.\nno, the number of clocks is not 3; there appears to be 1 clock face and 1 smaller clock.\nyes, the number of lamps is 2, with one on each side of the smaller clock.\nyes, the airplanes are near the large clock face as they appear to be flying through it.\nno, the clocks are not near the lamps; the smaller clock is between the two lamps."
+}

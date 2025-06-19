@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fence in the scene?",
+    "Is the fence in the shape of a square?",
+    "Is there a fig in the scene?",
+    "Is the fig in the shape of a teardrop?",
+    "Is the carpet of grass fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a fence in the scene. The wooden structure in the background is recognizable as a fence.\nNo, the fence is not in the shape of a square. The fence is more linear or rectangular in structure, not forming a closed square shape.\nYes, there is a fig in the scene. The green fruit hanging from the branches resembles a fig.\nNo, the fig is not in the shape of a teardrop. The fig is more round or oblong rather than teardrop-shaped.\nNo, the carpet of grass is not fluffy. The grass appears to be more flat and dense rather than fluffy in texture."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "short_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a frog in the image?  ",
+    "Is there a bear in the image?  ",
+    "Is the frog green?  ",
+    "Is the bear blue?  ",
+    "Is the frog near the bear?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image contains a creature resembling a frog with bear-like features.\nyes The image contains a creature resembling a bear with frog-like features.\nyes The creature resembling a frog is predominantly green.\nno The bear-like creature is blue, not the frog.\nyes The frog-like and bear-like creatures are positioned close to each other in the image."
+}

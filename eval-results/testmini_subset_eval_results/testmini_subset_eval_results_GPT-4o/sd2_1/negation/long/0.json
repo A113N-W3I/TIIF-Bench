@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a steak in the image?  ",
+    "Does the fork pierce the steak?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a fork in the image because the image clearly shows a metallic fork on the left side.\nNo, there is no steak in the image because the large object in the image resembles a cracked plate and not a piece of steak.\nNo, the fork does not pierce the steak because there is no steak present in the image to be pierced."
+}

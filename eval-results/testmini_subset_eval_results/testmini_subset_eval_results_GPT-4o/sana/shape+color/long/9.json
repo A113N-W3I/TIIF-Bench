@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, the hat in the scene is not a tennis hat but resembles more of a broad hat with a brim.\nyes, the hat is conical in shape, as it comes to a point at the top.\nyes, there is a bag in the scene, as depicted by the object slung over the shoulder.\nyes, the bag is round in shape, as it appears to be circular or oval.\nyes, the round bag is brown, based on the image's coloration."
+}

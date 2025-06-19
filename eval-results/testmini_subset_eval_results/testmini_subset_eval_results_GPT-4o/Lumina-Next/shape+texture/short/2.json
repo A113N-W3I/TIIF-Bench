@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no necklace in the scene. There is a red bead-like object but it doesn't appear to be a necklace.\nno, there is no necklace in the scene, so it cannot have a round shape.\nyes, there is a slice of watermelon in the scene. It is the red and green fruit in the foreground.\nno, the watermelon slice in the scene is not oblong; it is more triangular or wedge-shaped.\nno, there is no round necklace in the scene, so it cannot have a rubber texture."
+}

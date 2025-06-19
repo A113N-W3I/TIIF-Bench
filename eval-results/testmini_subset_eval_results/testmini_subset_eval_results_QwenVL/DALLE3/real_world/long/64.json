@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 64,
+  "questions": [
+    "Does the image show multi-layered shelves filled with identical red baseball caps? Answer with yes or no.",
+    "Do the red baseball caps have bold text on the front reading 'MAKE AMERICA GREAT AGAIN'? Answer with yes or no.",
+    "Is there a white tag on the side of the caps labeled 'MADE IN CHINA'? Answer with yes or no.",
+    "Is there a close-up view of one red baseball cap? Answer with yes or no.",
+    "Is there a price tag below the image with '$50.00' crossed out and replaced with '$77.00'? Answer with yes or no.",
+    "Is the color palette of the image made up of nostalgic earthy yellows and dark reds? Answer with yes or no.",
+    "Does the shadowing mimic the vintage printing texture of the 1990s? Answer with yes or no.",
+    "Is the overall composition exaggerated and satirical? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image shows shelves with multiple layers and the caps appear identical and red.\nyes The text 'MAKE AMERICA GREAT AGAIN' is prominently displayed on the caps in bold letters.\nyes There is a visible white tag on the side of the cap that reads 'MADE IN CHINA'.\nyes The foreground features a single cap which is larger and more detailed than the others, indicating a close-up view.\nyes Below the image, there is a price tag showing '$50.00' crossed out and replaced with '$77.00'.\nyes The colors in the image are primarily warm and reminiscent of nostalgic tones, including earthy yellows and dark reds.\nno The shadowing is not consistent with vintage 1990s printing textures; it is more in line with contemporary digital illustration styles.\nyes Elements such as the raised price point and the visible 'MADE IN CHINA' tag contribute to an exaggerated and satirical tone of the image."
+}

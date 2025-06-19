@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 171,
+  "questions": [
+    "Is the image in Cyberpunk style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features an older, somewhat dingy urban environment with tight buildings and greenery, which is more characteristic of a dystopian post-apocalyptic style rather than the high-tech, neon-lit aesthetics typically associated with Cyberpunk.\n"
+}

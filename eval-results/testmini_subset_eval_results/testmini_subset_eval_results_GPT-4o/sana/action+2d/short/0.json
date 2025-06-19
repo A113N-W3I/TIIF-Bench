@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no - The image does not distinctly depict any identifiable human figure or child-like features.\nyes - The image does appear to have round, translucent objects resembling bubbles scattered throughout.\nno - There is no clear depiction of a box or container that can be identified as a toy box.\nno - There is no visible individual, therefore no child can be seen blowing bubbles in the image.\nno - There is no identifiable object resembling a toy box located at the bottom of the frame."
+}

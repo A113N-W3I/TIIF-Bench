@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is the text 'Strike' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Precision' in the image?",
+    "Is the text 'Momentum' in the image?",
+    "Is the text 'Bowling' in the image?",
+    "Is the text 'Night' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Pins' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes 'Strike' is clearly visible in the image.\nyes 'Elegance' appears next to 'Strike' in the image.\nno The word 'Focus' is not fully visible; it seems obscured and incomplete.\nyes 'Precision' is visible in the image.\nyes 'Momentum' is part of the visible text in the image.\nno There is no text 'Bowling' in the image.\nyes 'Night' is part of the visible text in the image.\nyes 'Style' is present in the text within the image.\nyes 'Pins' is clearly seen on the right side of the text in the image."
+}

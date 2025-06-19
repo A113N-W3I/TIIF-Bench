@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The backrest and seat of the blue armchair act as cushions.\nno The cushion is part of the armchair's structure and is not spherical; it has a curved shape typical for seating furniture.\nno There is no object resembling a bookstand in the scene.\nno The blue object in front of the chair is conical and could be mistaken for a bookstand, but is not specified as one.\nyes The conical object is blue, matching the color of the armchair."
+}

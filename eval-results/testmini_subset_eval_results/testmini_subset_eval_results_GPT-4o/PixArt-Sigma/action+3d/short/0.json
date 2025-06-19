@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, the image contains a kangaroo. The kangaroo is prominently visible in the scene, standing on its hind legs.  \nYes, there is a rock in the image. The rock is located on the ground, with the turkey perched on it.  \nYes, there is a turkey in the image. You can see the bird standing on the rock next to the kangaroo.  \nNo, the kangaroo is not lifting the turkey. The turkey is simply standing on the rock near the kangaroo.  \nYes, the kangaroo is in front of the rock. It is positioned such that its legs and part of its body are overlapping with the rock.  "
+}

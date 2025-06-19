@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a person wearing a luminous turquoise jacket in the image?  ",
+    "Is there a person wearing a charcoal peacoat in the image?  ",
+    "Does the image present a differentiation logic: a person in a luminous turquoise jacket stands beside another person in a charcoal peacoat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There is a person wearing a luminous turquoise jacket.\nno The peacoat is not described as being charcoal in color; it appears darker.\nyes A person in a luminous turquoise jacket is standing beside another person in a dark-colored coat, which could be considered a charcoal peacoat for the purposes of this logic."
+}

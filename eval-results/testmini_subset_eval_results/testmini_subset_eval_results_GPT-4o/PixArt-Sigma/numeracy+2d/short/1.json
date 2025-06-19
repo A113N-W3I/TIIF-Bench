@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there airplanes in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there lamps in the image?  ",
+    "Is the number of airplanes 4?  ",
+    "Is the number of clocks 3?  ",
+    "Is the number of lamps 2?  ",
+    "Are the airplanes near the clocks?  ",
+    "Are the clocks near the lamps?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there are airplanes in the image. Three airplanes are depicted flying over the horizon.\n\nYes, there are clocks in the image. There are two large clocks and one additional clock in a surreal melted form.\n\nYes, there are lamps in the image. There are two objects that resemble lamps on the table.\n\nNo, the number of airplanes is not 4. There are 3 airplanes in the image.\n\nNo, the number of clocks is not 3. There are more than three clocks as one clock is surreal and melted, adding complexity, but clearly three distinct clocks.\n\nYes, the number of lamps is 2. There are two lamp-like objects on the table.\n\nYes, the airplanes are near the clocks. The airplanes are positioned above the clocks in the image.\n\nYes, the clocks are near the lamps. The clocks and lamps are positioned together on the table in the image."
+}

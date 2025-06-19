@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The object resembles a bagel with a hole in the center and is covered in powdered sugar.\nyes The bagel maintains a circular perimeter consistent with typical bagel shapes.\nno There is no melon present in the scene; instead, there is a smaller round object that appears more similar to a kernel of corn.\nno Since there is no melon, it cannot have a teardrop shape; the small object present is round.\nno The bagel has a golden-brown exterior, not white, though it is dusted with white powdered sugar."
+}

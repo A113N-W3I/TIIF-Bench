@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes the image contains a white vessel sink that resembles a bowl.\nyes the bowl-like vessel sink is indeed white in color.\nno there is no toilet visible in this image; it focuses on a sink area.\nno since there is no toilet in the image, its color cannot be determined.\nno the faucet has a metallic finish but it appears to be gold rather than typical metallic silver."
+}

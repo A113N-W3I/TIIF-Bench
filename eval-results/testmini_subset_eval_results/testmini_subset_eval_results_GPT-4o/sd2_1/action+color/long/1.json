@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a white cat in the image?  ",
+    "Is there a blue coyote in the image?  ",
+    "Is the cat watching the coyote?  ",
+    "Is the cat white?  ",
+    "Is the coyote blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is not a white cat in the image. The cat in the image is not purely white; it has a gray coloration.\nNo, there is not a blue coyote in the image. There are two cats present, and no coyote.\nNo, the cat is not watching the coyote. There is no coyote to be watched.\nYes, the larger cat in the image has predominantly white fur.\nNo, there is not a blue coyote in the image."
+}

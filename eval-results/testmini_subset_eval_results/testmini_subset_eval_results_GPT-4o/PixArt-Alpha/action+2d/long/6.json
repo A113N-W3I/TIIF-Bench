@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a bed in the image?  ",
+    "Is the cat sleeping on the bed?  ",
+    "Is the cat on the side of the bed?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a cat in the image because a cat with tabby markings is visible.  \nyes, there is a bed in the image because a wooden bed frame with bedding is shown.  \nyes, the cat is sleeping on the bed because the cat is lying on bedding with its eyes closed.  \nno, the cat is not on the side of the bed because it is resting in the middle of the bed."
+}

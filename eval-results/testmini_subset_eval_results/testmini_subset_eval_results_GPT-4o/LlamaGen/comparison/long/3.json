@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "long_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Does a computer exist in the image?  ",
+    "Does a computer mouse exist in the image?  ",
+    "Does the image present a comparison logic: computers are more than computer mice?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, a computer exists in the image; there are multiple monitors and keyboard-like objects indicating computers.\nno, a computer mouse does not exist in the image; the scene lacks any clear depiction of a computer mouse.\nno, the image does not present a comparison logic of computers being more than computer mice; there is no comparison depicted."
+}

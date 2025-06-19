@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a chef hat in the image?  ",
+    "Is there a snowball in the image?  ",
+    "Is the chef hat conical?  ",
+    "Is the snowball spherical?  ",
+    "Is the chef hat hidden behind the snowball from the viewer's perspective?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, the image appears to have a chef hat because the top of the object has a similar shape to a curved chef hat.\nYes, the image appears to have a snowball because the texture and appearance of the object is consistent with snow.\nNo, the chef hat is not conical because it has a more rounded, bulbous shape with a slight backward bend.\nNo, the snowball is not spherical because it has an irregular, slightly conical with a curved top shape.\nNo, the chef hat is not hidden behind the snowball from the viewer's perspective because the object is a combined shape resembling both."
+}

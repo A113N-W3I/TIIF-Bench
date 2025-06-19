@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the girl in front of the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a young person who appears to be a girl based on her appearance and clothing.\nyes A wooden desk is visible in the room, with items placed on it.\nyes The girl is positioned in front of the desk, as she interacts with items on it."
+}

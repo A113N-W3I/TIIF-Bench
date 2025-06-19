@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "short_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure appears to be a young person, likely a boy, due to their size and clothing.\nyes There is a large vertical surface against which the boy is jumping, indicating the presence of a wall.\nyes The boy casts a distinct shadow on the wall, which is visible and contrasts with the illuminated areas.\nyes The boy is wearing what appear to be sneakers, identifiable by their design and color.\nno The boy is not hidden; he is clearly visible as he jumps towards the wall, though his shadow extends onto the wall. The shadow of the tree does not obscure him."
+}

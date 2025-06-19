@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Does this image show a young Indian woman? Answer with yes or no.",
+    "Does this image show the woman with dark hair in an open ponytail? Answer with yes or no.",
+    "Is the woman wearing a black jacket? Answer with yes or no.",
+    "Is the setting of the image on a university campus? Answer with yes or no.",
+    "Is the woman looking directly at the camera? Answer with yes or no.",
+    "Does the image have a 1990s-style movie still aesthetic? Answer with yes or no.",
+    "Is it a sunny day in the image? Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The subject appears to be a young woman who could be of Indian descent based on her features and cultural markers such as the bindi.\nyes The woman’s hair is dark and styled in a manner that includes an open ponytail.\nyes The subject is clearly wearing a garment that resembles a black jacket.\nyes The background suggests an outdoor setting typical of a university campus.\nyes The woman's gaze is directed straight towards the camera lens.\nyes The image has qualities reminiscent of 1990s film photography, such as graininess and color saturation.\nyes The lighting in the image indicates a daytime scene with bright sunlight.\nyes The limbs and facial features of the subject appear natural and are consistent with high-quality portrait photography."
+}

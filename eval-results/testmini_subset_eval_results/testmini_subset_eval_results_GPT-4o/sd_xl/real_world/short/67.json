@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the title text does not appear to be at least twice the size of the regular text.\nNo, there does not appear to be adequate spacing between text paragraphs.\nNo, the emphasized text does not use vibrant colors to attract attention; colors are part of the art but not specifically for text emphasis.\nYes, there is an eye-catching pattern in the background resembling a collage or abstract design.\nNo, suitable icons or images do not seem to enhance visual depth without causing distraction; the image is chaotic overall.\nNo, the image does not contain the text 'Breaking News! ChatGPT has become even stronger!'.\nNo, the image does not contain the text 'Better multitasking ✨'.\nNo, the image does not contain the text 'Improved programming skills 💪'.\nNo, the image does not contain the text 'Creativity off the charts 🎨'.\nNo, the image does not contain the text 'Try it now!'.\nNo, the image is not in a 9:16 aspect ratio; it appears to be more square-like in dimension.\nNo, the text in the generated picture is not clear and readable."
+}

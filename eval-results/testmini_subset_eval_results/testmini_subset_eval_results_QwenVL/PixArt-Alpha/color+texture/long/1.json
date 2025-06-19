@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a grasshopper in the scene?",
+    "Is the grasshopper yellow in color?",
+    "Is there a sun in the scene?",
+    "Is the sun yellow in color?",
+    "Is the fence wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a grasshopper prominently displayed in the center of the image.\nyes The grasshopper exhibits a yellow hue with darker stripes.\nyes A bright sun is visible in the background, partially obscured by clouds.\nyes The sun appears to emit yellow light, contributing to the overall warm tone of the sky.\nyes The structure the grasshopper is perched on has the texture and appearance of wood."
+}

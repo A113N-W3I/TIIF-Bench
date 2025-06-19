@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a visible child in the image who appears to be blowing bubbles.\nyes Multiple bubbles are clearly visible in the image, floating around the child.\nyes A wooden box with toys inside is present, qualifying it as a toy box.\nyes The child is holding a bubble wand and bubbles are emanating from it, indicating the child is blowing them.\nyes The toy box is positioned at the bottom part of the frame, near the ground."
+}

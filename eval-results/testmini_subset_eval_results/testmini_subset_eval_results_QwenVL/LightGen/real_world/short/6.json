@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure in the image appears to be a humanoid android based on its design and features.\nno The setting resembles a traditional library rather than a futuristic one.\nno The android is holding a physical book, not a floating holographic one.\nyes The lighting has a soft blue hue, and there is a subtle presence of purple tones.\nyes The android's face and body show reflective surfaces indicative of metallic materials.\nyes The android's posture and the position of its head convey a calm demeanor while it reads.\nyes The background shows shelves filled with books but features a blurred effect that suggests a high-tech environment.\nyes The image exhibits a high level of detail and depth, consistent with cinematic styles.\nyes Various elements within the image align with common tropes found in science fiction films.\nno The book the android is holding is a physical book, not a holographic one."
+}

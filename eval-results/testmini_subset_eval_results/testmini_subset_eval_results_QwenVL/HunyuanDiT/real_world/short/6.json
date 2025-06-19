@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes Because the image shows a figure with human-like features but clearly mechanical and artificial components.\n\nyes The setting includes shelves filled with books and a glowing digital element in the background, suggesting a futuristic setting akin to a library.\n\nyes The android is holding an open book that appears to be projected or floating with a luminous page, indicating it is holographic.\n\nyes The scene is illuminated with soft hues of blue and purple, casting a serene glow over the setting.\n\nyes The surface of the android reflects light, showing off its metallic composition on both face and body.\n\nyes The android's eyes emit a soft glow, and its posture and interaction with the book convey tranquility.\n\nyes The background features out-of-focus elements that suggest advanced technology with lights and patterns.\n\nyes The image is highly detailed, with deep colors and sharp contrasts that give it a cinematic quality.\n\nyes Elements such as the holographic book, the android itself, and the digital interface evoke imagery commonly found in science fiction.\n\nyes The book seen in the android's hands has a luminous page and a physical form that suggests it is indeed holographic."
+}

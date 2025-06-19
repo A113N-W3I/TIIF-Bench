@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a ballerina in the image; she is dressed in a ballet pose on a surface.\nYes, there is an iceberg in the image; the surface she is on has a frozen, icy appearance along the water.\nNo, the ballerina is not pirouetting; she is balancing in an arabesque pose.\nYes, the dress of the ballerina is red; the color is clearly visible and vibrant.\nNo, the iceberg is not brown; the majority of it is icy while the surface has a reddish tint which could be due to lighting or sediment."
+}

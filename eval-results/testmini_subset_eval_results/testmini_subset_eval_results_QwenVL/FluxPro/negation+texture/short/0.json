@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an insulated cup in the image?",
+    "Is there a notebook in the image?",
+    "Are the insulated cup and notebook on the same desk?",
+    "Is the insulated cup metallic in texture?",
+    "Is the notebook fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows a cup with steam rising from it, indicating it is likely insulated to keep the contents warm.\nyes There is a notebook visible in the image with a striped cover.\nyes Both the insulated cup and the notebook are placed on the same wooden surface.\nyes The cup has a reflective surface typical of metallic materials.\nyes The notebook's cover appears to have a fabric texture based on the visible weave pattern."
+}

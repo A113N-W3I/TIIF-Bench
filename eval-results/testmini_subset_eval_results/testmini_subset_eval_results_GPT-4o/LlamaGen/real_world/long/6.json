@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes - The image depicts a humanoid android with metallic features.  \nno - The android does not seem to be sitting in a futuristic library.  \nyes - The android is reading from what appears to be a floating holographic book.  \nyes - The lighting in the scene is soft blue and purple.  \nyes - The android showcases metallic reflections on its face and body.  \nyes - The android appears to have a calm facial expression (based on visible features).  \nyes - There is a high-tech blurred background visible in the image.  \nyes - The image is highly realistic, detailed, and designed with a cinematic style.  \nyes - The image contains sci-fi-inspired elements typical of futuristic aesthetics.  \nyes - The book the android is interacting with appears to be a holographic book.  "
+}

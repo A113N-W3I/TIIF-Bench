@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a woman in the image?  ",
+    "Are there books in the image?  ",
+    "Is the woman browsing the books?  ",
+    "Is the surface made of wood?  ",
+    "Are the books made of wood?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the person in the image appears to be a woman based on her hairstyle and hands.\nyes, there are books in the image, as shown by their stacked appearance and open pages.\nyes, the woman is browsing the books, as indicated by her hands on an open book.\nyes, the surface appears to be made of wood, as evidenced by its texture and color.\nno, the books are not made of wood; they are made of paper and other typical book materials."
+}

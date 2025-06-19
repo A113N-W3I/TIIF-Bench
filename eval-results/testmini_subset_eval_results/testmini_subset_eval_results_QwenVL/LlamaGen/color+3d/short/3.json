@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "short_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a dog in the image?  ",
+    "Is there a seat in the image?  ",
+    "Is the dog black?  ",
+    "Is the seat white?  ",
+    "Is the dog in front of the seat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a dog on the right side.\nyes There is a structure resembling a fireplace or mantel which could be considered a type of seat.\nyes The dog appears to be black in color.\nno The mantel is not white; it appears in shades of gray in this monochrome image.\nno The dog is beside and partially behind the mantle, not in front of it."
+}

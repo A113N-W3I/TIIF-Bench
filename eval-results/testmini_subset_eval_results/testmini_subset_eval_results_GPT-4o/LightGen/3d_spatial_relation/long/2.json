@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the girl in front of the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a girl in the image because there are two figures that appear to be female.\nyes, there is a desk in the image because a table-like piece of furniture is present.\nno, the girl is not in front of the desk because she is sitting to the side of it."
+}

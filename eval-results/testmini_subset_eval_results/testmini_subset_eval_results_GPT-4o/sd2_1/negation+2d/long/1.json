@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an insulated cup in the image?  ",
+    "Is there a notebook in the image?  ",
+    "Are the insulated cup and the notebook on the same desk?  ",
+    "Is the insulated cup to the left of the notebook?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is an insulated cup in the image because there is a cup with a lid that appears to be designed to keep drinks hot or cold.\nyes, there is a notebook in the image because there is a black book-like object under the cup that resembles a notebook.\nyes, the insulated cup and the notebook are on the same desk because both objects are resting on the same surface.\nno, the insulated cup is not to the left of the notebook because the cup appears to be sitting directly on top of the notebook."
+}

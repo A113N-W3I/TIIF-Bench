@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure appears to be an advanced robot with human-like features.\nyes The setting includes shelves that suggest a library environment with a futuristic aesthetic.\nno The book the android is reading is not holographic; it is a physical book.\nyes The lighting has shades of blue and purple illuminating the scene.\nyes There are visible reflections on the android's smooth surface indicating metallic material.\nyes The android's expression appears serene and focused, suggesting calmness.\nyes The background shows shelves and lighting effects that give a high-tech impression.\nyes The image is highly detailed with a polished look that resembles cinematic quality.\nyes Aspects like the android and futuristic elements suggest inspiration from sci-fi genres.\nno The book the android reads is a traditional, non-holographic physical book."
+}

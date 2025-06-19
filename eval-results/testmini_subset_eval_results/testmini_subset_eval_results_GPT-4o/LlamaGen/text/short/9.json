@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is the text 'Strike' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Precision' in the image?",
+    "Is the text 'Momentum' in the image?",
+    "Is the text 'Bowling' in the image?",
+    "Is the text 'Night' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Pins' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the reason is that 'Strike' is not visible in the image.\nno, the reason is that 'Elegance' is not visible in the image.\nno, the reason is that 'Focus' is not visible in the image.\nno, the reason is that 'Precision' is not visible in the image.\nno, the reason is that 'Momentum' is not visible in the image.\nno, the reason is that 'Bowling' is not visible in the image.\nno, the reason is that 'Night' is not visible in the image.\nno, the reason is that 'Style' is not visible in the image.\nno, the reason is that 'Pins' is not visible in the image."
+}

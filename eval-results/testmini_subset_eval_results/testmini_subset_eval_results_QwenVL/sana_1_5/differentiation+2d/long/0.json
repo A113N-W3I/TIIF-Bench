@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an angrier frog in the image?  ",
+    "Is there another frog jumping upward in the image?  ",
+    "Does the image present a differentiation logic: one frog is angrier sitting on the steps, while another frog is jumping upward?  ",
+    "Is the angrier frog on the top step?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The image does not depict an angry frog; the expressions appear neutral or curious.\nyes There is a smaller frog depicted as if it is in mid-jump above the two frogs on the ground.\nyes The image shows one frog sitting on the ground appearing calm and another frog in mid-air, which could imply movement or jumping.\nno The angrier frog is not on the top step; both frogs on the ground are on the same level, and the jumping frog is airborne."
+}

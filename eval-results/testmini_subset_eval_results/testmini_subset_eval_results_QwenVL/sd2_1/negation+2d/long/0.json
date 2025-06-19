@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "long_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there a patch of grass in the image?  ",
+    "Are there any leaves on the tree?  ",
+    "Is the tree on the left of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a large tree dominating the scene.\nyes, there is a visible patch of grass surrounding the tree.\nno, the tree appears to be without leaves.\nyes, the tree is positioned on the left side of the image."
+}

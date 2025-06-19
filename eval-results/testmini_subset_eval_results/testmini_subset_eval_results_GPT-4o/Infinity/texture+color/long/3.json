@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a gloves in the scene?",
+    "Are the gloves rubber?",
+    "Is there a wine rack in the scene?",
+    "Is the wine rack made of wood?",
+    "Is the wooden wine rack brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a glove in the scene; it is clearly visible in the foreground.\nno, the glove is not rubber; it appears to be made of a soft fabric-like material.\nyes, there is a wine rack in the scene; it holds several bottles of wine.\nyes, the wine rack is made of wood; the material looks like wood.\nyes, the wooden wine rack is brown; it has a brown hue as seen in the image."
+}

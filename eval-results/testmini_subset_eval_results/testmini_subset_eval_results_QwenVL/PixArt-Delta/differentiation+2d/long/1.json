@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a rabbit on a stump in the image?  ",
+    "Is there a rabbit not on a stump in the image?  ",
+    "Does the image present a differentiation logic: one rabbit on a stump, while another rabbit not on a stump?  ",
+    "Is a rabbit on the right side?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are two rabbits sitting on a stump.\nno There are no rabbits depicted outside of being on the stump.\nyes The image shows one rabbit on the left and another on the right, both on the same stump, illustrating a differentiation in their positioning relative to each other.\nyes One rabbit is positioned on the right side of the stump."
+}

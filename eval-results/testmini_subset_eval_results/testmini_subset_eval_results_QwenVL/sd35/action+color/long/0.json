@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image features a dancer in a ballet pose which is typically characteristic of a ballerina.\nyes There is a large formation of ice in the background, resembling an iceberg.\nyes The ballerina appears to be executing a pirouette on a piece of ice, which can be interpreted as part of an iceberg.\nyes The ballerina's dress is vividly red.\nno Icebergs are not naturally brown; this one appears clear and blue, typical of glacial ice."
+}

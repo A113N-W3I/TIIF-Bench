@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'CHANEL' is clearly visible on the handbag in the image.\nno The text 'Elegance' is misspelled as 'Eleyance' and thus does not match the exact word asked in the question.\nyes The text 'Style,' appears next to the sunglasses in the image.\nno The text 'Luxury' is misspelled as 'luxuric' and is therefore not included as an answer for the specific spelling in the question.\nno The text 'Iconic' appears in the image but is misspelled as 'Icognic', so it doesn't match the exact wording of the question.\nyes The text 'Glamour' is present below the sunglasses in the image.\nno The text 'Timeless' is not present in the image.\nyes The text 'Sophistication' although misspelled as 'Sopistication' in the image, is still identifiable in context to the question.\nyes The word 'Fashion' appears in the image, positioned near the lower middle part."
+}

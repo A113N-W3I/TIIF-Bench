@@ -1,0 +1,52 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Does this image show a realistic and whimsical miniature modern café inside a coffee-filled mug? Answer with yes or no.",
+    "Does this image include a tiny bar counter within the café? Answer with yes or no.",
+    "Is there a small coffee machine and grinder in the café? Answer with yes or no.",
+    "Are there a few small tables with miniature customer figurines seated in the café? Answer with yes or no.",
+    "Do the inner sides of the mug have tiny menu boards or decorative paintings? Answer with yes or no.",
+    "Is the coffee surface forming the 'floor' of the café? Answer with yes or no.",
+    "Does the coffee surface possibly have tiny latte art patterns? Answer with yes or no.",
+    "Is the mug placed on a coffee table or bar counter? Answer with yes or no.",
+    "Is there possibly a real croissant, laptop, or sugar jar next to the mug? Answer with yes or no.",
+    "Is the image created in a hyper-realistic style? Answer with yes or no.",
+    "Does the image have a shallow depth of field, focusing on lively scenes and characters inside the café? Answer with yes or no.",
+    "Is the lighting bright and soft, simulating natural café lighting or indoor lighting? Answer with yes or no.",
+    "Is there high detail in the image, like metallic texture of equipment, figures' postures, and café decor? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no this image shows a machine with multiple coffee cups rather than a miniature café inside a mug\nno there is no bar counter visible; instead, the setup looks like a coffee dispenser with compartments\nno there is no clear coffee machine or grinder present; it's more like an automated coffee dispensing unit\nno there aren't tables; the setup consists of compartments for coffee cups\nno there are no menu boards or paintings on the inner sides of a mug because the image doesn't depict a mug\nno the coffee isn't forming a floor; it is contained within multiple compartmented cups\nno there are no latte art patterns on the surface of any liquid\nno the setting does not appear to be on a coffee table or bar counter; it seems like a standalone coffee serving station\nno there is no croissant, laptop, or sugar jar next to what appears to be a coffee dispenser\nno the style is illustrative with vibrant colors and is not hyper-realistic\nno the focus is not on lively scenes and characters inside a café; the image showcases an industrial-looking coffee machine\nno the lighting is not bright and soft; it has a stylized, almost cartoonish quality with intense colors\nno there is a level of detail, but the texture and.postures of figures are not highly detailed, fitting more of an animated aesthetic"
+}

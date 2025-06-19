@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "I'm sorry, but I can only answer questions based on the image content visible here:  \nDoes this object exist? \nyes - Fish are objects and they exist in this image.\n\nIs there a camera in the image? \nno - There is no camera visible in the image.\n\nAre there fish in the image? \nyes - There are fish visible in the image.\n\nIs there a chair in the image? \nno - There is no chair visible in the image.\n\nIs there a candle in the image? \nno - There is no candle visible in the image.\n\nIs the number of paddles 2? \nno - There are no paddles visible in the image.\n\nIs the number of cameras 4? \nno - There are no cameras visible in the image.\n\nIs the number of fish 4? \nno - There appear to be 3 fish visible in the image.\n\nIs the number of chairs 3? \nno - There are no chairs visible in the image.\n\nIs the number of candles 4? \nno - There are no candles visible in the image.\n\nAre the paddles made of leather? \nno - There are no paddles visible in the image.\n\nAre the cameras made of plastic? \nno - There are no cameras visible in the image.\n\nAre the chairs made of plastic? \nno - There are no chairs visible in the image."
+}

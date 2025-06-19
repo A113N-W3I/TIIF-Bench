@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "long_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a timer in the image?  ",
+    "Is there a horse in the image?  ",
+    "Is the timer white?  ",
+    "Is the horse white?  ",
+    "Is the timer behind the horse?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a timer in the image because you see a stopwatch behind the chess piece.\nno, there is not a horse in the image because the piece is a white knight which resembles a horse but is not an actual horse.\nyes, the timer is white because the stopwatch is predominantly white with black markings.\nno, the horse is not white because there is no real horse in the image, only a white knight chess piece.\nyes, the timer is behind the horse because the stopwatch is placed behind the chess piece resembling a horse."
+}

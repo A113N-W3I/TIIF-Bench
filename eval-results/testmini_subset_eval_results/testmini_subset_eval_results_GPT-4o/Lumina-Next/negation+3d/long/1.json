@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+3d",
+  "desc": "long_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a wall in the image?  ",
+    "Is there a shadow in the image?  ",
+    "Are there sneakers on the boy's feet?  ",
+    "Is the boy hidden by the shadow of the tree?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a boy in the image because a young male child is visible climbing a tree.\nno, there is not a wall in the image because there are no flat vertical structures, only natural elements like a tree.\nyes, there is a shadow in the image because the lighting creates shaded areas on the tree.\nyes, there are sneakers on the boy's feet because he is wearing athletic shoes.\nno, the boy is not hidden by the shadow of the tree because he is clearly visible."
+}

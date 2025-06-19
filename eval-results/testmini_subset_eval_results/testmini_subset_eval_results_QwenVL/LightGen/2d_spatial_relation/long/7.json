@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a dog in the image?  ",
+    "Is there a computer in the image?  ",
+    "Is the dog on side of the computer?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a dog visible in the image.\nno There is no computer present in the image.\nno Since there is no computer in the image, the dog cannot be on the side of a computer."
+}

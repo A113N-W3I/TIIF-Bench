@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an insulated cup in the image?",
+    "Is there a notebook in the image?",
+    "Are the insulated cup and notebook on the same desk?",
+    "Is the insulated cup metallic in texture?",
+    "Is the notebook fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is an insulated cup in the image; the metallic texture and design suggest it is an insulated cup.\nYes, there is a notebook in the image; it is seen open on the desk with pages visible.\nYes, the insulated cup and notebook are on the same desk; both are placed on a wooden surface in close proximity to each other.\nYes, the insulated cup is metallic in texture; the surface appears shiny and metallic.\nNo, the notebook is not fabric in texture; the cover looks like it has a conventional hardcover surface, not fabric."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an artist in the image?  ",
+    "Is there a palette in the image?  ",
+    "Is there a canvas in the image?  ",
+    "Is the artist holding a palette?  ",
+    "Is the artist next to the canvas?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The person in the picture appears to be dressed as an artist and is present in the scene.\nyes There is a visible object being held by the person that is consistent with the appearance of a palette used for painting.\nyes There is a large surface displayed on an easel that resembles a canvas, which is typically used for painting.\nyes The person is directly holding an object identifiable as a palette based on its shape and the paints on it.\nyes The person is standing beside a canvas mounted on an easel, which is a common position for an artist while working."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pair of sunglasses in the image?  ",
+    "Is there a mirror in the image?  ",
+    "Are the sunglasses under the mirror?  ",
+    "Are the sunglasses white in color?  ",
+    "Is the mirror green in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a pair of sunglasses in the image; there are actually two pairs visible: one white and one black.\nYes, there is a mirror in the image; it is the oval green object.\nNo, the sunglasses are not under the mirror; they are located below and to the right of the mirror.\nYes, there is a pair of sunglasses that is white in color; they are positioned towards the bottom of the image.\nYes, the mirror is green in color; it is the oval object with a green reflective surface."
+}

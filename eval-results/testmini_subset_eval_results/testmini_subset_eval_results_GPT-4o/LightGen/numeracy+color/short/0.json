@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there pigs in the image?  ",
+    "Are there shrimp in the image?  ",
+    "Is there a cake in the image?  ",
+    "Is there a menu in the image?  ",
+    "Is the number of pigs 2?  ",
+    "Is the number of shrimp 4?  ",
+    "Is the number of cake 1?  ",
+    "Are the pigs yellow in color?  ",
+    "Are the shrimp yellow in color?  ",
+    "Are the cake brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there are no pigs in the image. The creature resembles a pig but is not clearly depicted as one.\nNo, there are no shrimp in the image. The creatures resemble shrimp but are not clearly depicted as ones.\nYes, there is a cake in the image. There is an object that resembles a cake.\nYes, there is a menu in the image. There is a structure that resembles a menu.\nNo, the number of pigs is not 2. The pig-like creature is singular.\nNo, the number of shrimp is not 4. There are multiple shrimp-like creatures, but not clearly four.\nNo, the number of cake is not 1. There appear to be two cake-like objects.\nNo, the pigs are not yellow in color. The pig-like creature has a pinkish color.\nNo, the shrimp are not yellow in color. The shrimp-like creatures are not clearly yellow.\nNo, the cake is not brown in color. The cake-like object appears to be a different shade."
+}

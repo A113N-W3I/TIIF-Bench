@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 282,
+  "questions": [
+    "Is the image in American Comics style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, the image is not in American Comics style. The art style, use of bold lines, vibrant colors, and exaggerated, dynamic elements are more reminiscent of the Japanese manga or anime style rather than traditional American comic book aesthetics."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there grass in the image?  ",
+    "Is the fork metallic?  ",
+    "Is the grass fluffy?  ",
+    "Is the fork in front of the grass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes there is a fork present in the center of the image.\nyes green vegetation resembling grass is visible around the fork.\nyes the fork appears to have a metallic sheen indicating it is metallic.\nno the grass appears short and not fluffy.\nno the fork is standing upright in the grass, not in front of it."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Recycle' is clearly visible and repeated in the image.\nyes The text 'Sustain' is partially visible as 'Sustabi', suggesting 'Sustainability'.\nno There is no text 'Renew' present in the image.\nyes The text 'Choose' is present, with slight variations like 'chose' and 'choose'.\nyes The text 'wisely' appears alongside 'choose' and 'chose' multiple times.\nno The phrase 'Eco-friendly' is split across two notes; 'eco' and 'fiendly', but not written together.\nyes The text 'Green' appears multiple times in different contexts within the image.\nyes The word 'living' is present as part of the note 'owner living'.\nyes The word 'Minimalism' is present, though it's written as 'minimlisy'."
+}

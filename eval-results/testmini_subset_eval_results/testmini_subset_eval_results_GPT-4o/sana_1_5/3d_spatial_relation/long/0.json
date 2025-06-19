@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an airplane in the image?  ",
+    "Is there a giraffe in the image?  ",
+    "Is the airplane in front of the giraffe?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is an airplane in the image. The airplane is flying in the sky above the giraffes.\nYes, there is a giraffe in the image. In fact, there are two giraffes standing on the ground.\nNo, the airplane is not in front of the giraffe. The airplane is above and behind the giraffe in the sky."
+}

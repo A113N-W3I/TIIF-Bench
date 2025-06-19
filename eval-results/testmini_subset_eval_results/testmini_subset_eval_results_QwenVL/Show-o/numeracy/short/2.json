@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there turtles in the image?  ",
+    "Is the number of turtles 3?  ",
+    "Are there sofas in the image?  ",
+    "Is the number of sofas 3?  ",
+    "Are there birds in the image?  ",
+    "Is the number of birds 3?  ",
+    "Is there a boat in the image?  ",
+    "Is the number of boats 1?  ",
+    "Are there flags in the image?  ",
+    "Is the number of flags 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are two turtles depicted as pillows and one actual turtle in the image.\nno The image shows two turtles plus a turtle-shaped pillow, which does not meet the count of three actual turtles.\nyes Two sofas are placed on either side of the path near the water.\nno The image contains only two sofas, not three.\nyes Birds can be seen flying in the sky above the scene.\nno The number of birds is greater than three; four are visible in the sky.\nyes A small boat is floating on the water near the left sofa.\nyes There is only one boat present in the image.\nyes There are red and blue flags visible along the waterway.\nyes Four flags are present, corresponding to the count asked about."
+}

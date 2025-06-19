@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the text 'SIMPLY' is in the image. It is prominently displayed at the top of the image.\n\nNo, the text 'Bullet' is not in the image. The word in the image is 'Built'.\n\nNo, the text 'Proof' is not in the image.\n\nYes, the text 'Nothing' is in the image but it is within the phrase 'BUILT OF NOTHING'.\n\nYes, the text 'SAUCER' is in the image. It is located near the bottom of the image."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a yellow fuzzy ball characteristic of a tennis ball in the scene.\nyes The yellow fuzzy ball representative of a tennis ball has a spherical shape.\nyes The red object appears to be a picture due to its distinct shape and placement.\nno The red object has a spherical shape rather than being flat like a typical picture.\nno The picture is red, so it cannot be red as that would be tautological; pictures can contain various colors but are not solid colors themselves."
+}

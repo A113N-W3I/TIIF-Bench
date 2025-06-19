@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a ball in the scene?",
+    "Is the ball round in shape?",
+    "Is there a pendant in the scene?",
+    "Is the pendant shaped like a teardrop?",
+    "Is the teardrop pendant green?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The object in the center appears spherical and could be interpreted as a ball.\nyes The object identified as a ball maintains a consistent round shape throughout.\nno There is no distinct object that resembles a pendant in the scene.\nno Since there is no pendant present, it cannot be teardrop-shaped.\nno Without a pendant in the scene, it cannot be assessed for color."
+}

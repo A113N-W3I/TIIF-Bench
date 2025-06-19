@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is the text 'drink' in the image?",
+    "Is the text 'tea' in the image?",
+    "Is the text 'eat' in the image?",
+    "Is the text 'cake' in the image?",
+    "Is the text 'relax' in the image?",
+    "Is the text 'enjoy' in the image?",
+    "Is the text 'delight' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes 'drink' is clearly visible in the image.\nyes 'tea' is part of the phrase 'drink, tea, eat cake'.\nyes 'eat' appears in the phrase 'drink, tea, eat cake'.\nyes 'cake' is included in the phrase 'drink, tea, eat cake'.\nno The word 'relax' is present but not as part of the listed texts.\nno 'enjoy' is not part of the main text in the image.\nno 'delight' is not present in the image's text."
+}

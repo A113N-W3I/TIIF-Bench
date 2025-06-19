@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Wisisonm' is a distorted version of 'Wisdom'.\nno The text appears as 'tikondoe', which is not 'Knowledge'.\nno The text 'Stories' is not present in the image.\nno The text appears as 'tunngree', which is not 'Timeless'.\nno The text 'Pages' is not present in the image.\nno The text 'Explore' is not present in the image.\nno The text appears as 'Kmowegge', which is not 'Learn'.\nno The text 'Journey' is not present in the image.\nno The text appears as '& porlekss.', which is not 'Books'."
+}

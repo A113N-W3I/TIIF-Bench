@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a tree in the image?  ",
+    "Is there a patch of grass in the image?  ",
+    "Are there any leaves on the tree?  ",
+    "Is the tree on the left of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there are two trees in the image.\nyes, there are patches of grass under both trees.\nyes, the tree on the left side of the image has leaves.\nyes, there is a tree on the left of the image."
+}

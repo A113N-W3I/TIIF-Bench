@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 282,
+  "questions": [
+    "Is the image in American Comics style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image does not possess the typical stylistic elements associated with American comics, such as bold outlines and vibrant colors commonly seen in that medium; instead, it features a more detailed and realistic rendering with a dramatic, apocalyptic theme.\n"
+}

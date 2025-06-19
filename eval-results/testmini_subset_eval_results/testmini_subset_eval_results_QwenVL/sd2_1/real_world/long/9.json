@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Does this image show a young Indian woman? Answer with yes or no.",
+    "Does this image show the woman with dark hair in an open ponytail? Answer with yes or no.",
+    "Is the woman wearing a black jacket? Answer with yes or no.",
+    "Is the setting of the image on a university campus? Answer with yes or no.",
+    "Is the woman looking directly at the camera? Answer with yes or no.",
+    "Does the image have a 1990s-style movie still aesthetic? Answer with yes or no.",
+    "Is it a sunny day in the image? Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The individual appears to be a young Indian woman based on her features and attire.\nno Her hair is not tied into a ponytail; it is loose and flowing.\nno The woman is wearing a light-colored jacket, not black.\nno There are no specific indicators that suggest the setting is a university campus.\nyes The woman's gaze is directed straight at the camera lens.\nno The image does not exhibit characteristics typical of a 1990s-style movie, such as color saturation or film texture.\nno The image lacks clear indications of being taken on a sunny day due to the lack of shadows and bright light.\nno The limbs appear slightly unnatural, suggesting possible digital generation, and the facial features, while generally realistic, may also lack some natural subtleties."
+}

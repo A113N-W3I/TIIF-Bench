@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains a necklace with black beads and watermelon slice decorations.\nno The necklace is not round; it appears to be a chain with beads and watermelon slices along its length.\nyes There are whole watermelons and slices scattered around the necklace in the scene.\nno The watermelon slices are triangular, not oblong.\nno The necklace does not appear to be rubber-textured; it seems to be made of beads and metal."
+}

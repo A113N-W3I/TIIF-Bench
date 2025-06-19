@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a grasshopper in the scene?",
+    "Is the grasshopper yellow in color?",
+    "Is there a sun in the scene?",
+    "Is the sun yellow in color?",
+    "Is the fence wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The insect resembles a grasshopper based on its body structure and antennae.\nno The grasshopper appears to have a greenish hue rather than being yellow.\nyes There is a bright light source in the sky that resembles the sun.\nyes The light source emitting from the sky has a yellowish glow, typical of the sun's appearance.\nyes The texture and appearance of the horizontal element suggest it is made of wood."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "short_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a dog in the image?  ",
+    "Is there a seat in the image?  ",
+    "Is the dog black?  ",
+    "Is the seat white?  ",
+    "Is the dog in front of the seat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a dog in the image.\nno There is no seat in the image.\nyes The dog appears to be black.\nno There is no seat in the image, so it cannot be white.\nno There is no seat in the image, so the dog cannot be in front of it."
+}

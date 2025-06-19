@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes This image shows a model applying cream to their face.\nyes The model in the image appears to be portraying a moment of relaxation and self-care through her actions.\nyes Soft, natural lighting is evident, enhancing both the product and the model's skin appearance.\nyes The background features soft colors including blush pink and mint green, which can be described as pastel tones.\nno There isn't a visible text overlay saying 'Glow Naturally’ or ‘[Wish Glow] Skincare', instead it reads something else.\nyes There are minimalistic icons resembling leaves and droplets present in the image.\nyes The image centers around the model's glowing skin and the activity of applying cream.\nyes The overall aesthetic created is both aspirational and relatable for potential consumers.\nyes Visible deposits of cream confirm its presence on the model's face.\nno The limbs and the structure of the face exhibit unnatural proportions typical of AI-generated imagery."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a computer in the image?  ",
+    "Is there a microphone in the image?  ",
+    "Are there flags in the image?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of microphone 1?  ",
+    "Is the number of flags 2?  ",
+    "Is the computer hidden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a computer in the image because a monitor and keyboard are visible on the table.\nyes, there is a microphone in the image because it is clearly visible on a stand.\nyes, there are flags in the image because two are visible behind the desk.\nyes, the number of computer is 1 because only one monitor is present.\nyes, the number of microphone is 1 because only one microphone is visible.\nyes, the number of flags is 2 because there are two flags present.\nno, the computer is not hidden because it is fully visible on the table."
+}

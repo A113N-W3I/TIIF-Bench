@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a ball in the scene?",
+    "Is the ball round in shape?",
+    "Is there a pendant in the scene?",
+    "Is the pendant shaped like a teardrop?",
+    "Is the teardrop pendant green?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a small spherical object on the surface which could be considered a ball.\nno The object referred to as a ball is not round; it appears textured and less defined than a typical ball.\nyes There are two objects hanging that serve as pendants.\nyes The pendants have a shape that resembles a teardrop.\nyes The teardrop pendants exhibit a green color."
+}

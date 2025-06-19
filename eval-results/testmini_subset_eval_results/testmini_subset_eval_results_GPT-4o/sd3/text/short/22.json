@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the text 'Chanel' is in the image. It is visible at the top left corner.\nYes, the text 'Elegance' is in the image. It appears next to 'Luxury Style'.\nYes, the text 'Style' is in the image. It follows 'Luxury' in the phrase.\nYes, the text 'Luxury' is in the image. It is part of the 'Elegance, Luxury Style' phrase.\nYes, the text 'Iconic' is in the image. It appears above 'Glanour'.\nYes, the text 'Glamour' is in the image. It is part of the phrase 'Iconic Glamour', though misspelled.\nYes, the text 'Timeless' is in the image. It appears above 'Sophisticaation'.\nYes, the text 'Sophistication' is in the image. Though misspelled, it is meant to be the word 'Sophistication'.\nNo, the text 'Fashion' is not in the image."
+}

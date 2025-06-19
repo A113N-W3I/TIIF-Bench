@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a person wearing a luminous turquoise jacket in the image?  ",
+    "Is there a person wearing a charcoal peacoat in the image?  ",
+    "Does the image present a differentiation logic: a person in a luminous turquoise jacket stands beside another person in a charcoal peacoat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a person wearing a luminous turquoise jacket, it is glowing and visible on the right side of the image.\nyes, there is a person wearing a charcoal peacoat, it is dark with reflective lines and visible on the left side of the image.\nyes, the image presents a differentiation logic with a person in a luminous turquoise jacket standing beside another person in a charcoal peacoat."
+}

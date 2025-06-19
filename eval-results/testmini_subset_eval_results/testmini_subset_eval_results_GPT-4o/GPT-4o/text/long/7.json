@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the text 'SIMPLY' is visible at the top of the image.\nno, because the text 'Bullet' is not present, though '_bulletproof' is visible.\nno, because the text 'Proof' is not present, though '_bulletproof' is visible.\nyes, because the text 'Nothing' is visible in the middle of the image.\nyes, because the text 'SAUCER' is visible at the bottom of the image."
+}

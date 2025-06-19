@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the objects in the image exist; they are recognizable as chairs, cameras, and candles.\nYes, there is a camera in the image; multiple cameras are present.\nYes, there are fish in the image; toy or decorative fish can be seen on the floor.\nYes, there is a chair in the image; two chairs are visible.\nYes, there is a candle in the image; several candles are lit around the scene.\nNo, the number of paddles is not 2; no paddles are visible in the image.\nNo, the number of cameras is not 4; there appear to be at least five cameras.\nNo, the number of fish is not 4; there is one visible fish.\nNo, the number of chairs is not 3; there are two chairs visible.\nNo, the number of candles is not 4; there are more than four visible candles.\nNo, the paddles are not made of leather; no paddles are present in the image.\nYes, the cameras are made of plastic; cameras typically have plastic components.\nNo, the chairs are not made of plastic; they appear to be made of wood and upholstered material."
+}

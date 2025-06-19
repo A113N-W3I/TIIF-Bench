@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 41,
+  "questions": [
+    "Is the image in LEGO style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes the image features LEGO-style miniature figures and structures with characteristic blocky construction and bright colors.\n"
+}

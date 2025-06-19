@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Red' in the image?",
+    "Is the text 'Carpet' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Fashion' in the image?",
+    "Is the text 'Grace' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Charm' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, because the text 'Glamour' is prominently displayed in the image.\nYes, because the text 'Elegance' is visible in the image.\nYes, because the text 'Red' appears in the context of 'Red Carpet'.\nYes, because the text 'Carpet' appears in the context of 'Red Carpet'.\nNo, because the text 'Style' is not visible in the image.\nYes, because the text 'Fashion' is visible in the image.\nNo, because the text 'Grace' is not visible in the image.\nNo, because the text 'Sophistication' is not visible in the image.\nNo, because the text 'Charm' is not visible in the image."
+}

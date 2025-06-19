@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes because there is a loaf of bread in the foreground.\nyes because there are multiple small fish scattered around the bread.\nyes because there is a vintage-style desktop computer monitor visible in the background.\nyes because there appears to be a bag near the bread and another one behind the monitor.\nno because there is no bicycle present in the scene.\nno because there are two loaves of bread, not one.\nyes because there are four fish visible in the image.\nno because there is only a computer monitor and no other components like a keyboard or mouse are seen.\nyes because there seems to be a bag next to the bread and another one behind the monitor.\nno because there is no bicycle in the image.\nno because computers are typically made of plastic, metal, and electronic components, not rubber.\nno because bicycles are usually made of metal and rubber for tires, and none are present in the image."
+}

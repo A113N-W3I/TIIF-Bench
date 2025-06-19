@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The infographic includes the text 'Surrvey Results on Podcats', which is likely a typographical error for 'Survey Results on Podcasts'.\nyes The infographic uses bright orange and blue colors, which qualify as vibrant.\nyes The infographic incorporates icons such as people and a document, suggesting the use of modern design elements.\nno The typography is not entirely clear as there are multiple instances of garbled text and spelling errors throughout the infographic.\nyes The infographic does contain bar graphs related to \"Listen freency\" which could be inferred as listening frequency.\nyes There are percentages listed which could relate to the devices used if they were named correctly, however their labels are garbled.\nno There are no clear statistics on popular topics due to the presence of largely garbled text.\nno Despite some color contrast, the presence of numerous spelling and readability issues detracts from a clean design.\nno The numerous errors present in the text affect its professional appearance.\nno Due to the spelling mistakes and garbled sections, the infographic is not easy to interpret.\nno The text is largely incomprehensible due to numerous errors and garbled sections.\nno The numbers themselves are clear and readable but the context surrounding them makes them unintelligible."
+}

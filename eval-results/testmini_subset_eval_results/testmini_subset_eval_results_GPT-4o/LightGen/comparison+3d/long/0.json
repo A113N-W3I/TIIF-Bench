@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a smaller mouse on the table in the image?  ",
+    "Is there a larger mouse hanging over the table's side in the image?  ",
+    "Does the image present a comparison logic: a mouse on the table is smaller than a mouse hanging on the side?  ",
+    "Is one mouse hidden in relation to the other in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a smaller mouse on the table in the image; it is visible in the center foreground.\nyes, there is a larger mouse hanging over the table's side in the image; it is visibly draped over on the left side.\nyes, the image presents a comparison logic: a mouse on the table is smaller than a mouse hanging on the side; the smaller mouse is clearly more petite compared to the larger mouse.\nno, one mouse is not hidden in relation to the other in the image; both mice are clearly visible."
+}

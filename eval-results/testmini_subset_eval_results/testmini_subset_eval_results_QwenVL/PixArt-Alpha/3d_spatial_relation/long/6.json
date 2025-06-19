@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a cup in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the desk behind the cup?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, a white cup is visible on a saucer in the center of the image.\nyes, there is a wooden surface that serves as a desk in the background under the cup.\nno, the cup is placed on top of the desk, not behind it."
+}

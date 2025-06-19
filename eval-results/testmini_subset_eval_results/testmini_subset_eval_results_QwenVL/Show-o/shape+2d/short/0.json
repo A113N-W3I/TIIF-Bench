@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a bookshelf in the image?  ",
+    "Is there a shelf in the image?  ",
+    "Is the bookshelf in shape of diamond?  ",
+    "Is the shelf pentagonal?  ",
+    "Is the bookshelf on the top of the shelf?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows an item that functions as a bookshelf, holding items like books and decorative objects.\nyes The structure is a type of shelf design used for storage and display.\nno The bookshelf is geometric but does not have the shape of a diamond; it has hexagonal sections.\nno The bookshelf consists of various hexagonal shapes, not pentagons.\nno The structure is a single piece; \"bookshelf on top of the shelf\" suggests two separate units which aren't present here."
+}

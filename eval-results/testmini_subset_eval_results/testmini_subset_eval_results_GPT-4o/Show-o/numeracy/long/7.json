@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there helmets in the image?  ",
+    "Is the number of helmets 4?  ",
+    "Is there a lamp in the image?  ",
+    "Is the number of lamps 1?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of sheep 1?  ",
+    "Are there bowls in the image?  ",
+    "Is the number of bowls 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are helmets in the image as seen on the sheep.\nyes, there are 4 helmets as each of the sheep is wearing one.\nyes, there is a lamp in the image positioned in the center.\nyes, there is 1 lamp in the image.\nyes, there is a sheep in the image as seen with helmets.\nno, there is not 1 sheep, there are 3 sheep in the image.\nyes, there are bowls in the image as seen in front of the sheep.\nno, there are not 4 bowls, there are 5 bowls in the image."
+}

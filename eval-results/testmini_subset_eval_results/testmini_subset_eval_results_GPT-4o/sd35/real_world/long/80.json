@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no - The image depicts a character with an aura, but there is no indication that the aura is being \"graded\" in the sense of a card or official evaluation.\nno - The image does not present itself in a form that suggests it is cropped to the size of a real card.\nno - The top of the image does not display a label, text, or title of 'GNRLYXYZ'.\nno - The label '1/1' is not visible directly below 'GNRLYXYZ' or elsewhere in the image.\nno - There is no barcode present beneath any labeling in the image.\nno - The grade label is not displayed on the right side or elsewhere at the top of the image.\nno - There is no numeric grade from a scale displayed anywhere in the image.\nno - The image does not include a certification number beneath a numeric grade or elsewhere.\nno - Not applicable as there is no label or text present in the image.\nno - No text is present in the image, therefore there is no padding related to text.\nno - The background of the image itself is composed of fiery and dark elements, not a white background.\nyes - The display shown contains no additional text or labels on the card itself."
+}

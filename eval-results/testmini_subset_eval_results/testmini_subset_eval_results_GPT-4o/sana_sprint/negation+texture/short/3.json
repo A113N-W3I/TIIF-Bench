@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a chimney in the image?  ",
+    "Is there smoke rising from the chimney?  ",
+    "Is the chimney metallic in texture?  ",
+    "Is the structure wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a chimney in the image. The pipe protruding from the roof is characteristic of a chimney structure.\nYes, there is smoke rising from the chimney. Visible greyish smoke is emanating from the top of the chimney tube.\nYes, the chimney is metallic in texture. The chimney appears to be made of metal, demonstrating a smooth and slightly reflective surface.\nYes, the structure is wooden in texture. The walls and roof are visibly constructed from wooden planks."
+}

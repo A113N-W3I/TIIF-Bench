@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a chef hat in the image?  ",
+    "Is there a snowball in the image?  ",
+    "Is the chef hat conical?  ",
+    "Is the snowball spherical?  ",
+    "Is the chef hat hidden behind the snowball from the viewer's perspective?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes there is a chef hat in the image\nno there is no snowball in the image; the object appears to be a crafted item resembling a chef's hat on a sphere made of sugar or similar material\nno the chef hat is not conical; it has a traditional rounded top and wide brim typical of a chef's hat\nno since there is no actual snowball present, this question does not apply; the spherical object is covered with sugar or similar material rather than being an actual snowball\nno the chef hat is not hidden behind the snowball; it is mounted atop the spherical base and is clearly visible"
+}

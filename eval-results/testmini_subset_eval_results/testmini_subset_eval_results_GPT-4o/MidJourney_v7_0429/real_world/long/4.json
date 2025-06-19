@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no - The text 'Survey Results on Podcasts' is not visible in the infographic.\nyes - The infographic uses vibrant colors as evident by the rich and diverse color palette.\nyes - The infographic includes modern icons that are stylistically contemporary.\nyes - The infographic includes clear typography that is legible and well-organized.\nyes - The infographic highlights key statistics such as listening frequency.\nno - The infographic does not highlight statistics on devices used.\nno - The infographic does not highlight key statistics on popular topics.\nyes - The infographic is designed to be clean, with organized sections and spacing.\nyes - The infographic is designed to be professional, with a structured layout and polished appearance.\nyes - The infographic is easy to read due to distinct sections and clarity in presentation.\nyes - The text in the generated picture is clear and readable.\nyes - The numbers in the generated picture are clear and readable."
+}

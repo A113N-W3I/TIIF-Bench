@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a blue bird in the image?  ",
+    "Is there a red fish in the image?  ",
+    "Does the image present a comparison logic: the blue birds are more numerous than the red fish?  ",
+    "Are the birds in the image blue in color?  ",
+    "Are the fish in the image red in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a blue bird in the image, as numerous birds in the branches are blue.\nyes, there is a red fish in the image, with many fishes in the water being clearly red.\nno, the image does not present a comparison logic: the blue birds are more numerous than the red fish, as there are more red fish visible than blue birds.\nyes, the birds in the image are blue in color, as indicated by their bright blue feathers.\nyes, the fish in the image are red in color, as shown by their vividly red scales."
+}

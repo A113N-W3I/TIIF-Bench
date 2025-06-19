@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there ships in the painting?  ",
+    "Are there horses in the painting?  ",
+    "Are there shrimp in the painting?  ",
+    "Are there pears in the painting?  ",
+    "Is the number of ships 2?  ",
+    "Is the number of horses 2?  ",
+    "Is the number of shrimp 3?  ",
+    "Is the number of pears 2?  ",
+    "Are the objects on the left of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there are ships in the painting. There are two ships shown.\nYes, there are horses in the painting. There are two horses visible.\nYes, there are shrimp in the painting. There are two shrimp visible.\nYes, there are pears in the painting. There are two pears visible.\nYes, the number of ships is 2. Both are clearly identified in the painting.\nYes, the number of horses is 2. Both are clearly identified in the painting.\nNo, the number of shrimp is not 3. There are 2 shrimp.\nYes, the number of pears is 2. Both are clearly identified in the painting.\nNo, the objects are not on the left of the painting. They are mostly centered."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a laptop in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the laptop displaying a beautiful scenery?  ",
+    "Is the laptop wooden in texture?  ",
+    "Is the desk wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The object appears to have the form and features typical of a laptop.\nyes There is a flat surface that supports the laptop, indicative of a desk.\nyes The screen shows vivid images of mountains and foliage, which can be considered a beautiful scenery.\nno The laptop's texture appears smooth and is likely made of plastic or metal, not wood.\nyes The desk has visible wood grain patterns, suggesting a wooden texture."
+}

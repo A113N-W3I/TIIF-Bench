@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 80,
+  "questions": [
+    "Is there an image of a character whose aura is being graded? Answer with yes or no.",
+    "Is the image cropped to the size of a real card? Answer with yes or no.",
+    "Does the label at the top have the title 'GNRLYXYZ'? Answer with yes or no.",
+    "Is '1/1' displayed directly below 'GNRLYXYZ' on the label? Answer with yes or no.",
+    "Is there a barcode placed beneath the '1/1'? Answer with yes or no.",
+    "Is the grade label displayed on the right side of the label at the top? Answer with yes or no.",
+    "Is the numeric grade from the scale displayed below the grade label? Answer with yes or no.",
+    "Is the certification number displayed below the numeric grade? Answer with yes or no.",
+    "Is all text on the label uniform in size? Answer with yes or no.",
+    "Is there balanced padding from the border for all text on the label? Answer with yes or no.",
+    "Is the display placed on a white background? Answer with yes or no.",
+    "Is the full display shown without any text or labels on the card? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image shows a travel journal with illustrations of Beijing landmarks and activities, not a character with an aura being graded.\nno The image appears to be a full-page illustration or poster, not cropped to the size of a real card.\nno There is no label with the title 'GNRLYXYZ' at the top; instead, it says \"FIRST STOP: Beijing Travel Journal.\"\nno Since 'GNRLYXYZ' is not present, there is no '1/1' listed below it.\nno There is no barcode present in the image.\nno There is no grade label displayed at the top of the image.\nno Given there is no grade label, there is also no numeric grade displayed below it.\nno Without a numeric grade, there is no certification number displayed below anything.\nno The text sizes vary across the image, with titles larger than subtitles and other text.\nno There is unequal spacing around different texts due to the illustrative style of the design.\nno The background is a light yellow or beige, not white.\nno The display includes various captions, titles, and decorative elements, not showing the card without text or labels."
+}

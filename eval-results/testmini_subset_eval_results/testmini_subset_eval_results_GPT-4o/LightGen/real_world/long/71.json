@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the image shows a 3D illustration of a toilet with rounded edges. The form and shading give it a three-dimensional appearance.\nyes, the color palette of the image includes soft beige, light gray, and warm orange with warm orange used as an accent, mainly visible on the top left area.\nyes, the lighting in the image is soft and diffuse, and it appears to be coming slightly from above and to the right, as indicated by the shadows.\nyes, the image has a matte and smooth surface texture with low reflectivity, as there are no shiny areas on the toilet.\nno, the toilet is not centered in the composition with ample negative space around it; it is positioned more to the left.\nno, the perspective of the toilet is not slightly tilted; it appears relatively straightforward with minimal distortion.\nyes, the background is a solid, low-saturation color that complements the subject, using neutral tones that do not overpower the toilet design.\nno, there is no minimalist sans-serif typography positioned in the lower-left corner; the area is empty.\nno, there is no gray text in the image; therefore, there is no typography to have low contrast against the background.\nno, there is no gray text present in this image."
+}

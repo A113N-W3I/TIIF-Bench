@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a green ball in the image?  ",
+    "Is there a red ball in the image?  ",
+    "Does the image present a comparison logic: the green ball is bigger than the red ball?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a green ball in the image. It is clearly visible and is the largest ball in the center of the image.\nYes, there is a red ball in the image. It is visible on the left side in the image.\nYes, the image presents a comparison logic: the green ball is bigger than the red ball. The green ball is the largest in the image while the red ball is smaller."
+}

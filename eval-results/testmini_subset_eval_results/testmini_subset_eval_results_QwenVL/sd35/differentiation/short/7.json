@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there teddy bears in the image?  ",
+    "Is there a large teddy bear wearing a bow tie in the image?  ",
+    "Is there a small teddy bear wearing a party hat in the image?  ",
+    "Does the image present a differentiation logic: one teddy bear is large and wears a bow tie, while the other teddy bear is small and wears a party hat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are two teddy bears, one large and one small.\nyes The large teddy bear is clearly wearing a bow tie.\nyes The small teddy bear has a party hat on its head.\nyes The description accurately reflects the contents of the image with the large teddy bear in a bow tie and the small one in a party hat."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a laptop in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the laptop displaying a beautiful scenery?  ",
+    "Is the laptop wooden in texture?  ",
+    "Is the desk wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no There is no laptop visible in the image; only a keyboard is present.\nno There is no desk visible; the keyboard is placed on a wooden surface which could be a table or floor.\nno Since there is no laptop in the image, it cannot display any scenery.\nno The image does not contain a laptop, so its texture cannot be assessed.\nyes The surface under the keyboard appears to have a wooden texture."
+}

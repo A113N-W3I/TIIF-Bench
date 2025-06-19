@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the image in Ghibli style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image exhibits characteristics commonly associated with Ghibli's visual storytelling, such as a fantastical setting, soft lighting, and an emotional depth conveyed through serene yet mysterious imagery.\n"
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no There is no rubber ball visible in the image.\nyes A metallic key can be seen lying on top of the trunk.\nno The object resembling a ball appears to be metallic, not made of rubber.\nyes The key has the appearance and context suggesting it is made of metal.\nno There is no rubber ball present to determine its position.\nyes The metallic key is positioned on top of the trunk which could be considered as at the bottom of what is shown on the trunk."
+}

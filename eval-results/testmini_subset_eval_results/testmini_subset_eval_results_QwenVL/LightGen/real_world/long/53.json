@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a card with a design typical for a wedding invitation.\nno The card does not appear heavily textured or embossed; it has a smooth look.\nyes The decorations on the card include an illustration abstractly representing a couple.\nno The card utilizes iconography that is not sparing or minimalist but rather detailed and artistic.\nno There is no visible text about the union of Image and Text on the invitation.\nno While the typesetting is neat, it's not considered perfect as the alignment of some lines appears slightly off.\nyes The invitation card is situated on a surface with the appearance of a wooden desk.\nyes The text on the invitation is clear and easily legible.\nno The picture does not display specific information about the time as March 25, 2025."
+}

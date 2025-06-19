@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Corporate' is clearly visible in the image.\nyes The text 'DISC' appears directly below 'Corporate'.\nyes The text 'Workshop' is present under 'DISC'.\nyes The text 'THE' is part of 'THE BIZ STUDIO' at the bottom.\nyes The text 'BIZ' is clearly visible as part of 'THE BIZ STUDIO'.\nyes The text 'STUDIO' is at the bottom, completing 'THE BIZ STUDIO'."
+}

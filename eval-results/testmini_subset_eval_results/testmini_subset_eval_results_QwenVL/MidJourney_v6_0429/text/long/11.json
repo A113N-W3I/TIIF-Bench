@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 11,
+  "questions": [
+    "Is the text 'Miami' in the image?",
+    "Is the text 'Trance' in the image?",
+    "Is the text '2014' in the image?",
+    "Is the text 'Event' in the image?",
+    "Is the text 'Neon' in the image?",
+    "Is the text 'Beats' in the image?",
+    "Is the text 'Vibes' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, 'Miami' is prominently displayed in the image.\nyes, 'Trance' is visible in the text below 'Miami'.\nyes, '2014' appears in the image as part of the date.\nyes, 'Event' is listed among the words at the bottom left.\nyes, 'Neon' is included in the list of words at the bottom left.\nyes, 'Beats' is mentioned twice in the list at the bottom left.\nyes, 'Vibes' is listed among the words at the bottom left."
+}

@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not depict a toilet but rather an abstract, stylized design of a washing machine.\nno The image features a more complex geometry with sharp lines and detailed textures.\nno The color palette includes vibrant yellows, greens, blues, and pinks, which are not soft beige, light gray, or warm orange.\nno The shading and gradients are vivid and neon-like, with stark contrasts rather than soft transitions.\nno The lighting appears to be artificial and enhances the neon-like effect rather than being soft and diffused.\nno The object is not a toilet and is surrounded by a grid pattern in the background rather than being in isolation with negative space.\nno The object is a washing machine and while it has a three-dimensional appearance, it's not angled slightly as described.\nno The background is not a solid, muted color; it contains a dynamic grid pattern that complements the object.\nno There is no visible typography present in the bottom-left corner of the image.\nno The rendering style is not low-poly but rather high in detail with a high-resolution appearance."
+}

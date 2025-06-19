@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Does this object exist?\nyes, because chairs, candles, fish, and paddles are visible in the image.\n\nIs there a camera in the image?\nno, because there is no camera visible in the image.\n\nAre there fish in the image?\nyes, because there are fish visible in the image.\n\nIs there a chair in the image?\nyes, because there are chairs visible in the image.\n\nIs there a candle in the image?\nyes, because there are candles visible in the image.\n\nIs the number of paddles 2?\nyes, because there are 2 paddles visible in the image.\n\nIs the number of cameras 4?\nno, because there are no cameras visible in the image.\n\nIs the number of fish 4?\nno, because there are only 2 fish visible in the image.\n\nIs the number of chairs 3?\nno, because there are only 2 chairs visible in the image.\n\nIs the number of candles 4?\nno, because there are only 2 candles visible in the image.\n\nAre the paddles made of leather?\nno, because the paddles appear to be made of wood.\n\nAre the cameras made of plastic?\nno, because there are no cameras visible in the image.\n\nAre the chairs made of plastic?\nyes, because the chairs appear to be made of a plastic-like material."
+}

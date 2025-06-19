@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "No, the image does not show a model applying cream to their face. The model's hand is near the face, but no cream is visible.\nYes, the model does exude relaxation and self-care. The pose and compositional elements suggest a serene, self-care theme.   \nYes, soft, natural lighting is used in the image. The lighting highlights the model's skin, creating a glowing effect.   \nYes, the background of the image incorporates pastel tones. There are tones like blush pink and mint green present.  \nYes, there is a subtle text overlay in a modern sans-serif font. It reads 'Glow Naturally'.   \nYes, the image includes minimalistic icons like leaves and droplets. These are present around the edges of the composition.  \nYes, the focus of the image is on the model's glowing skin and the act of posed skincare. The composition directs attention to these aspects.  \nYes, the image does create an aspirational yet approachable aesthetic. This is emphasized through the elements of lighting, color, and design.  \nNo, there is no visible face cream on the model's face in the picture.  \nYes, the limbs and appearance of the model in this generated image appear natural."
+}

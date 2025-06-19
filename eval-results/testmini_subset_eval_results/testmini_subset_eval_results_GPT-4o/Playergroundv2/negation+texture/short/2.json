@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, the mountain is not wooden, it is an optical illusion or a digitally created effect.\nNo, there is no snow on the mountain's peak, the peak is smooth and bare.\nYes, the mountain appears to have a wooden texture based on the visual appearance in the image.\nNo, the surface surrounding the mountain does not appear to have a rubber texture; it looks natural and grassy."
+}

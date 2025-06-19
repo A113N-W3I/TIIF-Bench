@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "short_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a shirt in the image?  ",
+    "Is the fork metallic?  ",
+    "Is the shirt made of fabric?  ",
+    "Is the fork on the bottom of the shirt?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no fork in the image; there is a spoon.\nno, there is no shirt in the image; there is a folded napkin.\nyes, the spoon is metallic; it appears to be made of polished metal.\nno, since the item is not a shirt but a napkin, it is not made of fabric; however, napkins are typically made of fabric.\nno, there is no fork on the bottom of the shirt; there is a spoon on a napkin."
+}

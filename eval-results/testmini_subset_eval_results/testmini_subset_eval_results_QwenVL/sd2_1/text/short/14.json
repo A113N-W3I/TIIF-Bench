@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 14,
+  "questions": [
+    "Is the text 'JOy' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'PEACE' in the image?",
+    "Is the text 'HEALTH' in the image?",
+    "Is the text 'FAMILY' in the image?",
+    "Is the text 'HAPPINESS' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no Text 'JOy' is not visible.\nno Text 'Love' is not visible.\nyes The text 'PEACE' is prominent in the center of the image.\nno Text 'HEALTH' is not visible.\nno Text 'FAMILY' is not visible.\nno Text 'HAPPINESS' is not visible."
+}

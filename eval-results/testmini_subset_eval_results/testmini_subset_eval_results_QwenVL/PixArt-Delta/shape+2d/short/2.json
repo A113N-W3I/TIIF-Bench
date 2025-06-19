@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are objects that appear to function as dividers.\nno There is no can of soda present; the cylindrical object appears to be a thermos.\nno The dividers are not triangular; they are rectangular blocks.\nno The cylindrical object is not a can of soda, but assuming it were, it would indeed be cylindrical.\nno The dividers are not all to the left of the cylindrical object; one is to the right."
+}

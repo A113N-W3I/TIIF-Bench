@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a scroll in the image. The image clearly shows a scroll rolled up on the desk.\nYes, there is a desk in the image. The scroll and other items appear to be resting on a wooden surface that resembles a desk.\nNo, there is no inkwell in the image. The image features a pen, but it does not show any inkwell.\nNo, the scroll is not unrolled on the desk. The image shows a scroll that is rolled up.\nNo, there is no inkwell behind the scroll. There is a decorative object behind the scroll, but it is not an inkwell."
+}

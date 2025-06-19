@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a kettle in the scene?",
+    "Is the kettle made of metal?",
+    "Is there a bag in the scene?",
+    "Is the bag made of fabric?",
+    "Is the fabric bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a kettle in the scene as shown by the distinctive shape with a handle and spout.\nyes, the kettle is made of metal because it has a shiny, metallic surface.\nyes, there is a bag in the scene, visible to the right of the kettle.\nno, the bag does not appear to be made of fabric; it looks like it is made of leather.\nno, the fabric bag is not brown; the bag visible is not described as a fabric bag."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "long_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a wooden flower in the image?  ",
+    "Is there a wooden tree in the image?  ",
+    "Does the image present a comparison logic: the wooden flowers are taller than the wooden trees?  ",
+    "Are the flowers made of wood?  ",
+    "Are the trees made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image shows a carved wooden structure resembling flowers.\nno There is no distinct wooden tree; the entire image appears to be a carved wooden sculpture.\nno The image does not provide a size comparison between flowers and trees as it features a single carved wooden piece.\nyes The carved elements resembling flowers are part of the wooden sculpture.\nyes The entire sculpture, including parts resembling trees, is made of wood."
+}

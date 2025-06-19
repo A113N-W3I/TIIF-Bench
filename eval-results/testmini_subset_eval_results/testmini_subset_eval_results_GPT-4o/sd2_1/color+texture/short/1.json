@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a grasshopper in the scene?",
+    "Is the grasshopper yellow in color?",
+    "Is there a sun in the scene?",
+    "Is the sun yellow in color?",
+    "Is the fence wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a grasshopper in the scene because the image shows a close-up view of an insect resembling a grasshopper.\nYes, the grasshopper is yellow in color because the grasshopper's body appears yellowish due to lighting conditions.\nNo, there is no sun in the scene because the image does not show a sun.\nNo, the sun is not in the scene, so it cannot be described as yellow.\nYes, the fence is wooden because the surface the grasshopper is on resembles the texture and color of a wooden material."
+}

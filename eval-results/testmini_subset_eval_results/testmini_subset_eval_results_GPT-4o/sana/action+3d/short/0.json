@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image is a highly stylized and abstract representation which does not clearly show a kangaroo.\nno, the image is a highly stylized and abstract representation which does not clearly show a rock.\nno, the image is a highly stylized and abstract representation which does not clearly show a turkey.\nno, the image does not clearly show a kangaroo lifting a turkey.\nno, the image does not clearly show a kangaroo in front of a rock."
+}

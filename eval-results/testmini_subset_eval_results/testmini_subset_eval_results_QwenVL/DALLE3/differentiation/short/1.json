@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does a woman in a neon jersey exist in the scene?  ",
+    "Does a woman in a long coat and scarf exist in the scene?  ",
+    "Does the image present a differentiation logic: one woman wears a neon jersey, while another wears a long coat and scarf?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes A woman is clearly wearing a neon green jersey with the number 23.\nyes There is a woman dressed in a long coat and a scarf.\nyes The image shows two women, one in a neon jersey and the other in a long coat and scarf, presenting a clear differentiation in their attire."
+}

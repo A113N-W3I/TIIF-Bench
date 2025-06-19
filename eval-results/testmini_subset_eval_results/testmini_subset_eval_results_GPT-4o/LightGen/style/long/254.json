@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 254,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, the reason is that the image does not exhibit the defining characteristics of the Ukiyo-e style, such as flat, stylized designs, bold outlines, and traditional Japanese motifs typical of woodblock prints. Instead, it appears more photorealistic with intricate details."
+}

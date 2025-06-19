@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a man in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there toys in the image?  ",
+    "Is the number of men 1?  ",
+    "Is the number of clocks 4?  ",
+    "Is the number of toys 4?  ",
+    "Are the clocks behind the man?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no There is a figure wearing a suit and hat but the face appears to be made of cloth or fabric, not a man.\nyes There are four visible clocks in the image.\nyes There are toys in the image; specifically, stuffed animals and dolls.\nno The figure resembles a man but is not a typical human representation as the face is not human-like.\nyes There are four distinct clocks visible in the image.\nyes There are four distinct toys: two dolls standing upright and two stuffed animals in a basket.\nyes The clocks are positioned behind the figure, providing a backdrop."
+}

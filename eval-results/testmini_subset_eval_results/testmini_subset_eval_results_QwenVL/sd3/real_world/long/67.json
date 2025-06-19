@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The title text does not appear significantly larger compared to the rest of the text.\nno There is not adequate spacing between the text paragraphs; they appear cramped and overlap.\nyes The emphasized text uses vibrant colors such as dark colors against a lighter background which help attract attention.\nyes There is an eye-catching pattern in the background that resembles a chat window, enhancing visual engagement.\nyes Suitable icons like speech bubbles and notes are used to enhance depth but do not distract from the main content.\nyes The text 'Breaking News! ChatGPT has become even stronger!' is visible in multiple areas within the image.\nno The image does not contain the exact text 'Better multitasking ✨', it contains a distorted version.\nyes The image contains a distorted version of the text 'Improved programming skills 💪'.\nno The image contains a distorted version rather than 'Creativity off the charts 🎨'.\nyes The phrase 'Try it now!' appears near the bottom right of the image.\nno The image's dimensions do not appear to fit a typical 9:16 aspect ratio based on the layout of elements.\nno Parts of the text are present but are distorted and not all parts are clear and readable."
+}

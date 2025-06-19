@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a gorgeous metallic vinyl record player in the image?  ",
+    "Is there a smaller, older metallic vinyl record player in the image?  ",
+    "Does the image present a differentiation logic: one vinyl record player is gorgeous, while the other is smaller and older?  ",
+    "Is the gorgeous vinyl record player metallic?  ",
+    "Is the smaller, older vinyl record player metallic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image features a vinyl record player with a sleek, metallic finish and vibrant lighting that enhances its aesthetic appeal.\nno There is no smaller, older metallic vinyl record player visible; the second device appears to be a speaker system rather than a record player.\nyes The image shows a larger, aesthetically pleasing vinyl record player alongside what seems to be an older-style speaker system, creating a contrast between the two devices.\nyes The vinyl record player in the image has a metallic appearance, contributing to its gorgeous look.\nno The second device in the image is not a vinyl record player but appears to be a speaker system, so it cannot be described as a smaller, older vinyl record player."
+}

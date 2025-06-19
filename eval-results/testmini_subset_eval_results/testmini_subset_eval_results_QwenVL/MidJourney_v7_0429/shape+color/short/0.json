@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cushion in the scene?",
+    "Is the cushion spherical in shape?",
+    "Is there a bookstand in the scene?",
+    "Is the bookstand conical in shape?",
+    "Is the bookstand blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes because there is a large blue spherical cushion in the scene and smaller cushions on a bench.\nno because the cushion mentioned is spherical, not spherical in shape; it's a repeat affirmation.\nno because the image contains a young person standing rather than a bookstand.\nno because there is no bookstand present in the scene to assess its shape.\nno because there is no bookstand in the scene to determine its color."
+}

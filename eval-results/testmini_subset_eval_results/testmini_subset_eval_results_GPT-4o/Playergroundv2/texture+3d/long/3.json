@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no rubber band in the image; instead, there is a plush toy with brown wrapped strings.\nyes, there is a reader in the image, represented by the plush toy with a book.\nyes, the reader appears fluffy, as the plush toy is made of plush material.\nno, the rubber band is not behind the reader; there are no rubber bands in the image."
+}

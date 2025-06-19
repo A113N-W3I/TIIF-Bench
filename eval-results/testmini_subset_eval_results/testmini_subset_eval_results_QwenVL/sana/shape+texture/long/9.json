@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image contains structures that resemble skyscrapers.\nyes The structure resembling a skyscraper appears elongated and tall.\nyes There is an object that resembles a traffic sign in the lower part of the image.\nno The traffic sign-like object is not pentagonal; it appears more diamond-shaped.\nno Shadows in the image do not appear fluffy; they are abstract and blend with other elements."
+}

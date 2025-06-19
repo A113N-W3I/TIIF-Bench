@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a nurse in the image?  ",
+    "Is there a vaccine in the image?  ",
+    "Is the nurse administering the vaccine?  ",
+    "Is the nurse's uniform green?  ",
+    "Is the background blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the image shows a person in a medical uniform, likely a nurse due to the stethoscope and scrubs.  \nNo, the image shows a person holding a vial or container, but not a recognizable vaccine syringe.  \nNo, the nurse is holding a container, not administering a vaccine.  \nYes, the nurse is wearing a green uniform.  \nYes, the background is blue.  "
+}

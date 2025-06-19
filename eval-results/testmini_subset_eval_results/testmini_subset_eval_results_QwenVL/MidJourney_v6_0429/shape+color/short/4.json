@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no bagel visible in the image; what might resemble a bagel is actually a cantaloupe cut into two halves.\nno Since there is no actual bagel, this question is not applicable, but the cantaloupe half is indeed round.\nyes There is a melon in the image, specifically a cantaloupe which has been cut in half.\nno The melon is not shaped like a teardrop; it appears as a circular cross-section due to being cut in half.\nno The object resembling a bagel is not white; it is the textured rind of a cantaloupe."
+}

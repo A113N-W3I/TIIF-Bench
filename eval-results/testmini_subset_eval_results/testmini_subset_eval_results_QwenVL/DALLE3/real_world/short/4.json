@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no The title of the infographic does not match the text provided in the question.\nyes The infographic uses a variety of bright and contrasting colors that stand out.\nyes There are icons representing different categories like smartphones, smart speakers, and comedy.\nyes The fonts used are large and legible, making the information readily understandable.\nyes It specifically highlights that 48% listen monthly under 'Listening Frequency'.\nyes It mentions that 24% prefer smartphones, indicating a focus on devices used.\nyes It displays popular topics such as true crime, news, technology, and health, suggesting a focus on podcast themes.\nyes The layout is uncluttered, with elements spaced well apart for clarity.\nyes The design elements like color choice and font indicate a professional appearance.\nyes The infographic's layout and font sizing facilitate ease of reading.\nyes All the text elements appear clearly defined and easily discernible.\nyes The numbers presented in the infographic, like 48% and 24%, are bold and clear."
+}

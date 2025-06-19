@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a girl in the image because there is a person with long hair and winter clothing, typically associated with a young girl.\nYes, there is a snowman in the image because there is a figure made of snow with a carrot nose and button eyes.\nNo, the girl is not engaging in a snowball fight because she is standing with her hands on the snowman, not throwing snowballs.\nNo, the snowman is not on the right because the snowman is on the left side of the image relative to the viewer."
+}

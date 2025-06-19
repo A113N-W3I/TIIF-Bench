@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+color",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there stools in the image?  ",
+    "Are there balloons in the image?  ",
+    "Are there bananas in the image?  ",
+    "Is the number of stools 1?  ",
+    "Is the number of balloons 4?  ",
+    "Is the number of bananas 3?  ",
+    "Are the balloons black in color?  ",
+    "Are the bananas yellow in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes because there is a wooden stool-like object present in the image.\nyes because multiple balloons can be seen floating above a table.\nyes because bananas are visible on the surface below the balloons.\nno because there is more than one stool-like structure in the image.\nno because there are more than four balloons in the image.\nno because there are more than three bananas on the surface.\nno because only some of the balloons are black; others are yellow.\nyes because all the bananas are yellow in color."
+}

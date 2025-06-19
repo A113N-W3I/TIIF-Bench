@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 15,
+  "questions": [
+    "Is the text 'Spin' in the image?",
+    "Is the text 'Glow' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Skill' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Twirl' in the image?",
+    "Is the text 'Fun' in the image?",
+    "Is the text 'Bounce' in the image?",
+    "Is the text 'Light' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Spin' appears in two circles in the image.\nyes The text 'Glow' is visible in the green circle on the top left.\nyes The text 'Play' is present in the purple circle at the top right.\nyes The text 'Skill' is displayed in the orange circle in the top row.\nyes The text 'Shine' can be seen in the purple circle on the top right.\nno The text 'Twirl' is not present in any of the circles.\nyes The text 'Fun' appears in multiple circles at the bottom row.\nyes The text 'Bounce' is visible in the purple circle on the bottom middle.\nyes The text 'Light' is shown in the purple circle on the bottom right."
+}

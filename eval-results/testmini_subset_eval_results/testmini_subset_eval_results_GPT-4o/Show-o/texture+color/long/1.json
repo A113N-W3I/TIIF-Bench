@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a kettle in the scene?",
+    "Is the kettle made of metal?",
+    "Is there a bag in the scene?",
+    "Is the bag made of fabric?",
+    "Is the fabric bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the kettle is in the scene as depicted by the silver teapot with a handle and spout.\nyes, the kettle is made of metal, evident from its shiny, metallic surface.\nyes, there is a bag in the scene, positioned next to the kettle.\nyes, the bag is made of fabric, as indicated by its texture and appearance.\nyes, the fabric bag is brown, as seen from its color in the image."
+}

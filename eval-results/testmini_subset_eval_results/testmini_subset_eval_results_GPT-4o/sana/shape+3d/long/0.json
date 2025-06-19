@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a mirror in the image?  ",
+    "Is there an engagement ring in the image?  ",
+    "Is the mirror oval?  ",
+    "Is the ring in diamond shape?  ",
+    "Is the mirror behind the ring?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no - The image has an ornate central oval shape, but it does not clearly depict a mirror.\nno - There is no clear depiction of an engagement ring in the image.\nyes - The central oval shape in the image appears to be oval.\nno - There is no depiction of a ring, let alone one in diamond shape, in the image.\nno - There is no engagement ring depicted for the mirror to be behind it."
+}

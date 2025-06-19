@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a woman in a fluffy outfit in the image?  ",
+    "Is there a group of people wearing metallic hoodies in the image?  ",
+    "Does the image present a differentiation logic: a woman not wearing a hoodie stands out amidst people wearing hoodies?  ",
+    "Is the outfit of the woman made of fluffy material?  ",
+    "Are the hoodies worn by people made of metallic material?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a woman in a fluffy outfit in the image. The woman is wearing an outfit that appears to be made of fluffy material.\nNo, there is not a group of people wearing metallic hoodies in the image. None of the visible hoodies appear to be metallic.\nYes, the image presents a differentiation logic: a woman not wearing a hoodie stands out amidst people wearing hoodies. She is wearing a fluffy outfit instead.\nYes, the outfit of the woman is made of fluffy material. The texture suggests a fluffy material such as faux fur.\nNo, the hoodies worn by people are not made of metallic material. They appear to be made of fabric."
+}

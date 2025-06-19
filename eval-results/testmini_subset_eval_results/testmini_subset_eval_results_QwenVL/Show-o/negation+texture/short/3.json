@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a chimney in the image?  ",
+    "Is there smoke rising from the chimney?  ",
+    "Is the chimney metallic in texture?  ",
+    "Is the structure wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a cylindrical structure protruding upwards which is characteristic of a chimney.\nno There is no visible emission of smoke from the chimney in the image.\nyes The cylindrical part of the chimney has a metallic texture, as indicated by the reflective surface and fluting typical of metal chimneys.\nno The structure surrounding the chimney has a wood-like texture suggested by the paneling style but it's likely not actual wood given the context and appearance of the chimney."
+}

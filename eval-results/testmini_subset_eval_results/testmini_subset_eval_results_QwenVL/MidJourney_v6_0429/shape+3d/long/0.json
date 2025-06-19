@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a mirror in the image?  ",
+    "Is there an engagement ring in the image?  ",
+    "Is the mirror oval?  ",
+    "Is the ring in diamond shape?  ",
+    "Is the mirror behind the ring?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The frame resembles a decorative mirror.\nno There is no ring displayed; instead, the image shows jewelry inside a reflective surface.\nno The frame appears to have ornate designs but does not specify an oval shape.\nno The jewelry piece inside the frame features multiple diamonds but is not described as diamond-shaped.\nno The jewelry is enclosed within the frame, suggesting it is inside rather than behind it."
+}

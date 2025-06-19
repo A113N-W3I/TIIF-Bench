@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a bookshelf in the image?  ",
+    "Is there a shelf in the image?  ",
+    "Is the bookshelf in shape of diamond?  ",
+    "Is the shelf pentagonal?  ",
+    "Is the bookshelf on the top of the shelf?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a bookshelf in the image. The entire structure on the wall composed of dark geometric shapes functions as a bookshelf, holding books and decorations.\n\nYes, there is a shelf in the image. The component parts of the bookshelf include several shelves that hold books and items.\n\nNo, the bookshelf is not in the shape of a diamond. The bookshelf structure has a geometric form with angular, zig-zag, and triangular shapes but not a clear diamond shape.\n\nNo, the shelf is not pentagonal. The shelves have irregular and triangular shapes but do not form a clear pentagon.\n\nNo, the bookshelf is not on top of another shelf. The entire structure is a wall-mounted bookshelf composed of individual shelves integrated together, not placed atop another separate shelf."
+}

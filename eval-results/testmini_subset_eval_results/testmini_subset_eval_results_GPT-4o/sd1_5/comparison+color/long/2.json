@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a yellow frog in the image?  ",
+    "Is there a black frog in the image?  ",
+    "Does the image present a comparison logic: the yellow frog is angrier than the black frog?  ",
+    "Is the angrier frog yellow in color?  ",
+    "Is the less angry frog black in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no yellow frog in the image; this appears to be a digitally manipulated or artistically rendered image with abstract yellow shapes.  \nNo, there is no black frog in the image; the image contains yellow shapes, but none are black.  \nNo, the image does not present a comparison logic: the yellow frog is angrier than the black frog; there is no explicit depiction of emotion.  \nNo, there is no depiction of an angrier yellow frog; the image does not convey emotion from any frogs.  \nNo, there is no depiction of a less angry black frog; the image does not convey emotion from any frogs."
+}

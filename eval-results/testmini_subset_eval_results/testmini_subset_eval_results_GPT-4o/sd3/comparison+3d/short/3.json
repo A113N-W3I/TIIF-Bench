@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a bowl in the image?  ",
+    "Does the image present a comparison logic: forks are fewer than bowls?  ",
+    "Are the forks positioned in front of the bowls?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, because there are forks in the image, but no bowls.\nno, because there are plates in the image, but no bowls.\nno, because there are no bowls and the quantity of forks (4) exceeds the quantity of plates (2), so there are not fewer forks than \"bowls\".\nyes, because the forks are placed around the plates, which are stacked where a bowl might typically be positioned, implying the empty bowl space in front."
+}

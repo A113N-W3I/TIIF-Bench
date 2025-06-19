@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a car in the image?  ",
+    "Does the car have front wheels?  ",
+    "Is the car red in color?  ",
+    "Is anything else red in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a car in the image because it appears to have the shape and features typically associated with a car, such as a body and wheels.\n\nNo, the car does not have front wheels clearly visible; the area where the front wheels would be does not distinctly show any wheels.\n\nYes, the car is red in color because the predominant color of the car's body is red.\n\nYes, other elements in the image are red, as there are several abstract shapes and parts in the image with red tones."
+}

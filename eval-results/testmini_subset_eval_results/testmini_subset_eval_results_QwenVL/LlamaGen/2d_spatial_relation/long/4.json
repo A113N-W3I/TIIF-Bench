@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a vase in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the vase on the left of the sheep?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes there is a vase-like element within the body of the central figure which looks ornamental and similar to a vase\nno there are no sheep in the traditional sense; all figures appear stylized and integrated into designs that resemble a cultural or artistic interpretation instead of realistic animals\nno since there is no traditional vase or sheep as described, this configuration does not apply in the given artistic interpretation"
+}

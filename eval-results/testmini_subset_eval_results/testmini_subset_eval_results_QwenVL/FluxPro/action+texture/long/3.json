@@ -1,0 +1,28 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a boy in the image?  ",
+    "Is there a dog in the image?  ",
+    "Are the boy and the dog standing on a beach?  ",
+    "Is the boy made of fabric?  ",
+    "Does the dog have a fabric collar?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image depicts a figure that appears to be a boy based on physical characteristics.\nyes There is a canine figure present in the image which resembles a dog.\nyes Both the boy and the dog are positioned on what appears to be a sandy beach near the ocean.\nno The boy is depicted as a human figure and not composed of fabric.\nyes The dog is wearing a collar that has the appearance of being made from fabric."
+}

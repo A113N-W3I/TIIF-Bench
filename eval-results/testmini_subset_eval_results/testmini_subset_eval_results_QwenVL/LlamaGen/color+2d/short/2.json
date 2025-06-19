@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "short_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a frog in the image?  ",
+    "Is there a bear in the image?  ",
+    "Is the frog green?  ",
+    "Is the bear blue?  ",
+    "Is the frog near the bear?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no\nyes The image depicts a bear-like creature.\nno The bear-like creature is not a frog.\nno The bear-like figure is green, not blue.\nno There is no frog present in the image."
+}

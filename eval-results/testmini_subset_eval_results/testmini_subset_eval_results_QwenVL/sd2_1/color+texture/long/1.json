@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a grasshopper in the scene?",
+    "Is the grasshopper yellow in color?",
+    "Is there a sun in the scene?",
+    "Is the sun yellow in color?",
+    "Is the fence wooden?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image clearly shows a grasshopper.\nyes The grasshopper prominently displays yellow as its main color.\nno There is no sun visible in this image.\nno Since there is no sun in the image, it cannot be assessed for color.\nyes The surface under the grasshopper has a texture and appearance consistent with painted wood, suggesting it might be part of a wooden fence."
+}

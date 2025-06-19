@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 10,
+  "questions": [
+    "Is the text 'forever' in the image?",
+    "Is the text 'always' in the image?",
+    "Is the text 'eternity' in the image?",
+    "Is the text 'love' in the image?",
+    "Is the text 'together' in the image?",
+    "Is the text 'united' in the image?",
+    "Is the text 'infinite' in the image?",
+    "Is the text 'bond' in the image?",
+    "Is the text 'cherish' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'forever' is prominently displayed at the top of the image.\nyes The text 'always' is part of a larger phrase including 'love' and 'united'.\nno The correct spelling 'eternity' is not present; instead there's a misspelling 'etternity'.\nyes The word 'love' appears within the phrase that also includes 'always' and 'united'.\nyes The text 'together' is displayed below 'united'.\nyes The text 'united' is part of a phrase that also includes 'always' and 'love'.\nyes The word 'infinite' is visible above the larger black area near the bottom left.\nyes The text 'bond' is visible within a black rectangle to the right of 'infinite'.\nyes The word 'cherish' is located at the bottom right corner below 'bond'."
+}

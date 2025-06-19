@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Does this image show a glowing cybernetic highway at night? Answer with yes or no.",
+    "Is the universe futuristic and inspired by a neon-lit digital world? Answer with yes or no.",
+    "Does the rider on a lightbike leave a blue light trail behind? Answer with yes or no.",
+    "Does the image have ultra-sharp lines? Answer with yes or no.",
+    "Is the background dark? Answer with yes or no.",
+    "Is the image high contrast? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes This image depicts a glowing urban setting with a cybernetic aesthetic and night-time appearance.\nyes The scene has a clear futuristic feel with elements that resemble a neon-lit digital environment.\nyes A rider on a lightbike is present, and it emits a distinct blue light trail as it moves.\nyes The image features lines that are crisp and sharply defined.\nyes The predominant background color is dark, providing contrast to the bright elements in the foreground.\nyes There is a notable difference between the bright elements and the dark background, indicating high contrast."
+}

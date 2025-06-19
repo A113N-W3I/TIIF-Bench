@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "short_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a frog in the image?  ",
+    "Is there a bear in the image?  ",
+    "Is the frog green?  ",
+    "Is the bear blue?  ",
+    "Is the frog near the bear?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a frog in the image as it is clearly visible on the left.\nyes, there is a bear in the image as it is clearly visible on the right.\nyes, the frog is green as it is depicted with green skin.\nyes, the bear is blue as it is depicted with blue fur.\nyes, the frog is near the bear as they are positioned closely together by the stream."
+}

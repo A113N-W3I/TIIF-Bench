@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are visible storefronts and signs indicating shops on the left side of the street.\nyes Similar to the left side, there are visible storefronts and windows on the right side, indicating shops as well.\nyes Observing the left side shows more people walking closer to the shops, interacting with them, suggesting a livelier atmosphere compared to the right side where fewer interactions are seen."
+}

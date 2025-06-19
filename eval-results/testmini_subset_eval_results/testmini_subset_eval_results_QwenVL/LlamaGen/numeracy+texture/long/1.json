@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no there is no television in the image.\nno there are no camels present in the image.\nno the image does not contain any chickens.\nno while there is an absence of televisions, the premise cannot be confirmed as it does not exist.\nno the count for camels remains at zero as they do not appear in the image.\nno chickens are not depicted in the image thus their count is irrelevant.\nno since a television is not part of the image content.\nno the image features alpacas, which can appear fluffy but camels do not.\nno similarly to the question about camels, chickens are also not depicted to assess their fluffiness."
+}

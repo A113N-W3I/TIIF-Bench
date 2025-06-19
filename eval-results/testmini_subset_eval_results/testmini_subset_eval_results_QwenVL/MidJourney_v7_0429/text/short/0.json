@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is the text 'drink' in the image?",
+    "Is the text 'tea' in the image?",
+    "Is the text 'eat' in the image?",
+    "Is the text 'cake' in the image?",
+    "Is the text 'relax' in the image?",
+    "Is the text 'enjoy' in the image?",
+    "Is the text 'delight' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes because the word 'drink' is clearly visible in the image above the cup of tea.\nyes because the word 'tea' appears next to the cup in the image.\nno because the word 'eat' is not present in the image.\nno because the word 'cake' does not appear in the image, although a slice of cake is shown.\nyes because the word 'relax' appears near the top right side of the image.\nno because the word 'enjoy' is not present in the image.\nno because the word 'delight' is not present in the image; instead, the word 'delite' is shown which may be a design choice or typo."
+}

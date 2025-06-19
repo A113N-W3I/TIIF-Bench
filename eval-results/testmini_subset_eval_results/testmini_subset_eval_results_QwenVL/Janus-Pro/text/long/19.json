@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 19,
+  "questions": [
+    "Is the text 'Unite' in the image?",
+    "Is the text 'Perform' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Strive' in the image?",
+    "Is the text 'Inspire' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Commit' in the image?",
+    "Is the text 'Create' in the image?",
+    "Is the text 'Lead' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Unite' appears to be visible in the image, although it seems to be stylized as 'UNTte'.\nyes The text 'Perform' is present in the image, seen as part of the phrase 'PEEFORMAM'.\nno There is no text 'Dream' visible in the image.\nno There is no text 'Strive' visible in the image.\nno There is no text 'Inspire' visible in the image.\nno There is no text 'Shine' visible in the image.\nno There is no text 'Commit' visible in the image.\nno There is no text 'Create' visible in the image.\nno There is no text 'Lead' visible in the image.\n"
+}

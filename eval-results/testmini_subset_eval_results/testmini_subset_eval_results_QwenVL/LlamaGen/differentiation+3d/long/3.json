@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pair of yellow rubber boots in the image?  ",
+    "Is there a pair of green gardening gloves in the image?  ",
+    "Does the image present a differentiation logic: a pair of yellow rubber boots and a pair of green gardening gloves?  ",
+    "Are the yellow rubber boots in front of the green gardening gloves?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There are not yellow rubber boots; the boots present are brown and yellow hybrid footwear but not entirely the type that would be categorized as yellow rubber boots.\nno There are no green gardening gloves in the image; the gloves depicted are yellow.\nno Since neither the specific boots nor the gloves are in the image, a differentiation logic between them cannot exist.\nno Given that there are no green gardening gloves in the image, it is not possible for the yellow rubber boots (which also do not exist as described) to be in front of them."
+}

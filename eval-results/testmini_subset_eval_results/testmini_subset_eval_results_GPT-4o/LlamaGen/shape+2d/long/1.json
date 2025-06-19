@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pear in the image?  ",
+    "Are there cushions in the image?  ",
+    "Is the pear round?  ",
+    "Are the cushions spherical?  ",
+    "Is the pear on the left of the cushions?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a pear in the image positioned to the left.  \nno, there is no cushion in the image; only a loaf of bread is visible.  \nno, the pear is not round; it has an elongated shape.  \nno, the object in the image is not a spherical cushion; it is a loaf of bread.  \nyes, the pear is on the left of the loaf of bread, which could be mistaken for cushions."
+}

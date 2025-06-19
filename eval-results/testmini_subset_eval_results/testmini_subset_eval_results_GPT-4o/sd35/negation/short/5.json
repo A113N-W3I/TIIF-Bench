@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "short_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a hamster in the image?  ",
+    "Is there a wheel in the image?  ",
+    "Is the hamster running on the wheel?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a hamster in the image. The image shows a small rodent that resembles a hamster inside a blue object.\nNo, there is not a wheel in the image. The blue object does not resemble a wheel; it looks more like a tube or tunnel.\nNo, the hamster is not running on the wheel. There is no wheel in the image for the hamster to run on."
+}

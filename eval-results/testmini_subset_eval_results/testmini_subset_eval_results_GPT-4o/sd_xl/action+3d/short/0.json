@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, there is no kangaroo in the image, but there are kangaroo-like creatures.\nyes, there is a rock in the image; several large rocks are visible in the background.\nno, there is no turkey in the image, but something resembling a turkey is hanging from the creature's arm.\nno, the kangaroo is not lifting the turkey; the creature is holding something turkey-like in its hand.\nyes, the kangaroo-like creature is in front of the rock, which is in the background."
+}

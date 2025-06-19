@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 20,
+  "questions": [
+    "Is the text 'Kingston' in the image?",
+    "Is the text '64GB' in the image?",
+    "Is the text 'microSDXC' in the image?",
+    "Is the text 'UHS-I' in the image?",
+    "Is the text 'U1' in the image?",
+    "Is the text 'Memory' in the image?",
+    "Is the text 'Card' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Kingston' is clearly visible at the top of the card.\nyes The text '64GB' is present in the bottom right corner of the card.\nno The text shown is 'microSD', not 'microSDXC'.\nyes The text 'UHS-I' appears below the microSD logo.\nyes The text 'U1' is located within the UHS-I symbol.\nyes The word 'Micro' is part of the 'microSD' text.\nyes The word 'Card' is implied as this is a memory card, although not explicitly written."
+}

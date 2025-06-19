@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a salt shaker in the scene?",
+    "Is the salt shaker cylindrical in shape?",
+    "Is there a gemstone in the scene?",
+    "Is the gemstone spherical in shape?",
+    "Is the cylindrical salt shaker plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no salt shaker in the scene; the object resembles a deodorant stick or container.  \nYes, the object resembling the cylindrical shape in the scene is indeed cylindrical.  \nYes, there is a gemstone in the scene, as seen next to the cylindrical object.  \nNo, the gemstone is not spherical in shape; it has a faceted, multifaceted cut.  \nNo, the cylindrical object is not identified as a plastic salt shaker; it appears to be a plastic container but not a salt shaker."
+}

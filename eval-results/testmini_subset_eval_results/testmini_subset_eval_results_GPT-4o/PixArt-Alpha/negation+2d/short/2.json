@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a skateboard in the image?  ",
+    "Are the ears of the cat visible?  ",
+    "Is the cat on the top of the skateboard?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cat in the image because a cat is prominently displayed.\nyes, there is a skateboard in the image because the cat is shown on a skateboard.\nyes, the ears of the cat are visible because they can be seen clearly at the top of its head.\nyes, the cat is on the top of the skateboard because it is riding on it."
+}

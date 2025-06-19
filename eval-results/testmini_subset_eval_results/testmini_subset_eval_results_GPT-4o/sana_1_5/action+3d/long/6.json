@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is there a ship in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the ship behind the iceberg?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a ballerina in the image because there is a figure wearing a tutu and is posed in a ballet stance.\nYes, there is an iceberg in the image because there is a large ice formation in the background.\nYes, there is a ship in the image because there is a vessel with sails in the background.\nNo, the ballerina is not pirouetting on the iceberg because she is on ice, not the iceberg itself.\nYes, the ship is behind the iceberg because it is positioned further in the background relative to the large iceberg."
+}

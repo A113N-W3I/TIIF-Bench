@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 29,
+  "questions": [
+    "Is the text 'School' in the image?",
+    "Is the text 'Kills' in the image?",
+    "Is the text 'My' in the image?",
+    "Is the text 'Vibe' in the image?",
+    "Is the text 'Rebel' in the image?",
+    "Is the text 'Bold' in the image?",
+    "Is the text 'Statement' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes 'School' appears on the black t-shirt on the left.\nno 'Kills' is not present in the image, instead 'KIUE' is on the grey t-shirt.\nyes 'My' appears as part of 'My Statement' on the black t-shirt.\nno 'Vibe' does not appear in the image.\nyes 'Rebel' is part of the phrase 'Rebel Bold' on the black t-shirt.\nyes 'Bold' is part of the phrase 'Rebel Bold' on the black t-shirt.\nyes 'Statement' is visible on the black t-shirt as part of 'My Statement Rebel Bold'."
+}

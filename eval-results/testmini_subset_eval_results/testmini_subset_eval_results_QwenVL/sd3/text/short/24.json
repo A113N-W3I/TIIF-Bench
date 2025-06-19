@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 24,
+  "questions": [
+    "Is the text 'Solitude' in the image?",
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Eternity' in the image?",
+    "Is the text 'Contemplation' in the image?",
+    "Is the text 'Serenity' in the image?",
+    "Is the text 'Depth' in the image?",
+    "Is the text 'Mystery' in the image?",
+    "Is the text 'Reflection' in the image?",
+    "Is the text 'Stillness' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Solitude' is clearly visible at the top of the image.\nno The text appears as 'Wissdom', which is a misspelling of 'Wisdom'.\nno The text appears as 'Eternty', which is a misspelling of 'Eternity'.\nno The text appears as 'conepperttain', which is not the correct spelling of 'Contemplation'.\nno The text appears as 'Snnuity', which is a misspelling of 'Serenity'.\nyes The word 'Depth' is present in the list at the bottom of the image.\nyes The word 'Mystery' is correctly spelled and present in the list at the bottom of the image.\nno The text appears as 'R:efllction', which is a misspelling of 'Reflection'.\nno The text appears as 'Fergti', which seems unrelated to 'Stillness'."
+}

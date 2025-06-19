@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "short_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there bells in the image?  ",
+    "Are there dogs in the image?  ",
+    "Does the image present a comparison logic: a bell is bigger than the dog?  ",
+    "Is the bell on the bottom of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there are bells in the image. The image shows a large bell hanging under an archway.\nYes, there are dogs in the image. A dog is sitting in front of the bell.\nYes, the image presents a comparison logic: a bell is bigger than the dog. The bell is shown to be much larger than the dog.\nNo, the bell is not on the bottom of the image. The bell is hanging from the structure and appears in the upper portion of the image."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an old man in a fabric smock splattering paint in the image?  ",
+    "Is there a young man in wooden goggles and an oversized t-shirt in the image?  ",
+    "Does the image present a differentiation logic: an old man in a smock splattering paint alongside a young man in an oversized t-shirt and goggles?  ",
+    "Is the smock made of fabric?  ",
+    "Are the goggles made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows an older individual wearing a smock covered in paint which suggests he might be involved in splattering paint as part of his artistic process.\nno The goggles appear to be made of plastic or another transparent material rather than wood.\nyes The image clearly depicts an older man in a smock and a younger man in an oversized t-shirt with goggles, standing next to each other in what appears to be an art setting.\nyes The smock is visibly made from fabric and is heavily stained with various colors of paint.\nno The goggles are not made of wood; they have a clear, likely plastic lens with golden frames."
+}

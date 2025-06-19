@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image clearly depicts a 3D-rendered toilet with smooth, rounded edges.\nyes The image predominantly uses soft beige and light gray for the toilet and base, with warm orange as an accent in the background.\nyes The lighting appears soft and even, casting gentle shadows from above and to the right.\nyes The surfaces of the toilet and platforms exhibit a matte finish with minimal reflectivity.\nyes The toilet is centrally positioned with plenty of surrounding empty space.\nyes The perspective is angled slightly, enhancing the three-dimensional appearance.\nyes The background is a solid, muted orange that harmonizes with the subject.\nno There is no visible typography anywhere in the image.\nno Since there is no typography, there is no text to assess for color and contrast.\nno The absence of text means there is no gray text present."
+}

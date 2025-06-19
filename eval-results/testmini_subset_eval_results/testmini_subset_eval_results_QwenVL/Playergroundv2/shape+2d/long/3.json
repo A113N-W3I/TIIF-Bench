@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a pizza cutter visible across the pizza.\nno There is no jewelry appraisal in the image; it is not present.\nno The pizza cutter is not square; it has a cylindrical handle and a straight cutting edge.\nno Since there is no jewelry appraisal in the image, it cannot be judged as rectangular.\nno The pizza cutter is placed on top of the pizza, not at the bottom of a jewelry appraisal."
+}

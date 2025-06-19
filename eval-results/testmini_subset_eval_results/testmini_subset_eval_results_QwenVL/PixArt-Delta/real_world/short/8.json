@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Does this image show a cat dressed as an astronaut? Answer with yes or no.",
+    "Is the cat standing on the Moon? Answer with yes or no.",
+    "Is the cat holding a flag that says 'I want kibble'? Answer with yes or no.",
+    "Is the style of the image cartoon? Answer with yes or no.",
+    "Is the background of the image starry? Answer with yes or no.",
+    "Does the cat have a funny facial expression? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The cat is clearly adorned in a spacesuit resembling an astronaut's attire.\nno The cat appears to be standing on a celestial body, but not specifically indicated as the Moon.\nno The cat holds a flag with a star design, not one saying 'I want kibble'.\nyes The image features exaggerated and whimsical elements characteristic of cartoon styles.\nyes The backdrop is filled with stars, indicating a space setting.\nyes The cat's wide eyes and slight smile suggest a playful and humorous expression typical of cartoons."
+}

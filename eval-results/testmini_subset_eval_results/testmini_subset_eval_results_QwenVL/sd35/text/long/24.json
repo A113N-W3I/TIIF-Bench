@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 24,
+  "questions": [
+    "Is the text 'Solitude' in the image?",
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Eternity' in the image?",
+    "Is the text 'Contemplation' in the image?",
+    "Is the text 'Serenity' in the image?",
+    "Is the text 'Depth' in the image?",
+    "Is the text 'Mystery' in the image?",
+    "Is the text 'Reflection' in the image?",
+    "Is the text 'Stillness' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Solitude' is visibly inscribed near the figure.\nno The text 'Wisdom' is not clearly visible in the image.\nyes The word 'Eternity' appears faintly around the rocky surface.\nyes The text 'Contemplation' is discernible among other words on the rock.\nno The text 'Serenity' is not present in the image.\nyes The text 'Depth' can be seen inscribed on the stone.\nyes The text 'Mystery' is part of the inscriptions on the rocks.\nyes The word 'Reflection' is visible among the texts on the stone.\nyes The text 'Stillness' is inscribed on the surrounding rocks."
+}

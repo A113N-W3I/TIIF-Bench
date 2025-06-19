@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a violinist in the image?  ",
+    "Is there a room in the image?  ",
+    "Is there a grand piano in the image?  ",
+    "Is the violinist playing in the room?  ",
+    "Is the violinist in front of the grand piano?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The musician in the image is holding a cello, not a violin.\nyes The setting clearly shows an interior space with walls, a ceiling, and musical instruments, indicating a room.\nyes There is a large black piano with an open lid visible in the background.\nno The musician is playing a cello, not a violin, and the instrument is not being played in the room's open area but rather deviates from typical playing positions.\nno The musician is positioned with their back towards the grand piano, not in front of it."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 14,
+  "questions": [
+    "Is the text 'JOy' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'PEACE' in the image?",
+    "Is the text 'HEALTH' in the image?",
+    "Is the text 'FAMILY' in the image?",
+    "Is the text 'HAPPINESS' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Joy' is clearly visible on the tree.\nyes The text 'Love' is present on the tree.\nyes The text 'PEACE' appears on the tree, albeit stylized.\nno The text 'HEALTH' is not present; instead, 'health' is written but not in all caps.\nyes The text 'FAMILY' is part of the phrase 'families,' on the tree.\nyes The text 'HAPPINESS' is visible at the bottom of the tree."
+}

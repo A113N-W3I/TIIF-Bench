@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 17,
+  "questions": [
+    "Is the text 'ICT' in the image?",
+    "Is the text 'Billet' in the image?",
+    "Is the text 'LLC' in the image?",
+    "Is the text 'Performance' in the image?",
+    "Is the text 'Engineering' in the image?",
+    "Is the text 'Power' in the image?",
+    "Is the text 'Precision' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'ICT' is visible on the engine block.\nno There is no text 'Billet' present in the image.\nno There is no text 'LLC' present in the image.\nno There is no text 'Performance' present in the image.\nno There is no text 'Engineering' present in the image.\nno There is no text 'Power' present in the image.\nno There is no text 'Precision' present in the image."
+}

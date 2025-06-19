@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the text 'Chanel' is in the image because it appears prominently in the center near the bottom.\nyes, the text 'Elegance' is in the image but not clearly legible, it seems to appear on the top left.\nno, the text 'Style' is not in the image; the letters visible do not spell this word.\nno, the text 'Luxury' is not in the image; the letters visible do not spell this word.\nno, the text 'Iconic' is not in the image; the letters visible do not spell this word.\nyes, the text 'Glamour' is in the image but not clearly legible, it seems to appear near the bottom right corner.\nyes, the text 'Timeless' is in the image but not clearly legible, it seems to appear at the center, under the main elements.\nno, the text 'Sophistication' is not in the image; the letters visible do not spell this word.\nno, the text 'Fashion' is not in the image; the letters visible do not spell this word."
+}

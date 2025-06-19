@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "long_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bowl in the scene?",
+    "Is the bowl white in color?",
+    "Is there a toilet in the scene?",
+    "Is the toilet white?",
+    "Is the bathroom faucet metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a bowl in the scene; it is the main focus of the image, resting on the countertop.  \nYes, the bowl is white in color; it can be seen clearly on the countertop, reflecting light.  \nNo, there is no toilet in the scene; the image focuses on a sink area with a mirror and countertop.  \nNo, there is no toilet in the scene, therefore it cannot be described as white.  \nYes, the bathroom faucet is metallic; it appears to be made of metal with a shiny finish."
+}

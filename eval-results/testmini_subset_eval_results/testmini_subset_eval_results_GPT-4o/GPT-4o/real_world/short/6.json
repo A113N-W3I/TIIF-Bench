@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the figure depicted in the image resembles a humanoid android due to its metallic and robotic design.  \nYes, the android appears to be seated in a futuristic library, as evidenced by the shelves of books in the background.  \nYes, the android is holding and reading a floating holographic book.  \nYes, the lighting in the scene consists of soft blue and purple tones.  \nYes, there are metallic reflections visible on the android's face and body.  \nNo, the blurred face prevents observation of any expression, so a calm facial expression cannot be confirmed.  \nYes, there is a high-tech blurred background featuring books and futuristic elements.  \nYes, the image is realistic, detailed, and crafted in a cinematic style.  \nYes, the image includes elements inspired by sci-fi films, such as the holographic book and robotic design.  \nYes, the book being read by the android is a holographic book. "
+}

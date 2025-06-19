@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "short_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a mirror in the image?  ",
+    "Is there an engagement ring in the image?  ",
+    "Is the mirror oval?  ",
+    "Is the ring in diamond shape?  ",
+    "Is the mirror behind the ring?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes the image contains a decorative object that appears to be a mirror based on its reflective surface and frame.\nno there is no engagement ring visible in the image; it features a mirror-like object with a highly reflective, gemstone-patterned surface.\nyes the mirror has an oval shape as indicated by the outline of its frame.\nno there is no ring present in the image, therefore no assessment can be made about its shape.\nno since there is no ring in the image, it cannot be positioned behind the mirror."
+}

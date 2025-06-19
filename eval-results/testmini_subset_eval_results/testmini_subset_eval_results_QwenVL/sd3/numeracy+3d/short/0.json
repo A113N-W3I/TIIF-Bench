@@ -1,0 +1,34 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a man in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there toys in the image?  ",
+    "Is the number of men 1?  ",
+    "Is the number of clocks 4?  ",
+    "Is the number of toys 4?  ",
+    "Are the clocks behind the man?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is an older man in a brown suit in the center of the image.\nyes There are multiple clocks visible both on the wall and among the objects on the table.\nyes The colorful objects on the table appear to be clock-themed toys or decorative items.\nyes There is only one man in the image wearing a suit.\nno There are at least four clocks, but also other objects that combine clock elements with toy-like features.\nyes There are four prominent clock-toy hybrid objects placed on the table.\nyes The two larger clocks are mounted on the wall above and behind the man."
+}

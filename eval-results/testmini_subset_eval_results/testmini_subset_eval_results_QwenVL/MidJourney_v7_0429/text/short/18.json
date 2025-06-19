@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 18,
+  "questions": [
+    "Is the text 'Joy' in the image?",
+    "Is the text 'Laughter' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Rain' in the image?",
+    "Is the text 'Childhood' in the image?",
+    "Is the text 'Happiness' in the image?",
+    "Is the text 'Freedom' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes the text 'Joy' is visible in the image.\nyes the text 'Laughter' is partially visible as 'Lay'.\nyes the text 'Play' is visible in the image.\nno the text 'Rain' is not in the image.\nno the text 'Childhood' is misspelled as 'Chrildrhoen' in the image.\nno the text 'Happiness' is not in the image.\nno the text 'Freedom' is misspelled as 'Freeem' in the image."
+}

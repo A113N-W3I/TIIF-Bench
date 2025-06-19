@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no because the objects on top of the pizza-like surface do not resemble a pizza cutter.\nno because there is no indication of a jewelry appraisal in the image; the objects are unrelated.\nno because the objects on the pizza-like surface are metallic and linear, not a square pizza cutter.\nno because the concept of a jewelry appraisal being rectangular is nonsensical within the context of the image.\nno because there is no pizza cutter nor jewelry appraisal present in the image as described."
+}

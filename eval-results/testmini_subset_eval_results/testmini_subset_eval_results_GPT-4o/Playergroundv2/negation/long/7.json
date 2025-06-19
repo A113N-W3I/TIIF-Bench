@@ -1,0 +1,22 @@
+{
+  "attribute": "negation",
+  "desc": "long_description",
+  "jsonl_file": "negation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a windbreaker in the image?  ",
+    "Is there a sweater in the image?  ",
+    "Is the windbreaker on top of the sweater?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a windbreaker in the image because the outer layer of clothing has features typical of a windbreaker, such as a smooth texture and zippered pockets.\nyes, there is a sweater in the image because underneath the windbreaker, there is a visible high-neck, ribbed texture garment that resembles a sweater.\nyes, the windbreaker is on top of the sweater because the windbreaker is the outermost layer and the sweater is underneath."
+}

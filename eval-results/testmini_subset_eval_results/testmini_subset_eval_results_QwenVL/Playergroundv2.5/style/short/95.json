@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image features a highly detailed, whimsical building with elements like ice cream cones and candy canes, which is more indicative of a fantasy or magical theme rather than the typical Disney style, even though it has a playful and enchanting quality that might seem similar at first glance."
+}

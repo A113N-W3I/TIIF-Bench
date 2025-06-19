@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a microwave in the image?  ",
+    "Is the cat on the bottom of the microwave?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a cat in the image because the cat is visibly sitting and its features and fur are clearly distinguishable.  \nyes, there is a microwave in the image because the appliance with metallic features and a recognizable microwave door is visible in the background.  \nyes, the cat is on the bottom of the microwave because the cat is positioned directly beneath the microwave, resting on the surface below it.  "
+}

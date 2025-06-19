@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 79,
+  "questions": [
+    "Is the image in Van Gogh style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, the reason is that while the image has vibrant colors and fluid lines reminiscent of Van Gogh's style, it is executed in a mosaic technique, which differs in texture and presentation from Van Gogh's famous brushwork."
+}

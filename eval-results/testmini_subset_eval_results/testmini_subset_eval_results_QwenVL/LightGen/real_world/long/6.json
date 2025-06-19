@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure has a distinctly mechanical texture and human-like form.\nno The setting resembles a traditional library filled with physical books.\nno The android is engaged with a physical book held in its hands.\nno The primary color tones appear more neutral rather than vividly blue and purple.\nyes There are visible reflections suggesting a metallic surface on the android.\nyes The android’s facial features convey a serene appearance consistent with a calm demeanor.\nno The background is mostly in focus, showcasing rows of books.\nno The image has a clear digital illustration quality rather than a highly realistic cinematic style.\nyes Elements like the android's design align closely with typical sci-fi imagery.\nno The book depicted is a conventional physical book, not a holographic one."
+}

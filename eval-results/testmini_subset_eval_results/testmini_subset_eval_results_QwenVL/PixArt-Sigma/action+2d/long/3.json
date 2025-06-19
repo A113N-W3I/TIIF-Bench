@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a mushroom in the image?  ",
+    "Is there a forest in the image?  ",
+    "Is there a fallen tree in the image?  ",
+    "Are the mushrooms growing in the forest?  ",
+    "Are the mushrooms to the left of the fallen tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are red mushrooms with white spots visible.\nyes The background shows trees and foliage typical of a forest.\nyes There is a log covered in moss which can be considered a fallen tree.\nyes The mushrooms are growing on a log within what appears to be a forest setting.\nno The mushrooms are on the log, not specifically to the left of it; some are to the right."
+}

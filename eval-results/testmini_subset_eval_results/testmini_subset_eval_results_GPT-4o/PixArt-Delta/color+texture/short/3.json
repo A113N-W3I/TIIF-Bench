@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a cat in the scene?",
+    "Is the cat white in color?",
+    "Is there a bowl in the scene?",
+    "Is the bowl blue?",
+    "Is the table leather?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a cat in the scene because the image shows a feline animal.\nyes, the cat is white in color because its fur is predominantly white.\nyes, there is a bowl in the scene because there is a round, dish-like object in front of the cat.\nyes, the bowl is blue because it appears to be a shade of blue.\nno, the table is not leather because it appears to be covered in a fabric material."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a frog in the image?  ",
+    "Is there a bear in the image?  ",
+    "Is the frog green?  ",
+    "Is the bear blue?  ",
+    "Is the frog near the bear?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a frog in the image, as shown by a green amphibian with characteristic bulging eyes.  \nYes, there is a bear in the image, as indicated by the blue figure with a bear-like appearance.  \nYes, the frog is green, as seen by its bright green skin color.  \nYes, the bear is blue, as shown by the blue color of the bear's fur.  \nYes, the frog is near the bear, as they are positioned closely on the rock or log in the image."
+}

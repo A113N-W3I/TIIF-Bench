@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Does this image show a young Indian woman? Answer with yes or no.",
+    "Does this image show the woman with dark hair in an open ponytail? Answer with yes or no.",
+    "Is the woman wearing a black jacket? Answer with yes or no.",
+    "Is the setting of the image on a university campus? Answer with yes or no.",
+    "Is the woman looking directly at the camera? Answer with yes or no.",
+    "Does the image have a 1990s-style movie still aesthetic? Answer with yes or no.",
+    "Is it a sunny day in the image? Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The person appears to be a young adult with features that may suggest she is Indian.\nyes Her dark hair is styled in a way that includes being tied back but left loose enough to consider it an open ponytail.\nyes The individual is clearly dressed in a black jacket.\nyes The architectural style and open greenery are reminiscent of a typical university campus setting.\nno The woman's gaze is slightly off-camera, not directly engaging with the viewer.\nyes The color saturation, lighting, and composition evoke the aesthetic of 1990s film photography.\nyes The clear sky and shadows suggest bright sunlight indicative of a sunny day.\nno The proportions and details of the limbs and face exhibit characteristics often seen in digital art or AI generation rather than natural photography."
+}

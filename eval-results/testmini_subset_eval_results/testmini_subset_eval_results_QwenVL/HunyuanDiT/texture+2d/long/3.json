@@ -1,0 +1,31 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber ball in the image?  ",
+    "Is there a metallic key in the image?  ",
+    "Is the rubber ball made of rubber?  ",
+    "Is the key made of metal?  ",
+    "Is the rubber ball on the bottom?  ",
+    "Is the metallic key on the bottom?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image contains a red spherical object that resembles a rubber ball.\nyes There is a metallic key attached to the red spherical object.\nno The red spherical object appears to be made of a shiny material, likely plastic, not rubber.\nyes The key has a reflective surface and structure consistent with being made of metal.\nno The red spherical object is positioned above the key, not on the bottom.\nyes The metallic key is positioned below the red spherical object, closer to the bottom of the image."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image clearly depicts a formal invitation with elegant design elements typical of a wedding card.\nyes The card exhibits a raised, eggshell-like texture and features embossed patterns around its border.\nyes The decorations, which include floral motifs, can be interpreted as an abstract representation of a couple's unity.\nno The use of iconography is not minimalistic; it is quite detailed with ornate floral designs throughout the border.\nno The text does not mention the union of Image and Text specifically; it appears to have generic wedding-related text.\nno The typesetting has significant distortions, with words and symbols appearing jumbled and unreadable.\nyes The invitation is set upon a surface with the appearance of a wooden desk, adding a layer of sophistication.\nno The text is not clear and readable; it is distorted and appears nonsensical.\nno The image does not contain any clear date information, let alone the specific date of March 25, 2025."
+}

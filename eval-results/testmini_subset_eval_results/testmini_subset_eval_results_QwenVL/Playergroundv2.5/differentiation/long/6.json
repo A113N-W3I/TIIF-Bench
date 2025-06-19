@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Does a large green apple exist in the image?  ",
+    "Does a small red apple exist in the image?  ",
+    "Does the image present a differentiation logic: a big green apple next to a small red apple?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The green apple is not larger than the red apple.\nno The red apple is not smaller than the green apple; it appears larger.\nno The image does not show a big green apple next to a small red apple; both apples appear to be of similar size but different colors."
+}

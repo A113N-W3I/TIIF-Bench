@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, because the title text \"CHATGPT HAS BECOME EVEN STRONGER!\" is significantly larger than the regular text.  \nYes, because there is clear and adequate spacing between the text paragraphs.  \nYes, because the emphasized text uses vibrant colors like orange, purple, and white to attract attention.  \nYes, because the background has an eye-catching paper-style pattern resembling a notebook.  \nYes, because the icon of a megaphone enhances visual depth without causing distraction.  \nYes, because the text 'Breaking News! ChatGPT has become even stronger!' is clearly visible.  \nYes, because the text 'Better multitasking ✨' is present in the image.  \nYes, because the text 'Improved programming skills 💪' is present in the image.  \nYes, because the text 'Creativity off the charts 🎨' is present in the image.  \nYes, because the text 'Try it now!' is present in the image.  \nNo, because the image appears to be closer to a 4:5 aspect ratio, not 9:16.  \nYes, because the text in the image is clear and readable.  "
+}

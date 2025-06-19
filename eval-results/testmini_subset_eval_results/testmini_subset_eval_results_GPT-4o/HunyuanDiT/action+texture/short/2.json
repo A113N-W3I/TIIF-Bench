@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a magician in the image?  ",
+    "Is there a rabbit in the image?  ",
+    "Is there a hat in the image?  ",
+    "Is the magician pulling the rabbit?  ",
+    "Is the rabbit being pulled from the hat?  ",
+    "Are the gloves made of leather?  ",
+    "Is the hat made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image doesn't have clear indications of a magician since the person is not necessarily performing magic tricks.\nyes, there is a rabbit in the image as it is visible.\nyes, there is a hat in the image since the person is wearing a top hat.\nno, the magician is not pulling the rabbit; the rabbit is being held or presented.\nno, the rabbit is not being pulled from the hat; it is held in the hand.\nno, the gloves appear to be made of shiny material like vinyl or latex, not leather.\nno, the hat does not appear to be made of plastic; it looks like a typical magician's hat, likely felt or wool."
+}

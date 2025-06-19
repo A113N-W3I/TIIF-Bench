@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'Chanel' appears on the handbag in the image.\nyes The word 'Elegance' is present near the bottom left of the image.\nno The text 'Style' appears but it is not part of the listed words for direct matching as per instructions.\nno The text 'Luxury' is misspelled in the image as 'Luxry'.\nno The text 'Iconic' is misspelled in the image as 'Lconic'.\nno The text 'Glamour' is misspelled in the image as 'GLanour'.\nno The text 'Timeless' is misspelled in the image as 'Timelscation'.\nno The text 'Sophistication' is present but with additional characters which alters its exact match.\nyes The text 'Fashion' is visible at the bottom right adjacent to other texts."
+}

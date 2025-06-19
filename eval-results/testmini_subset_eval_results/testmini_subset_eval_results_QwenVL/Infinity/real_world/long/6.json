@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The entity depicted possesses human-like features and mechanical elements indicative of an android form.\nyes The personnelized robot is situated amidst rows of books with a modern architecture suggestive of a library from a speculative future.\nno The material being read appears to be a physical book rather than a holographic display.\nyes The ambient illumination exhibits hues predominantly in the blue and purple spectrum creating a serene atmosphere.\nyes The surface of the android exhibits glossy highlights characteristic of metallic construction.\nyes The facial configuration of the android does not suggest distress or agitation but rather composure.\nyes The backdrop shows shelves filled with books out of focus, which amplifies the depth suggesting advanced technology around that era.\nyes The resultant visualization is exceptionally sharp and has visual aspects typical of highly budgeted motion pictures in science fiction genre.\nyes Various nuances such as lighting choice and android design draw upon common motifs found within science fiction cinematography.\nno The book the android holds is tangible with visible pages implying it is not a holographic manifestation."
+}

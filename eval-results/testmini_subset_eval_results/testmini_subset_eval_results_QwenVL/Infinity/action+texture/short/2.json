@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a magician in the image?  ",
+    "Is there a rabbit in the image?  ",
+    "Is there a hat in the image?  ",
+    "Is the magician pulling the rabbit?  ",
+    "Is the rabbit being pulled from the hat?  ",
+    "Are the gloves made of leather?  ",
+    "Is the hat made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The individual is dressed in attire typical for a magician.\nyes A white rabbit is visible in the image.\nyes There is a brown hat present in the image.\nno The magician is not actively pulling the rabbit; the rabbit is positioned above the hat.\nno The rabbit is not being pulled from the hat; it appears to be floating above it.\nyes The gloves appear to have the texture and sheen consistent with leather.\nno The hat does not exhibit characteristics typical of plastic, such as translucency or a glossy finish."
+}

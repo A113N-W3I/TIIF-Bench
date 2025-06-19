@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an eggplant in the image?  ",
+    "Is there a mobile home in the image?  ",
+    "Is the eggplant oblong in shape?  ",
+    "Is the mobile home short in shape?  ",
+    "Is the eggplant behind the mobile home?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the shape of the visible vegetable is more spherical than oblong, which is unusual for eggplants.\nno, although there is a caravan or trailer unit visible, it doesn't fit the typical description of a mobile home.\nno, the visible vegetable is round rather than oblong, which is not typical of an eggplant.\nno, the visible dwelling is relatively compact but not particularly short in height.\nno, the visible purple vegetable is in front of the trailer or mobile unit, making the provided statement incorrect."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a pair of sunglasses in the image?  ",
+    "Is there a mirror in the image?  ",
+    "Are the sunglasses under the mirror?  ",
+    "Are the sunglasses white in color?  ",
+    "Is the mirror green in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a clear depiction of a pair of sunglasses in the center of the image.\nno There is no mirror present; the reflection is on a reflective surface, likely not a mirror.\nno The sunglasses are on top of the reflective surface; they are not under anything.\nyes The frame of the sunglasses is indeed white.\nno The mirror or reflective surface has a green hue, but it is not green in color itself; the green appears to be from the background."
+}

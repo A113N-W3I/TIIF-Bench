@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because the image clearly shows a kangaroo standing on a sandy surface.\nyes, as there are large rocks in the background behind the kangaroo.\nno, the bird depicted is not a turkey but appears to be a wedge-tailed eagle.\nno, the kangaroo is not lifting the bird; it is standing beside it.\nno, the kangaroo is positioned in front of a sandy ground with vegetation and there are no rocks directly behind it as described."
+}

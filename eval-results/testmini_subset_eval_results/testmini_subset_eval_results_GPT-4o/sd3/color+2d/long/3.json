@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rat in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is the rat yellow?  ",
+    "Is the chair gold?  ",
+    "Is the rat on the top of the chair?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no rat in the image; it appears to be a hamster.\nYes, there is a chair in the image; it is clearly visible.\nNo, the rat is not yellow; the hamster has a brownish-orange color.\nYes, the chair is gold; it has a shiny gold appearance.\nNo, the rat is not on the top of the chair; the hamster is sitting on the seat of the chair."
+}

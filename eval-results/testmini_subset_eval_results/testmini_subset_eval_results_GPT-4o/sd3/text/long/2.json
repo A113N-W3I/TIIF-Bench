@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the text 'Recycle' appears on two notes.\nNo, the text 'Sustain' does not appear; a similar text 'Sutalle' is present.\nNo, the text 'Renew' does not appear; a similar text 'Rnew' is present.\nYes, the text 'Choose' appears on one note.\nNo, the text 'wisely' does not appear; a similar text 'wiisy' is present.\nNo, the text 'Eco-friendly' does not appear; a similar text 'Eco faiendly' is present.\nNo, the text 'Green' does not appear; a similar text 'greedy' is present.\nYes, the text 'living' appears on one note.\nNo, the text 'Minimalism' does not appear; a similar text 'Bnalism' is present."
+}

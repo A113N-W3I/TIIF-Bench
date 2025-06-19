@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Corporate' appears faintly at the top of the glass.\nyes The text 'DISC' is visible on the glass door.\nyes The text 'Workshop' can be seen on the glass wearing reflections and design elements.\nyes The text 'THE' is present behind the person and appears reversed due to being viewed through the glass from the other side.\nyes The text 'BIZ' is visible on the glass door below 'DISC'.\nyes The text 'STUDIO' is also part of the text series visible on the glass, appearing below 'STUDIO'."
+}

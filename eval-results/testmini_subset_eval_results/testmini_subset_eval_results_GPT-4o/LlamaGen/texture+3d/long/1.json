@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "long_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a plant holder in the image?  ",
+    "Is the plant holder made of wood?  ",
+    "Are the clouds behind the plant holder?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, The image does not show any distinct clouds; the sky has a few light patches that might suggest clouds but they are not prominently featured.\nyes, There is a plant holder in the image, visible near the bottom of the structure.\nyes, The plant holder appears to be made of wood, consistent with the wooden structure of the building.\nno, The clouds are not prominently featured behind the plant holder."
+}

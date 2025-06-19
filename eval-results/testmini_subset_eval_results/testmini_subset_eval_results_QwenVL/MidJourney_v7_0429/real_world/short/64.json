@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 64,
+  "questions": [
+    "Does the image show multi-layered shelves filled with identical red baseball caps? Answer with yes or no.",
+    "Do the red baseball caps have bold text on the front reading 'MAKE AMERICA GREAT AGAIN'? Answer with yes or no.",
+    "Is there a white tag on the side of the caps labeled 'MADE IN CHINA'? Answer with yes or no.",
+    "Is there a close-up view of one red baseball cap? Answer with yes or no.",
+    "Is there a price tag below the image with '$50.00' crossed out and replaced with '$77.00'? Answer with yes or no.",
+    "Is the color palette of the image made up of nostalgic earthy yellows and dark reds? Answer with yes or no.",
+    "Does the shadowing mimic the vintage printing texture of the 1990s? Answer with yes or no.",
+    "Is the overall composition exaggerated and satirical? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image displays multiple layers of shelves stocked with what appear to be identical red baseball caps.\nyes The red baseball caps in the image indeed feature bold text on the front that reads 'MAKE AMERICA GREAT AGAIN'.\nyes There is a visible white tag on the side of the caps, and it is labeled 'MADE IN CHINA'.\nno The image presents a broader view of the caps on shelves rather than a close-up of a single cap.\nyes A price tag is depicted in the image showing '$50.00' crossed out and replaced with '$77.00', reflecting a price increase.\nyes The image predominantly uses a color palette consisting of nostalgic earthy yellows and dark reds.\nyes The shadowing and textures used in the illustration resemble the style of vintage printing from the 1990s.\nyes The exaggerated price tags and dense arrangement lend an overall satirical composition to the image."
+}

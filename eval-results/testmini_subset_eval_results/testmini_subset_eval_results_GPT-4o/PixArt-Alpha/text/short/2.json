@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, I cannot see the text 'Recycle' in the image.\nno, I cannot see the text 'Sustain' in the image.\nno, I cannot see the text 'Renew' in the image.\nno, I cannot see the text 'Choose' in the image.\nno, I cannot see the text 'wisely' in the image.\nno, I cannot see the text 'Eco-friendly' in the image.\nno, I cannot see the text 'Green' in the image.\nno, I cannot see the text 'living' in the image.\nno, I cannot see the text 'Minimalism' in the image."
+}

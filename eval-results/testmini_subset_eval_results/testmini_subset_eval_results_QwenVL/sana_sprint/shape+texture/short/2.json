@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a necklace designed to look like a slice of watermelon.\nno The necklace is shaped like a slice of watermelon, not round.\nyes There is a watermelon depicted as part of the necklace design.\nno The watermelon slice on the necklace is crescent-shaped, not oblong.\nno The necklace does not appear to have a rubber texture; it looks like a realistic watermelon slice."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a table in the image?  ",
+    "Is there a tablecloth in the image?  ",
+    "Is the cat sitting under the table?  ",
+    "Is the tablecloth on the bottom of the table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a cat present in the image, sitting on the floor in front of the tablecloth.\nyes, there is a table in the image, as indicated by the elevated surface supporting the bottle.\nyes, there is a tablecloth in the image, which is draped over the table and cascading to the floor.\nno, the cat is not sitting under the table; it is sitting in front of it.\nno, the tablecloth is not on the bottom of the table; it is draped all the way to the floor and beyond."
+}

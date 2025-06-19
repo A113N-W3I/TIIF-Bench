@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 95,
+  "questions": [
+    "Is the image in Disney style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image showcases a highly stylized and fantastical depiction of a gingerbread house in a wintry landscape, which is more indicative of a fairytale or whimsical Christmas art style rather than the specific aesthetic commonly associated with Disney art."
+}

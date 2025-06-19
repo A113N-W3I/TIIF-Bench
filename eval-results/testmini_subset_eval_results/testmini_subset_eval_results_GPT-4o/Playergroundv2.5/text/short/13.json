@@ -1,0 +1,37 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 13,
+  "questions": [
+    "Is the text 'London' in the image?",
+    "Is the text 'MAX' in the image?",
+    "Is the text 'Private' in the image?",
+    "Is the text 'Helicopter' in the image?",
+    "Is the text 'Tour' in the image?",
+    "Is the text 'Skyline' in the image?",
+    "Is the text 'Adventure' in the image?",
+    "Is the text 'Luxury' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, because there is no textual content in the image.\nno, because there is no textual content in the image.\nno, because there is no textual content in the image.\nno, because there is no textual content in the image.\nno, because there is no textual content in the image.\nno, because there is no textual content in the image.\nno, because there is no textual content in the image.\nno, because there is no textual content in the image."
+}

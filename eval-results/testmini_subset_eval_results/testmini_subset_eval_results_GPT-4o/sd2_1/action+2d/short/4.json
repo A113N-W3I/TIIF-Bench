@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the image shows a person with a green dress and a red jacket, commonly associated with girls.\nyes, the image contains a snowman, evident from the snow-like structure with a face made with traditional items like buttons and a carrot nose.\nyes, the girl appears to be engaging in a snowball fight, indicated by her action of holding a ball of snow.\nyes, the snowman is positioned on the right side of the image."
+}

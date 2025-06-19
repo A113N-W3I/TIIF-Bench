@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no wooden mountain in the image; the image is abstract or stylized and does not depict a literal wooden mountain.\nno, there is no snow on the mountain's peak; the image does not show any literal snow or clear mountain peaks.\nno, the mountain is not wooden in texture; the image appears to be digitally stylized or abstract, not showing wood texture.\nno, the surface surrounding the mountain is not rubber in texture; the image is digital and textured abstractly with no clear rubber appearance."
+}

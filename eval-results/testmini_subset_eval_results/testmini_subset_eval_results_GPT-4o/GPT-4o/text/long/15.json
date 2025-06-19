@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 15,
+  "questions": [
+    "Is the text 'Spin' in the image?",
+    "Is the text 'Glow' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Skill' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Twirl' in the image?",
+    "Is the text 'Fun' in the image?",
+    "Is the text 'Bounce' in the image?",
+    "Is the text 'Light' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, because the text 'Spin' is visible at the top left.\nyes, because the text 'Glow' is visible at the bottom left.\nyes, because the text 'Play' is visible at the top right.\nyes, because the text 'Skill' is visible at the bottom right.\nno, because the text 'Shine' is not visible in the image.\nyes, because the text 'Twirl' is visible at the bottom left.\nyes, because the text 'Fun' is visible in two places in the image.\nyes, because the text 'Bounce' is visible on the right.\nno, because the text 'Light' is not visible in the image."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there mechanical keyboards in the image?  ",
+    "Is there a clear protective pouch in the image?  ",
+    "Does the image present a comparison logic: a mechanical keyboard with a clear protective pouch is newer than a mechanical keyboard without a clear pouch?  ",
+    "Is the newer mechanical keyboard on the bottom of the older one?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows two items, both of which can be identified as mechanical keyboards based on their key switches and layout.\nyes A clear protective pouch is visible containing one of the mechanical keyboards.\nyes The image presents two keyboards, one in a clear pouch presumably newer due to better condition, compared to the visibly older keyboard above it.\nno The mechanical keyboard in the clear protective pouch, which appears newer, is positioned below the older keyboard rather than 'on the bottom' implying physical placement relative to each other."
+}

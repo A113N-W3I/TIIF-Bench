@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the image features a humanoid android, characterized by its robotic and futuristic design.\nNo, the image does not depict the android sitting in a futuristic library; there is no clear indication of a library setting.\nNo, the android appears to be holding a physical book rather than a floating holographic book.\nYes, the lighting in the scene is soft blue and purple, enhancing the futuristic ambiance.\nYes, the image exhibits metallic reflections on the android's face and body.\nYes, the android has a calm and composed posture, which suggests a calm expression.\nYes, the background appears to be high-tech and blurred, contributing to a futuristic feel.\nYes, the image is realistic, detailed, and rendered in a cinematic style.\nYes, the image incorporates elements inspired by sci-fi films, such as advanced robotics and futuristic color schemes.\nNo, the book does not appear to be a holographic book."
+}

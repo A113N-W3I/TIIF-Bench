@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The structure in the background appears to be a tall building characteristic of a skyscraper.\nyes The building's vertical structure extends significantly upwards, indicating a tall shape typical for skyscrapers.\nyes There is a sign mounted on a pole that resembles a traffic sign.\nno The traffic sign is not pentagonal; it has a rectangular shape with rounded corners.\nyes The lower part of the traffic sign appears to be obscured by what looks like fluffy material, suggesting the shadow is indeed fluffy."
+}

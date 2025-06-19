@@ -1,0 +1,28 @@
+{
+  "attribute": "color+texture",
+  "desc": "short_description",
+  "jsonl_file": "color+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a piano in the scene?",
+    "Is the piano white?",
+    "Is there a suitcase in the scene?",
+    "Is the suitcase blue in color?",
+    "Is the lamp metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a piano in the scene. The image shows a small blue piano placed on a table.\nNo, the piano is not white. The piano is blue in color.\nNo, there is no suitcase in the scene. The image does not feature any suitcase.\nNo, the suitcase is not blue in color because there is no suitcase present in the image.\nYes, the lamp is metallic. The lamp has a metallic base visible in the image."
+}

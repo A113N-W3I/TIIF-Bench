@@ -1,0 +1,28 @@
+{
+  "attribute": "color+3d",
+  "desc": "short_description",
+  "jsonl_file": "color+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a timer in the image?  ",
+    "Is there a horse in the image?  ",
+    "Is the timer white?  ",
+    "Is the horse white?  ",
+    "Is the timer behind the horse?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there is no timer in the image because the timekeeping device visible is an analog clock, not a timer.\nyes, there is a horse in the image as a horse is clearly depicted.\nno, the timer is not white because the clock is silver or chrome, not white.\nyes, the horse is white as the horse depicted is white.\nno, the timer is not behind the horse because the clock is positioned in front of the horse."
+}

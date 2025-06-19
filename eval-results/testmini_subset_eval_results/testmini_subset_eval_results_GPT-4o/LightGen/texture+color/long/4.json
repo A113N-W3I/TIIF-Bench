@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "long_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a towel in the scene?",
+    "Is the towel fluffy?",
+    "Is there a jewelry in the scene?",
+    "Is the jewelry made of metal?",
+    "Is the vibrant vase blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a towel in the scene. The white item draped appears to be a towel.\nyes, the towel is fluffy. It has a soft and thick texture.\nyes, there is a jewelry in the scene. The ornament attached to the towel resembles a piece of jewelry.\nyes, the jewelry is made of metal. The shiny appearance indicates it is likely metal.\nyes, the vibrant vase is blue. The vase is clearly a vibrant blue color."
+}

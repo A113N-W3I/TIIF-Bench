@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "no, the plant next to the object is not a shrub as it lacks a woody stem.  \nno, the plant resembles moss or a similar type of foliage, rather than having a defined short shrub shape.  \nyes, the object with angled sides appears to be a paperweight.  \nyes, the paperweight is in the shape of a pyramid as it has a triangular base and triangular sides.  \nyes, the pyramidal paperweight has a shiny and reflective surface, indicating it is metallic."
+}

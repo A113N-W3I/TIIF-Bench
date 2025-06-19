@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 186,
+  "questions": [
+    "Is the image in 3D style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no The image appears to be a detailed and realistic 2D illustration with depth and perspective but lacks the characteristics typically associated with 3D modeling such as rendering artifacts or specific shading techniques used in 3D software.\n"
+}

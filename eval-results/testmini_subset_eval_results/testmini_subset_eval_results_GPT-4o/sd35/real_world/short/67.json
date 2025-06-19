@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, the title text and regular text sizes are not distinguishable due to stylized lettering.\nyes, there is adequate spacing between text paragraphs, indicated by different positions and styles.\nyes, emphasized text uses vibrant colors such as pink and yellow to attract attention.\nyes, the background features an eye-catching notebook pattern with speech bubbles and text boxes.\nno, the overall visuals are vibrant and can cause distraction, lacking suitable icons or images enhancing depth without distraction.\nno, the correct text 'Breaking News! ChatGPT has become even stronger!' does not appear; similar but altered text is present.\nno, the text 'Better multitasking ✨' is misspelled as 'Better mudiratrasking!' and not present as requested.\nno, the text 'Improved programming skills 💪' is misspelled as 'Improvamming off skills +' and not present as requested.\nno, the text 'Creativity off the charts 🎨' is not present, and only 'Creativity' is shown without context.\nno, the text 'Try it now!' does not appear; a variant 'Tryy!' is present.\nno, the image does not appear to be in a 9:16 aspect ratio but closer to a square format.\nyes, text within the generated picture is mostly clear and readable despite stylization."
+}

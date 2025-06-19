@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there airplanes in the image?  ",
+    "Are there clocks in the image?  ",
+    "Are there lamps in the image?  ",
+    "Is the number of airplanes 4?  ",
+    "Is the number of clocks 3?  ",
+    "Is the number of lamps 2?  ",
+    "Are the airplanes near the clocks?  ",
+    "Are the clocks near the lamps?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are multiple airplanes depicted flying in the sky within the image.\nyes There are clocks present in the image, including a large clock face in the background and smaller ones on the mantel.\nyes There are two ornate lamps visible on either side of the mantel.\nno The number of airplanes appears to be more than four.\nno There are at least three clocks visible: one large in the background and two smaller ones on the mantel.\nyes There are two lamps, one on each side of the mantel.\nno The airplanes are not near the clocks; they are depicted in the sky above the scene containing the clocks.\nno The clocks are not near the lamps; they are positioned between the two lamps on the mantel."
+}

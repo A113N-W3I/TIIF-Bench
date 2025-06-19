@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "short_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mountain in the image?  ",
+    "Is there snow on the mountain?  ",
+    "Is the mountain brown in color?  ",
+    "Is the sky blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the image appears abstract or distorted, making it difficult to identify a clear mountain shape.\nNo, there is no recognizable snow in the image as the shapes and colors are abstract.\nNo, the image has brown areas but does not clearly depict a brown mountain.\nNo, while there are blue areas in the image, it does not clearly represent a blue sky."
+}

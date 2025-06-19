@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a gorgeous metallic vinyl record player in the image?  ",
+    "Is there a smaller, older metallic vinyl record player in the image?  ",
+    "Does the image present a differentiation logic: one vinyl record player is gorgeous, while the other is smaller and older?  ",
+    "Is the gorgeous vinyl record player metallic?  ",
+    "Is the smaller, older vinyl record player metallic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image shows a wooden vinyl record player, not a metallic one.\nno There is only one vinyl record player in the image, so there cannot be a smaller, older one.\nno The image does not present two vinyl record players; therefore, there is no differentiation between a gorgeous one and a smaller, older one.\nno The vinyl record player in the image is not metallic; it appears to be made of wood.\nno Since there is only one vinyl record player and it is not metallic, this question is not applicable."
+}

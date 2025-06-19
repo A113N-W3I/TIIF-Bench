@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there teddy bears in the image?  ",
+    "Is there a large teddy bear wearing a bow tie in the image?  ",
+    "Is there a small teddy bear wearing a party hat in the image?  ",
+    "Does the image present a differentiation logic: one teddy bear is large and wears a bow tie, while the other teddy bear is small and wears a party hat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there are teddy bears in the image.\nno, there is not a large teddy bear wearing a bow tie in the image; the large teddy bear is wearing a bow.\nno, there is not a small teddy bear wearing a party hat in the image; both teddy bears are wearing party hats and the smaller one wears a bow tie.\nno, the image does not present a differentiation logic as described; both teddy bears are wearing party hats, and their attire doesn't match the described criteria precisely."
+}

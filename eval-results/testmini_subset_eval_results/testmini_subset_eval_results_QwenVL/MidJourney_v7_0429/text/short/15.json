@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 15,
+  "questions": [
+    "Is the text 'Spin' in the image?",
+    "Is the text 'Glow' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Skill' in the image?",
+    "Is the text 'Shine' in the image?",
+    "Is the text 'Twirl' in the image?",
+    "Is the text 'Fun' in the image?",
+    "Is the text 'Bounce' in the image?",
+    "Is the text 'Light' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because 'Spin' is clearly visible in the image as part of the text.\nno because the text 'Glow' is not present in the visible content of the image.\nyes because 'Play' is clearly visible in the image as part of the text.\nno because the text 'Skill' is not visible in the content of the image.\nno because the text 'Shine' is not present within the content of the image.\nno because the text 'Twirl' is not part of the visible text in the image.\nyes because 'Fun' appears as 'Fun' among the yoyos in the image.\nyes because 'Bounce' is partially visible as 'to Bune', which likely represents 'to Bounce'.\nno because the text 'Light' is not visible within the content of the image."
+}

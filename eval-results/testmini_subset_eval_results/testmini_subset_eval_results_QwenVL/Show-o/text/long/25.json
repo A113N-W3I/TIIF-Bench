@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes because the text 'BREWING' is part of the 'CRAFTED. BREWING.' phrase in the image.\nyes because the text 'COMPANY' is part of the 'COMPANY.' phrase in the image.\nyes because the text 'Pure' is part of the 'Pure & Original' phrase in the image.\nyes because the text 'Pleasure' is part of the 'Genuine with Pleasure' phrase in the image.\nno because there is no visible text 'No' in the image.\nno because there is no visible text 'Guilt' in the image."
+}

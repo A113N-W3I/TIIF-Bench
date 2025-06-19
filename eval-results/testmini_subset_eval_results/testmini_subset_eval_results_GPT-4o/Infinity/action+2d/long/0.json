@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes, there is a child in the image because the image shows a young person whose face is blurred.\nyes, there are bubbles in the image because multiple bubbles are visible around the child.\nyes, there is a toy box in the image because a colorful box with illustrations is visible in front of the child.\nno, the child is not blowing the bubbles because the bubbles are already in the air and the child is holding something else.\nyes, the toy box is on the bottom of the frame because it is located at the bottom part of the image."
+}

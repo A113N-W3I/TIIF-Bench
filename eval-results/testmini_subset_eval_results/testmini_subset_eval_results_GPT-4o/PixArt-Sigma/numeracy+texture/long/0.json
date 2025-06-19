@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the object exists because cameras, chairs, paddles, candles, and fish are present in the image.\nyes, there is a camera in the image because several cameras can be seen.\nyes, there are fish in the image because there are visible fish on the floor.\nyes, there is a chair in the image because there are chairs in the scene.\nyes, there is a candle in the image because several candles are shown.\nno, the number of paddles is not 2 because there are more than two paddles in the image.\nno, the number of cameras is not 4 because there are more than four cameras visible.\nno, the number of fish is not 4 because there are fewer than four fish visible.\nno, the number of chairs is not 3 because there are two chairs visible.\nno, the number of candles is not 4 because there are fewer than four candles visible.\nno, the paddles are not made of leather because they appear to be made of a hard material like wood.\nyes, the cameras are made of plastic because cameras typically have plastic components and appear so in the image.\nyes, the chairs are made of plastic because the chairs have a plastic-like appearance."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a pizza which is typically cut using a pizza cutter.\nno There is no indication of a jewelry appraisal in the image; it features a pizza and related items.\nno The pizza cutter visible in the image has a traditional round wheel design for cutting, not a square shape.\nyes The object resembling jewelry is placed on a rectangular surface that appears like a jewelry appraisal tray or platform.\nno The pizza cutter is not located on the jewelry appraisal; it's aside from the pizza, and there is no apparent contact or overlap between the two items."
+}

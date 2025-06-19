@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a woman not wearing a hoodie in the image?  ",
+    "Are there people wearing hoodies in the image?  ",
+    "Does the image present a differentiation logic: one woman is not wearing a hoodie while the people around her are wearing hoodies?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no clear indication of a woman not wearing a hoodie. Everyone appears to be wearing hoodies, and it's difficult to discern specific individuals or clothing differences beyond hoodies.\nYes, there are people wearing hoodies in the image. The dominant feature in the image is the large group of individuals all wearing hoodies, as characterized by their facial obscuration and hooded clothing.\nNo, the image does not present a differentiation logic where one woman is not wearing a hoodie while others are. All individuals visible appear to be wearing hoodies, and there is no distinct non-hooded figure."
+}

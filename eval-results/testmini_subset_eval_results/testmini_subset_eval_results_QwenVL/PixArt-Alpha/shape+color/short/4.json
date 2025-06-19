@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The item resembles a bagel with a central hole and a ring-like structure.\nyes It maintains the typical circular shape associated with a bagel.\nyes A melon is visible beneath the bagel-like object.\nno The melon, while partly obscured, does not exhibit a teardrop shape but appears more rounded.\nno The bagel has a light off-white color rather than pure white."
+}

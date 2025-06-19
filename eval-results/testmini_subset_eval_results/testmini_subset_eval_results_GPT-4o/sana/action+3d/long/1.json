@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pillow in the image?  ",
+    "Is there an armchair in the image?  ",
+    "Is there a small side table in the image?  ",
+    "Is the pillow perched on the armchair?  ",
+    "Is the armchair in front of the small side table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, because the image is abstract and does not clearly depict a pillow.\nno, because the image is abstract and does not clearly depict an armchair.\nno, because the image is abstract and does not clearly depict a small side table.\nno, because the image is abstract and does not clearly depict a pillow perched on an armchair.\nno, because the image is abstract and does not clearly depict an armchair in front of a small side table."
+}

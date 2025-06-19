@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the girl in front of the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because there is a person wearing a school uniform with long hair, appearing to be a girl.\nyes, because there is a flat surface with books, paper, and a lamp, which indicates a desk.\nyes, because the girl is positioned in front of the desk, with her arms resting on it."
+}

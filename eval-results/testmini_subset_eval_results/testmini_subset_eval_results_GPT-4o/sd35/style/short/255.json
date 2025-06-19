@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 255,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no, while the image has some elements reminiscent of traditional Japanese art, such as samurai figures and architectural stylings, it lacks the characteristic flatness, bold outlines, and vibrant colors typical of Ukiyo-e style."
+}

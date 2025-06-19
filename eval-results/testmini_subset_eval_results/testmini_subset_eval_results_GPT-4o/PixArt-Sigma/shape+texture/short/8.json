@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is there a salt shaker in the scene?",
+    "Is the salt shaker cylindrical in shape?",
+    "Is there a gemstone in the scene?",
+    "Is the gemstone spherical in shape?",
+    "Is the cylindrical salt shaker plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a salt shaker in the scene as evident by the presence of white crystalline particles.\nyes, the salt shaker is cylindrical in shape as shown by its elongated cylindrical form.\nyes, there is a gemstone in the scene as indicated by the colorful faceted object.\nno, the gemstone is not spherical in shape as it has an irregular faceted shape.\nno, the cylindrical salt shaker is not plastic as it appears to be made of glass."
+}

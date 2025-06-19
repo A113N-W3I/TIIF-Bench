@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a towel in the scene?",
+    "Is the towel fluffy?",
+    "Is there a jewelry in the scene?",
+    "Is the jewelry made of metal?",
+    "Is the vibrant vase blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The object on the chair appears to be a fluffy fabric item, resembling a towel.\nyes The texture of the item on the chair indicates it is fluffy.\nyes There is an ornamental piece that appears to be jewelry attached to the fabric item.\nyes The jewelry attached to the fabric item has metallic elements.\nyes The vase on the right side is a vibrant shade of blue."
+}

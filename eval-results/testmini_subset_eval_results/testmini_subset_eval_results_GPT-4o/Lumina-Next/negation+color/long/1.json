@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a car in the image?  ",
+    "Does the car have front wheels?  ",
+    "Is the car red in color?  ",
+    "Is anything else red in the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a car in the image. The image shows a section of an automobile, including part of its body and a wheel.  \nNo, the car does not have front wheels visible. The image only shows the rear half of the car and a rear wheel.  \nYes, the car is red in color. The visible part of the car is predominantly red.  \nYes, the wheel is red in color. The wheel in the image is also red, matching the car's exterior."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes This image shows a card with details typically found on a wedding invitation.\nno The card does not appear hefty; it seems thin with a print design rather than texture and embossing.\nyes There are elegant decorative elements like trees and small figures that could abstractly represent the couple or their relationship.\nno The use of iconography, including trees and figures, is not sparing; these elements are quite prominent in the design.\nno The text is complex and styled in an artistic manner but does not clearly specify \"the union of Image and Text.\"\nno The typesetting is artistic rather than strictly functional, which may affect clarity for some readers.\nyes The invitation card is shown placed on what appears to be a wooden desk.\nno The text features artistic styling and uses unconventional language which may not be universally clear or readable.\nyes The date \"March 25, 2025\" is mentioned in the \"Dress Code\" section, even though it is unusually placed there."
+}

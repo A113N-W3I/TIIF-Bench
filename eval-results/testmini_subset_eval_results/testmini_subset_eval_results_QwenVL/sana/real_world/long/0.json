@@ -1,0 +1,28 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this image show a young boy? Answer with yes or no.",
+    "Does this image show a mysterious key? Answer with yes or no.",
+    "Does this image depict an adventure through various landscapes? Answer with yes or no.",
+    "Does this image include hidden treasure? Answer with yes or no.",
+    "Does this boy look like he's on an adventure?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image features a figure that appears to be a young boy based on the small stature and child-like clothing.\nyes A key is prominently displayed in the image, floating above a pathway and being pointed at by the boy.\nyes The scene is filled with various fantastical elements suggesting different landscapes as if viewed from above or from within a world map.\nno There are no visible signs of hidden treasure such as chests, coins, or other typical treasures within the image.\nyes The boy is dressed in explorer attire with a backpack and pointing towards the mysterious key, which combined with the surrounding elements suggests he is on an adventure."
+}

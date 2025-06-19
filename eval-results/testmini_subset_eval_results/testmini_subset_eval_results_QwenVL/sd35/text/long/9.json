@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is the text 'Strike' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Precision' in the image?",
+    "Is the text 'Momentum' in the image?",
+    "Is the text 'Bowling' in the image?",
+    "Is the text 'Night' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Pins' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The word 'Strike' is visible in the image as part of a neon sign.\nno The text 'Elegance' is not present; instead, there is a similar-looking text but not exact.\nno The text 'Focus' does not appear in the image.\nyes The text 'Precision' is clearly visible on the right side of the image.\nno The text 'Momentum' is not found in the image.\nyes The term 'Bowling' can be inferred from the context and setting, even though it isn't explicitly written.\nno The word 'Night' appears partially in 'precisium night', so it's not standalone.\nno The text 'Style' is not present in the image.\nno There is no text 'Pins' in the image; however, bowling pins are visible."
+}

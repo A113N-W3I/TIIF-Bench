@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does a woman in a neon jersey exist in the scene?  ",
+    "Does a woman in a long coat and scarf exist in the scene?  ",
+    "Does the image present a differentiation logic: one woman wears a neon jersey, while another wears a long coat and scarf?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The central figure is wearing a bright neon yellow top which can be considered a neon jersey.\nyes The figures on both sides are wearing long coats with scarves.\nyes One woman in the center wears a neon jersey, while the women on either side wear long coats and scarves, showing a clear differentiation in attire."
+}

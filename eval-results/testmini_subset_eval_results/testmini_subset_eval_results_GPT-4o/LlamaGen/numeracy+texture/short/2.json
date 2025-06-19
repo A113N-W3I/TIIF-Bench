@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Does this object exist (bread)?\nyes, there is a loaf of bread in the image.\n\nDoes this object exist (fish)?\nyes, there is an object resembling a fish in the image.\n\nDoes this object exist (computer)?\nno, there is no computer in the image.\n\nDoes this object exist (bags)?\nno, there are no bags in the image.\n\nDoes this object exist (bicycle)?\nno, there is no bicycle in the image.\n\nIs the number of bread 1?\nyes, there is one loaf of bread.\n\nIs the number of fish 4?\nno, there seems to be one fish-shaped object.\n\nIs the number of computer 1?\nno, there is no computer in the image.\n\nIs the number of bags 2?\nno, there are no bags in the image.\n\nIs the number of bicycle 1?\nno, there is no bicycle in the image.\n\nIs the computer made of rubber?\nno, there is no computer in the image.\n\nIs the bicycle made of rubber?\nno, there is no bicycle in the image."
+}

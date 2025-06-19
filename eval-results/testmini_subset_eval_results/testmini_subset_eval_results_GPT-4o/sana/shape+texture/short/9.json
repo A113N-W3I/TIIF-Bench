@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a skyscraper in the scene?",
+    "Is the skyscraper tall in shape?",
+    "Is there a traffic sign in the scene?",
+    "Is the traffic sign pentagonal in shape?",
+    "Is the shadow fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, the scene includes skyscrapers based on their tall structural design and dense window patterns.\nyes, the skyscraper is tall in shape, evident by its vertically elongated structure.\nyes, there is a traffic sign in the scene, distinguished by its prominent visible positioning.\nno, the traffic sign is not pentagonal in shape; it appears to be more triangular.\nno, the shadow is not fluffy; it has sharp and defined edges."
+}

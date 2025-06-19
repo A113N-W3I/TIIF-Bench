@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 27,
+  "questions": [
+    "Is the text 'AND' in the image?",
+    "Is the text 'PROOFREADING' in the image?",
+    "Is the text 'PROOFREAD' in the image?",
+    "Is the text 'Spelling' in the image?",
+    "Is the text 'Grammar' in the image?",
+    "Is the text 'Accuracy' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the text 'AND' is present and visible in the checklist on the clipboard.\nyes, the text 'PROOFREADING' is present and clearly listed on the clipboard.\nno, the text 'PROOFREAD' is not present; 'PROOFREADING' and 'PPOOFRED' are on the clipboard.\nyes, the text 'Spelling' is present and checked off on the clipboard.\nyes, the text 'Grammar' is present and checked off on the clipboard.\nno, the text 'Accuracy' is not in the image; only 'accuracy' in lowercase is present."
+}

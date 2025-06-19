@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+2d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a steaming cup of coffee in the image?  ",
+    "Is there a row of antique tea cups in the image?  ",
+    "Does the image present a differentiation logic: contrasting attributes between the steaming cup of coffee and the antique tea cups?  ",
+    "Is the steaming cup of coffee positioned left of the row of antique tea cups?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image shows a cup with steam rising from it, indicating it is hot, which is characteristic of a steaming cup of coffee.\nyes There is a row of cups that appear to be antique due to their ornate design and aged look, resembling antique tea cups.\nyes The image contrasts a single steaming cup in the foreground with a row of non-steaming, antique-looking cups in the background, highlighting differences in use and appearance.\nno The steaming cup of coffee is not positioned to the left; it is in the foreground center, with the row of antique tea cups behind it."
+}

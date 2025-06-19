@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the image features a humanoid android prominently portrayed in the scene.\nYes, the android is seated amidst what appears to be a futuristic library setting, with shelves and lighting that suggest advanced design.\nNo, the android is reading a physical book rather than a floating holographic one.\nYes, the illumination within the scene is characterized by a soft blue and purple glow, which enhances the futuristic ambiance.\nYes, there are notable metallic reflections evident on the android's face and body, indicating a polished metallic surface.\nYes, despite the blurred face, it seems like the android has a calm demeanor.\nYes, the background of the image is suggestive of a high-tech environment, although it is somewhat blurred.\nYes, the image is indeed realistic, detailed, and presents a cinematic style that is quite polished.\nYes, the composition and elements within the image draw inspiration from sci-fi films and convey a futuristic narrative.\nNo, the book itself does not appear to be holographic but rather a tangible item being held by the android."
+}

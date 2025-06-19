@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the image features a humanoid android.\nNo, the setting cannot be clearly identified as a futuristic library.\nNo, the android is holding a physical book, not reading a floating holographic one.\nYes, the lighting is soft blue and purple, contributing to the futuristic atmosphere.\nYes, there are metallic reflections on the android's face and body.\nNo, the android's facial expression cannot be seen due to the blurred face.\nYes, the background has elements of a high-tech design and is blurred.\nYes, the image appears realistic, detailed, and has a cinematic style.\nYes, the image contains elements inspired by sci-fi films, evident from the android and lighting.\nNo, the book is not a holographic book; it appears physical."
+}

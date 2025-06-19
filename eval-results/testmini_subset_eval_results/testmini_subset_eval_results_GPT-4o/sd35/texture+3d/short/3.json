@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no rubber band in the image; the blue object is not a typical elastic rubber band.\nNo, there is no reader in the image; the subject is a cat, not a person reading.\nYes, the reader is fluffy; the cat in the image is fluffy.\nNo, the rubber band is not behind the reader; the blue object is around the cat's neck."
+}

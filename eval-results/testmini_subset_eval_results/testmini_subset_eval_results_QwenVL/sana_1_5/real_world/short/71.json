@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 71,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet with rounded edges? Answer with yes or no.",
+    "Is the color palette of the image soft beige, light gray, and warm orange with warm orange used as an accent? Answer with yes or no.",
+    "Is the lighting soft and diffuse, coming slightly from above and to the right? Answer with yes or no.",
+    "Does the image have a matte and smooth surface texture with low reflectivity? Answer with yes or no.",
+    "Is the toilet centered in the composition with ample negative space around it? Answer with yes or no.",
+    "Is the perspective slightly tilted to provide a moderate sense of three-dimensionality? Answer with yes or no.",
+    "Is the background a solid, low-saturation color that complements the subject? Answer with yes or no.",
+    "Is there minimalist sans-serif typography positioned in the lower-left corner? Answer with yes or no.",
+    "Is the typography in gray text with low contrast against the background? Answer with yes or no.",
+    "Is there gray text in the image?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image is a 3D rendering of a toilet with smooth, rounded edges.\nyes The colors used in the image consist of various shades that include soft beige, light gray, and warm orange as an accent.\nyes The lighting in the image appears to be soft and diffused, with shadows suggesting the light source is from above and slightly to the right.\nyes The surfaces in the image have a matte finish and lack high reflectivity, contributing to a smooth appearance.\nyes The toilet is placed centrally with plenty of empty space surrounding it in the composition.\nyes The perspective of the image provides a three-dimensional view with a slight tilt, enhancing its depth.\nyes The background is a solid, low-saturation color that blends well with the toilet.\nno There is no visible typography in the image's lower-left corner or elsewhere in the image.\nno Since there is no typography present, there cannot be any gray text with low contrast.\nno As previously stated, there is no text at all in the image, thus no gray text exists."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The word 'Champion' is prominently displayed across the chest.\nno There is no text that reads 'Teamwork'.\nno There is no text that reads 'Victory', although a graphic resembling the word is present.\nyes The word 'Game' is part of the text 'GAME ALONE' on the jersey.\nno The word 'On' is not present as standalone text, it appears as part of 'GAME ALONE'.\nno There is no text that reads 'All-Star'.\nyes The word 'League' is part of the patch on the right sleeve which mentions 'LEAGUE'."
+}

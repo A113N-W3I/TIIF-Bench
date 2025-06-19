@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, the image does show a 3D illustration of a toilet.\nyes, the illustration features rounded edges and smooth, soft forms with simplified geometry.\nyes, the color palette is limited to soft beige, light gray, and warm orange, with warm orange used as the focal color.\nyes, the shading and gradients are soft, with smooth transitions avoiding harsh shadows or highlights.\nyes, the lighting is soft and diffused, coming from above and slightly to the right.\nyes, the toilet is presented as a single, central object displayed in isolation with ample negative space.\nyes, the toilet is slightly angled to give a three-dimensional feel without extreme depth.\nyes, the background is a solid, muted color that complements the object without distraction.\nyes, there is minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray.\nyes, the rendering style features a 3D render with simplified, low-poly aesthetics."
+}

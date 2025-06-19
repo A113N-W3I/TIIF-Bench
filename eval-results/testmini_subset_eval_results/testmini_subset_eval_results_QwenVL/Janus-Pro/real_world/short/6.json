@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The figure appears to have both human-like features and mechanical elements, indicating it is an android.\nyes The setting includes bookshelves and advanced designs typical of a futuristic library.\nno The book is a physical object, not a floating hologram.\nyes The lighting uses a palette of soft blue and purple tones.\nyes There are visible metallic reflections on the surface of the android's head and torso.\nyes The android's expression appears serene and concentrated.\nyes The background is out of focus with hints of high-tech structures.\nyes The image is highly detailed and has a quality reminiscent of a science fiction film.\nyes The elements such as the design of the android and the environment are characteristic of sci-fi themes.\nno The book is not holographic; it is a tangible item with pages."
+}

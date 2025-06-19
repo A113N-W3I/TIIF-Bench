@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Does this image show a cat dressed as an astronaut? Answer with yes or no.",
+    "Is the cat standing on the Moon? Answer with yes or no.",
+    "Is the cat holding a flag that says 'I want kibble'? Answer with yes or no.",
+    "Is the style of the image cartoon? Answer with yes or no.",
+    "Is the background of the image starry? Answer with yes or no.",
+    "Does the cat have a funny facial expression? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, the image shows a cat dressed as an astronaut, as indicated by its outfit and helmet.\nYes, the cat is standing on what appears to be a lunar surface, suggesting it's on the Moon.\nYes, the cat is holding a flag that says \"I want kibble,\" which is visible in the image.\nYes, the style of the image is cartoon, as evidenced by the playful and exaggerated design.\nYes, the background of the image is starry, with stars visible throughout.\nNo, the cat does not have a funny facial expression; the face is blurred and cannot be seen."
+}

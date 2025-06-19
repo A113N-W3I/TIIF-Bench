@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fence in the scene?",
+    "Is the fence in the shape of a square?",
+    "Is there a fig in the scene?",
+    "Is the fig in the shape of a teardrop?",
+    "Is the carpet of grass fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image shows a wooden fence along the perimeter of a yard.\nno The fence follows the contour of the yard and is not in the shape of a square.\nno There is no fig present in the scene; it features a yard and a fence.\nno Since there is no fig in the image, it cannot be described as being in the shape of a teardrop.\nno The grass appears to be artificial turf which has a uniform texture but is not fluffy."
+}

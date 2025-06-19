@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is the text 'Corporate' in the image?",
+    "Is the text 'DISC' in the image?",
+    "Is the text 'Workshop' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'BIZ' in the image?",
+    "Is the text 'STUDIO' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Corporate' appears on the door sign, though it is misspelled as 'Corprate'.\nyes The text 'DISC' is clearly visible below 'Corprate' on the door sign.\nyes The text 'Workshop' is present beneath 'DISC' on the door sign.\nyes The text 'THE' is seen above 'BIZ' on the door sign.\nyes The text 'BIZ' is visible below 'THE' on the door sign.\nyes The text 'STUDIO' can be seen at the bottom of the door sign, albeit misspelled as 'STWUDIO'."
+}

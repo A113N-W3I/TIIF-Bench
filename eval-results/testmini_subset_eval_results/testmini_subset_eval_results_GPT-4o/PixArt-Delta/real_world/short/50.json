@@ -1,0 +1,31 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 50,
+  "questions": [
+    "Does the first panel show a small snail at the counter of a flashy car showroom with the salesman leaning over the desk to see him? Answer with yes or no.",
+    "Does the second panel show a close-up of the snail looking very serious, saying, 'I want your fastest sports car... and I want you to paint big letter 'S's on the doors, the hood, and the roof.'? Answer with yes or no.",
+    "Does the third panel show the salesman scratching his head, saying, 'Um... we can do that, but why the S's?'? Answer with yes or no.",
+    "Does the fourth panel show a red blur roaring down the highway with the sports car covered in giant S's and people on the sidewalk pointing and laughing, saying, 'WOW! LOOK AT THAT S-CAR GO!'? Answer with yes or no.",
+    "Is there padding around the border of the comic strip? Answer with yes or no.",
+    "Is this comic strip a four-panel one? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no  \nno  \nno  \nno  \nno  \nyes  "
+}

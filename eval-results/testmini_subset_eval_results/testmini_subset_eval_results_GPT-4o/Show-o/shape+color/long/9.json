@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a tennis hat in the scene as the person is wearing a hat.\nyes, the tennis hat is conical in shape as it resembles a cone or traditional Asian hat.\nyes, there is a bag in the scene as the person is carrying two bags.\nyes, the bag is round in shape as it looks circular or cylindrical.\nyes, the round bag is brown as it is depicted in that color."
+}

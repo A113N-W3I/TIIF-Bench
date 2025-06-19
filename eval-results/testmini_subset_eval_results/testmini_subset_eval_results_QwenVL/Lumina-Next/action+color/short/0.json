@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the dress of the ballerina red?  ",
+    "Is the iceberg brown?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes the image features a person dressed as a ballerina performing a pose characteristic of ballet.\nno there is no iceberg present; instead, there appears to be a large piece of ice which is not sufficiently large or structured to be classified as an iceberg.\nno the ballerina is not performing a pirouette; her stance suggests she is balancing on the ice but not actively spinning on one leg.\nyes the ballerina's dress is clearly red and stands out vividly against the icy background.\nno icebergs do not appear brown; the ice structure in the image is white with blue tones, typical of glacial ice."
+}

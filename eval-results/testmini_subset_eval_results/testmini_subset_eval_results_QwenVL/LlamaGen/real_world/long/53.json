@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no Not a traditional wedding invitation card, but rather an artistic piece with balloons and a stylized figure.\nno The card does not exhibit heavy textures or embossing; it appears smooth with a focus on illustration.\nno The decorations do not represent a couple but consist of abstract balloons and a figure that could be interpreted in various ways.\nno The card uses iconography (balloons) and illustrations in abundance rather than being minimalist.\nno There is no text about the union of Image and Text; the text seems to be names or signatures.\nno While the typesetting is artistic, it may not meet strict standards of perfection and readability due to stylistic choices.\nno The card is not placed on a wooden desk but seems to be presented against a plain background.\nno The text includes parts that are stylized heavily, potentially affecting readability for some viewers.\nno The picture does not contain any visible text mentioning a specific date like March 25, 2025."
+}

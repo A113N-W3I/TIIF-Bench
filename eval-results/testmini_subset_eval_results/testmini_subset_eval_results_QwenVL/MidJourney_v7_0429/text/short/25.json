@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'BREWING' is prominently displayed at the top of the logo.\nno The text 'COMPANY' is misspelled as 'COMPAICY' in the image.\nno The text 'Pure' appears, but it includes additional decorative elements attached to it.\nno The text 'Pleasure' appears, stylized and connected with an oval design.\nyes The text 'No' appears within the phrase 'No guilt.' below the central logo.\nyes The text 'Guilt' appears within the phrase 'No guilt.' below the central logo."
+}

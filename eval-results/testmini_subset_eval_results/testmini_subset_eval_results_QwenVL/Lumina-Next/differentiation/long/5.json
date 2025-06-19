@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a person wearing a luminous turquoise jacket in the image?  ",
+    "Is there a person wearing a charcoal peacoat in the image?  ",
+    "Does the image present a differentiation logic: a person in a luminous turquoise jacket stands beside another person in a charcoal peacoat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes because the individual in the center is wearing a luminous turquoise jacket\nyes because there is an individual partially visible behind who appears to be wearing a dark coat resembling a charcoal peacoat\nno because while both individuals are in close proximity, they are not standing clearly side-by-side which would suggest a direct comparison khó phân biệt được丘道微光 قريب"
+}

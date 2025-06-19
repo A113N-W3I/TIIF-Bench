@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image contains a classic black and white patterned ball associated with soccer.\nyes There is a rectangular cushioned item which resembles an ottoman.\nyes A soccer ball is traditionally round and this one fits that description.\nyes The ottoman appears to have straight edges and sides indicative of a cubic shape.\nno The soccer ball is positioned beside and slightly in front of the ottoman from the perspective shown."
+}

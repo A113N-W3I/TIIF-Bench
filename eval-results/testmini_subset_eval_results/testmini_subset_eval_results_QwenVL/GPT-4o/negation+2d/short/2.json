@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+2d",
+  "desc": "short_description",
+  "jsonl_file": "negation+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a cat in the image?  ",
+    "Is there a skateboard in the image?  ",
+    "Are the ears of the cat visible?  ",
+    "Is the cat on the top of the skateboard?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image features a cartoon cat.\nyes There is a skateboard under the cat.\nno The ears of the cat are not visible; they are likely obscured by the cat's round head shape.\nno The cat is standing on the skateboard, not on top of it in a way that suggests it's balancing precariously."
+}

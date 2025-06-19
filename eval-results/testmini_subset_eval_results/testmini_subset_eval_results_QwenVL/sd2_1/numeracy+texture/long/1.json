@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a television.\nyes Camels are depicted in the image as part of a tapestry scene.\nno The image does not include chickens; it features camels and human figures.\nno The image is a tapestry and contains no televisions.\nyes There are three camels pictured in the tapestry scene.\nno The image shows no chickens, only camels and human figures depicted on the tapestry.\nno The image is a tapestry, not containing any fabrics that cover a television.\nno The camels illustrated on the tapestry do not appear fluffy; they have a smooth texture typical of camel depictions.\nno The image lacks chickens, thus cannot provide information on their fluffiness."
+}

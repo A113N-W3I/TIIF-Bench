@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there chairs in the image?  ",
+    "Is there a table in the image?  ",
+    "Does the image present a comparison logic: chairs are more rickety than the table?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there are chairs in the image. The image clearly depicts two wooden chairs with noticeable wear and tear.  \nYes, there is a table in the image. A wooden table is prominently placed between the two chairs.  \nYes, the image presents a comparison logic: chairs are more rickety than the table. The chairs appear worn and unstable compared to the sturdier look of the table.  "
+}

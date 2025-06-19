@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no soccer ball in the image; the object resembling a soccer ball is actually a pendant light or ceiling lamp.\nYes, there is an ottoman in the image; there are two ottomans, one orange and one blue.\nNo, the soccer-ball-like object is a pendant light and not an actual soccer ball, so the question about its sphericity as a ball is irrelevant.\nNo, the ottomans are not cubic in shape; they have a round, pouf-like shape.\nNo, there is no soccer ball in front of the ottoman, as the object resembling a soccer ball is a hanging pendant light."
+}

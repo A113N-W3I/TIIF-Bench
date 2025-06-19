@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the abstract nature of the image makes it difficult to identify a mouse.\nno, the image is too abstract to clearly identify a desk.\nno, the absence of a clearly identifiable mouse and desk makes it impossible to determine if a mouse is gliding across a desk.\nno, the abstract image does not contain identifiable elements of a mouse on top of a desk."
+}

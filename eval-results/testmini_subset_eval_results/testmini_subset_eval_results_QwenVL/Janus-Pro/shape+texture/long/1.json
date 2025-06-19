@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a caution sign in the scene?",
+    "Is the caution sign pentagonal in shape?",
+    "Is there a trophy ball in the scene?",
+    "Is the trophy ball spherical in shape?",
+    "Is the pedestal metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The image contains a yellow sign with the words \"CAUTION AJAX\" which indicates a caution sign.\nno The caution sign appears to be square-shaped rather than pentagonal.\nyes There is a spherical object with a pattern resembling that of a sports ball on a pedestal, which can be considered a trophy ball.\nyes The trophy ball is indeed spherical in shape.\nyes The pedestal supporting the spherical object is metallic in appearance."
+}

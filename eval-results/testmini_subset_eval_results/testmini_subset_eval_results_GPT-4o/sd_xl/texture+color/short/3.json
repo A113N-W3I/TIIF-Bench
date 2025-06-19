@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a gloves in the scene?",
+    "Are the gloves rubber?",
+    "Is there a wine rack in the scene?",
+    "Is the wine rack made of wood?",
+    "Is the wooden wine rack brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there are no visible gloves in the scene. The objects that might resemble gloves are fixed to the wall and are decor items.\nno, as there are no gloves visible in the scene, therefore there are no rubber gloves.\nyes, there is a wine rack in the scene. Glasses are hanging from a rail in the shape of a wine rack.\nno, the wine rack does not appear to be made of wood; it is metal or another material.\nno, since the wine rack is not made of wood, it cannot be brown."
+}

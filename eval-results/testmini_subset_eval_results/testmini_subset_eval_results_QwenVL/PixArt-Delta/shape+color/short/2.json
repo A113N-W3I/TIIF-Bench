@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The object in the foreground appears to be a decorative box that could serve as a trinket box.\nyes The trinket box has a triangular base and tapers to a point, resembling a pyramid shape.\nyes There is a corridor in the background that leads deeper into the scene, which can be described as a hallway.\nno The hallway is not diamond-shaped; it appears to be a straight corridor with walls on either side.\nno The hallway itself is not blue; it is illuminated by warm light, but the floor reflects a blue hue from the trinket box."
+}

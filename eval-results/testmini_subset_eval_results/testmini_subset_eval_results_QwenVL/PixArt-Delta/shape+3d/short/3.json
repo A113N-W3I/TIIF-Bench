@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "short_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an eggplant in the image?  ",
+    "Is there a mobile home in the image?  ",
+    "Is the eggplant oblong in shape?  ",
+    "Is the mobile home short in shape?  ",
+    "Is the eggplant behind the mobile home?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The object in the image resembles a purple structure but lacks the characteristics of an eggplant.\nyes There is a structure that appears to be a mobile home based on its design and features.\nno The object resembling an eggplant is not oblong; it has a more rounded shape.\nno The mobile home does not appear short; it seems to be of standard length for such structures.\nno The object resembling an eggplant is in front of the mobile home, not behind it."
+}

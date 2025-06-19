@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there fish in the image?  ",
+    "Are there frogs in the image?  ",
+    "Does the image present a comparison logic: fish are more than frogs?  ",
+    "Are the fish and frogs on the top of the image?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are numerous fish in the image.\nno The image does not contain any frogs; the smaller creatures appear to be tadpoles, not frogs.\nno The image does not present a comparison between fish and frogs; instead, it shows fish and tadpoles, with the fish outnumbering the tadpoles.\nno Neither the fish nor the tadpoles are exclusively located on the top of the image; they are scattered throughout."
+}

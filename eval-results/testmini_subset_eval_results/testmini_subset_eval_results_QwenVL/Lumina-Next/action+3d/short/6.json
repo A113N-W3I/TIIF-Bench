@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a ballerina in the image?  ",
+    "Is there an iceberg in the image?  ",
+    "Is there a ship in the image?  ",
+    "Is the ballerina pirouetting on the iceberg?  ",
+    "Is the ship behind the iceberg?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a figure in the image wearing what appears to be a ballerina outfit and posing like a ballerina.\nno There is no distinct, singular formation resembling an iceberg; instead, there's a snowy landscape with undulating features.\nyes There is a large, detailed ship visible in the background over the snowy terrain.\nno The ballerina is not on top of an iceberg; she is performing a pose on what seems to be a smooth, snow-covered surface.\nno The ship is not behind an iceberg but is depicted as part of the scene within the snowy landscape, situated at a distance from the ballerina."
+}

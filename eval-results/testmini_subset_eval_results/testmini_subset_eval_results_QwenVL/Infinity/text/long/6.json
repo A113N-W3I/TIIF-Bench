@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is the text 'QUICK' in the image?",
+    "Is the text 'START' in the image?",
+    "Is the text 'TENNIS' in the image?",
+    "Is the text 'BEFORE' in the image?",
+    "Is the text 'SCHOOL' in the image?",
+    "Is the text 'CLUB' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'QUICK' is present in the image as part of 'QWIK TENNIS'.\nno The text 'START' is not present in the image.\nyes The text 'TENNIS' is present in the image as part of 'QWIK TENNIS'.\nno The text 'BEFORE' is not present in the image.\nno The text 'SCHOOL' is not present in the image.\nyes The text 'CLUB' is present in the image as part of 'BEFORE SCHOOL CLUB'."
+}

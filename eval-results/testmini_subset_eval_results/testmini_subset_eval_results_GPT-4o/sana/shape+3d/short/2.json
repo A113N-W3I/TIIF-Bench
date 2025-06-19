@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "short_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a soccer ball in the image?  ",
+    "Is there an ottoman in the image?  ",
+    "Is the soccer ball spherical?  ",
+    "Is the ottoman cubic in shape?  ",
+    "Is the soccer ball in front of the ottoman?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "The image confirms that there's a distorted pattern of spherical shapes that somewhat resemble soccer balls or similar objects.\n\nyes, because the image contains a spherical object with a pattern resembling a soccer ball.\nyes, because there is a cubic object with a mosaic pattern that resembles an ottoman.\nyes, because the spherical object has a pattern and shape consistent with a soccer ball.\nno, because the cubic object has a mosaic pattern that is more abstract and does not resemble a traditional ottoman shape.\nno, because the spherical object with the pattern similar to a soccer ball appears to be behind the cubic object."
+}

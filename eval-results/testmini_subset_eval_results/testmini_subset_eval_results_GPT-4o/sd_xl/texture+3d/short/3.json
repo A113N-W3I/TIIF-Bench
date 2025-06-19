@@ -1,0 +1,25 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rubber band in the image?",
+    "Is there a reader in the image?",
+    "Is the reader fluffy?",
+    "Is the rubber band behind the reader?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a rubber band in the image; it is visible in blue and pink colors.  \nYes, there is a reader in the image; it is a fluffy creature that appears to be reading.  \nYes, the reader is fluffy; it has a soft and furry appearance.  \nYes, the rubber band is behind the reader; it is visible curling around from the right side.  "
+}

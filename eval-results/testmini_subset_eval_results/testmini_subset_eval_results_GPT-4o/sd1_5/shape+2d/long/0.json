@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a bookshelf in the image?  ",
+    "Is there a shelf in the image?  ",
+    "Is the bookshelf in shape of diamond?  ",
+    "Is the shelf pentagonal?  ",
+    "Is the bookshelf on the top of the shelf?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image you uploaded does not contain a separate bookshelf that stands out as distinct from shelving built into the wall.\nyes, the image features built-in shelving that is filled with books and decorations.\nno, the shelf does not have a diamond shape; it is rectangular and adheres to the wall.\nno, the shelf is not pentagonal; it maintains a rectangular shape.\nno, the image does not depict a scenario where a bookshelf sits atop a shelf; it displays integrated shelving units along the wall."
+}

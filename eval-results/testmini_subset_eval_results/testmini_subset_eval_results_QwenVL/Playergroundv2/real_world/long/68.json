@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image depicts a bathroom scene including a toilet, but it's part of a larger setting rather than just a 3D illustration of a toilet.\nyes The objects in the image do indeed feature rounded edges and smooth forms, consistent with a stylized 3D render.\nno While the color palette is soft, it includes more colors than just the listed soft beige, light gray, and warm orange; for example, white is prominently used for the toilet.\nyes The shading appears soft with subtle transitions, and it avoids harsh shadows or highlights, giving a gentle look to the objects.\nyes The lighting does seem to come from above and slightly to the right, softly illuminating the scene.\nno The toilet is not the sole focus in isolation; it is part of a bathroom setup that includes sinks, mirrors, and other elements.\nyes The objects, including the toilet, are angled in such a way to provide a sense of three-dimensionality without excessive depth perspective.\nyes The background is a solid, muted color that effectively complements the foreground objects without drawing attention away from them.\nno There is no visible typography, especially none in the lower-left corner.\nno The 3D render, while stylized, does not feature simplified, low-poly aesthetics but rather has a higher level of detail."
+}

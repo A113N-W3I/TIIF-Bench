@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a couch in the scene?",
+    "Is the couch rectangular in shape?",
+    "Is there a office in the scene?",
+    "Is the office pentagon-shaped?",
+    "Is the lamp glass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, there is a couch in the scene. The wall-mounted light fixture is an abstract shape surrounding a recessed glass panel. There is no reason for the opacity to be of a different type unless the light bulb is decorative. \nyes, the couch is rectangular in shape. The lines should follow the curve of its current path, resulting in smooth creative shapes. \nno, there is no office in the scene; only a living area is visible, meaning its room does not exist in this shot. \nno, an office cannot be pentagon-shaped because none is in the scene. The shape is merely hypothetical without context. \nno, the lamp is not glass. It is clearly ceramic by texture and the coverage in the shade dispersal area gives this impression.  "
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "short_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a house cat with a leather collar in the image?  ",
+    "Is there a feral cat in the image?  ",
+    "Does the image present a differentiation logic: a house cat lounges in the sunlight, while a feral cat sits in the shadows?  ",
+    "Is the collar made of leather?  ",
+    "Is the surface where the feral cat sits made of plastic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The orange cat appears to be a house cat and is wearing a collar that looks like it could be made of leather.\nno There is no clear indication that either cat is feral; both appear to be domesticated.\nyes The orange cat is in the sunlight, suggesting it might be a house cat enjoying the warmth, while the black cat is in shadow, which could imply it's more cautious like a feral cat.\nno The collars do not appear to be made of leather; they look more like fabric or a similar material.\nno The surface does not appear to be made of plastic; it looks like a natural ground with some leaves and debris."
+}

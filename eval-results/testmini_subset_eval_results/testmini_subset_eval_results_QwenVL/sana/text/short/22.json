@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 22,
+  "questions": [
+    "Is the text 'Chanel' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Luxury' in the image?",
+    "Is the text 'Iconic' in the image?",
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Fashion' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Chanel' is visible among the distorted and overlapping words in the image.\nyes The text 'Elegance' can be discerned within the chaotic arrangement of letters.\nyes The word 'Style' appears amidst the jumbled text elements.\nyes The term 'Luxury' is present in the image's text collage.\nyes The word 'Iconic' is identifiable in the mix of words.\nyes The text 'Glamour' is part of the image's textual content.\nyes The word 'Timeless' is included in the assortment of words.\nyes The phrase 'Sophistication' is visible in the image.\nyes The word 'Fashion' is evident among the other texts."
+}

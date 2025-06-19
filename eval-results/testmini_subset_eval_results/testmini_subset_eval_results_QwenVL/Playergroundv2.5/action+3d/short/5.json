@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is there a scroll in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is there an inkwell in the image?  ",
+    "Is the scroll unrolled on the desk?  ",
+    "Is the inkwell behind the scroll?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a rolled-up item that resembles a scroll in the image.\nyes There is a surface that functions as a desk with various items placed on it.\nno There is no visible inkwell; instead, there is a quill pen and a small dish which might contain ink.\nyes The paper with writing on it appears to be unrolled and laid out on the desk, resembling an unrolled scroll.\nno The small dish that might contain ink is not behind the scroll but rather to the side of the unrolled paper."
+}

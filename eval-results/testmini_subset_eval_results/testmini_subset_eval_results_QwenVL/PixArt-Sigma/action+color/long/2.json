@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "long_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a nurse in the image?  ",
+    "Is there a vaccine in the image?  ",
+    "Is the nurse administering the vaccine?  ",
+    "Is the nurse's uniform green?  ",
+    "Is the background blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The individual is wearing medical scrubs and gloves, indicating they are likely a nurse.\nyes The person is holding a syringe filled with liquid, which suggests it could be a vaccine.\nno The nurse is not administering the vaccine; she is holding and looking at the syringe.\nyes The nurse's uniform is clearly green in color.\nyes The background is uniformly blue."
+}

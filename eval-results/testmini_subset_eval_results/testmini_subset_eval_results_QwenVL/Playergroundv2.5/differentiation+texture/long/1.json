@@ -1,0 +1,28 @@
+{
+  "attribute": "differentiation+texture",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a gorgeous metallic vinyl record player in the image?  ",
+    "Is there a smaller, older metallic vinyl record player in the image?  ",
+    "Does the image present a differentiation logic: one vinyl record player is gorgeous, while the other is smaller and older?  ",
+    "Is the gorgeous vinyl record player metallic?  ",
+    "Is the smaller, older vinyl record player metallic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no The image does not contain a gorgeous metallic vinyl record player; it features two different types of record players, neither described as gorgeous.\nno There is no smaller, older metallic vinyl record player in the image; the record player with the horn appears older but is not metallic.\nno The image does not present a differentiation logic based on the description provided; both record players have distinct characteristics but do not fit the specific descriptions given.\nno The term \"gorgeous\" is subjective and not applicable here; the larger record player has a metallic finish but is not described as gorgeous.\nyes The smaller, older-looking record player has a metallic horn, indicating that it is metallic."
+}

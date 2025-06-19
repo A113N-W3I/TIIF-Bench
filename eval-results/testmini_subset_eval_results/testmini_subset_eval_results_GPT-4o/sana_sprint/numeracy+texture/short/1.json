@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a television in the image and it is centered.\nyes, there is a camel in the image, located on the left.\nyes, there are chickens in the image and they are present throughout.\nno, there are 2 televisions in the image, one stacked above the other.\nno, there is 1 camel in the image, located in the left foreground.\nno, there are 5 chickens in the image, with two near the lower television and others scattered.\nno, the televisions appear as standard televisions, not fabric-covered.\nyes, the camel appears to have fluffy features, such as its fur.\nyes, some chickens in the image appear fluffy, especially the one in the lower center."
+}

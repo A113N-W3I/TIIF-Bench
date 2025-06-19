@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is the text 'SIMPLY' in the image?",
+    "Is the text 'Bullet' in the image?",
+    "Is the text 'Proof' in the image?",
+    "Is the text 'Nothing' in the image?",
+    "Is the text 'SAUCER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'SIMPLY' is clearly visible at the top of the backdrop.\nyes The word 'Bullet' appears below 'SIMPLY' on the backdrop.\nyes The word 'Proof' is present below 'Bullet' on the backdrop.\nyes The text 'NOTHING' is visible below 'Proof' on the backdrop.\nyes The word 'SAUCER' can be seen at the bottom of the backdrop."
+}

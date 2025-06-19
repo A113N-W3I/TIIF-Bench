@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a kangaroo in the image?  ",
+    "Is there a rock in the image?  ",
+    "Is there a turkey in the image?  ",
+    "Is the kangaroo lifting the turkey?  ",
+    "Is the kangaroo in front of the rock?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no kangaroo in the image. The animal appears to be a wallaby, not a kangaroo.\nyes, there is a rock in the image. The wallaby is standing on it.\nno, there is no turkey in the image. There is only a wallaby.\nno, the kangaroo is not lifting the turkey because neither a kangaroo nor a turkey is present.\nno, the kangaroo is not in front of the rock because there is no kangaroo, only a wallaby standing on the rock."
+}

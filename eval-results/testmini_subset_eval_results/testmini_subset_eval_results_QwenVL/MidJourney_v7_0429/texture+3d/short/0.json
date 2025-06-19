@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+3d",
+  "desc": "short_description",
+  "jsonl_file": "texture+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a cloud in the image?  ",
+    "Is there a bag in the image?  ",
+    "Are the clouds fluffy?  ",
+    "Is the bag made of leather?  ",
+    "Are the clouds partially hiding the bag?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes because the background consists of a sky filled with various formations of clouds.\nyes as there appears to be a bag with visible handles and straps resting on cloud-like structures.\nyes the clouds appear soft and voluminous with a texture that resembles fluffiness.\nyes the handles and straps of the bag exhibit characteristics typical of leather, such as color and texture.\nyes parts of the bag seem to be nestled into the cloud-like structures, giving the impression that they are partially obscured."
+}

@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 217,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features elements typical of Chinese style, such as the traditional Chinese painting, the architectural style of the pavilion with upturned eaves, and the presence of objects like calligraphy scrolls and ink stones which are associated with Chinese aesthetics and culture."
+}

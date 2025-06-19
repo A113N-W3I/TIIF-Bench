@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The object in the image is not a pizza cutter but appears to be a letter opener.\nno There is no jewelry appraisal visible in the image; it shows a document that looks like an invoice or receipt.\nno Since there is no pizza cutter present, it cannot be square.\nno The document does not appear to be a jewelry appraisal and its shape is not discernible as rectangular due to the angle and focus.\nno There is no pizza cutter present, so it cannot be located on the bottom of the jewelry appraisal."
+}

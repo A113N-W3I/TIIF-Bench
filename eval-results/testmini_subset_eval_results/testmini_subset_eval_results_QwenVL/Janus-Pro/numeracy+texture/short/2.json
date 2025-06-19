@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, bread is visibly present in the foreground of the image.\nyes, there are fish depicted in the image, arranged as if part of an art piece.\nno, while a computer monitor is attached to the bicycle, it cannot be classified solely as a computer due to the lack of a main processing unit and other necessary components.\nyes, there are two bags present on the left side of the image.\nyes, a bicycle exists in the scene, serving as a platform for multiple objects.\nno, there are two loaves of bread visible, not just one.\nno, there are not four fish; instead, three large fish are prominently shown, along with possibly smaller ones that can be considered as parts of one entity.\nno, there is only a display screen mounted on the bicycle which does not equate to a full computer.\nyes, two bags can be seen lying next to each other on the left side.\nyes, a single bicycle is used as the structural framework holding various items including the computer monitor.\nno, computers are not typically made of rubber; they are usually constructed from metal, plastic, and electronic components.\nno, bicycles are commonly made of materials like metal or carbon fiber for strength and durability, rather than rubber."
+}

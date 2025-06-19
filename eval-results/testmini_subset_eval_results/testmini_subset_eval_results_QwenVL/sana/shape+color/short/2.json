@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a recognizable trinket box.\nyes There is a pyramid-shaped object that could be interpreted as a trinket box.\nyes The image suggests a corridor-like structure that can be seen as a hallway.\nno The hallway is not diamond-shaped; it appears more linear and rectangular.\nno The hallway is not predominantly blue; it features a variety of colors including blues, greens, and yellows."
+}

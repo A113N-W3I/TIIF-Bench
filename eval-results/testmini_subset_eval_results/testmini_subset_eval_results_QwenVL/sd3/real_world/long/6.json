@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image depicts a humanoid figure with mechanical and synthetic features indicative of an android.\nyes The setting includes bookshelves with a modern, sleek design, illuminated with colors that suggest a futuristic ambiance.\nno The book appears solid and conventional, not holographic, as it has distinct pages and edges.\nyes The scene is lit with ambient, diffused light primarily in blue and purple tones, creating a cool, futuristic atmosphere.\nyes The android’s surface displays numerous reflections and highlights, consistent with metallic materials.\nyes The android’s face shows a neutral, almost serene expression, typical of a calm demeanor.\nyes The background is rendered with soft focus, showing shelves filled with books which provides a sense of depth and complexity.\nyes The image possesses sharp details, realistic textures, and sophisticated lighting that aligns with cinematic quality.\nyes Elements like the futuristic android, advanced technology, and the overall environment draw from common motifs in sci-fi cinema.\nno The book does not possess characteristics of being holographic; it is represented as a physical object held by the android."
+}

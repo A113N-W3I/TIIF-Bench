@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the scene is showing a round bread with a hole but it does not resemble a typical bagel.\nyes, the round bread has a circular shape similar to a common bagel.\nno, there is no melon in the scene, but a small object slightly resembling one.\nno, the object that resembles a melon is not teardrop-shaped.\nno, the bread has a golden-brown color more typical of baked bread rather than a white bagel."
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is the text 'QUICK' in the image?",
+    "Is the text 'START' in the image?",
+    "Is the text 'TENNIS' in the image?",
+    "Is the text 'BEFORE' in the image?",
+    "Is the text 'SCHOOL' in the image?",
+    "Is the text 'CLUB' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The word 'QUICK' is visible on the tennis ball.\nno The word 'START' is not present in the image.\nyes The word 'TENNIS' appears twice on the tennis ball.\nno The word 'BEFORE' is not included in the text on the tennis ball.\nno The word 'SCHOOL' is misspelled as 'SCHOO' in the watermark and is not part of the text on the tennis ball.\nyes The word 'CLUB' is displayed on the tennis ball."
+}

@@ -1,0 +1,37 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 13,
+  "questions": [
+    "Is the text 'London' in the image?",
+    "Is the text 'MAX' in the image?",
+    "Is the text 'Private' in the image?",
+    "Is the text 'Helicopter' in the image?",
+    "Is the text 'Tour' in the image?",
+    "Is the text 'Skyline' in the image?",
+    "Is the text 'Adventure' in the image?",
+    "Is the text 'Luxury' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'London' is clearly visible at the top of the image.\nyes The text 'MAX' is prominently displayed below 'London'.\nyes The text 'Private' is part of the phrase 'Private Helicopter Tour' in the image.\nyes The text 'Helicopter' is part of the phrase 'Private Helicopter Tour' in the image.\nyes The text 'Tour' is part of the phrase 'Private Helicopter Tour' in the image.\nyes The text 'Skyline' is visible at the bottom left of the image.\nyes The text 'Adventure' is visible at the bottom center of the image.\nyes The text 'Luxury' is visible at the bottom right of the image."
+}

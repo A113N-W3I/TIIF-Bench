@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "long_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a wooden flower in the image?  ",
+    "Is there a wooden tree in the image?  ",
+    "Does the image present a comparison logic: the wooden flowers are taller than the wooden trees?  ",
+    "Are the flowers made of wood?  ",
+    "Are the trees made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, the image shows large flowers that appear to be made of wood.\nno, the image does not show trees that are carved or primarily composed of wood; instead, it showcases normal evergreen trees.\nyes, the image presents wooden flowers that appear taller than the regular evergreen trees, suggesting a comparison.\nyes, the flowers in the foreground appear to be made of wood.\nno, the trees in the background are typical green trees and do not appear to be made of wood."
+}

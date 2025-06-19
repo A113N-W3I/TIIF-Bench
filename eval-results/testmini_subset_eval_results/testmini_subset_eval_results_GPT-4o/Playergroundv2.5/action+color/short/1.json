@@ -1,0 +1,28 @@
+{
+  "attribute": "action+color",
+  "desc": "short_description",
+  "jsonl_file": "action+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a white cat in the image?  ",
+    "Is there a blue coyote in the image?  ",
+    "Is the cat watching the coyote?  ",
+    "Is the cat white?  ",
+    "Is the coyote blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "No, there is no white cat in the image. The image contains a cat that is white and blue, due to the lighting. The cat itself is not pure white, hence the answer.\nNo, there is no blue coyote in the image. The image doesn't feature a coyote at all.\nNo, the cat is not watching the coyote, as there is no coyote in the image.\nYes, the cat is white. The cat appears primarily white, possibly due to artistic lighting effects.\nNo, the coyote is not blue. There is no coyote in the image."
+}

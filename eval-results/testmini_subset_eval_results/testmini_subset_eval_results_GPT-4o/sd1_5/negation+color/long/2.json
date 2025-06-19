@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mountain in the image?  ",
+    "Is there snow on the mountain?  ",
+    "Is the mountain brown in color?  ",
+    "Is the sky blue in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a mountain in the image because the central feature is a large, prominent elevated landform.\nyes, there is snow on the mountain because parts of the mountain are covered with white, indicating snow.\nyes, the mountain is brown in color because the lower parts of the mountain have a brown hue.\nyes, the sky is blue in color because the background above the mountain is a clear blue."
+}

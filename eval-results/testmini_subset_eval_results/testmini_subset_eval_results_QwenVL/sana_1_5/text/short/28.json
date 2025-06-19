@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 28,
+  "questions": [
+    "Is the text 'Champion' in the image?",
+    "Is the text 'Teamwork' in the image?",
+    "Is the text 'Victory' in the image?",
+    "Is the text 'Game' in the image?",
+    "Is the text 'On' in the image?",
+    "Is the text 'All-Star' in the image?",
+    "Is the text 'League' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'CHAMPPION' is visible on the left shirt.\nno The text 'Teamwork' is not present; 'Teamy' is visible instead.\nno The text 'Victory' is not present; 'Victorrovee,' is visible instead.\nno The text 'Game' is not present; 'Lgamn 5tal.' is visible instead.\nyes The text 'On' is visible on the right shirt.\nno The text 'All-Star' is not present.\nno The text 'League' is not present."
+}

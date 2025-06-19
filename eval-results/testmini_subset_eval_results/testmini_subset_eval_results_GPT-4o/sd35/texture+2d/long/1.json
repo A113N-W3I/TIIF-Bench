@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a leather portfolio in the image?  ",
+    "Are there fabric pants in the image?  ",
+    "Is the portfolio made of leather?  ",
+    "Are the pants made of fabric?  ",
+    "Is the portfolio on the bottom beneath the pants?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a leather portfolio in the image. It is the brown item located near the bottom.\nYes, there are fabric pants in the image. They are the beige pants draped above the portfolio.\nYes, the portfolio is made of leather. The texture and appearance confirm it is leather.\nYes, the pants are made of fabric. The visible weave and texture confirm they are fabric.\nYes, the portfolio is on the bottom beneath the pants. The portfolio is resting on a surface below the pants."
+}

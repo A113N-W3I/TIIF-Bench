@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the reason is that the text 'CARD' is clearly visible on the image.  \nNo, the reason is that the text 'CLIP' does not appear anywhere on the image.  \nYes, the reason is that the text 'with' is clearly visible on the image.  \nYes, the reason is that the text 'Finger' is clearly visible on the image.  \nYes, the reason is that the text 'Blister' is clearly visible on the image.  "
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation",
+  "desc": "short_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there teddy bears in the image?  ",
+    "Is there a large teddy bear wearing a bow tie in the image?  ",
+    "Is there a small teddy bear wearing a party hat in the image?  ",
+    "Does the image present a differentiation logic: one teddy bear is large and wears a bow tie, while the other teddy bear is small and wears a party hat?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are teddy bears depicted in the image.\n\nno The large teddy bear in the center does not wear a bow tie; it's the smaller teddy bear that has a bow tie attached to its party hat.\n\nno There is no small teddy bear wearing a party hat. The party hat is on the head of a larger teddy bear.\n\nno The image does not show a small teddy bear with a party hat or a large teddy bear with just a bow tie; instead, it presents a large teddy bear with a bow tie that seems part of the party hat worn by another bear of similar size."
+}

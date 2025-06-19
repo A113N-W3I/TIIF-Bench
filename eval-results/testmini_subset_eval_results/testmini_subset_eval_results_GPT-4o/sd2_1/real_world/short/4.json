@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Does the infographic include the text 'Survey Results on Podcasts'? Answer with yes or no.",
+    "Does the infographic use vibrant colors? Answer with yes or no.",
+    "Does the infographic include modern icons? Answer with yes or no.",
+    "Does the infographic include clear typography? Answer with yes or no.",
+    "Does the infographic highlight key statistics such as listening frequency? Answer with yes or no.",
+    "Does the infographic highlight key statistics on devices used? Answer with yes or no.",
+    "Does the infographic highlight key statistics on popular topics? Answer with yes or no.",
+    "Is the infographic designed to be clean? Answer with yes or no.",
+    "Is the infographic designed to be professional? Answer with yes or no.",
+    "Is the infographic easy to read? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Is the number in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the text 'Survey Results on Podcasts' is not included.\nyes, the infographic uses vibrant colors with bright and contrasting hues.\nyes, the infographic includes modern icons, such as microphones and headphones.\nno, the typography is not clear due to distorted and partially readable text.\nno, there are no clear statistics regarding listening frequency highlighted.\nno, the infographic does not highlight specific statistics on devices used.\nno, popular topics are not clearly highlighted as key statistics in the infographic.\nyes, the infographic is designed to be clean, with organized sections and space.\nno, the infographic is not designed to be professional due to the distorted elements.\nno, the infographic is not easy to read due to unclear text and typography issues.\nno, the text in the generated picture is not clear and readable.\nno, the numbers in the generated picture are not clear and readable."
+}

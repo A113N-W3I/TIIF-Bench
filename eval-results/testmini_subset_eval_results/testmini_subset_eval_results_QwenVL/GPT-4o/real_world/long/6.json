@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a humanoid figure that appears to be an android.\nyes The setting resembles a library with shelves filled with books, suggesting a futuristic design.\nyes The book has a glowing appearance that is consistent with a holographic display.\nyes The overall lighting cast over the scene includes soft blue tones.\nyes The surface of the android shows reflective qualities typical of metallic materials.\nyes The android's facial features appear relaxed and composed.\nyes The background is out of focus but suggests advanced technology.\nyes The image is highly detailed with careful attention to textures and light, giving it a cinematic quality.\nyes The elements such as the android and holographic book align with common science fiction aesthetics.\nyes The book emits a glow and lacks physical pages, indicating a holographic nature."
+}

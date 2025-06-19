@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a shrub in the scene.  \nno, the shrub is not short in shape; it appears to be medium-sized and bushy.  \nyes, there is a paperweight in the scene.  \nyes, the paperweight is in the shape of a pyramid.  \nno, the pyramidal paperweight is not metallic; it appears to have a mirrored surface, suggesting it is made of glass or a reflective material."
+}

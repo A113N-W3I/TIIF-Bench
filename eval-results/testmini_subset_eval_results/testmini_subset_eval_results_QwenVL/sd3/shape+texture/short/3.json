@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a rug in the scene?",
+    "Is the rug pentagon-shaped?",
+    "Is there a paper towel roll in the scene?",
+    "Is the paper towel roll cylindrical in shape?",
+    "Is the shoe rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a rug with beige and brown patches in the scene.\nno The rug is not pentagon-shaped; it has a rectangular pattern with beige and brown sections.\nyes There is a white rolled-up item resembling a paper towel roll in the scene.\nyes The white rolled-up item is cylindrical in shape, consistent with a paper towel roll.\nno The shoe does not appear to have a rubber texture; it looks like it has a smooth and shiny surface, possibly leather."
+}

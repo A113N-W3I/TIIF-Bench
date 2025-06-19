@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a larger person wearing yellow clothing in the image?  ",
+    "Is there a smaller person dressed in a different color in the image?  ",
+    "Does the image present a differentiation logic: one person is larger and wearing yellow, while the other person is smaller and dressed in a different color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes There is a figure dressed in elaborate yellow clothing that appears significantly larger relative to the figure in darker attire.\nno The smaller person is not distinctly identifiable as a separate individual but can be inferred to be the seated figure dressed predominantly in dark colors with gold accents.\nyes The visual cues suggest a size difference and a clear distinction in attire; the standing figure has bright yellow clothing while the seatedfigure has a darker outfit, indicating a differentiation logic between the two."
+}

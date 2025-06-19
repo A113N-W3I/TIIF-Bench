@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a mouse in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the mouse gliding across the desk?  ",
+    "Is the mouse on the top of the desk?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a mouse in the image because there is an animal with a long tail and pointed snout visible.\nYes, there is a desk in the image because there is a flat surface with pencils and a lamp on it.\nNo, the mouse is not gliding across the desk because it is airborne, shown in a jumping position.\nNo, the mouse is not on the top of the desk because it is elevated off of the desk surface."
+}

@@ -1,0 +1,37 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Are there helmets in the image?  ",
+    "Is the number of helmets 4?  ",
+    "Is there a lamp in the image?  ",
+    "Is the number of lamps 1?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of sheep 1?  ",
+    "Are there bowls in the image?  ",
+    "Is the number of bowls 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are two objects resembling helmets on the heads of the goats which can be interpreted as helmets.\nno There are not four helmets; there are two helmet-like objects visible.\nyes There is a large, glowing, spherical object at the top of a tripod structure that resembles a lamp.\nyes There is only one large, lamp-like object present in the image.\nyes There are two sheep with objects resembling helmets on their heads.\nno There is not one sheep; there are two visible sheep.\nno There are no bowls in the image.\nno Since there are no bowls, it is impossible for there to be four."
+}

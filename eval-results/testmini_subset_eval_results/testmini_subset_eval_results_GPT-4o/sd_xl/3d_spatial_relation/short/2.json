@@ -1,0 +1,22 @@
+{
+  "attribute": "3d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "3d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the girl in front of the desk?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a girl in the image because a person is depicted wearing a green sweater and carrying a backpack, which suggests a girl.\nyes, there is a desk in the image because a piece of furniture that appears to be a desk is visible.\nyes, the girl is in front of the desk because her position relative to the desk suggests she is standing in front of it."
+}

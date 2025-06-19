@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there flags in the image?  ",
+    "Are there butterflies in the image?  ",
+    "Are there bananas in the image?  ",
+    "Are there apples in the image?  ",
+    "Is the number of flags 2?  ",
+    "Is the number of butterflies 3?  ",
+    "Is the number of bananas 4?  ",
+    "Is the number of apples 2?  ",
+    "Are the flags made of fabric?  ",
+    "Are the apples fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are items that resemble flags hanging from the tree.\nyes There are butterflies flying around and depicted on the flags.\nyes There is a bunch of bananas on the left side of the image.\nyes There are two apples on the right side of the image.\nno The number of flag-like items is 2, but they are not traditional flags.\nno There are more than 3 butterflies visible in the image.\nno There are 5 bananas in the bunch, not 4.\nyes There are 2 apples present in the image.\nno The flag-like items appear to be towels, not made of typical flag fabric.\nno Apples are not fluffy; they have a smooth, firm texture."
+}

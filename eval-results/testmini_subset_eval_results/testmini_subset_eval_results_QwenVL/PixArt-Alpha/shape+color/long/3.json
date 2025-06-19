@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no There is no tennis ball present in the scene; the object appears to be a red spherical light fixture.\n\nno The image does not contain a tennis ball, thus cannot be spherical in shape as a tennis ball would be.\n\nno There is a red spherical object, but it is not a picture; it looks like a light fixture.\n\nno The red spherical object is not a picture and therefore cannot be spherical in shape as a picture might be.\n\nno The scene includes a red spherical object, but it is not a picture. The question about color is irrelevant since it's not a picture."
+}

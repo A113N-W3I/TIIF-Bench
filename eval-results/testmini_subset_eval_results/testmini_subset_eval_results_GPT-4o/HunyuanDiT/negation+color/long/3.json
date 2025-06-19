@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+color",
+  "desc": "long_description",
+  "jsonl_file": "negation+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a hand in the image?  ",
+    "Are there gloves in the image?  ",
+    "Are the hands wearing the gloves?  ",
+    "Are the hands orange in color?  ",
+    "Are the gloves white in color?"
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a hand in the image; the arm and the shape are visible indicating a hand.\nYes, there are gloves in the image; the bright orange glove is clearly visible on the hand.\nYes, the hands are wearing the gloves; the glove is fitted over the visible hand.\nNo, the hands are not orange in color; the gloves are orange, but the visible part of the hand is a natural skin tone.\nNo, the gloves are not white in color; the gloves are orange."
+}

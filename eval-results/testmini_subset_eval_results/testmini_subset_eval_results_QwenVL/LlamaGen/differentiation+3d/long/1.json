@@ -1,0 +1,25 @@
+{
+  "attribute": "differentiation+3d",
+  "desc": "long_description",
+  "jsonl_file": "differentiation+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a larger person in yellow clothing in the image?  ",
+    "Is there a smaller person in a different color in the image?  ",
+    "Does the image present a differentiation logic: a larger person in yellow clothing and a smaller person in a different color?  ",
+    "Is the larger person in yellow clothing partially hidden by the smaller person?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes Both figures are wearing yellow clothing, but the larger person's presence is inferred from the visible arms and garment size.\nno Both figures appear to be wearing yellow, with no indication of a different color for the smaller person.\nno The image does not depict two people in different colors; both are in yellow, making it unclear if the size differentiation is intended as described in the question.\nyes The larger person's body is mostly out of view, with only their lower torso and hands slightly overlapping the smaller person, causing partial obscurity."
+}

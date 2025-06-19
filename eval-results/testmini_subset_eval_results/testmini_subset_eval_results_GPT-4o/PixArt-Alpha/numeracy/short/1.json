@@ -1,0 +1,19 @@
+{
+  "attribute": "numeracy",
+  "desc": "short_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Are there frogs in the image?  ",
+    "Is the number of frogs 7?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are frogs in the image because I can see clearly depicted frogs sitting on a rock.\nno, the number of frogs is 7 because there are only four frogs in the image."
+}

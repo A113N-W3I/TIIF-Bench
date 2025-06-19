@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Wisdom' appears on the second book from the top.\nno The text 'Knowledge' is not visible on any of the books.\nyes The text 'Stories' is partially visible on the fourth book from the top.\nno The text 'Timeless' is not present on any of the books.\nno The text 'Pages' does not appear on any of the books.\nno The text 'Explore' is not found on any of the books.\nyes The text 'Learn' is partially visible on the bottom book.\nno The text 'Journey' is not present on any of the books.\nno The text 'Books' is not visible on any of the books."
+}

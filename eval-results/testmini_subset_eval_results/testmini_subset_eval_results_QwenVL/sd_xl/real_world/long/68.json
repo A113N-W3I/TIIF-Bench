@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 68,
+  "questions": [
+    "Does this image show a 3D illustration of a toilet? Answer with yes or no.",
+    "Does the illustration feature rounded edges and smooth, soft forms with simplified geometry? Answer with yes or no.",
+    "Is the color palette limited to soft beige, light gray, and warm orange, with warm orange used as the focal color? Answer with yes or no.",
+    "Are the shading and gradients soft, with smooth transitions avoiding harsh shadows or highlights? Answer with yes or no.",
+    "Is the lighting soft and diffused, coming from above and slightly to the right? Answer with yes or no.",
+    "Is the toilet presented as a single, central object displayed in isolation with ample negative space? Answer with yes or no.",
+    "Is the toilet slightly angled to give a three-dimensional feel without extreme depth? Answer with yes or no.",
+    "Is the background a solid, muted color that complements the object without distraction? Answer with yes or no.",
+    "Is there minimalistic, sans-serif typography placed in the bottom-left corner with small, subtle text in gray? Answer with yes or no.",
+    "Does the rendering style feature a 3D render with simplified, low-poly aesthetics? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The image clearly depicts a 3D model of a toilet rendered within a digitally created environment.\nyes The toilet in the image indeed features rounded edges and a smooth, simplistic design with clear geometric shapes.\nyes The color palette prominently includes soft beige for the toilet itself, light gray surroundings, and warm orange accents which serve as a focal point.\nyes The image displays soft shading and gradients with no sharp or brusque shadows or highlights.\nno While the lighting appears soft and diffused, it seems to come primarily from the window on the right, not specifically from above and slightly to the right.\nyes The toilet is indeed the central and sole object shown, set against a clean backdrop providing ample negative space.\nyes The toilet is slightly tilted, offering a three-sided view while retaining a sense of depth without overwhelming the perspective.\nyes The background maintains a plain, subdued color that enhances the toilet's appearance without drawing attention away.\nno There is no visible typography present in the bottom-left corner or anywhere else in the image.\nno The aesthetic does not exhibit low-poly characteristics; instead, it showcases smooth surfaces typical of high-resolution 3D models."
+}

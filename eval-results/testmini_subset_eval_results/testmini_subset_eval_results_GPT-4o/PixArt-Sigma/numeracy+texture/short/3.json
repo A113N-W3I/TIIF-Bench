@@ -1,0 +1,43 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Are there flags in the image?  ",
+    "Are there butterflies in the image?  ",
+    "Are there bananas in the image?  ",
+    "Are there apples in the image?  ",
+    "Is the number of flags 2?  ",
+    "Is the number of butterflies 3?  ",
+    "Is the number of bananas 4?  ",
+    "Is the number of apples 2?  ",
+    "Are the flags made of fabric?  ",
+    "Are the apples fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there are flags in the image because there are two visible flags on a pole.\nyes, there are butterflies in the image because there are butterflies depicted on one of the flags.\nyes, there are bananas in the image because there are three distinct bananas shown.\nyes, there are apples in the image because there are two apples visible.\nyes, the number of flags is 2 because there are two flags on the pole.\nno, the number of butterflies is not 3 because there are two butterflies shown on the flag.\nno, the number of bananas is not 4 because there are three bananas shown.\nyes, the number of apples is 2 because there are two apples visible.\nyes, the flags are made of fabric because they are depicted as traditional cloth flags fluttering in the wind.\nno, the apples are not fluffy because they are depicted as realistic, smooth apples."
+}

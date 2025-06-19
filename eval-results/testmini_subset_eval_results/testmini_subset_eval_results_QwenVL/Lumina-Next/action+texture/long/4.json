@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "long_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there rubber shoes in the image?  ",
+    "Is there a nurse in the image?  ",
+    "Is there a patient in the image?  ",
+    "Are there fabric blankets in the image?  ",
+    "Is the nurse comforting the patient?  ",
+    "Are the blankets made of fabric?  ",
+    "Are the shoes made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no There are no shoes visible in the image.\nyes The person wearing scrubs and a stethoscope around their neck is identifiable as a nurse.\nyes There is a person lying in a hospital bed covered with blankets, indicating they are a patient.\nyes The patient is covered with what appears to be fabric blankets.\nyes The nurse is leaning towards the patient and appears engaged, suggesting she is comforting the patient.\nyes The blankets covering the patient have a texture consistent with fabric.\nno There are no shoes present in the image to assess material."
+}

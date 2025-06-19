@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a divider in the image because the triangular objects on either side of the can appear to serve as visual dividers.\nYes, there is a can of soda in the image because the cylindrical object resembles a typical soda can.\nYes, the dividers are triangular because the objects on either side of the can have three distinct sides, forming a triangular shape.\nYes, the can of soda is cylindrical because it has a circular top and bottom with a consistent round shape throughout, typical of a cylinder.\nYes, the dividers are left of the can of soda because there is a triangular object to the left side of the can, serving as a divider."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "short_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a child in the image?  ",
+    "Are there bubbles in the image?  ",
+    "Is there a toy box in the image?  ",
+    "Is the child blowing the bubbles?  ",
+    "Is the toy box on the bottom of the frame?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image does not contain a discernible human figure that can be identified as a child.\nyes There are numerous bubble-like shapes scattered throughout the image.\nno There is no distinct object that resembles a toy box within the image.\nno Since there is no identifiable child, it cannot be determined if a child is blowing bubbles.\nno There is no toy box present in the image, so its position cannot be assessed."
+}

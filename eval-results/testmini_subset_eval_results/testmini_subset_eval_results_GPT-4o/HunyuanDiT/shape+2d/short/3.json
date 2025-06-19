@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "short_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a pizza cutter in the image?  ",
+    "Is there a jewelry appraisal in the image?  ",
+    "Is the pizza cutter square?  ",
+    "Is the jewelry appraisal rectangular?  ",
+    "Is the pizza cutter on the bottom of the jewelry appraisal?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no pizza cutter in the image. The object resembles a metallic scoop or utensil, not a pizza cutter.\nno, there is no jewelry appraisal in the image. The flat object looks like a metallic tray or a polished surface, not a document.\nno, the object in the image is not a pizza cutter, therefore it is not square.\nno, the object in the image is not a jewelry appraisal, therefore it is not rectangular.\nno, there is no pizza cutter or jewelry appraisal in the image, so one cannot be on top of the other."
+}

@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 18,
+  "questions": [
+    "Is the text 'Joy' in the image?",
+    "Is the text 'Laughter' in the image?",
+    "Is the text 'Play' in the image?",
+    "Is the text 'Rain' in the image?",
+    "Is the text 'Childhood' in the image?",
+    "Is the text 'Happiness' in the image?",
+    "Is the text 'Freedom' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Joy' is clearly visible multiple times in the image.\nyes The text 'Laughter' appears near the child holding the blue umbrella.\nyes The word 'Play' is present in the image near the texts about rain and childhood.\nyes The text 'Rain' is visible alongside other words like 'childhood' and 'Joy'.\nyes The word 'Childhood' is clearly part of the text in the image.\nyes The text 'Happiness' is part of a sequence of words in the middle of the image.\nyes The text 'Freedom' is visible among other words in the center area of the image."
+}

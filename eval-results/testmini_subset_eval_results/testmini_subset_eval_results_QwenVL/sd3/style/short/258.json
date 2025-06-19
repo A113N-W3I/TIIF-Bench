@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 258,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes This image features characteristics typical of Ukiyo-e art, including vibrant colors, detailed patterns on the clothing, and a scene depicting daily life from a diagonal perspective, which is common in this style of Japanese woodblock prints.\n"
+}

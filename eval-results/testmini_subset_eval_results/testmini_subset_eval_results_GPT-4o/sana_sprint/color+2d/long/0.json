@@ -1,0 +1,28 @@
+{
+  "attribute": "color+2d",
+  "desc": "long_description",
+  "jsonl_file": "color+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a clock in the image?  ",
+    "Is there a car in the image?  ",
+    "Is the clock brown?  ",
+    "Is the car red?  ",
+    "Is the clock on the top of the car?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a clock in the image. The clock is visible on the wall behind the car.\nYes, there is a car in the image. It is parked in front of the clock.\nNo, the clock is not brown. The clock has a white face with black Roman numerals.\nYes, the car is red. The car is painted a distinctive red color.\nNo, the clock is not on the top of the car. The clock is on the wall behind the car."
+}

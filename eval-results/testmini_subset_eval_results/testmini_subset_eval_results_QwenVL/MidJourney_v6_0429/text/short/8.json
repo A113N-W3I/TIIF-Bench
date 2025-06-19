@@ -1,0 +1,37 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 8,
+  "questions": [
+    "Is the text 'Membership' in the image?",
+    "Is the text 'Access' in the image?",
+    "Is the text 'Exclusive' in the image?",
+    "Is the text 'Gold' in the image?",
+    "Is the text 'Premium' in the image?",
+    "Is the text 'Valid' in the image?",
+    "Is the text 'Cardholder' in the image?",
+    "Is the text 'Identity' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Membership' is prominently displayed on the card.\nno The exact word 'Access' is not present; it's part of 'Accessive Gold'.\nno The word 'Exclusive' does not appear on the card.\nyes The word 'Gold' is part of 'Accessive Gold' on the card.\nno The word 'Premium' is not present on the card.\nyes The abbreviation 'Valvid.' suggests validity, indicating 'Valid' is referenced.\nyes The word 'Cardholder' is clearly visible on the card.\nyes The word 'Identity' appears at the bottom of the card."
+}

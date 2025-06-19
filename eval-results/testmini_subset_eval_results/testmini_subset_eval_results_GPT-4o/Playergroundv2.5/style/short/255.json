@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 255,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "no  \nThe image is not in Ukiyo-e style; it uses a more modern illustrative approach with detailed shading and atmospheric perspective, differing from the flat and decorative qualities typical of Ukiyo-e."
+}

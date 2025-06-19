@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The model is shown with a visible application of cream on one side of her face, emphasizing the skincare ritual.\nyes The model's closed eyes and gentle touch of her skin project a serene and nurturing atmosphere typical of a self-care routine.\nyes The light appears soft and diffused, enhancing the natural radiance of the model's skin and adding to the gentle aesthetic.\nyes The background includes soft pastel tones along with natural elements, contributing to a calming and natural feel.\nyes There are text overlays present, including the phrase 'Glow Naturally' and '[Wish Glow] Skincare', matching the described criteria.\nyes Minimalistic icons such as leaves and water droplets are depicted, complementing the natural theme of the skincare scenario.\nyes The image centers on the model's interaction with the skincare product, focusing on the application process and resulting glow.\nyes The overall composition combines an idealized image with realistic elements, creating an inviting and attainable sense of beauty.\nyes Face cream is visibly applied on part of the model's face, illustrating the product in use.\nyes The model's face and limbs exhibit natural proportions and details, with realistic textures and shading that appear lifelike."
+}

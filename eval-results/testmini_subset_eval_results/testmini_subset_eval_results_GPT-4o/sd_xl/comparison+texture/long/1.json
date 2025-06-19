@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "long_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a wooden flower in the image?  ",
+    "Is there a wooden tree in the image?  ",
+    "Does the image present a comparison logic: the wooden flowers are taller than the wooden trees?  ",
+    "Are the flowers made of wood?  ",
+    "Are the trees made of wood?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_output": "No, there is no wooden flower in the image; the objects appear to be stylized wooden trees with rounded tops.\nNo, there is no wooden tree in the image; the objects resemble flowers more than traditional trees, yet they are made of wood.\nNo, the image does not present a comparison logic that wooden flowers are taller than wooden trees; it seems to depict uniformly styled objects without differentiation between flowers and trees.\nYes, the flowers appear to be made of wood based on their structural appearance.\nYes, the trees appear to be made of wood based on their structural appearance."
+}

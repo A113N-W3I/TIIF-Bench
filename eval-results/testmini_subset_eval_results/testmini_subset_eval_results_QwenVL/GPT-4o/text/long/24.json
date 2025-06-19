@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 24,
+  "questions": [
+    "Is the text 'Solitude' in the image?",
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Eternity' in the image?",
+    "Is the text 'Contemplation' in the image?",
+    "Is the text 'Serenity' in the image?",
+    "Is the text 'Depth' in the image?",
+    "Is the text 'Mystery' in the image?",
+    "Is the text 'Reflection' in the image?",
+    "Is the text 'Stillness' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'Solitude' is clearly visible at the top left of the image.\nyes The text 'Wisdom' is present above the word 'Eternity'.\nyes The text 'Eternity' appears below 'Wisdom' and above 'Contemplation'.\nyes The text 'Contemplation' is located below 'Eternity'.\nyes The text 'Serenity' is visible below 'Contemplation'.\nyes The text 'Depth' is present below 'Serenity'.\nyes The text 'Mystery' appears below 'Depth'.\nyes The text 'Reflection' is located below 'Mystery'.\nyes The text 'Stillness' is at the bottom of the list of words on the right side."
+}

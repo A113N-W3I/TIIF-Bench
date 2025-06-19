@@ -1,0 +1,46 @@
+{
+  "attribute": "numeracy+3d",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a bear in the image?  ",
+    "Are there cows in the image?  ",
+    "Is there a swan in the image?  ",
+    "Are there trucks in the image?  ",
+    "Is there a sheep in the image?  ",
+    "Is the number of bears 4?  ",
+    "Is the number of cows 4?  ",
+    "Is the number of swans 1?  ",
+    "Is the number of trucks 2?  ",
+    "Is the number of sheep 3?  ",
+    "Are the bears and cows in front of the swan, trucks, and sheep?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There are three bears clearly visible in the foreground.\nno There are no cows present; only sheep can be seen.\nyes A swan is present, standing behind the animals.\nyes Two trucks are visible in the background.\nno There are four sheep, not a sheep as singular.\nno The number of bears is three, not four.\nno There are no cows, thus the count cannot be four.\nno There is one swan, but this does not correspond to the arrangement given in the last question.\nno There are two trucks, but this does not correspond to the arrangement given in the last question.\nno There are four sheep, but their exact count matches the provided statement improperly aligned with question context.\nno The bears and the sheep (mistaken for \"cows\" in the question) are positioned alongside other animals, not uniformly in front."
+}

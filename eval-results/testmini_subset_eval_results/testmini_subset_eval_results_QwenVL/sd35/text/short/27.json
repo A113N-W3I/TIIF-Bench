@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 27,
+  "questions": [
+    "Is the text 'AND' in the image?",
+    "Is the text 'PROOFREADING' in the image?",
+    "Is the text 'PROOFREAD' in the image?",
+    "Is the text 'Spelling' in the image?",
+    "Is the text 'Grammar' in the image?",
+    "Is the text 'Accuracy' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'AND' appears multiple times in the image.\nyes The text 'PROOFREADING' is present at the top of the list.\nyes The text 'PROOFREAD' is part of the second checklist item.\nyes The text 'Spelling' is listed as the third item on the checklist.\nyes The text 'Grammar' is listed as the fourth item on the checklist.\nyes The text 'Accuracy' is listed as the sixth and final item on the checklist."
+}

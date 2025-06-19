@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The title text \"BREAKING NEWS\" appears significantly larger than the regular text.\nno The text paragraphs are closely packed together without adequate spacing.\nyes The emphasized text uses vibrant colors like red and yellow for attraction.\nno There is no eye-catching pattern in the background; it's a plain color.\nyes Icons such as speech bubbles and emoticons enhance visual depth without distraction.\nyes The image contains the text 'Breaking News! ChatGPT has become even stronger!'.\nyes The image contains the text 'Better multitasking ✨'.\nyes The image contains the text 'Improved programming skills 💪'.\nno The image does not contain the exact text 'Creativity off the charts 🎨', but similar phrases.\nyes The image contains the text 'Try it now!'.\nyes The image is in a vertical orientation typical of a 9:16 aspect ratio.\nno The text in the image shows distortion and isn't clearly readable."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is there a tennis hat in the scene?",
+    "Is the tennis hat conical in shape?",
+    "Is there a bag in the scene?",
+    "Is the bag round in shape?",
+    "Is the round bag brown?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "No, there is no tennis hat in the scene; the hat appears to be a straw hat typically associated with sun protection rather than tennis.\nYes, the hat is conical in shape; it resembles a traditional Asian conical hat.\nYes, there is a bag in the scene; the person is carrying a bag over their shoulder.\nYes, the bag is round in shape; the bag is circular.\nYes, the round bag is brown; the bag's color is brown."
+}

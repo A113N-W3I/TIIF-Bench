@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "long_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "No, there is no tennis ball in the scene; the object present does not resemble a typical tennis ball in color or texture.\nYes, the object in the scene is roughly spherical in shape; it has a round and three-dimensional look.\nYes, there is a picture in the scene; the entire image is a digitally stylized picture with abstract colors and shapes.\nYes, the overall picture has a large spherical shape central to the composition.\nYes, the picture has a predominant red color around the spherical shape."
+}

@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does this image show a model applying cream to their face? Answer with yes or no.",
+    "Is the model in the image exuding relaxation and self-care? Answer with yes or no.",
+    "Is soft, natural lighting used to highlight the product and model's glowing skin? Answer with yes or no.",
+    "Does the background incorporate pastel tones like blush pink, soft beige, or mint green? Answer with yes or no.",
+    "Is there a subtle text overlay in a modern sans-serif font reading ‘Glow Naturally’ or ‘[Wish Glow] Skincare’? Answer with yes or no.",
+    "Are there minimalistic icons like leaves and droplets included in the image? Answer with yes or no.",
+    "Is the focus of the image on the model’s glowing skin and the act of applying the cream? Answer with yes or no.",
+    "Does the image create an aspirational yet approachable aesthetic? Answer with yes or no.",
+    "Is there face cream on the model's face in the picture?  Answer with yes or no.",
+    "Are the limbs and face of the model in this generated image natural?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, the model appears to be applying cream to their face as indicated by the hand gesture and product depiction.  \nYes, the image portrays relaxation and self-care through its serene pose, soothing background, and soft lighting.  \nYes, soft, natural lighting is apparent, accentuating the model's skin and creating a warm aesthetic.  \nYes, the background incorporates pastel tones like blush pink and mint green, contributing to the calming vibe.  \nNo, there is no text overlay visible in the image with the phrases ‘Glow Naturally’ or ‘[Wish Glow] Skincare’.  \nYes, minimalistic icons like leaves and droplets are included in the image, enhancing the thematic representation of skincare and natural beauty.  \nNo, the act of applying the cream is not the dominant focus of the image, as it balances focus between composition elements.  \nYes, the image achieves an aspirational yet approachable aesthetic through its harmonious combination of elements.  \nYes, there is visibly face cream depicted in the image though specific detail to where cannot be clarified due to partial blur.  \nYes, the limbs and overall structure depicted seem natural, fitting well with the artistic aesthetic of composition."
+}

@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "short_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 255,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features elements characteristic of Ukiyo-e such as dynamic silhouettes, traditional Japanese attire, and a scene with figures interacting in an energetic manner against a backdrop that includes architectural elements resembling a temple, with parallel lines suggesting rain which can be a common stylistic choice in this art form."
+}

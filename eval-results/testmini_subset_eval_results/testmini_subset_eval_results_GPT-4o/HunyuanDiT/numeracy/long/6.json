@@ -1,0 +1,25 @@
+{
+  "attribute": "numeracy",
+  "desc": "long_description",
+  "jsonl_file": "numeracy_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Are there helicopters in the image?  ",
+    "Is the number of helicopters 4?  ",
+    "Are there hamburgers in the image?  ",
+    "Is the number of hamburgers 4?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no, there are not helicopters in the image; just hamburgers with helicopter blades.  \nyes, the number of helicopters is 4; as there are 4 objects with helicopter blades.  \nyes, there are hamburgers in the image; the objects are hamburgers.  \nno, the number of hamburgers is not 4; there are 6 hamburgers in the image."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Red' in the image?",
+    "Is the text 'Carpet' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Fashion' in the image?",
+    "Is the text 'Grace' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Charm' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The text 'Glamour' is visible among the fragmented words in the background.\nno The text 'Elegance' is not discernible in the image.\nyes The text 'Red' appears in the fragmented text elements.\nno The text 'Carpet' is not present in the visible text fragments.\nno The text 'Style' does not appear in the image's text elements.\nyes The text 'Fashion' can be seen amidst the scattered words.\nno The text 'Grace' is not identifiable in the image.\nno The text 'Sophistication' is not present in the fragmented text.\nno The text 'Charm' is not visible in the image."
+}

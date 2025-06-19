@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The title text does not appear at least twice the size of the regular text.\nno There is not adequate spacing between text paragraphs; the text is cluttered.\nno The emphasized text does not use vibrant colors effectively; everything blends.\nyes There is an eye-catching pattern in the background, with a collage of colors and designs.\nyes Suitable icons or images are used to enhance visual depth without causing distraction.\nno The image does not contain the text 'Breaking News! ChatGPT has become even stronger!'\nno The image does not contain the text 'Better multitasking ✨'.\nno The image does not contain the text 'Improved programming skills 💪'.\nno The image does not contain the text 'Creativity off the charts 🎨'.\nno The image does not contain the text 'Try it now!'.\nno The image is not in a 9:16 aspect ratio; it is more square-like.\nno The text in the generated picture is not clear and readable; it is stylized and hard to decipher."
+}

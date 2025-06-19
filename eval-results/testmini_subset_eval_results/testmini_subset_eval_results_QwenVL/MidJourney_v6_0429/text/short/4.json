@@ -1,0 +1,28 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is the text 'CARD' in the image?",
+    "Is the text 'CLIP' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'Finger' in the image?",
+    "Is the text 'Blister' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The text 'CARD' is clearly visible on the card held in the hand.\n\nyes The text 'CLIP' is part of the visual content as a feature of the card holder shown in the image.\n\nyes The word 'with' appears below the word 'CARD' on the cardboard unit visible in the image.\n\nyes The word 'Finger' is present next to 'Blister' as part of the caption on the card.\n\nyes The word 'Blister' is visible adjacent to 'Finger', completing the phrase on the card."
+}

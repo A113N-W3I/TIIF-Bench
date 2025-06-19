@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image contains stylized text and abstract elements but does not follow a clear hierarchical structure for titles and regular text sizes.\nno The image appears abstract with overlapping elements, lacking distinguishable paragraphs to assess spacing adequately.\nyes The abstract text and shapes use various vibrant colors which likely serve to attract attention among chaotic design elements.\nyes There's an assortment of colorful shapes and patterns in the background resembling papers or notebooks contributing to an eye-catching design.\nno The image lacks identifiable icons or standard images; it features abstract shapes and text.\nno There's no visible text stating 'Breaking News! ChatGPT has become even stronger!' in the image.\nno The text 'Better multitasking ✨' is not present within the elements depicted.\nno The phrase 'Improved programming skills 💪' isn't observable among the abstract design and text.\nno The text 'Creativity off the charts 🎨' cannot be found within the image content.\nno The call-to-action 'Try it now!' is not included in the image.\nno The image does not maintain a 9:16 aspect ratio typical of vertical social media posts, instead appears more horizontal in orientation.\nno The abstract nature of the drawing and overlapping elements makes specific texts hard to discern clearly for readability."
+}

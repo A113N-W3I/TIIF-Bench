@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 23,
+  "questions": [
+    "Is the text 'Glamour' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Red' in the image?",
+    "Is the text 'Carpet' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Fashion' in the image?",
+    "Is the text 'Grace' in the image?",
+    "Is the text 'Sophistication' in the image?",
+    "Is the text 'Charm' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Glamour' is not present in the image.\nno The text 'Elegance' is not present in the image.\nyes The text 'Red' is visible, as it corresponds to the red carpet the individuals are standing on.\nno The text 'Carpet' is not directly present in the image, although there is a red carpet visible.\nno The text 'Style' is not present in the image, although it can be inferred from the context.\nno The text 'Fashion' is not present in the image, though it is related to the attire of the people.\nno The text 'Grace' is not present in the image, even if it could describe the scene.\nno The text 'Sophistication' is not present in the image, despite being reflective of the setting.\nno The text 'Charm' is not visually present in the image, although it may be implied by the scene."
+}

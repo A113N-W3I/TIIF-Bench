@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 21,
+  "questions": [
+    "Is the text 'Wisdom' in the image?",
+    "Is the text 'Knowledge' in the image?",
+    "Is the text 'Stories' in the image?",
+    "Is the text 'Timeless' in the image?",
+    "Is the text 'Pages' in the image?",
+    "Is the text 'Explore' in the image?",
+    "Is the text 'Learn' in the image?",
+    "Is the text 'Journey' in the image?",
+    "Is the text 'Books' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because the text 'Wisdom' is on the top book's spine.\nyes, because the text 'Knowledge' is on the second book's spine.\nyes, because the text 'Stories' is on the bottom book's spine.\nyes, because the text 'Timeless' is on the second book's spine.\nyes, because the text 'Pages' is on the second book's spine.\nyes, because the text 'Explore' is on the second book's spine.\nyes, because the text 'Learn' is on the second book's spine.\nyes, because the text 'Journey' is on the bottom book's spine.\nyes, because the text 'Books' is on the bottom book's spine."
+}

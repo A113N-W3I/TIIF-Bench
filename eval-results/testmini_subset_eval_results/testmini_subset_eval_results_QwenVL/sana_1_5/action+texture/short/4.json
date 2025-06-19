@@ -1,0 +1,34 @@
+{
+  "attribute": "action+texture",
+  "desc": "short_description",
+  "jsonl_file": "action+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there rubber shoes in the image?  ",
+    "Is there a nurse in the image?  ",
+    "Is there a patient in the image?  ",
+    "Are there fabric blankets in the image?  ",
+    "Is the nurse comforting the patient?  ",
+    "Are the blankets made of fabric?  ",
+    "Are the shoes made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The shoes appear to be red and shiny, likely made of leather or a similar material, not rubber.\nyes There is a person wearing a nurse's uniform with a stethoscope around their neck.\nyes There is an individual wrapped in a blanket who appears to be receiving care from the nurse.\nyes The patient is covered with what looks like fabric blankets.\nyes The nurse is holding the patient's head gently, suggesting a comforting gesture.\nyes The blankets covering the patient have a texture consistent with fabric.\nno The shoes are red and shiny, indicating they are likely not made of rubber."
+}

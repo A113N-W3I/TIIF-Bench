@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "short_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a dog in the image?  ",
+    "Is there a computer in the image?  ",
+    "Is the dog on side of the computer?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a dog visible in the image.\nyes There is an old-fashioned computer with a CRT monitor in the image.\nno The dog is not on the side of the computer; it is positioned in front of the computer, facing it."
+}

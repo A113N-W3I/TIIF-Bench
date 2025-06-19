@@ -1,0 +1,37 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 64,
+  "questions": [
+    "Does the image show multi-layered shelves filled with identical red baseball caps? Answer with yes or no.",
+    "Do the red baseball caps have bold text on the front reading 'MAKE AMERICA GREAT AGAIN'? Answer with yes or no.",
+    "Is there a white tag on the side of the caps labeled 'MADE IN CHINA'? Answer with yes or no.",
+    "Is there a close-up view of one red baseball cap? Answer with yes or no.",
+    "Is there a price tag below the image with '$50.00' crossed out and replaced with '$77.00'? Answer with yes or no.",
+    "Is the color palette of the image made up of nostalgic earthy yellows and dark reds? Answer with yes or no.",
+    "Does the shadowing mimic the vintage printing texture of the 1990s? Answer with yes or no.",
+    "Is the overall composition exaggerated and satirical? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "no, the image does not show multi-layered shelves filled with identical red baseball caps as the caps have different text on them.\nno, the red baseball caps do not have bold text on the front reading 'MAKE AMERICA GREAT AGAIN' as the text appears unreadable or distorted.\nno, there do not appear to be white tags on the side of the caps labeled 'MADE IN CHINA'.\nyes, there is a close-up view of one red baseball cap in the center of the image.\nno, there is no price tag below the image with '$50.00' crossed out and replaced with '$77.00'.\nno, the color palette of the image is primarily red and white, not nostalgic earthy yellows and dark reds.\nno, the shadowing does not mimic the vintage printing texture of the 1990s; it is flat and graphic.\nyes, the overall composition appears exaggerated and satirical given the distorted text and surreal presentation."
+}

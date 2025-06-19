@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 217,
+  "questions": [
+    "Is the image in Chinese Style style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "yes"
+  ],
+  "model_output": "yes The image features traditional Chinese architectural elements like the upturned eaves and ornate roof decorations, which are characteristic of Chinese style, along with a landscape garden that includes a carefully arranged pond and stepping stones, typical of Chinese garden design."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The image includes a yellow-green object resembling a tennis ball on a table.\nyes The tennis ball appears to be perfectly round and spherical.\nyes There is a framed image on the wall depicting a red sphere against a red background.\nno The picture has a rectangular frame and thus cannot be spherical.\nyes The picture predominantly features the color red, both in the background and the depicted sphere."
+}

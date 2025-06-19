@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 26,
+  "questions": [
+    "Is the text 'Vegetable' in the image?",
+    "Is the text 'Gardening' in the image?",
+    "Is the text 'with' in the image?",
+    "Is the text 'MIKE' in the image?",
+    "Is the text 'THE' in the image?",
+    "Is the text 'GARDENER' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, the word 'Vegetable' is not in the image. The word includes various vegetables but does not explicitly spell 'Vegetable'.\nNo, the word 'Gardening' is not in the image. The closest word is 'Graindings', which may be a stylized version or play on 'Gardening'.\nNo, the word 'with' is not in the image. The word 'we' is present, but 'with' is not found.\nNo, the word 'MIKE' is not in the image. There are no letters that spell out 'MIKE'.\nNo, the word 'THE' is in the image. The second part of the phrase states 'They are', where 'THE' is present.\nNo, the word 'GARDENER' is not in the image. The word that follows the stylized text is 'Mariner'."
+}

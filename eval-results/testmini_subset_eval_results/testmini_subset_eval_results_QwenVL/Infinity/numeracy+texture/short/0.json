@@ -1,0 +1,52 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Does this object exist?  ",
+    "Is there a camera in the image?  ",
+    "Are there fish in the image?  ",
+    "Is there a chair in the image?  ",
+    "Is there a candle in the image?  ",
+    "Is the number of paddles 2?  ",
+    "Is the number of cameras 4?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of chairs 3?  ",
+    "Is the number of candles 4?  ",
+    "Are the paddles made of leather?  ",
+    "Are the cameras made of plastic?  ",
+    "Are the chairs made of plastic?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes The objects in the image appear to be real and tangible.\nno There is no camera visible in the image.\nyes There are fish depicted in the image.\nno There is no chair present in the image.\nyes There are candles in the image.\nno The number of paddles is not two; there are more than two visible.\nno There are no cameras in the image, so the number cannot be four.\nno The number of fish is not four; there are fewer than four visible.\nno There are no chairs in the image, so the number cannot be three.\nyes There are four candles in the image.\nno The paddles appear to be made of wood, not leather.\nno The image does not contain cameras, so their material cannot be assessed.\nno The image does not contain chairs, so their material cannot be assessed."
+}

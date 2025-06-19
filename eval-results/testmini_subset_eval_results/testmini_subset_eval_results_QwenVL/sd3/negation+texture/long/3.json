@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a chimney in the image?  ",
+    "Is there smoke rising from the chimney?  ",
+    "Is the chimney metallic in texture?  ",
+    "Is the structure wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, there is a visible vertical structure extending from the roof that is designed for venting.\nyes, there is a thin wisp of white smoke visible at the top of the chimney.\nyes, the chimney has a shiny, reflective surface characteristic of metal.\nyes, the structure adjacent to the chimney shows horizontal planks with wood grain, indicative of a wooden texture."
+}

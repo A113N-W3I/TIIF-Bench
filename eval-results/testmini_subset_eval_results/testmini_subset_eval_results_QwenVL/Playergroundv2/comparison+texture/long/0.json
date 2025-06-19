@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+texture",
+  "desc": "long_description",
+  "jsonl_file": "comparison+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a metallic rose in the image?  ",
+    "Is there a fabric rose in the image?  ",
+    "Does the image present a comparison logic: a rose that is not fully bloomed is higher than a rose that is already in bloom?  ",
+    "Is the not fully bloomed rose metallic in texture?  ",
+    "Is the blooming rose fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The roses in the image do not exhibit metallic properties but rather seem to have a satin-like finish.\nyes Both roses in the image appear to have a fabric-like texture resembling satin.\nno The image does not show a comparison between a fully bloomed and a not fully bloomed rose based on height.\nno Since the texture resembles satin, it indicates a fabric texture rather than a metallic one for the not fully bloomed rose.\nno As both roses share similar satin-like textures, it's incorrect to state that the blooming rose has a fabric texture distinct from the other."
+}

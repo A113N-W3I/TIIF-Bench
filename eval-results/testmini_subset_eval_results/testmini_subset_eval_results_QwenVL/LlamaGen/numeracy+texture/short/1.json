@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no there is no television in the image; instead, there is an old-fashioned camera on the left side.\nno the animals present resemble birds rather than camels.\nno the animals do not resemble chickens but bird-like creatures involved in a theatrical setup.\nno there is no television; thus it cannot be counted as one.\nno there are no camels in the image.\nno the number of bird-like creatures does not correspond to four.\nno there is no television present in the image.\nno the animals are not fluffy; they appear to be covered with fabric or draped textiles.\nno the animal resembling a chicken position on the right side is not fluffy."
+}

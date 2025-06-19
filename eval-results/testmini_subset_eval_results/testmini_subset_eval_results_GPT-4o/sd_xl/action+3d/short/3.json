@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "short_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a violinist in the image?  ",
+    "Is there a room in the image?  ",
+    "Is there a grand piano in the image?  ",
+    "Is the violinist playing in the room?  ",
+    "Is the violinist in front of the grand piano?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes, there is a violinist in the image because a person is holding a violin.\nyes, there is a room in the image because it shows an indoor setting with walls, windows, and furniture.\nyes, there is a grand piano in the image because a grand piano is visible.\nyes, the violinist is playing in the room because the violinist is present and appears to be in action.\nno, the violinist is not in front of the grand piano but is positioned to the side of it."
+}

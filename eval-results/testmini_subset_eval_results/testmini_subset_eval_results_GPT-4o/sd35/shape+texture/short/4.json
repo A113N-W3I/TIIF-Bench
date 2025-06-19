@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a couch in the scene?",
+    "Is the couch rectangular in shape?",
+    "Is there a office in the scene?",
+    "Is the office pentagon-shaped?",
+    "Is the lamp glass?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a couch in the scene. The image shows a seating area with cushions, which matches the definition of a couch.\nNo, the couch is not rectangular in shape. The couch appears to be L-shaped due to the corner where two sections meet.\nNo, there is not an office in the scene. The image shows a living area rather than an office setting.\nNo, the office is not pentagon-shaped because there is no office present in the scene.\nNo, the lamp is not glass; it appears to be made of clear material, possibly glass, but the lamp itself is not exclusively defined as a glass item."
+}

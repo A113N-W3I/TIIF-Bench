@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+2d",
+  "desc": "long_description",
+  "jsonl_file": "shape+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a divider in the image?  ",
+    "Is there a can of soda in the image?  ",
+    "Are the dividers triangular?  ",
+    "Is the can of soda cylindrical?  ",
+    "Are the dividers left of the can of soda?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a coaster with a geometric pattern that could serve as a divider.\nno There is no can of soda visible; instead, there is a glass container.\nno The coasters present are not triangular but diamond-shaped.\nno Since there is no can of soda, this cannot be assessed; the glass container is not cylindrical at the base.\nno Since there is no can of soda and no triangular divider, this contextually does not apply."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there a tennis ball in the scene?",
+    "Is the tennis ball spherical in shape?",
+    "Is there a picture in the scene?",
+    "Is the picture spherical in shape?",
+    "Is the picture red?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no tennis ball in the scene - the object is a spherical speaker.  \nyes, the object is spherical in shape - the speaker is a sphere.  \nno, there is no picture in the scene - there is no photograph or image depicted.  \nno, the picture is not spherical in shape - no picture is visible in the scene.  \nno, the picture is not red - as there is no picture present in the scene to be red."
+}

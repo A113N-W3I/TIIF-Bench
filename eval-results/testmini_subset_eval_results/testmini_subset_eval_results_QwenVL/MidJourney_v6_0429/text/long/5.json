@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 5,
+  "questions": [
+    "Is the text 'Eternal' in the image?",
+    "Is the text 'Love' in the image?",
+    "Is the text 'Promise' in the image?",
+    "Is the text 'Forever' in the image?",
+    "Is the text 'Commitment' in the image?",
+    "Is the text 'Together' in the image?",
+    "Is the text 'Yes' in the image?",
+    "Is the text 'Dream' in the image?",
+    "Is the text 'Moment' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "no Incorrect spelling; the image shows 'Etenal' instead of 'Eternal'.\nyes It is present as 'Love' in the image.\nyes It is present as part of 'Love Promise' in the image.\nno This text is not present in the image.\nyes It is present as part of 'Commitment, Yes,' in the image.\nyes It is present as 'Toggehter,' at the bottom of the image, despite the spelling error.\nyes It is present as 'Yes,' in the image.\nno This text is not present in the image.\nyes It is present as 'Moment' at the bottom of the image."
+}

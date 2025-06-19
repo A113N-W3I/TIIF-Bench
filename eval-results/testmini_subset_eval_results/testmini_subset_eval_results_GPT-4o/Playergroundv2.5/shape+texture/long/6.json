@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a shrub in the scene; it is visible to the left with green leaves and small flowers.  \nYes, the shrub is short in shape; it does not extend beyond the height of the paperweight.  \nYes, there is a paperweight in the scene; it is the prominent object positioned in the foreground.  \nYes, the paperweight is in the shape of a pyramid; its geometric form is clearly triangular with defined vertices.  \nYes, the pyramidal paperweight is metallic; its surface reflects light and the surrounding environment, indicating a metallic material."
+}

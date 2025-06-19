@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes This image shows a wedding invitation card with elegant design elements typical for such occasions.\nno The card appears to have a delicate texture but no visible embossings or eggshell patterns.\nyes Elegant decorations like floral motifs represent the celebratory nature often associated with couples' themes.\nno The iconography is not minimalistic as it features detailed and ornate designs around the edges.\nno There is no specific mention of the union of Image and Text within the visible text of the card.\nno The typesetting seems somewhat altered with unusual characters, suggesting it may be a placeholder or stylistic choice rather than perfect typesetting.\nyes The card is indeed placed on what looks like a tasteful wooden desk, enhancing the overall aesthetic.\nno The text is not fully clear and readable; parts of it seem garbled.\nno The specific date of March 25, 2025, does not appear anywhere in the visible text of the invitation."
+}

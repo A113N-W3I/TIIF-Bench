@@ -1,0 +1,28 @@
+{
+  "attribute": "comparison+color",
+  "desc": "long_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a blue chair in the image?  ",
+    "Is there a red student in the image?  ",
+    "Does the image present a comparison logic: the number of blue chairs exceeds the number of red students?  ",
+    "Are the chairs blue in color?  ",
+    "Are the students red in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, there is no blue chair in the image; the image shows blurred abstract blocks of color that do not distinctly represent chairs.\nno, there is no red student in the image; the image contains abstract color blocks, but no clear human figures.\nno, the image does not present a comparison logic: the number of blue chairs exceeds the number of red students; it lacks distinct countable objects that could be chairs or students.\nno, the image contains colors that resemble blue, but there are no objects distinctly identifiable as chairs.\nno, the image contains colors that resemble red, but there are no objects distinctly identifiable as students."
+}

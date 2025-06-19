@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there are shops on the left in the image; they are visible with warm lighting and items displayed outside.\nYes, there are shops on the right in the image; they are visible but less brightly lit compared to the left.\nYes, the image presents a comparison logic: shops on the left are livelier than shops on the right, due to brighter lighting and more prominent displays."
+}

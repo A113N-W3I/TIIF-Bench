@@ -1,0 +1,43 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a humanoid android in the image? Answer with yes or no.",
+    "Is the android sitting in a futuristic library? Answer with yes or no.",
+    "Is the android reading a floating holographic book? Answer with yes or no.",
+    "Is the lighting in the scene soft blue and purple? Answer with yes or no.",
+    "Are there metallic reflections on the android's face and body? Answer with yes or no.",
+    "Does the android have a calm facial expression? Answer with yes or no.",
+    "Is there a high-tech blurred background? Answer with yes or no.",
+    "Is the image realistic, detailed, and in a cinematic style? Answer with yes or no.",
+    "Does the image have elements inspired by sci-fi films? Answer with yes or no.",
+    "Is the book a holographic book?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a humanoid android in the image as indicated by the robotic features on its body.\nNo, the android is not clearly sitting in a futuristic library; while there are books, the surroundings do not definitively suggest a futuristic library.\nNo, the android is not reading a floating holographic book, as the book appears physical and held in the hand.\nYes, the lighting in the scene is soft blue and purple.\nYes, there are metallic reflections on the android's body, indicative of its material.\nNo, the android's facial expression cannot be determined in this image.\nYes, there appears to be a high-tech blurred background, as suggested by the style and lighting.\nYes, the image is realistic, detailed, and cinematic in style, as evidenced by its visual quality and composition.\nYes, the image has elements inspired by sci-fi films, such as the design and atmosphere.\nNo, the book is not a holographic book, as it looks solid and tangible."
+}

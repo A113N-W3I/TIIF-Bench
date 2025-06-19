@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a necklace in the scene?",
+    "Is the necklace round in shape?",
+    "Is there a watermelon in the scene?",
+    "Is the watermelon oblong in shape?",
+    "Is the round necklace rubber-textured?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a necklace in the scene. I can see a chain with a pendant on the table.\nYes, the necklace is round in shape. The pendant attached to the chain has a round form.\nYes, there is a watermelon in the scene. The image shows a part of a watermelon at the top right.\nNo, the watermelon is not oblong in shape. The visible part suggests it is round or spherical.\nYes, the round necklace is rubber-textured. The pendant appears to have a matte, rubber-like finish."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "long_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a caution sign in the scene?",
+    "Is the caution sign pentagonal in shape?",
+    "Is there a trophy ball in the scene?",
+    "Is the trophy ball spherical in shape?",
+    "Is the pedestal metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "No, there is no caution sign in the scene. The scene shows abstract shapes and metallic objects but no caution sign.\nNo, the caution sign is not pentagonal because no caution sign is present in the image.\nNo, there is no trophy ball in the scene. The image shows abstract shapes that resemble trophies or ornaments, but no clear spherical trophy ball.\nNo, the trophy ball is not spherical in shape. The objects in the image have abstract and fragmented geometries but are not clear spheres.\nYes, the pedestal appears metallic, as it has a shiny reflective surface that suggests a metallic material."
+}

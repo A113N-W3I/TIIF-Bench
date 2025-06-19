@@ -1,0 +1,49 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 67,
+  "questions": [
+    "Does the title text appear at least twice the size of the regular text? Answer with yes or no.",
+    "Is there adequate spacing between text paragraphs? Answer with yes or no.",
+    "Does the emphasized text use vibrant colors to attract attention? Answer with yes or no.",
+    "Is there an eye-catching pattern in the background, such as paper, a notebook, or a chat window? Answer with yes or no.",
+    "Are suitable icons or images used to enhance visual depth without causing distraction? Answer with yes or no.",
+    "Does the image contain the text 'Breaking News! ChatGPT has become even stronger!'? Answer with yes or no.",
+    "Does the image contain the text 'Better multitasking ✨'? Answer with yes or no.",
+    "Does the image contain the text 'Improved programming skills 💪'? Answer with yes or no.",
+    "Does the image contain the text 'Creativity off the charts 🎨'? Answer with yes or no.",
+    "Does the image contain the text 'Try it now!'? Answer with yes or no.",
+    "Is the image in a 9:16 aspect ratio? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The title text appears significantly larger than the regular text.\nno The spacing between text paragraphs is minimal, leading to a crowded appearance.\nyes The emphasized text uses vibrant colors, such as yellows and blues, to draw attention.\nno There is no eye-catching pattern like paper, a notebook, or a chat window in the background.\nyes Icons and images are used effectively to enhance visual appeal without distracting from the main message.\nyes The text 'Breaking News! ChatGPT has become even stronger!' is prominently displayed.\nno The text 'Better multitasking ✨' does not appear in the image.\nno The text 'Improved programming skills 💪' is not present in the image.\nno The phrase 'Creativity off the charts 🎨' is not found in the image.\nyes The call-to-action 'Try it now!' is clearly visible.\nyes The image is displayed on a smartphone screen suggesting a vertical orientation typical of a 9:16 aspect ratio.\nyes The text is clear and easily readable despite the vivid design elements."
+}

@@ -1,0 +1,16 @@
+{
+  "attribute": "style",
+  "desc": "long_description",
+  "jsonl_file": "style_eval_prompts.jsonl",
+  "line_idx": 255,
+  "questions": [
+    "Is the image in Ukiyo-e style?"
+  ],
+  "gt_answers": [
+    "Yes"
+  ],
+  "model_pred": [
+    "no"
+  ],
+  "model_output": "No, because while the image features Japanese elements and a traditional architectural setting, it lacks the specific techniques, texture, and distinct aesthetic hallmark of Ukiyo-e style such as woodblock print qualities and traditional color palettes."
+}

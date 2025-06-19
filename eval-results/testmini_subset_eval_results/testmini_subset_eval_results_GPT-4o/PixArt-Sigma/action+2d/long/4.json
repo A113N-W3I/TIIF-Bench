@@ -1,0 +1,25 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a girl in the image?  ",
+    "Is there a snowman in the image?  ",
+    "Is the girl engaging in a snowball fight?  ",
+    "Is the snowman on the right?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes, because there is a figure wearing a red coat and a pink hat that appears to be a girl.\nyes, because there is a figure made of snow with coal eyes and a carrot nose, resembling a snowman.\nyes, because the girl is in an action pose with snowballs, suggesting a snowball fight.\nyes, because the snowman is positioned on the right side of the image."
+}

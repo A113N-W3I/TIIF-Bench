@@ -1,0 +1,22 @@
+{
+  "attribute": "2d_spatial_relation",
+  "desc": "long_description",
+  "jsonl_file": "2d_spatial_relation_eval_prompts.jsonl",
+  "line_idx": 7,
+  "questions": [
+    "Is there a dog in the image?  ",
+    "Is there a computer in the image?  ",
+    "Is the dog on side of the computer?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There is a dog in the image, sitting at the desk.\nyes A computer monitor, keyboard, and mouse can be seen on the desk, indicating the presence of a computer.\nno The dog is not on the side of the computer; it is seated in front of it as if looking at the screen."
+}

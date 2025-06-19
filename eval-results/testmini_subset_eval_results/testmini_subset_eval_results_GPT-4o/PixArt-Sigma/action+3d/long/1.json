@@ -1,0 +1,28 @@
+{
+  "attribute": "action+3d",
+  "desc": "long_description",
+  "jsonl_file": "action+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a pillow in the image?  ",
+    "Is there an armchair in the image?  ",
+    "Is there a small side table in the image?  ",
+    "Is the pillow perched on the armchair?  ",
+    "Is the armchair in front of the small side table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a pillow in the image. The cushion is clearly visible on the chair in the center of the image.\nYes, there is an armchair in the image. The chair is identifiable with armrests and a backrest.\nNo, there is no small side table in the image. The image does not capture a complete small table; it only shows part of a wooden structure in the foreground.\nYes, the pillow is perched on the armchair. The cushion is resting on the seat of the chair.\nNo, the armchair is not in front of a small side table. There is no visible side table in the image."
+}

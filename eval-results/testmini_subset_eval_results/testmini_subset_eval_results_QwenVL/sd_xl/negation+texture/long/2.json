@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a wooden mountain in the image?  ",
+    "Is there snow on the mountain's peak?  ",
+    "Is the mountain wooden in texture?  ",
+    "Is the surface surrounding the mountain rubber in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The mountain appears to have a texture resembling draped fabric, not wood.\nno There is no visible snow on the mountain's peak; it has a consistent texture throughout.\nno The mountain's texture resembles draped fabric rather than wood.\nno The surface surrounding the mountain does not appear to have a rubber texture; it looks like a flat, possibly sandy terrain."
+}

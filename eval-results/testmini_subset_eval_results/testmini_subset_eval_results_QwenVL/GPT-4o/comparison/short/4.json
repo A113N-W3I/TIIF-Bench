@@ -1,0 +1,22 @@
+{
+  "attribute": "comparison",
+  "desc": "short_description",
+  "jsonl_file": "comparison_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Are there shops on the left in the image?  ",
+    "Are there shops on the right in the image?  ",
+    "Does the image present a comparison logic: shops on the left are livelier than shops on the right?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There are visible signs for \"FLOWERS\" and \"CAFE\" indicating shops on the left.\nyes There is a sign for \"SHOP\" indicating a shop on the right.\nyes The left side has more detailed and colorful elements like flowers and outdoor seating, suggesting a livelier atmosphere compared to the right side which appears more plain."
+}

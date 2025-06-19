@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a chef hat in the image?  ",
+    "Is there a snowball in the image?  ",
+    "Is the chef hat conical?  ",
+    "Is the snowball spherical?  ",
+    "Is the chef hat hidden behind the snowball from the viewer's perspective?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a chef hat in the image. The top of the spherical object has a white chef hat.\nYes, there is a snowball in the image. The large spherical white object resembles a snowball.\nNo, the chef hat is not conical. It has a traditional round, puffy shape.\nYes, the snowball is spherical. The main large object is a sphere.\nNo, the chef hat is not hidden behind the snowball from the viewer's perspective. It is visible on top of the snowball."
+}

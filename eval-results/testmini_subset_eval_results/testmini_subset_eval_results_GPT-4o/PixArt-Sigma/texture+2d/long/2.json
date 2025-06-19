@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a fork in the image?  ",
+    "Is there a shirt in the image?  ",
+    "Is the fork metallic?  ",
+    "Is the shirt made of fabric?  ",
+    "Is the fork on the bottom of the shirt?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a fork in the image. The object in the image has prongs and a handle, which are characteristic of a fork.\nYes, there is a shirt in the image. The person in the image is wearing a garment that fits the description of a shirt.\nYes, the fork is metallic. The fork in the image has a shiny, metallic appearance.\nYes, the shirt is made of fabric. The shirt in the image appears to be woven and has a texture consistent with fabric materials.\nNo, the fork is not on the bottom of the shirt. The fork is positioned towards the top of the shirt, near the neck area."
+}

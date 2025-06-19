@@ -1,0 +1,31 @@
+{
+  "attribute": "comparison+color",
+  "desc": "short_description",
+  "jsonl_file": "comparison+color_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a yellow mouse in the image?  ",
+    "Is there a brown mouse in the image?  ",
+    "Is there a table in the image?  ",
+    "Does the image present a comparison logic: the yellow mouse is smaller than the brown mouse?  ",
+    "Is the mouse on table yellow in color?  ",
+    "Is the mouse hanging on the side brown in color?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "Yes, there is a yellow mouse in the image because a yellow mouse is visible.  \nYes, there is a brown mouse in the image because a brown mouse is present.  \nYes, there is a table in the image because the mice are on what appears to be a table surface.  \nYes, the image presents a comparison logic: the yellow mouse is smaller than the brown mouse, because the yellow mouse clearly appears smaller in size compared to the brown mouse.  \nYes, the mouse on the table is yellow in color, as the yellow mouse is positioned on the table's surface.  \nNo, the mouse hanging on the side brown in color is not present, as there is no mouse hanging on the side in the image.  "
+}

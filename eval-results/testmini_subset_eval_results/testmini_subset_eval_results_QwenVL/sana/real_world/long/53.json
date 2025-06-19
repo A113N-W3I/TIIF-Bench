@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The image appears distorted and does not clearly show a wedding invitation card.\nno Due to the distortion, no specific textures like eggshell or embossings can be identified clearly.\nno The decoration details cannot be discerned due to the image's distortion and lack of clarity.\nno Iconography and minimalism cannot be assessed as the image content is not clear.\nno There is no discernible text that can be read, let alone specific information about a union of Image and Text.\nno Perfect typesetting cannot be evaluated as the text in the image is not legible.\nno The surface on which the card may be placed is not identifiable due to the image's abstract nature.\nno The text in the image is not clear and readable because of the high level of distortion.\nno The image does not provide any identifiable date information, including March 25, 2025."
+}

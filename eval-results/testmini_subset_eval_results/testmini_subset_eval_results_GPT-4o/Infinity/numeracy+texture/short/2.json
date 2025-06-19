@@ -1,0 +1,49 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Does this object exist (bread)?  ",
+    "Does this object exist (fish)?  ",
+    "Does this object exist (computer)?  ",
+    "Does this object exist (bags)?  ",
+    "Does this object exist (bicycle)?  ",
+    "Is the number of bread 1?  ",
+    "Is the number of fish 4?  ",
+    "Is the number of computer 1?  ",
+    "Is the number of bags 2?  ",
+    "Is the number of bicycle 1?  ",
+    "Is the computer made of rubber?  ",
+    "Is the bicycle made of rubber?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, bread is visible in the image.\nyes, fish are visible in the image.\nyes, a computer is visible in the image.\nyes, bags are visible in the image.\nyes, a bicycle is visible in the image.\nno, there are two pieces of bread visible (one loaf and one croissant-like bread).\nyes, there are four fish visible on and around the bread.\nyes, there is one computer visible in the image.\nyes, there are two bags visible in the image.\nyes, there is one bicycle visible in the image.\nno, the computer is not made of rubber; it appears to be a typical desktop computer.\nno, the bicycle is not made of rubber; it appears to be a standard metal bicycle."
+}

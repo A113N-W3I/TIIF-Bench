@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "long_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes The image depicts a formal card with decorative elements typical of a wedding invitation.\nyes The card appears to have an embossed texture and a quality that suggests it is made from a heavy paper stock.\nno The decorations do not seem to represent specific individuals; they appear more abstract and stylized.\nyes The decorations and text are minimalistic, with space and simplicity being key design elements.\nno There is no visible mention of \"Image and Text\" or any similar phrasing related to a union of these concepts.\nyes The text is neatly aligned and uses a consistent font style which is characteristic of good typesetting.\nno The card is placed on a light-colored surface that resembles marble rather than wood.\nyes The characters in the image are sharply defined and easily legible.\nno The date \"March 25, 2025\" is not present in the visible text on the card."
+}

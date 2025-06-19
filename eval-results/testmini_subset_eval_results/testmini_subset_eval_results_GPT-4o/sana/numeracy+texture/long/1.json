@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+texture",
+  "desc": "long_description",
+  "jsonl_file": "numeracy+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does the television exist?  ",
+    "Do the camels exist?  ",
+    "Do the chickens exist?  ",
+    "Is the number of televisions 1?  ",
+    "Is the number of camels 3?  ",
+    "Is the number of chickens 4?  ",
+    "Is the television fabric-covered?  ",
+    "Are the camels fluffy?  ",
+    "Are the chickens fluffy?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is a television in the image prominently shown beside the animals.\nNo, there are no camels; the image shows chickens instead.\nYes, there are chickens in the image, clearly visible.\nYes, there is one television visible in the image.\nNo, there are not three camels; there are chickens but no camels.\nNo, there are only five chickens visible, not four.\nNo, the television is not fabric-covered; fabric is draped around the television but does not cover it entirely.\nNo, the camels cannot be described as fluffy as there are no camels in the image.\nYes, the chickens can be described as fluffy due to their plumage."
+}

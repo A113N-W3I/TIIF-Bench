@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 9,
+  "questions": [
+    "Is the text 'Strike' in the image?",
+    "Is the text 'Elegance' in the image?",
+    "Is the text 'Focus' in the image?",
+    "Is the text 'Precision' in the image?",
+    "Is the text 'Momentum' in the image?",
+    "Is the text 'Bowling' in the image?",
+    "Is the text 'Night' in the image?",
+    "Is the text 'Style' in the image?",
+    "Is the text 'Pins' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "yes, because the text 'Strike' is visible in the image.\nno, because the text 'Elegance' is not visible in the image; instead, a similar word 'Elegue' is present.\nno, because the text 'Focus' is not visible in the image.\nno, because the text 'Precision' is not visible in the image; instead, a similar word 'Fordicion' is present.\nno, because the text 'Momentum' is not visible in the image; instead, a similar word 'Moneomann' is present.\nno, because the text 'Bowling' is not visible in the image.\nno, because the text 'Night' is not visible in the image; instead, a similar word 'Newimin' is present.\nno, because the text 'Style' is not visible in the image.\nno, because the text 'Pins' is not visible in the image."
+}

@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+2d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+2d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Are there birds in the image?  ",
+    "Are there trees in the image?  ",
+    "Does the image present a comparison logic: birds are more than trees?  ",
+    "Is the birds and trees on one side of the image?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no"
+  ],
+  "model_output": "yes There are numerous birds depicted in the sky around the tree.\nyes There is a large tree in the center of the image.\nyes The image shows a multitude of birds surrounding the tree, clearly outnumbering the single tree.\nno The birds and trees are not confined to one side; they are spread across the entire image, with the tree centrally located and birds surrounding it on all sides."
+}

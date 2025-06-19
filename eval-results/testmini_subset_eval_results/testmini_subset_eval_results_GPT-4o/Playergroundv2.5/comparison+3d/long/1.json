@@ -1,0 +1,25 @@
+{
+  "attribute": "comparison+3d",
+  "desc": "long_description",
+  "jsonl_file": "comparison+3d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there bread on the table in the image?  ",
+    "Is there bread baking in the oven in the image?  ",
+    "Does the image present a comparison logic: bread baking in the oven holds more promise than the bread already on the table?  ",
+    "Is the oven behind the table?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "Yes, there is bread on the table in the image. The bread is visible on a wooden surface, which is likely the table in front of the oven.\nYes, there is bread baking in the oven in the image. The oven is open, and the bread appears to be in the process of baking.\nNo, the image does not present a comparison logic: bread baking in the oven holds more promise than the bread already on the table. The image shows bread in the process of baking without implying a comparison.\nYes, the oven is behind the table, as the image shows the bread on the table with the oven in the background."
+}

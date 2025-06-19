@@ -1,0 +1,40 @@
+{
+  "attribute": "text",
+  "desc": "long_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is the text 'Recycle' in the image?",
+    "Is the text 'Sustain' in the image?",
+    "Is the text 'Renew' in the image?",
+    "Is the text 'Choose' in the image?",
+    "Is the text 'wisely' in the image?",
+    "Is the text 'Eco-friendly' in the image?",
+    "Is the text 'Green' in the image?",
+    "Is the text 'living' in the image?",
+    "Is the text 'Minimalism' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The text 'Recycle' is not visible among the sticky notes on the wall.\nno The text 'Sustain' is not present on any of the sticky notes.\nno There is no mention of 'Renew' on the sticky notes displayed.\nno The word 'Choose' does not appear on any of the notes.\nno The text 'wisely' is not found on the sticky notes.\nno There is no 'Eco-friendly' text on the wall's sticky notes.\nno The word 'Green' is not written on any of the notes.\nno The term 'living' is not part of the text on the sticky notes.\nno 'Minimalism' is not mentioned on any of the sticky notes."
+}

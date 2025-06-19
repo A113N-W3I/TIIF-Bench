@@ -1,0 +1,25 @@
+{
+  "attribute": "negation+3d",
+  "desc": "long_description",
+  "jsonl_file": "negation+3d_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a group of people in the image?  ",
+    "Is there a tall tree in the image?  ",
+    "Are the people wearing hats?  ",
+    "Are the people hidden by the tall tree?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a group of people in the image. The image shows several individuals standing and sitting in a forest scene.\nYes, there is a tall tree in the image. The image depicts multiple tall trees as part of the forest background.\nNo, the people are not wearing hats. The individuals visible in the image do not appear to be wearing any headgear.\nNo, the people are not hidden by the tall tree. While they are positioned among the trees, they are clearly visible and not obscured by the trees."
+}

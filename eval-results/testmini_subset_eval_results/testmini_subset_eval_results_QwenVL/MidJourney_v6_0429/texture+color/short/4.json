@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+color",
+  "desc": "short_description",
+  "jsonl_file": "texture+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a towel in the scene?",
+    "Is the towel fluffy?",
+    "Is there a jewelry in the scene?",
+    "Is the jewelry made of metal?",
+    "Is the vibrant vase blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes The item draped beside the vase has a texture and appearance consistent with a towel.\nyes The towel appears to have a soft, fluffy texture evident from the visible fibers.\nyes There is a piece of jewelry, specifically a beaded necklace, draped over the towel.\nyes The jewelry contains metallic elements, as seen in the sheen and reflective properties of the beads.\nyes The vase emits a vibrant blue hue, suggesting it is indeed blue."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there a fence in the scene?",
+    "Is the fence in the shape of a square?",
+    "Is there a fig in the scene?",
+    "Is the fig in the shape of a teardrop?",
+    "Is the carpet of grass fluffy?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "yes There is a wooden fence visible in the background.\nno The fence is not in the shape of a square; it appears to be a vertical panel fence.\nyes There are figs present in the scene, lying on the grass.\nno The figs are not in the shape of a teardrop; they have a more rounded and bulbous shape typical of figs.\nno The grass does not appear fluffy; it looks like a typical short-cut lawn."
+}

@@ -1,0 +1,40 @@
+{
+  "attribute": "real_world",
+  "desc": "short_description",
+  "jsonl_file": "real_world_eval_prompts.jsonl",
+  "line_idx": 53,
+  "questions": [
+    "Does this image show a wedding invitation card? Answer with yes or no.",
+    "Is the card shown hefty with eggshell textures and embossings? Answer with yes or no.",
+    "Are elegant decorations abstractly representing the couple included on the card? Answer with yes or no.",
+    "Is the usage of iconography sparing and minimalist on the card? Answer with yes or no.",
+    "Does the invitation include the specified text about the union of Image and Text? Answer with yes or no.",
+    "Is perfect typesetting used on the invitation? Answer with yes or no.",
+    "Is the invitation card placed on a tasteful wooden desk? Answer with yes or no.",
+    "Is the text in the generated picture clear and readable?  Answer with yes or no.",
+    "Does the picture contain the time information of March 25, 2025? Answer with yes or no."
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "no, The image shows a card but does not explicitly indicate it is a wedding invitation card.\nno, The card does not appear to have eggshell textures and embossings, it looks smooth.\nno, The card does show elegant decorations but does not abstractly represent the couple.\nyes, The card uses sparing and minimalist iconography judging by the visible design.\nno, The text about the union of Image and Text is not specified on the card.\nno, Perfect typesetting is not visible on the card since the text is not clear.\nyes, The card is placed on a tasteful wooden desk, as evident from the background.\nno, The text in the image is not clear and readable, making it difficult to discern details.\nno, The picture does not contain the time information of March 25, 2025."
+}

@@ -1,0 +1,28 @@
+{
+  "attribute": "texture+2d",
+  "desc": "long_description",
+  "jsonl_file": "texture+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a leather portfolio in the image?  ",
+    "Are there fabric pants in the image?  ",
+    "Is the portfolio made of leather?  ",
+    "Are the pants made of fabric?  ",
+    "Is the portfolio on the bottom beneath the pants?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "No, there is no leather portfolio in the image; the image only shows leather shorts or pants.\nNo, there are no fabric pants in the image; the pants appear to be made of leather.\nNo, there is no portfolio made of leather in the image; the main item visible is leather pants.\nNo, the pants do not appear to be made of fabric; they seem to be made of leather.\nNo, there is no portfolio beneath the pants; there is no portfolio visible in the image."
+}

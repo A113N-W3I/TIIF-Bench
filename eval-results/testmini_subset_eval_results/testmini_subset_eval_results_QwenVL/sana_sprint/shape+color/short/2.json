@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Is there a trinket box in the scene?",
+    "Is the trinket box pyramid-shaped?",
+    "Is there a hallway in the scene?",
+    "Is the hallway diamond-shaped?",
+    "Is the hallway blue?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The object at the end of the hallway resembles a trinket box due to its small size and decorative appearance.\nyes The object appears to have a pyramid-like shape with a pointed top.\nyes The image clearly shows a long corridor leading to the object, which can be described as a hallway.\nno The hallway has a rectangular cross-section typical for hallways, not a diamond shape.\nyes The walls and floor of the hallway are predominantly blue in color."
+}

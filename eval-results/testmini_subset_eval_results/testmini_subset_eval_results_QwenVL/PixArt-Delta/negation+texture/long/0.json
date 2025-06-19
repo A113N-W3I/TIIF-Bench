@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "long_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 0,
+  "questions": [
+    "Is there an insulated cup in the image?",
+    "Is there a notebook in the image?",
+    "Are the insulated cup and notebook on the same desk?",
+    "Is the insulated cup metallic in texture?",
+    "Is the notebook fabric in texture?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no The object appears to be a small cylindrical item, not an insulated cup.\nyes There is a spiral-bound notebook visible in the image.\nno The small cylindrical item and the notebook are not on the same desk; they are on the same surface but not necessarily a desk.\nno The small cylindrical item does not exhibit a metallic texture.\nno The notebook has a fabric-like texture, which is typical for some notebook covers."
+}

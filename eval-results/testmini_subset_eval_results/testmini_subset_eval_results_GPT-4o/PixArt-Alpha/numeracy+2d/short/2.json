@@ -1,0 +1,40 @@
+{
+  "attribute": "numeracy+2d",
+  "desc": "short_description",
+  "jsonl_file": "numeracy+2d_eval_prompts.jsonl",
+  "line_idx": 2,
+  "questions": [
+    "Are there ships in the painting?  ",
+    "Are there horses in the painting?  ",
+    "Are there shrimp in the painting?  ",
+    "Are there pears in the painting?  ",
+    "Is the number of ships 2?  ",
+    "Is the number of horses 2?  ",
+    "Is the number of shrimp 3?  ",
+    "Is the number of pears 2?  ",
+    "Are the objects on the left of the painting?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there are ships in the painting. The painting shows sailing ships on a sea with a sunset.\nNo, there are no horses in the painting. The painting depicts ships, not animals.\nNo, there are no shrimp in the painting. The painting focuses on large ships on the sea.\nNo, there are no pears in the painting. The painting contains only ships.\nYes, the number of ships is 2. There are two ships visible: one in the foreground and one in the background.\nNo, the number of horses is not 2. There are no horses in the painting.\nNo, the number of shrimp is not 3. There are no shrimp in the painting.\nNo, the number of pears is not 2. There are no pears in the painting.\nNo, the objects (ships) are not on the left of the painting. They are positioned more in the center and toward the right."
+}

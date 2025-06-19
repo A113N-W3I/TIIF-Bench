@@ -1,0 +1,28 @@
+{
+  "attribute": "action+2d",
+  "desc": "long_description",
+  "jsonl_file": "action+2d_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there an artist in the image?  ",
+    "Is there a palette in the image?  ",
+    "Is there a canvas in the image?  ",
+    "Is the artist holding a palette?  ",
+    "Is the artist next to the canvas?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is an artist in the image. The person standing in front of the canvas appears to be painting.\nYes, there is a palette in the image. The artist is holding it in their hand.\nYes, there is a canvas in the image. The large painting in front of the artist is on a canvas.\nYes, the artist is holding a palette. It is visible in their left hand.\nYes, the artist is next to the canvas. The artist is standing directly in front of the canvas."
+}

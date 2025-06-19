@@ -1,0 +1,22 @@
+{
+  "attribute": "differentiation",
+  "desc": "long_description",
+  "jsonl_file": "differentiation_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Does a woman in a neon jersey exist in the scene?  ",
+    "Does a woman in a long coat and scarf exist in the scene?  ",
+    "Does the image present a differentiation logic: one woman wears a neon jersey, while another wears a long coat and scarf?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "yes",
+    "no"
+  ],
+  "model_output": "no The scene does not include a woman wearing a neon jersey.\nyes A woman is seen wearing a long coat and what appears to be a scarf.\nno There is only one woman depicted, and she wears a long coat and scarf, not a neon jersey."
+}

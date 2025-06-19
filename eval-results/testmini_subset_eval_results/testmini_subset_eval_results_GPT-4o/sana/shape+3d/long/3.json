@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+3d",
+  "desc": "long_description",
+  "jsonl_file": "shape+3d_eval_prompts.jsonl",
+  "line_idx": 3,
+  "questions": [
+    "Is there an eggplant in the image?  ",
+    "Is there a mobile home in the image?  ",
+    "Is the eggplant oblong in shape?  ",
+    "Is the mobile home short in shape?  ",
+    "Is the eggplant behind the mobile home?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the shapes are abstract and do not clearly represent an eggplant.\nno, there are no clearly identifiable mobile homes in the image.\nno, there is no clearly identifiable oblong eggplant shape in the image.\nno, there is no clearly identifiable mobile home or any shape to determine its form.\nno, there is no clearly identifiable eggplant or mobile home to establish their relative positions."
+}

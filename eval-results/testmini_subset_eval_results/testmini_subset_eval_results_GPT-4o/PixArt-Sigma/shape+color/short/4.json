@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+color",
+  "desc": "short_description",
+  "jsonl_file": "shape+color_eval_prompts.jsonl",
+  "line_idx": 4,
+  "questions": [
+    "Is there a bagel in the scene?",
+    "Is the bagel round in shape?",
+    "Is there a melon in the scene?",
+    "Is the melon shaped like a teardrop?",
+    "Is the bagel white?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no"
+  ],
+  "model_output": "Yes, there is a bagel in the scene; it is the round bread with sesame seeds.\nYes, the bagel is round in shape; it has a circular form typical of a bagel.\nYes, there is a melon in the scene; it is the large fruit next to the bagel.\nNo, the melon is not shaped like a teardrop; it has a more oval or oblong shape.\nNo, the bagel is not white; it appears to be a golden brown color typical of a baked bagel."
+}

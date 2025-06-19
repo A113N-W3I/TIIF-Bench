@@ -1,0 +1,28 @@
+{
+  "attribute": "shape+texture",
+  "desc": "short_description",
+  "jsonl_file": "shape+texture_eval_prompts.jsonl",
+  "line_idx": 6,
+  "questions": [
+    "Is there a shrub in the scene?",
+    "Is the shrub short in shape?",
+    "Is there a paperweight in the scene?",
+    "Is the paperweight in the shape of a pyramid?",
+    "Is the pyramidal paperweight metallic?"
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "Yes, there is a shrub in the scene because there are bushy green plants visible in the background.\nYes, the shrub is short in shape because it seems to be low to the ground.\nYes, there is a paperweight in the scene because there is a pyramid-like object suggesting its purpose could be a paperweight.\nYes, the paperweight is in the shape of a pyramid because the object has a distinct pyramidal form.\nYes, the pyramidal paperweight is metallic because it has a shiny, reflective surface that resembles metal."
+}

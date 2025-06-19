@@ -1,0 +1,34 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 17,
+  "questions": [
+    "Is the text 'ICT' in the image?",
+    "Is the text 'Billet' in the image?",
+    "Is the text 'LLC' in the image?",
+    "Is the text 'Performance' in the image?",
+    "Is the text 'Engineering' in the image?",
+    "Is the text 'Power' in the image?",
+    "Is the text 'Precision' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no"
+  ],
+  "model_output": "no, the image does not contain any text 'ICT'.\nno, the image does not contain any text 'Billet'.\nno, the image does not contain any text 'LLC'.\nno, the image does not contain any text 'Performance'.\nno, the image does not contain any text 'Engineering'.\nno, the image does not contain any text 'Power'.\nno, the image does not contain any text 'Precision'."
+}

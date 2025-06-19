@@ -1,0 +1,31 @@
+{
+  "attribute": "text",
+  "desc": "short_description",
+  "jsonl_file": "text_eval_prompts.jsonl",
+  "line_idx": 25,
+  "questions": [
+    "Is the text 'BREWING' in the image?",
+    "Is the text 'COMPANY' in the image?",
+    "Is the text 'Pure' in the image?",
+    "Is the text 'Pleasure' in the image?",
+    "Is the text 'No' in the image?",
+    "Is the text 'Guilt' in the image?"
+  ],
+  "gt_answers": [
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "no",
+    "no",
+    "yes"
+  ],
+  "model_output": "yes The text 'BREWING' is clearly visible at the top center of the logo.\nyes The text 'COMPANY' appears directly below 'BREWING' within the same banner.\nyes The word 'Pure' is part of the circular text at the top left of the logo.\nno The phrase 'Pleasure' is not visible; instead, there is 'PLE*PLEASURE'.\nno The word 'No' does not appear anywhere in the image.\nyes The word 'Guilt' is handwritten at the bottom of the logo."
+}

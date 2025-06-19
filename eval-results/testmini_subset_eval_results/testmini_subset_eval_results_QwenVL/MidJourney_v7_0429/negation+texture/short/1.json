@@ -1,0 +1,28 @@
+{
+  "attribute": "negation+texture",
+  "desc": "short_description",
+  "jsonl_file": "negation+texture_eval_prompts.jsonl",
+  "line_idx": 1,
+  "questions": [
+    "Is there a laptop in the image?  ",
+    "Is there a desk in the image?  ",
+    "Is the laptop displaying a beautiful scenery?  ",
+    "Is the laptop wooden in texture?  ",
+    "Is the desk wooden in texture?  "
+  ],
+  "gt_answers": [
+    "yes",
+    "yes",
+    "no",
+    "yes",
+    "yes"
+  ],
+  "model_pred": [
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "yes"
+  ],
+  "model_output": "yes There is a laptop visible in the foreground of the image.\nyes There is a surface under the laptop which appears to be a desk.\nyes The screen of the laptop shows an image of a landscape with mountains and water, suggesting a beautiful scenery.\nyes The laptop has a wooden finish visible on its body and keyboard surface.\nyes The surface upon which the laptop rests exhibits a wood-like texture and color, indicating it is likely wooden."
+}
