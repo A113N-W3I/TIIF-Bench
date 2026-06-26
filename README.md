@@ -5,6 +5,7 @@ Official repository for the paper ["TIIF-Bench: How Does Your T2I Model Follow Y
 [🌐 Webpage](https://a113n-w3i.github.io/TIIF_Bench/) [📖 Paper](https://www.arxiv.org/abs/2506.02161) [🤗 Huggingface Dataset](https://huggingface.co/datasets/A113NW3I/TIIF-Bench-Data) [🏆 Leaderboard](https://a113n-w3i.github.io/TIIF_Bench/#leaderboard)
 
 ## 🔥 News
+- **[2026.06]** 🎉 **TIIF-Bench-v2** has been accepted to **ECCV 2026**! We upgraded the style evaluation protocol, added multi-resolution reference images for every prompt, and trained **TIIF-Evaluator** to ensure fully reproducible evaluation results. The new leaderboard, evaluation code, and TIIF-Evaluator weights will be released ASAP!
 - **[2025.08]** 🚀 Huge thanks to **[Qwen-Image](https://github.com/QwenLM/Qwen-Image?tab=readme-ov-file)** for citing our benchmark! It achieves a **new SOTA among all open-source models🔥** — let’s make open-source image generation great again!
 - **[2025.07]** 🔥 **[BAGEL](https://github.com/ByteDance-Seed/Bagel?tab=readme-ov-file)** achieves SOTA among diffusion-based open-source T2I models on TIIF-Bench, cool 🎉!
 - **[2025.06]** 🔥 **[T2I-R1](https://github.com/CaraJ7/T2I-R1?tab=readme-ov-file)** achieves SOTA among AR-based open-source T2I models on TIIF-Bench, cool 🎉!
